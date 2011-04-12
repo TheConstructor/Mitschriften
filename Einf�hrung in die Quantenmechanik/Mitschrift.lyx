@@ -1696,7 +1696,883 @@ status open
 
 \end_layout
 
+\begin_layout Enumerate
+Elektron: 
+\begin_inset Formula $m=9,1\cdot10^{-31}\text{kg}$
+\end_inset
+
+, Radius: 
+\begin_inset Formula $r=2,8\cdot10^{-15}\text{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma=r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T=6,8\cdot10^{-23}\text{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Bleikugel: 
+\begin_inset Formula $m=0,1\text{g}$
+\end_inset
+
+, 
+\begin_inset Formula $r=1,3\cdot10^{-3}\text{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma=r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T=1,6\cdot10^{+24}\text{s}=5,1\cdot10^{16}\text{Jahre}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Bedeutung der Wellenfunktion
+\end_layout
+
 \begin_layout Standard
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $\neq$
+\end_inset
+
+ Materiedichte
+\end_layout
+
+\begin_layout Subsubsection
+Doppelspaltexperiment
+\end_layout
+
+\begin_layout Standard
+(Abb 10)
+\end_layout
+
+\begin_layout Standard
+(Folie Internet)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Auftreffpunkte
+\begin_inset Quotes grd
+\end_inset
+
+ einzelner Photonen sind zufällig.
+\end_layout
+
+\begin_layout Standard
+Viele Photonen 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ regelmäßiges Beugungsbild
+\end_layout
+
+\begin_layout Standard
+Auftreffen erfolgt gemäß einer Wahrscheinlichkeitsverteilung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Betragsquadrat 
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}$
+\end_inset
+
+ ist die Aufenthaltwahrscheinlichkeit der Teilchen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Max Born (1926)
+\end_layout
+
+\begin_layout Standard
+Wahrscheinlichkeit, das Teilchen im Volumen 
+\begin_inset Formula $V$
+\end_inset
+
+ zu finden
+\begin_inset Formula \[
+W\left(V\right)=\underset{V}{\int}\left|\psi\left(\vec{r},t\right)\right|^{2}d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Normierung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\underset{\mathbb{R}^{3}}{\int}\left|\psi\left(\vec{r},t\right)\right|^{2}d^{3}r=1\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)d^{3}r=1$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+: quadratintegrable Funktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Wellenfunktion fällt im 
+\begin_inset Quotes gld
+\end_inset
+
+Unendlichen
+\begin_inset Quotes grd
+\end_inset
+
+ schnell ab
+\end_layout
+
+\begin_layout Subsubsection
+Periodische Funktion
+\end_layout
+
+\begin_layout Standard
+Normierung auf Volumen 
+\begin_inset Formula $V$
+\end_inset
+
+
+\begin_inset Formula \[
+\underset{V}{\int}\left|\psi\left(\vec{r},t\right)^{2}d^{3}r=1\right|\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ebene Welle: 
+\begin_inset Formula $\psi\left(\vec{r},t\right)=\psi_{0}e^{i\left(\vec{k}\vec{r}-\omega t\right)}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega=\frac{\hbar k^{2}}{2m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}=\left|\psi_{0}\right|^{2}\cdot1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normierung auf Volumen 
+\begin_inset Formula $V$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\psi_{0}=\frac{1}{\sqrt{V}}\cdot\underbrace{\text{Phasenfaktor}}_{\text{wird typsicherweise zu "Eins" gewählt}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left|\psi\left(\vec{r},t\right)\right|^{2}=\frac{1}{V}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Wellenpaket
+\end_layout
+
+\begin_layout Standard
+Bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+ ist das Teilchen bei 
+\begin_inset Formula $\vec{r}=0$
+\end_inset
+
+ lokalisiert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t>0$
+\end_inset
+
+: Wellenpaket zerfließt 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}$
+\end_inset
+
+ wird 
+\begin_inset Quotes gld
+\end_inset
+
+breiter
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+Kentniss über Aufenthaltsort wird immer ungenauer
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=-\frac{\hbar^{2}\triangledown^{2}}{2m}\psi\left(\vec{r},t\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Zeitliches Verhalten von 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ ist streng deterministisch.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Ort und Impuls sind nicht gleichzeitig genau bestimmbar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Quantenmechanische Erwartungswerte
+\end_layout
+
+\begin_layout Subsubsection
+Grundbegriffe der Wahrscheinlichkeitsrechnung
+\end_layout
+
+\begin_layout Standard
+Zufällige Größen 
+\begin_inset Formula $X_{1},X_{2},..\, X_{N}$
+\end_inset
+
+ können 
+\begin_inset Formula $N$
+\end_inset
+
+ Werte annehmen
+\end_layout
+
+\begin_layout Standard
+Wahrscheinlichkeit, dass 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ auftritt: 
+\begin_inset Formula $w_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $0\leq w_{i}\leq1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $w_{i}=1$
+\end_inset
+
+ (sicheres Ergebnis)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overset{N}{\underset{i=1}{\sum}}w_{i}=1$
+\end_inset
+
+ (Normierung)
+\end_layout
+
+\begin_layout Paragraph
+Mittelwert (mathematischer Erwartungswert)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle x\right\rangle  & = & \overset{N}{\underset{i=1}{\sum}}x_{i}w_{i}\\
+\left\langle f\left(x\right)\right\rangle  & = & \underset{i}{\sum}f\left(x_{i}\right)w_{i}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Streuung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+S & = & \left\langle \left(\left\langle x\right\rangle ^{2}-x\right)^{2}\right\rangle \\
+ & = & \left\langle \left\langle x\right\rangle ^{2}-2x\left\langle x\right\rangle +x^{2}\right\rangle \\
+ & = & \left\langle x\right\rangle ^{2}-2\left\langle x\right\rangle \left\langle x\right\rangle +\left\langle x^{2}\right\rangle \\
+ & = & \left\langle x^{2}\right\rangle -\left\langle x\right\rangle ^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Unschärfe, Unsicherheit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\Delta x=\sqrt{S}=\sqrt{\left\langle x^{2}\right\rangle -\left\langle x\right\rangle ^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Wahrscheinlichkeitsdichte
+\end_layout
+
+\begin_layout Standard
+Zufällige Größe, deren Wertebereich kontinuierlich ist
+\end_layout
+
+\begin_layout Standard
+Wahrscheinlichkeit für das Auftreten des Wertes 
+\begin_inset Formula $x$
+\end_inset
+
+ ist durch eine Wahrscheinlichkeitsdichte 
+\begin_inset Formula $w\left(x\right)$
+\end_inset
+
+ bestimmt
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $0\leq w\left(x\right)dx\leq1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $w\left(x\right)=\delta\left(x-x_{0}\right)$
+\end_inset
+
+ d.h.
+ 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ tritt immer auf
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overset{\infty}{\underset{-\infty}{\int}}w\left(x\right)dx=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Mittelwert: 
+\begin_inset Formula $\left\langle x\right\rangle =\overset{\infty}{\underset{-\infty}{\int}}x\cdot w\left(x\right)dx$
+\end_inset
+
+ allg.
+ 
+\begin_inset Formula $\left\langle f\left(x\right)\right\rangle =\overset{\infty}{\underset{-\infty}{\int}}f\left(x\right)w\left(x\right)dx$
+\end_inset
+
+.
+ Streuung und unsicherheit wie oben
+\end_layout
+
+\begin_layout Subsubsection
+Quantenmechanik
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underset{\text{Aufenthaltswahrscheinlichkeitsdichte}}{\varrho\left(\vec{r},t\right):=\left|\psi\left(\vec{r},t\right)\right|^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Erwartungswert des Ortes
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \vec{r}\right\rangle  & = & \underset{\mathbb{R}^{3}}{\int}\vec{r}\varrho\left(\vec{r},t\right)d^{3}r\\
+ & = & \underset{\mathbb{R}^{3}}{\int}\vec{r}\overset{\star}{\psi}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)d^{3}r\\
+ & = & \underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\vec{r}\psi\left(\vec{r},t\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allg.
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle f\left(\vec{r}\right)\right\rangle =\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)f\left(\vec{r}\right)\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wahrscheinlichkeitsdichte des Impulses
+\end_layout
+
+\begin_layout Subsubsection
+Plausibilitätsbetrachtung
+\end_layout
+
+\begin_layout Standard
+Freies Teilchen: 
+\begin_inset Formula $\vec{p}=\hbar\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allg.
+ Lösung der Schrödingergleichung mit 
+\begin_inset Formula $\omega=\omega\left(k\right)=\frac{\hbar k^{2}}{2m}$
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(\vec{r},t\right) & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\tilde{\mathbb{R}}^{3}}{\int}f\left(\vec{k}\right)e^{i\left(\vec{k}\vec{r}-\omega t\right)}d^{3}k\\
+ & = & \frac{1}{\left(2\pi\right)^{\frac{2}{3}}}\underset{\tilde{R}^{3}}{\int}\tilde{\psi}\left(\vec{k},t\right)e^{i\vec{k}\vec{r}}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tilde{\psi}\left(\vec{k},t\right)=f\left(\vec{k}\right)e^{-i\frac{\hbar k^{2}}{2m}\cdot t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Umkehrung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\tilde{\psi}\left(\vec{k},t\right)=\frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\mathbb{R}^{3}}{\int}\psi\left(\vec{r},t\right)e^{-i\vec{k}\vec{r}}d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Annahme: 
+\begin_inset Formula $\left|\tilde{\psi}\left(\vec{k},t\right)\right|^{2}$
+\end_inset
+
+ ist Wahrscheinlichkeitsdichte für Wellenvektor 
+\begin_inset Formula $\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left|\tilde{\psi}\left(\frac{\vec{p}}{\hbar},t\right)\right|^{2}$
+\end_inset
+
+ ist Aufenthaltswahrscheinlichkeit für Impuls
+\end_layout
+
+\begin_layout Standard
+Es gilt 
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}=1$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left|\tilde{\psi}\left(\vec{k},t\right)\right|^{2}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Denn:
+\end_layout
+
+\begin_layout Standard
+Betrachte 
+\begin_inset Formula $f\left(\vec{r}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $g\left(\vec{r}\right)$
+\end_inset
+
+ und ihre Fouriertransformierten 
+\begin_inset Formula $\tilde{f}\left(\vec{k}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{g}\left(\vec{k}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\underset{\mathbb{R}^{3}}{\int}\overset{\star}{f}\left(\vec{r}\right)g\left(\vec{r}\right)d^{3}r & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{f}}\left(\vec{k}\right)\tilde{g}\left(\vec{k}\right)d^{3}k\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Parsewalsches Theorem
+\end_layout
+
+\begin_layout Paragraph
+Beweis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\text{LS} & = & \underset{\mathbb{R}}{\int}\overset{\star}{f}\left(\vec{r}\right)g\left(\vec{r}\right)d^{3}r\\
+ & \underset{\text{Def. FT}}{=} & \underset{\mathbb{R}^{3}}{\int}\overset{\star}{f}\left(\vec{r}\right)\frac{1}{\left(2\pi\right)^{\frac{2}{3}}}\underset{\tilde{\mathbb{R}}^{3}}{\int}\tilde{g}\left(\vec{k}\right)e^{i\vec{k}\vec{r}}d^{3}k\\
+\text{RS} & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{f}}\left(\vec{k}\right)\tilde{g}\left(\vec{k}\right)d^{3}k\\
+ & \underset{\text{Def. FT}}{=} & \underset{\tilde{\mathbb{R}}^{3}}{\int}\left(\frac{1}{\left(2\pi\right)^{\frac{2}{3}}}\underset{\mathbb{R}^{3}}{\int}f\left(\vec{r}\right)e^{-i\vec{k}\vec{r}}d^{3}r\right)^{\star}\tilde{g}\left(\vec{k}\right)d^{3}k\\
+ & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\underset{\mathbb{R}^{3}}{\int}\overset{\star}{f}\left(\vec{r}\right)\tilde{g}\left(\vec{k}\right)e^{+i\vec{k}\vec{r}}d^{3}\cdot d^{3}r\\
+ & = & \text{LS}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit 
+\begin_inset Formula $f=\psi$
+\end_inset
+
+, 
+\begin_inset Formula $g=\psi$
+\end_inset
+
+ folgt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)d^{3}r & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{\psi}}\left(\vec{k},t\right)\psi\left(\vec{k},t\right)d^{3}r\\
+\underset{\mathbb{R}^{3}}{\int}\left|\psi\left(\vec{r},t\right)\right|^{2}d^{3}r & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\left|\psi\left(\vec{k},t\right)\right|^{2}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+und somit die gemeinsame Normierung
+\end_layout
+
+\begin_layout Subsubsection
+Erwartungswert des Impulses
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \vec{p}\right\rangle =\hbar\left\langle \vec{k}\right\rangle =\hbar\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{\psi}}...\]
+
+\end_inset
+
+, 
+\begin_inset Formula $\vec{k}=\frac{\vec{p}}{\hbar}$
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+d^{3}k=\frac{d^{3}p}{\hbar^{3}} & = & \hbar\int\overset{\star}{\tilde{\psi}}\left(\frac{\vec{p}}{\hbar},t\right)\frac{\vec{p}}{\hbar}\tilde{\psi}\left(\frac{\vec{p}}{\hbar},t\right)\frac{d^{3}p}{\hbar^{3}}\\
+ & = & \int\overset{\star}{\tilde{\psi}}\left(\frac{\vec{p}}{\hbar},t\right)\vec{p}\tilde{\psi}\left(\frac{\vec{p}}{\hbar},t\right)\frac{d^{3}p}{\hbar^{3}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi\left(\vec{r},t\right)=\frac{\tilde{\psi}\left(\frac{\vec{p}}{\hbar},t\right)}{\hbar^{\frac{3}{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes gld
+\end_inset
+
+Wellenfunktion im Impulsraum
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle \vec{p}\right\rangle 0\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\varphi}\left(\vec{p},t\right)\vec{p}\varphi\left(\vec{p},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
