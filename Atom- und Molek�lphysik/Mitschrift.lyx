@@ -1,0 +1,396 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language ngerman
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Struktur der Atome
+\end_layout
+
+\begin_layout Subsection
+Historie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\approx440$
+\end_inset
+
+ v.
+ Christus: Leukipp und Demokrit: Die Materie besteht aus unendlich kleinen,
+ gänzlich unteilbaren, raumfüllenden Partikeln: 
+\begin_inset Quotes gld
+\end_inset
+
+Atomos
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $\alpha\tau\omega\mu\omega\varsigma$
+\end_inset
+
+ (
+\begin_inset Quotes gld
+\end_inset
+
+unteilbar
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Leider damals nicht direkt überprüfbar, da Atome zu klein sind, um mit dem
+ Auge sichtbar zu sein.
+\end_layout
+
+\begin_layout Standard
+Auch nach Entdeckung des Mikroskops des Mikroskops nicht, da optishce Auflösung
+ durch Beugung begrenzt ist 
+\begin_inset Formula $d\approx\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+1803/08 Dalton: quantitative Analysen und Synthesen chemischer Verbindungen
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+alle elementaren Stoffe (chemische Elemente) bestehen aus kleinsten Teilchen,
+ die man nicht mehr weiter zerlegen kann
+\end_layout
+
+\begin_layout Itemize
+Alle Atome des selben Elementes sind in Qualität, Größe und Masse gleich.
+\begin_inset Newline newline
+\end_inset
+
+Sie unterscheiden sich aber von den Atomen andere Elemente
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+Eigenschaften eines chemischen Elementes zurückgeführt auf Eigenschaften
+ der Atome
+\end_layout
+
+\begin_layout Itemize
+Chemische Verbindung:
+\begin_inset Newline newline
+\end_inset
+
+ganzzahlige Mengenverhältnisse der Elemente (Gesetz der konstanten Proportionen)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+H+H+O\rightarrow H_{2}O & \Rightarrow & \frac{m\left(H\right)}{m\left(O\right)}=\frac{1}{8}\\
+C+O\rightarrow CO & \Rightarrow & \frac{m\left(C\right)}{m\left(O\right)}=\frac{3}{4}\\
+C+O_{2}\rightarrow CO_{2} & \Rightarrow & \frac{m\left(C\right)}{m\left(O\right)}=\frac{3}{8}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+1811 Avogadro: (basierend auf Arbeiten von Gay-Lussac): Bei gleichem Druck
+ und gleichen Temperaturen enthalten gleiche Volumen verschiedener Gase
+ jeweils die gleiche Anzahl von Molekülen bzw.
+ Atomen (Avogadro Gesetz)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+Definition des Mols (
+\begin_inset Quotes gld
+\end_inset
+
+Stoffmenge
+\begin_inset Quotes grd
+\end_inset
+
+) bzw.
+ des Molvolumens 
+\begin_inset Formula $V_{\mu}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Normalbedingungen 
+\begin_inset Formula $V_{\mu}\left(p=1013\text{mBar},T=0\text{°C}=273,15\text{K}\right)=22,414L$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+In dem Molvolumen befinden sich genau 
+\begin_inset Formula $N_{A}=6,022\cdot10^{23}\frac{1}{\text{mol}}$
+\end_inset
+
+ Atome/Moleküle
+\begin_inset Newline newline
+\end_inset
+
+heute: 
+\begin_inset Formula $1\text{mol}$
+\end_inset
+
+ entspricht der Stoffmenge, die genauso viel Atome/Moleküle wie 
+\begin_inset Formula $12g$
+\end_inset
+
+ Kohlenstoff (Isotop 
+\begin_inset Formula $^{12}C$
+\end_inset
+
+) enthält
+\begin_inset Newline newline
+\end_inset
+
+Molmasse eines Atomes 
+\begin_inset Formula $M_{A}=\underbrace{A}_{\text{Massenzahl}}\cdot1\frac{\text{g}}{\text{mol}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+\bar under
+Bsp
+\bar default
+:
+\emph default
+ 
+\begin_inset Formula \begin{eqnarray*}
+1\text{mol Helium} & \triangleq & 4\text{g Helium}\\
+1\text{mol Sauerstoff }O_{2} & \triangleq & 32\text{g Sauerstoff}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+2.
+ Hälfte des 19.
+ Jhds Clausius, Maxwell, Boltzmann: Kinetische Gastheroie liefert Verständnis
+ für mikroskopische Eigenschaften wie Druck, Temperatur, spezifische Wärme
+ (Vorarbeiten: Bernoulli 1738)
+\end_layout
+
+\begin_layout Itemize
+1869 Mendelejew: Periodensystem der Elemente auf Grund Masse und chemischer
+ Eigenschaften
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Einschub: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://jpsi.uni-muenster.de/~weinheim/lehre/ss11/atomphysik/pdf/physik4_ch1.pdf
+\end_layout
+
+\end_inset
+
+ (Seite 1 und 2)
+\emph default
+ Empfehlung von 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://pdg.lbl.gov
+\end_layout
+
+\end_inset
+
+ für Teilcheninformationen
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Einschub: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://jpsi.uni-muenster.de/~weinheim/lehre/ss11/atomphysik/pdf/physik4_ch1.pdf
+\end_layout
+
+\end_inset
+
+ (Seite 3: Vorbereitung des Experiments, dann Projektion des Mikroskop-Bildes)
+\end_layout
+
+\begin_layout Itemize
+1905 Einstein interpretiert die Brownsche Molekularbewegung (Brown entdeckt
+ 1828, das kleine Küglechen in Lösung, z.B.
+ Fettemulsion, statistische Bewegung ausführen) als Stöße von Atomen bzw.
+ Molekülen der Flüssigkeit mit den Kügelchen 
+\begin_inset Formula $\Rightarrow k_{B}\text{ bzw. }N_{A}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $N_{A}=\frac{R}{k_{B}}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $R$
+\end_inset
+
+ aus spezifischer Wärme eines Gases, z.B.
+ 
+\begin_inset Formula $R=c_{p-C_{V}}$
+\end_inset
+
+ oder aus Schallgeschwindigkeit
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $k_{B}$
+\end_inset
+
+ aus Brownscher Molekülbewegung
+\end_layout
+
+\begin_layout Itemize
+Algemein: 
+\begin_inset Formula $j_{Dif}=-D\frac{\partial n}{\partial x}$
+\end_inset
+
+, 
+\begin_inset Formula $D=\frac{k_{B}T}{6\pi\underbrace{\eta}_{\text{Viskosität}}\underbrace{r}_{\text{Kugelradius}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Einstein 
+\begin_inset Formula $\left\langle x^{2}\right\rangle =2Dt$
+\end_inset
+
+, dadurch 
+\begin_inset Formula $k_{B}$
+\end_inset
+
+ bestimmbar
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Größe und Masse von Atomen
+\end_layout
+
+\begin_layout Standard
+Naiv: Volumen eines Atoms 
+\begin_inset Formula $V_{a}=d_{a}^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Bsp
+\bar default
+:
+\emph default
+ Silizium: 
+\begin_inset Formula $\varrho_{Si}=2,33\frac{\text{g}}{\text{cm}^{3}}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{Si}=28$
+\end_inset
+
+, 
+\begin_inset Formula $M_{M}28,1\frac{\text{g}}{\text{mol}}$
+\end_inset
+
+
+\begin_inset Formula \[
+V_{a}=\frac{V_{M}}{N_{A}}=\frac{\nicefrac{M_{M}}{\varrho_{Si}}}{N_{A}}=\frac{\nicefrac{28,1\frac{\text{g}}{\text{mol}}}{2,33\frac{\text{g}}{\text{cm}^{3}}}}{6,022\cdot10^{23}\frac{1}{\text{mol}}}=2\cdot10^{-23}\text{cm}^{3}=\left(2,7\cdot10^{-10}\text{m}\right)^{3}=\left(2,7\underbrace{\text{Å}}_{\text{Ångström}}\right)^{3}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
