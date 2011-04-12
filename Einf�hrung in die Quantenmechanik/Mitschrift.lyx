@@ -1,0 +1,796 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language ngerman
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Part
+Einführung in die Quantenmechanik
+\end_layout
+
+\begin_layout Section
+Teilchen und Wellen
+\end_layout
+
+\begin_layout Subsection
+Klassische Physik
+\end_layout
+
+\begin_layout Subsubsection
+Mechanik (Teilchentheorie)
+\end_layout
+
+\begin_layout Standard
+(Abb 1)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Newton:
+\bar default
+ 
+\begin_inset Formula \begin{eqnarray*}
+\frac{d\vec{p}\left(t\right)}{dt} & = & \vec{F}\left(t\right)\\
+\vec{p}\left(t\right) & = & m\frac{d\vec{r}\left(t\right)}{dt}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Elektrodynamik (
+\begin_inset Quotes gld
+\end_inset
+
+Feldtheorie
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{\mathcal{E}}\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{B}\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\varrho\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{j}\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verknüpfung durch die Maxwell-Gl.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varrho\left(\vec{r},t\right)=\overset{N}{\underset{i=1}{\sum}}q_{i}\delta\left(\vec{r}-\vec{r}_{i}\left(t\right)\right)$
+\end_inset
+
+ Ladungsdichte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{j}\left(\vec{r},t\right)=\overset{N}{\underset{i=1}{\sum}}q_{i}\vec{v}_{i}\delta\left(\vec{r}-\vec{r}_{i}\left(t\right)\right)$
+\end_inset
+
+ Stromdichte
+\end_layout
+
+\begin_layout Standard
+Kraft auf Teilchen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{F}_{i}=q_{i}\left(\vec{\mathcal{E}}_{i}+\vec{v}_{i}\times\vec{B}_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Wellenerscheinungen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\left(\vec{\triangledown}^{2}-\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}}\right)\vec{\mathcal{E}}\left(\vec{r},t\right)=0$
+\end_inset
+
+ Wellengleichung im Vakuum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{\triangledown}^{2}=\frac{\partial2}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}=\triangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analog für Magnetfeld 
+\begin_inset Formula $\vec{B}\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Einfache
+\begin_inset Quotes grd
+\end_inset
+
+ Lösung: 
+\begin_inset Quotes gld
+\end_inset
+
+ebene Welle
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{\mathcal{E}}\left(\vec{r},t\right) & = & \vec{\mathcal{E}}_{0}e^{i\left(\vec{k}\cdot\vec{r}-\omega\left(\vec{k}\right)\cdot t\right)}\\
+\omega\left(\vec{k}\right) & = & c\left|\vec{k}\right|=c\cdot k\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Superposition (lineare Dgl)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{\mathcal{E}}\left(\vec{r},t\right)=\int\underbrace{\tilde{\vec{\mathcal{E}}}\left(\vec{k}\right)}_{\text{folgt aus Randbedingungen}}\cdot e^{i\left(\vec{k}\cdot\vec{r}-\underbrace{c\cdot k}_{\omega}\cdot t\right)}d^{3}k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wellenpaket
+\end_layout
+
+\begin_layout Subsubsection
+Wellencharakter
+\end_layout
+
+\begin_layout Itemize
+Beugung
+\end_layout
+
+\begin_layout Itemize
+Brechung
+\end_layout
+
+\begin_layout Itemize
+Interferenz
+\end_layout
+
+\begin_layout Subsubsection
+Bemerkungen
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{\mathcal{E}}$
+\end_inset
+
+-Feld als ebene Welle 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\vec{B}\left(\vec{r},t\right)=\frac{1}{\omega}\left(\vec{k}\times\vec{\mathcal{E}}\left(\vec{r},t\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Allgemein:
+\begin_inset Newline newline
+\end_inset
+
+Energie des Feldes im Volumen 
+\begin_inset Formula $V$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $E=\frac{\varepsilon_{0}}{2}\underset{V}{\int}\left|\vec{\mathcal{E}}\left(\vec{r},t\right)\right|^{2}d^{3}r+\frac{1}{\mu_{0}}\frac{1}{2}\underset{V}{\int}\left|\vec{B}\left(\vec{r},t\right)\right|^{2}d^{3}r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Ebene Welle: 
+\begin_inset Formula $E=\varepsilon_{0}\underset{V}{\int}\left|\vec{\mathcal{E}}\left(\vec{r},t\right)\right|^{2}d^{3}r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes gld
+\end_inset
+
+Energie ist proportional zu 
+\begin_inset Formula $\left|\vec{\mathcal{E}}\right|^{2}$
+\end_inset
+
+
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Impuls eines eltromag.
+ Feldes
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\vec{P}_{Feld}=\varepsilon_{0}\underset{V}{\int}\left(\vec{\mathcal{E}}\left(\vec{r},t\right)\times\vec{B}\left(\vec{r},t\right)\right)d^{3}r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Ebene Welle: 
+\begin_inset Formula $\vec{P}_{Feld}=\frac{\vec{k}}{\omega}\varepsilon_{0}\underset{V}{\int}\mathcal{E}^{2}\left(\vec{r},t\right)d^{3}r$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{P}_{Feld}=\frac{\vec{k}}{\omega}E$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Vorstufe der Quantenmechanik (
+\begin_inset Quotes gld
+\end_inset
+
+Ältere Quantentheorie
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+(1900 - 1925)
+\end_layout
+
+\begin_layout Subsubsection
+Teilchencharakter des Lichts (el-mag Strahlung)
+\end_layout
+
+\begin_layout Paragraph
+Hohlraumstrahlung
+\end_layout
+
+\begin_layout Standard
+(Abb 2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Schwarzer Körper
+\begin_inset Quotes grd
+\end_inset
+
+ Strahlung wird Vollständig absorbiert
+\end_layout
+
+\begin_layout Standard
+Energieverteilung 
+\begin_inset Formula $u\left(\nu,T\right)=\frac{8\pi}{c^{2}}\cdot h\cdot\frac{\nu^{3}}{e^{-\frac{h\nu}{k_{B}T}}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\nu$
+\end_inset
+
+: Wellenfrequenz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T$
+\end_inset
+
+: Temperatur
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $k_{B}$
+\end_inset
+
+: Boltzmann-Konstante
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $h=6,626\cdot10^{-34}\text{Js}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Erklärung durch Planck mit folgender Annahme:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Elektromagnetische Strahlung wird (von den Atomen in den Wänden) in Form
+ von 
+\begin_inset Quotes gld
+\end_inset
+
+Quanten
+\begin_inset Quotes grd
+\end_inset
+
+ der Energie 
+\begin_inset Formula $E=h\nu\cdot n$
+\end_inset
+
+ 
+\begin_inset Formula $\left(n=1,2,3,...\right)$
+\end_inset
+
+ abgegeben
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Quantenhypothese von Max Planck
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E=h\nu=\hbar\omega$
+\end_inset
+
+ mit 
+\begin_inset Formula $\hbar=\frac{h}{2\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Photoeffekt (1905)
+\end_layout
+
+\begin_layout Standard
+(Abb 3)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Energie pro Elektron
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E=\underbrace{a}_{\text{universell}}\cdot\omega-\underbrace{W}_{\text{materialspezifisch}}$
+\end_inset
+
+ (exp Resultat) 
+\begin_inset Formula $a=\hbar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Zahl der emitieren Elekronen proportional zur Intensität
+\end_layout
+
+\begin_layout Itemize
+Kinetische Energie hängt von Frequenz ab
+\end_layout
+
+\begin_layout Itemize
+Unterhalb einer Schwellfrequenz treten keine Elektronen aus
+\end_layout
+
+\begin_layout Paragraph
+Einstein
+\end_layout
+
+\begin_layout Standard
+Licht 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Ansammlung
+\begin_inset Quotes grd
+\end_inset
+
+ von Energiequanten mit 
+\begin_inset Formula $E=\hbar\omega$
+\end_inset
+
+ (Lewis 1986: 
+\begin_inset Quotes gld
+\end_inset
+
+Photon
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Festkörper: (Abb 4)
+\end_layout
+
+\begin_layout Itemize
+Energie des Photon wird komplett an Elektron abgegeben
+\end_layout
+
+\begin_layout Itemize
+Intensität des Lichts bestimmt die 
+\bar under
+Anzahl
+\bar default
+ der emitierten Elektronen
+\end_layout
+
+\begin_layout Paragraph
+Impuls
+\end_layout
+
+\begin_layout Standard
+Feld: 
+\begin_inset Formula $\vec{P}_{Feld}=\frac{\vec{k}}{\omega}\underbrace{E}_{\text{Energie des Feldes}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P$
+\end_inset
+
+ von Photon: 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{P}_{Photon}=\frac{\vec{k}}{\omega}\hbar\omega=\hbar\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Impuls eines Lichtquants
+\end_layout
+
+\begin_layout Subsubsection
+Vorstellung des Aufbaus von Atomen
+\end_layout
+
+\begin_layout Standard
+Materie: 
+\begin_inset Quotes gld
+\end_inset
+
+Summe
+\begin_inset Quotes grd
+\end_inset
+
+ von Atomen
+\end_layout
+
+\begin_layout Standard
+Atom: Kern + Elektronen
+\end_layout
+
+\begin_layout Paragraph
+Experimentelle Beobachtung beim Wasserstoffatom
+\end_layout
+
+\begin_layout Standard
+Emissin 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Linienspektrum
+\end_layout
+
+\begin_layout Standard
+Energie: 
+\begin_inset Formula $\Delta E_{n,m}=\left(\frac{1}{n^{2}}-\frac{1}{m^{2}}\right)\cdot13,6059\text{eV}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Rutherford-Modell
+\end_layout
+
+\begin_layout Standard
+(Abb 5)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\text{Zentrifugalkraft}\right|=\left|\text{Coulombkraft}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\frac{mv^{2}}{4\pi\varepsilon_{0}}=\frac{1}{4\pi\varepsilon_{0}}\frac{e^{2}}{r^{2}}\label{eq:ruther}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Energie: 
+\begin_inset Formula $E=\frac{1}{2}mv^{2}-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}=\frac{e^{2}}{8\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Probleme:
+\end_layout
+
+\begin_layout Itemize
+Ausdehnung der Atome (d.h.
+ 
+\begin_inset Formula $r$
+\end_inset
+
+) ist nicht bestimmbar
+\end_layout
+
+\begin_layout Itemize
+Beschleunigte Elektronen (Kreisbahn) strahlen nach klassischer Elektrodynamik
+ Energie ab
+\end_layout
+
+\begin_layout Itemize
+Alle Energien sind möglich (Widerspruch zu Linienspektren)
+\end_layout
+
+\begin_layout Paragraph
+Bohr'sches Atommodell
+\end_layout
+
+\begin_layout Standard
+Zusatzannahmen:
+\end_layout
+
+\begin_layout Itemize
+Drehimpuls ist quantisiert: 
+\begin_inset Formula $\left|\vec{L}\right|=\left|\vec{r}\times\vec{p}\right|=n\hbar$
+\end_inset
+
+ 
+\begin_inset Formula $n=1,2,...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Bei festem n erfolgt Umlauf 
+\begin_inset Quotes gld
+\end_inset
+
+strahlungslos
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Beim Wechsel der Kreisbahn von 
+\begin_inset Formula $\left|\vec{L}\right|=n\hbar$
+\end_inset
+
+ nach 
+\begin_inset Formula $\left|\vec{L}\right|=n^{\prime}\hbar$
+\end_inset
+
+ wird Energie 
+\begin_inset Formula $\Delta E=E_{n}-E_{n^{\prime}}$
+\end_inset
+
+ abgegeben
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\vec{L}\right|=mvr\overset{!}{=}n\hbar$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v$
+\end_inset
+
+ dann 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:ruther"
+
+\end_inset
+
+ mit 
+\begin_inset Formula $m\cdot r^{3}$
+\end_inset
+
+ multipliziert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $E_{n}=-\underbrace{\frac{e^{4}}{\left(4\pi\varepsilon_{0}\right)^{2}2\hbar^{2}}}_{13,6059\text{eV}}\frac{1}{n^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta E_{n,m}=\left(\frac{1}{n^{2}}-\frac{1}{m^{2}}\right)\cdot13,6059\text{eV}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
