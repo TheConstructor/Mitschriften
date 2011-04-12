@@ -792,5 +792,913 @@ reference "eq:ruther"
 
 \end_layout
 
+\begin_layout Subsection
+Materiewellen
+\end_layout
+
+\begin_layout Standard
+Problem: Klassische Physik beschreibt 
+\begin_inset Quotes gld
+\end_inset
+
+Mikrowelt
+\begin_inset Quotes grd
+\end_inset
+
+ nicht genau
+\end_layout
+
+\begin_layout Standard
+Stand der Physik 1923
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Licht
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Materie
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes gld
+\end_inset
+
+klassische
+\begin_inset Quotes grd
+\end_inset
+
+ Experimente
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bei Ausbreitung 
+\bar under
+Wellencharakter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Makroskopische Körper: 
+\bar under
+Teilchencharakter
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Maxwell-Gl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Newton-Gl
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes gld
+\end_inset
+
+nicht klassische
+\begin_inset Quotes grd
+\end_inset
+
+ Experimente
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bei Emission und Absorbtion:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verhalten auf atomarer Ebene
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Teilchencharakter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Materiewelle?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E=\hbar\omega$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{p}=\hbar\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+de Broglie (1923)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Welle-Teilchen-Dualismus
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Auch für massive, freie Teilchen sollen die von Einstein für Lichtquanten
+ postulierten Zusammenhänge zwischen Energie und Frequenz, bzw.
+ Impuls und Wellenvektor gelten:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+E=\hbar\omega, &  & \vec{p}=\hbar\vec{k}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hypothese von de Broglie
+\end_layout
+
+\begin_layout Standard
+Energie: 
+\begin_inset Formula $E=\frac{p^{2}}{2m}\underset{\text{de B.}}{=}\frac{\hbar^{2}k^{2}}{2m}\underset{\text{de B.}}{=}\hbar\omega\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+\underbrace{\omega\left(k\right)=\frac{\hbar k^{2}}{2m}}_{\text{Dispersionsrelation}}\label{eq:Dispersionsrelation}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ausbreitungsgeschwindikeit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v_{Gruppe}=\frac{d\omega}{dk}=\frac{\hbar k}{m}=\frac{p}{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Wellenmechanik des freien Teilchens
+\end_layout
+
+\begin_layout Subsection
+Wellengleichung
+\end_layout
+
+\begin_layout Standard
+Idee: Ordne Teilchen eine Wellenfunktion zu 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Freies Teilchen 
+\begin_inset Formula \begin{equation}
+\psi\left(\vec{r},t\right)=\psi_{0}e^{i\left(\vec{k}\cdot\vec{r}-\omega\left(k\right)t\right)}\label{eq:WellenglFreiesTeilchen}\end{equation}
+
+\end_inset
+
+ mit 
+\begin_inset Formula $\omega=\frac{\hbar k^{2}}{2m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lässt sich eine Vorschrift zur Berechnung von 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ angeben?
+\end_layout
+
+\begin_layout Itemize
+Welche physikalische Bedeutung hat 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+Motivation
+\bar default
+ einer Wellengleichung
+\end_layout
+
+\begin_layout Standard
+Elektrodynamik: Wellengleichung 
+\begin_inset Formula $\left(\vec{\triangledown}^{2}-\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}}\right)\vec{\mathcal{E}}\left(\vec{r},t\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Betrachte 
+\begin_inset Formula $\psi\left(\vec{r},t\right)=\psi_{0}e^{i\left(\vec{k}\cdot\vec{r}-\omega t\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\psi}{\partial t}=-i\omega\psi\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{\triangledown}\psi\left(\vec{r},t\right)=i\vec{k}\psi\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{\triangledown}^{2}\psi\left(\vec{r},t\right)=-k^{2}\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\omega=\frac{\hbar k^{2}}{2m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\psi}{\partial t}=-i\frac{\hbar k^{2}}{2m}\psi\left(\vec{r},t\right)=\frac{i\hbar}{2m}\vec{\triangledown}^{2}\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+i\hbar\frac{\partial\psi\left(\vec{r},t\right)}{\partial t}=-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}\psi\left(\vec{r},t\right)\label{eq:SchroedingerGlfreiesTeilchen}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Schrödinger-Gleichung für freies Teilchen
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Differentialgleichung
+\end_layout
+
+\begin_layout Itemize
+1.
+ Ordnung in der Zeit
+\end_layout
+
+\begin_layout Itemize
+2.
+ Ordnung im Ort
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Angabe von 
+\begin_inset Formula $\psi\left(\vec{r},t=t_{0}\right)$
+\end_inset
+
+ legt Lösung vollständig fest
+\end_layout
+
+\begin_layout Itemize
+Die Wellengleichung ist linear in 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Superpositionsprinzip
+\end_layout
+
+\begin_layout Itemize
+ist homogen
+\end_layout
+
+\begin_layout Standard
+Beachte: 
+\begin_inset Formula $\psi=\cos\left(\vec{k}\vec{r}-\omega t\right)$
+\end_inset
+
+ oder 
+\begin_inset Formula $\psi=\sin\left(\vec{k}\vec{r}-\omega t\right)$
+\end_inset
+
+ sind 
+\bar under
+keine
+\bar default
+ Lösungen der Wellengleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Bis auf den Spezialfall 
+\begin_inset Formula $i\hbar\frac{\partial\psi}{\partial t}=0=-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}\psi\left(\vec{r},t\right)$
+\end_inset
+
+ sind die Wellenfunktionen 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ 
+\bar under
+komplex
+\bar default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi$
+\end_inset
+
+ komplex 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\psi$
+\end_inset
+
+ ist vermutlich nicht direkt mit physikalischer Größe verknüpft
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}$
+\end_inset
+
+ reel 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Beschreibt 
+\begin_inset Formula $\left|\psi\right|^{2}$
+\end_inset
+
+ die Dichte des Teilchens? (Idee von Schrödinger)
+\end_layout
+
+\begin_layout Standard
+Ebene Welle 
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}=\left|\psi_{0}e^{i\left(\vec{k}\vec{r}-\omega t\right)}\right|^{2}=\left|\psi_{0}\right|^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Teilchen wäre über den ganzen Raum gleichmäßig verschmiert
+\end_layout
+
+\begin_layout Standard
+Idee: Wellenpaket beschreibt Teilchen
+\begin_inset Formula \begin{equation}
+\psi\left(\vec{r},t\right)=\frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\int f\left(\vec{k}\right)e^{i\left(\vec{k}\vec{r}-\omega\left(k\right)t\right)}d^{3}k\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wellenpaket
+\end_layout
+
+\begin_layout Subsubsection
+Eindimensional
+\end_layout
+
+\begin_layout Standard
+Idee: Teilchen sei bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+ am Ort 
+\begin_inset Formula $x=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb 5)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\psi\right|^{2}=\delta\left(x\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\psi=\sqrt{\delta\left(x\right)}\underbrace{e^{i\varphi}}_{\text{Phasenfaktor}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{\delta\left(x\right)}$
+\end_inset
+
+ ist schlecht zum Rechnen.
+ Daher:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underset{\gamma\rightarrow0}{\lim}\frac{1}{\sqrt{\pi}\gamma}e^{-\frac{x^{2}}{j^{2}}}=\delta\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also:
+\begin_inset Formula \[
+\psi\left(\vec{r},t\right)=\frac{1}{\sqrt[4]{\pi}\sqrt{\gamma}}e^{-i\frac{x^{2}}{2\gamma^{2}}}\cdot e^{ik_{0}x}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wie verändert sich 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ im Laufe der Zeit?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\psi\left(x,t\right)=\frac{1}{\sqrt{2\pi}}\overset{\infty}{\underset{-\infty}{\int}}f\left(k\right)e^{i\left(kx-\frac{\hbar k^{2}}{2m}t\right)}dk\label{eq:psiimlaufederzeit}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+:
+\begin_inset Formula \[
+\psi\left(x,0\right)=\frac{1}{\sqrt{2\pi}}\overset{\infty}{\underset{-\infty}{\int}}f\left(k\right)e^{ikx}dk\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Rightarrow f\left(k\right)=\frac{1}{\sqrt{2\pi}}\overset{\infty}{\underset{-\infty}{\int}}\psi\left(x,0\right)e^{-idx}dx\]
+
+\end_inset
+
+ (Umkehrung der Fouriertransformation)
+\end_layout
+
+\begin_layout Subsubsection
+Hilfsintegral
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{1}{\sqrt{2\pi}}\overset{\infty}{\underset{-\infty}{\int}}e^{-\alpha x^{2}}e^{i\beta x}dx=\frac{1}{\sqrt{2\pi}}e^{-\frac{\beta^{2}}{4\alpha}}\]
+
+\end_inset
+
+ für 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Rightarrow f\left(k\right)=\frac{\sqrt{j}}{\sqrt[4]{\pi}}e^{-\frac{\left(k-k_{0}\right)^{2}}{2}\gamma^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Einsetzen in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:psiimlaufederzeit"
+
+\end_inset
+
+ liefert (analog zu Aufgabe T2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=\frac{\sqrt{\gamma}}{\sqrt[4]{\pi}}\frac{1}{\sqrt{2\alpha}}e^{-\frac{\left(x-\frac{\hbar k_{0}t}{m}\right)^{2}}{4\alpha}}e^{ik_{0}\left(x-\frac{\hbar k_{0}}{2m}t\right)}\]
+
+\end_inset
+
+mit 
+\begin_inset Formula $\alpha=\frac{\gamma^{2}}{2}+i\frac{\hbar}{2m}t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi$
+\end_inset
+
+ 
+\begin_inset Formula $\sim$
+\end_inset
+
+ Normierungsfaktor Gausfunktion: Ebene Welle
+\end_layout
+
+\begin_layout Standard
+(Abb 7)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left|\psi\left(x,t\right)\right|^{2}=\frac{\gamma}{\sqrt[4]{\pi}}\frac{1}{2\left|\alpha\right|}e^{-\frac{\left(x-\frac{\hbar k_{0}t}{m}\right)^{2}}{4}\left(\frac{1}{\alpha}+\frac{1}{\alpha^{\star}}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{1}{\alpha}+\frac{1}{\alpha^{\star}}=\frac{\gamma^{2}}{\left|\alpha\right|^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Breite 
+\begin_inset Formula $B$
+\end_inset
+
+ des Wellenpakets
+\end_layout
+
+\begin_layout Standard
+(Abb 8)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(x-\frac{\hbar k_{0}}{m}t\right)=\frac{4\left|\alpha\right|^{2}}{\gamma^{2}}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $x_{1},\: x_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+B=x_{1}-x_{2}=\frac{4\left|\alpha\right|}{\gamma}=\frac{4}{\gamma}\left(\frac{\gamma^{4}}{4}+\frac{\hbar^{2}t^{2}}{4m^{2}}\right)^{\frac{1}{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+B=2\gamma\sqrt{1+\frac{\hbar^{2}t^{2}}{m^{2}\gamma^{4}}}\]
+
+\end_inset
+
+mit 
+\begin_inset Formula $T^{2}:=\frac{m^{2}\gamma^{4}}{\hbar^{2}}$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Zerfallszeit
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Formula \[
+B=2\gamma\sqrt{1+\frac{t^{2}}{T^{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb 9)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Wellenpaket läuft auseinander
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Interpretation von 
+\begin_inset Formula $\left|\psi\left(x,t\right)\right|^{2}$
+\end_inset
+
+ als Materiedichte würde beudeten, dass das Teilchen zerfließt.
+\end_layout
+
+\begin_layout Standard
+Widerspruch zu experimenteller Erfahrung
+\end_layout
+
+\begin_layout Standard
+Idee: Born
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left|\psi\left(\vec{r},t\right)\right|^{2}$
+\end_inset
+
+: Wahrscheinlichkeit dafür, das Teilchen am Ort 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ zur Zeit 
+\begin_inset Formula $t$
+\end_inset
+
+ zu finden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document
