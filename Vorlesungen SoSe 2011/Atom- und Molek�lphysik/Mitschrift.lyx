@@ -323,7 +323,7 @@ http://jpsi.uni-muenster.de/~weinheim/lehre/ss11/atomphysik/pdf/physik4_ch1.pdf
 \begin_inset Formula $k_{B}$
 \end_inset
 
- aus Brownscher Molekülbewegung
+ aus Brownscher Molekülbewegung
 \end_layout
 
 \begin_layout Itemize
@@ -390,6 +390,641 @@ V_{a}=\frac{V_{M}}{N_{A}}=\frac{\nicefrac{M_{M}}{\varrho_{Si}}}{N_{A}}=\frac{\ni
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Röntgenbeugung am Kristall
+\end_layout
+
+\begin_layout Standard
+Hier eindimendionale Betrachtung, dreidimensional in Festkörperphysik
+\end_layout
+
+\begin_layout Standard
+(Abb A1)
+\end_layout
+
+\begin_layout Standard
+Gangunterschied 
+\begin_inset Formula $\Delta=\Delta_{1}+\Delta_{2}=2d\sin\alpha=n\lambda$
+\end_inset
+
+ konstruktive Interferenz
+\end_layout
+
+\begin_layout Standard
+(Abb A2)
+\end_layout
+
+\begin_layout Standard
+charakteristische Röntgenlinien
+\end_layout
+
+\begin_layout Standard
+(Abb A3)
+\end_layout
+
+\begin_layout Standard
+Experiment:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=1$
+\end_inset
+
+ 
+\begin_inset Formula $d=\frac{\lambda}{2\sin\alpha}=\frac{7,1\cdot10^{-2}\text{Å}}{2\sin11\text{°}}=\frac{7,1\cdot10^{-2}}{2\cdot0,19}\text{Å}=\frac{0,71}{0,38}\text{Å}=1,95\text{Å}=2,0\text{Å}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=2$
+\end_inset
+
+ 
+\begin_inset Formula $d=\frac{2\lambda}{2\sin\alpha}=\frac{7,1\cdot10^{-2}\text{Å}}{\sin21\text{°}}=\frac{7,1\cdot10^{-2}}{0,34}\text{Å}=\frac{0,71}{0,34}\text{Å}=2,09\text{Å}=2,1\text{Å}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Literaturwert für LiF: 
+\begin_inset Formula $d=2,014\text{Å}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radius 
+\begin_inset Formula $\left[\text{Å}\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+He
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Xe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Van-der-Waals-Gleichung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,72
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+verschiedene
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(siehe Übungsaufgabe)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Methoden führen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Streuung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,91
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,77
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+zu unterschiedlichen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Röntgenbeugung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,76
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ergebnissen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(bei tiefen Temperaturen)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Atome sind keine starren Kugeln
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Approximate diameters of atoms in condensed matter as a function of the
+ atomic mass number
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Sehr unterschiedlich schwere Atome 
+\begin_inset Formula $\frac{m\left(\text{Xe}\right)}{m\left(\text{He}\right)}\approx33$
+\end_inset
+
+ haben alle etwa den gleichen Radius von etwa 
+\begin_inset Formula $2\text{Å}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Quantelung der Ladung - das Elektron
+\end_layout
+
+\begin_layout Standard
+In der 2.
+ Hälfte des 19.
+ Jhd entdecken Plücker (Prof U.
+ Bonn) und Hittorf (Prof in Münster 1952-1889) Kathodenstrahlen und, dass
+\end_layout
+
+\begin_layout Itemize
+Kathodenstrahlung unabhängig von der Gasfüllung sind (Abb A4)
+\end_layout
+
+\begin_layout Itemize
+Kathodenstrahlung breitet sich gradlinig aus
+\end_layout
+
+\begin_layout Itemize
+Gegenstände werfen Schatten
+\end_layout
+
+\begin_layout Itemize
+werden in Magnetfeldern abgelenkt
+\end_layout
+
+\begin_layout Standard
+1897 zeigt Thomson, dass die Kathodenstrahlen Elektronen sind und er misst
+ 
+\begin_inset Formula $\frac{q}{m}$
+\end_inset
+
+ (Ladungs-zu-Massenverhältnis; Übungsaufgabe)
+\end_layout
+
+\begin_layout Standard
+Generell: Atome bestehen aus geladenen Teilchen
+\end_layout
+
+\begin_layout Itemize
+Gasentladung: Erscheinungen lassen sich durch elektrische und magnetische
+ Felder ablenken
+\end_layout
+
+\begin_layout Itemize
+Radioaktivität: negative Strahlung 
+\begin_inset Formula $\left(\beta^{-}\right)$
+\end_inset
+
+ und positive 
+\begin_inset Formula $\left(\alpha\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+elektrolytische Flüssigkeiten und Batterien
+\end_layout
+
+\begin_layout Itemize
+Halleffekt
+\end_layout
+
+\begin_layout Standard
+Da Atome neutral sind bestehen sie aus einer Kombination von negativen udn
+ positiven Teilchen.
+\end_layout
+
+\begin_layout Standard
+1910: Bestimmung der Elemntarladungsträger durch Milikan:
+\begin_inset Formula $-q_{e}=e=1,602\cdot10^{-19}\text{Cb}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Experiment: Kathodenstrahlung und Beugung der Elektronen durch homogenes
+ Magnetfeld (Helmholtz-Spule)
+\end_layout
+
+\begin_layout Subsection
+Messung von Atomen
+\end_layout
+
+\begin_layout Standard
+Bis jetzt indirekt: 
+\begin_inset Formula $M_{a}=\frac{M_{M}}{N_{A}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Jetzt direkte Messung über Ablenkung in elektrischen und magnetischen Feldern
+\end_layout
+
+\begin_layout Standard
+(Abb A5)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Kreisbahn und Radius 
+\begin_inset Formula $r$
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\frac{mv^{2}}{r} & = & qvB\\
+m & = & \frac{qrB}{v}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\frac{1}{2}mv^{2} & = & qU\\
+v & = & \sqrt{\frac{2qU}{m}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+m & = & \frac{qrB}{\sqrt{2qU}}\sqrt{m}\,|:\sqrt{m}\,|^{2}\\
+m & = & \frac{q^{2}r^{2}B^{2}}{2qU}\\
+ & = & \frac{qr^{2}B^{2}}{2U}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem: verschiedene Anfangsgeschwindigkeiten und Austrittwinkel aus der
+ Quelle
+\end_layout
+
+\begin_layout Standard
+Lösung 
+\begin_inset Quotes gld
+\end_inset
+
+doppelfokusierendes Spektrometer
+\begin_inset Quotes grd
+\end_inset
+
+, z.B.
+ Herzog-Mattauch, s.
+ Übungsaufgabe
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Mattauch-Spektrometer
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Aufbau der Atome
+\end_layout
+
+\begin_layout Standard
+Thomsonsche Atommodell
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z$
+\end_inset
+
+ negative Ladungsträger (Elektronen) und 
+\begin_inset Formula $Z$
+\end_inset
+
+ schwere positive Ladungsträger füllen das Atomvolumen gleichmäßig aus (
+\begin_inset Quotes gld
+\end_inset
+
+Rosinenkuchen
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+(Abb A6)
+\end_layout
+
+\begin_layout Standard
+1911 Überprüfung durch Streuversuche
+\end_layout
+
+\begin_layout Standard
+Idee: Benutze geladene Teilchen als Sonde, um mit Hilfe der Coulombwechselwirkun
+g das Modell zu testen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+-Teilchen (aus radioaktivem Zerfall) 
+\begin_inset Formula $2$
+\end_inset
+
+fach positiv geladener Helium-Kern; im allgemeinen feste Energie beim 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-Zerfall
+\end_layout
+
+\begin_layout Standard
+(Abb A7)
+\end_layout
+
+\begin_layout Standard
+beweglicher Schirm mit Mikroskop zum Zählen der Lichtblitze (
+\begin_inset Formula $\alpha$
+\end_inset
+
+-Teilchen) in Abhängikeit des Winkels
+\end_layout
+
+\begin_layout Standard
+Erwartung:
+\end_layout
+
+\begin_layout Standard
+(Abb A8)
+\end_layout
+
+\begin_layout Standard
+kleine Ablenkung, da die vielen positiven und negativen Ablenkungen sich
+ weitgehend kompensieren
+\end_layout
+
+\begin_layout Standard
+Rutherford:
+\end_layout
+
+\begin_layout Standard
+(Abb A9)
+\end_layout
+
+\begin_layout Standard
+Sehr kleiner positiv geladener Atomkern in der Mitte 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ große Ablenkung, falls 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ in Kernnähe vorbeifliegt
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Vergleich zwischen den experimentellen Ergebnissen Rutherfords (Kreise),
+ dem W.Q.
+ für Coulombstreuung und dem Streuquerschnitt des Thomson-Modells
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Experiment: große Streuwinkel treten auf; Winkelverteilung folgt 
+\begin_inset Formula $\frac{dN}{d\Theta}\sim\frac{1}{\sin^{4}\left(\frac{\theta}{2}\right)}$
+\end_inset
+
+ wie man es für punktförmigen Kern und Coulomb-Wechselwirkung erwarten würde
+ (Vgl.
+ mit Kometenbahnen und Gravitätswechselwirkung)
 \end_layout
 
 \end_body
