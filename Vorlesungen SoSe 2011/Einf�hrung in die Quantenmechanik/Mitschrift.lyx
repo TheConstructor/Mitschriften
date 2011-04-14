@@ -19,13 +19,20 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \cite_engine basic
 \use_bibtopic false
 \paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation skip
@@ -410,10 +417,9 @@ Energieverteilung
 
 \begin_layout Standard
 Erklärung durch Planck mit folgender Annahme:
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Box Boxed
 position "t"
 hor_pos "c"
@@ -575,7 +581,10 @@ Feld:
 \begin_inset Formula $P$
 \end_inset
 
- von Photon: 
+ von Photon:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Box Boxed
 position "t"
 hor_pos "c"
@@ -625,7 +634,7 @@ Experimentelle Beobachtung beim Wasserstoffatom
 \end_layout
 
 \begin_layout Standard
-Emissin 
+Emission 
 \begin_inset Formula $\hat{=}$
 \end_inset
 
@@ -1100,7 +1109,7 @@ Energie:
 \end_layout
 
 \begin_layout Standard
-Ausbreitungsgeschwindikeit
+Ausbreitungsgeschwindigkeit
 \end_layout
 
 \begin_layout Standard
@@ -1337,7 +1346,7 @@ komplex
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-
+ 
 \begin_inset Formula $\psi$
 \end_inset
 
@@ -1648,7 +1657,7 @@ B=2\gamma\sqrt{1+\frac{t^{2}}{T^{2}}}\]
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-Interpretation von 
+ Interpretation von 
 \begin_inset Formula $\left|\psi\left(x,t\right)\right|^{2}$
 \end_inset
 
@@ -1954,7 +1963,7 @@ Normierung auf Volumen
 \end_inset
 
  
-\begin_inset Formula $\psi_{0}=\frac{1}{\sqrt{V}}\cdot\underbrace{\text{Phasenfaktor}}_{\text{wird typsicherweise zu "Eins" gewählt}}$
+\begin_inset Formula $\psi_{0}=\frac{1}{\sqrt{V}}\cdot\underbrace{\text{Phasenfaktor}}_{\text{wird typsicherweise zu ,,Eins'' gewählt}}$
 \end_inset
 
 
@@ -2152,6 +2161,10 @@ S & = & \left\langle \left(\left\langle x\right\rangle ^{2}-x\right)^{2}\right\r
 
 \begin_layout Paragraph
 Unschärfe, Unsicherheit
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2270,7 +2283,10 @@ Erwartungswert des Ortes
 \end_layout
 
 \begin_layout Standard
-Allg.
+Allgemein
+\end_layout
+
+\begin_layout Standard
 \begin_inset Box Boxed
 position "t"
 hor_pos "c"
@@ -2570,6 +2586,1299 @@ status open
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Erwartungswert des Ortes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \vec{r}\right\rangle =\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\vec{r}\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Erwartungswert des Impulses
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \vec{p}\right\rangle =\hbar\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{\psi}}\left(\vec{k},t\right)\vec{k}\tilde{\psi}\left(\vec{k},t\right)d^{3}k\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Impulsoperator
+\end_layout
+
+\begin_layout Standard
+Frage: Lässt sich 
+\begin_inset Formula $\left\langle \vec{p}\right\rangle $
+\end_inset
+
+ auch direkt im Ortsraum berechnen?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(\vec{r},t\right) & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\tilde{\mathbb{R}}^{3}}{\int}\tilde{\psi}\left(\vec{k},t\right)e^{i\vec{k}\vec{r}}d^{3}k\\
+\vec{\triangledown}\psi\left(\vec{r},t\right) & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\vec{\triangledown}\underset{\tilde{\mathbb{R}}^{3}}{\int}\tilde{\psi}\left(\vec{k},t\right)e^{i\vec{k}\vec{r}}d^{3}k\\
+ & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\tilde{\mathbb{R}}^{3}}{\int}\tilde{\psi}\left(\vec{k},t\right)i\vec{k}e^{i\vec{k}\vec{r}}d^{3}k\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da
+\begin_inset Formula \[
+\underset{\mathbb{R}^{3}}{\int}\overset{\star}{f}\left(\vec{r},t\right)g\left(\vec{r},t\right)d^{3}r=\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{f}}\left(\vec{k},t\right)g\left(\vec{k},t\right)d^{3}k\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgt mit 
+\begin_inset Formula $f=\psi$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{f}=\tilde{\psi}$
+\end_inset
+
+, 
+\begin_inset Formula $g=\left(\vec{\triangledown}\psi\right)_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\tilde{g}=\left(i\vec{k}\tilde{\psi}\right)_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $j=1,2,3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\vec{\triangledown}\psi\left(\vec{r},t\right)d^{3}r & = & \underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{\psi}}\left(\vec{k},t\right)i\vec{k}\tilde{\psi}\left(\vec{k},t\right)d^{3}k\\
+ & = & \frac{1}{\hbar}\left\langle \vec{p}\right\rangle \end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle \vec{p}\right\rangle =\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\frac{\hbar}{i}\vec{\triangledown}\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Idee: Impuls wird im 
+\begin_inset Quotes gld
+\end_inset
+
+Ortsraum
+\begin_inset Quotes grd
+\end_inset
+
+ durch den 
+\bar under
+Operator
+\bar default
+ 
+\begin_inset Formula $\hat{\vec{p}}=\frac{\hbar}{i}\vec{\triangledown}$
+\end_inset
+
+ dargestellt.
+ Das 
+\begin_inset Formula $\hat{\,}$
+\end_inset
+
+ deutet Operator-Charakter an.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{\vec{p}}$
+\end_inset
+
+: Impulsoperator
+\end_layout
+
+\begin_layout Standard
+Ortsoperator 
+\begin_inset Formula $\hat{\vec{r}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset Quotes gld
+\end_inset
+
+Ortsdartsellung
+\begin_inset Quotes grd
+\end_inset
+
+ gilt 
+\begin_inset Formula $\hat{\vec{r}}=\vec{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lässt sich 
+\begin_inset Formula $\left\langle \vec{r}\right\rangle $
+\end_inset
+
+ auch direkt aus 
+\begin_inset Formula $\tilde{\psi}\left(\vec{k},t\right)$
+\end_inset
+
+ berechnen?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\tilde{\psi}\left(\vec{k},t\right) & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\mathbb{R}^{3}}{\int}\psi\left(\vec{r},t\right)e^{-i\vec{k}\vec{r}}d^{3}r\\
+\vec{\triangledown}_{\vec{k}}\tilde{\psi}\left(\vec{k},t\right) & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\vec{\triangledown}_{\vec{k}}\underset{\mathbb{R}^{3}}{\int}\psi\left(\vec{r},t\right)e^{-i\vec{k}\vec{r}}d^{3}r\\
+ & = & \frac{1}{\left(2\pi\right)^{\frac{3}{2}}}\underset{\mathbb{R}^{3}}{\int}\psi\left(\vec{r},t\right)\left(-i\vec{r}\right)e^{-i\vec{k}\vec{r}}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann folgt
+\begin_inset Formula \[
+\left\langle \vec{r}\right\rangle =\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\tilde{\psi}}\left(\vec{k},t\right)\left(-\frac{1}{i}\right)\vec{\triangledown}_{\vec{k}}\tilde{\psi}\left(\vec{k},t\right)d^{3}k\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit 
+\begin_inset Formula $\vec{p}=\hbar\vec{k}$
+\end_inset
+
+, 
+\begin_inset Formula $\phi\left(\vec{p},t\right)=\frac{\tilde{\psi}\left(\frac{\vec{p}}{\hbar},t\right)}{\hbar^{\frac{3}{2}}}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{\triangledown}_{\vec{k}}=\hbar\vec{\triangledown}_{\vec{p}}$
+\end_inset
+
+ folgt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle \vec{r}\right\rangle =\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\phi}\left(\vec{p},t\right)\left(-\frac{\hbar}{i}\vec{\triangledown}_{\vec{p}}\right)\phi\left(\vec{p},t\right)d^{3}p\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Idee: Ort ist im 
+\begin_inset Quotes gld
+\end_inset
+
+Impulsraum
+\begin_inset Quotes grd
+\end_inset
+
+ durch 
+\begin_inset Formula $\hat{\vec{r}}=-\frac{\hbar}{i}\vec{\triangledown}_{\vec{p}}$
+\end_inset
+
+ gegeben.
+ 
+\begin_inset Formula $\vec{\triangledown}_{\vec{p}}=\left(\frac{\partial}{\partial p_{x}},\frac{\partial}{\partial p_{y}},\frac{\partial}{\partial p_{z}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gilt:
+\begin_inset Formula \[
+\left\langle \vec{p}\right\rangle =\underset{\tilde{\mathbb{R}}^{3}}{\int}\overset{\star}{\phi}\left(\vec{p},t\right)\vec{p}\phi\left(\vec{p},t\right)d^{3}p\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{\vec{p}}=\vec{p}$
+\end_inset
+
+ in 
+\begin_inset Quotes gld
+\end_inset
+
+Impulsdarstellung
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi\left(\vec{p},t\right)$
+\end_inset
+
+: Wellenfunktion im Impulsraum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Quantenmechanische Erwartungswerte haben allgemein die Form
+\begin_inset Formula \[
+\left\langle \hat{O}\right\rangle =\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\psi}\left(\vec{r},t\right)\hat{O}\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+(Ortsdarstellung)
+\end_layout
+
+\begin_layout Standard
+bzw.
+\begin_inset Formula \[
+\left\langle \hat{O}\right\rangle =\underset{\tilde{\mathbb{R}}}{\int}\overset{\star}{\phi}\left(\vec{p},t\right)\hat{O}\phi\left(\vec{p},t\right)d^{3}p\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Impulsdarstellung)
+\end_layout
+
+\begin_layout Standard
+Dabei bedeutet 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Physikalische Größe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ortsdarstellung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impulsdarstellung
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ort 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\frac{\hbar}{i}\vec{\triangledown}_{\vec{p}}=i\hbar\vec{\triangledown}_{\vec{p}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impuls 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{\hbar}{i}\vec{\triangledown}=\left(\frac{\hbar}{i}\vec{\triangledown}_{\vec{r}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Drehimpuls 
+\begin_inset Formula $\hat{\vec{L}}:=\hat{\vec{r}}\times\hat{\vec{p}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{r}\times\left(\frac{\hbar}{i}\vec{\triangledown}\right)=\frac{\hbar}{i}\left(\vec{r}\times\vec{\triangledown}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $i\hbar\left(\vec{\triangledown}_{\vec{p}}\times\vec{p}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Zentrale Idee für den Aufbau der Quantenmechanik:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Physikalische Größen werden durch Operatoren dargestellt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Allgemeine Prinzipien der Quantenmechanik
+\end_layout
+
+\begin_layout Subsection
+Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+Bisher: freies Teilchen 
+\begin_inset Formula $i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ebene Welle: 
+\begin_inset Formula $\psi\left(\vec{r},t\right)=\psi_{0}e^{i\left(\vec{k}\cdot\vec{r}-\omega t\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+LS:
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\psi=i\hbar\left(-i\omega\right)\psi=\underbrace{\hbar\omega}_{=\text{Energie }E}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $\hat{\vec{p}}=\frac{\hbar}{i}\vec{\triangledown}$
+\end_inset
+
+ folgt
+\begin_inset Formula \[
+\left(\hat{\vec{p}}\right)^{2}=\hat{p}_{x}^{2}+\hat{p}_{y}^{2}+\hat{p}_{z}^{2}=-\hbar\vec{\triangledown}^{2}=\left(\hat{p}\right)^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\text{RS}=\frac{\hat{p}^{2}}{2m}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Klassische Mechanik
+\begin_inset Formula \[
+E=\frac{1}{2}mv^{2}=\frac{p^{2}}{2m}=\frac{\left(\vec{p}\right)^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Teilchen im Potential 
+\begin_inset Formula $V\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Klassisch: 
+\begin_inset Formula $e=\frac{p^{2}}{2m}+V\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Darstellung der Energie durch 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+ und 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ entspricht 
+\bar under
+Hamiltonfunktion
+\bar default
+
+\begin_inset Formula \[
+H\left(\vec{p},\vec{r},t\right)=\frac{p^{2}}{2m}+V\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Freies Teilchen:
+\begin_inset Formula \[
+H\left(\vec{p},\vec{r},t\right)=\frac{p^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=\hat{H}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+: Hamiltonoperator
+\end_layout
+
+\begin_layout Standard
+Schrödinger 
+\bar under
+postulierte
+\bar default
+ 1926, dass für ein freies Teilchen in einem Potential 
+\begin_inset Formula $V\left(\vec{r}\right)$
+\end_inset
+
+ die Wellenfunktion durch folgende Gleichung bestimmt wird
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right) & = & \hat{H}\psi\left(\vec{r},t\right)\\
+\hat{H} & = & \frac{\hat{p}^{2}}{2m}+V\left(\vec{r}\right)\\
+ & = & -\frac{\hbar^{2}\triangledown^{2}}{2m}+V\left(\vec{r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Schrödingergleichung für Teilchen im Potential 
+\begin_inset Formula $V\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+; 
+\begin_inset Quotes gld
+\end_inset
+
+Hamiltonoperator
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Hamiltonoperator ensteht aus der Hamiltonfunktion durch 
+\begin_inset Quotes gld
+\end_inset
+
+Ersetzen
+\begin_inset Quotes grd
+\end_inset
+
+ der Koordinaten 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ und 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+ durch Operatoren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $H$
+\end_inset
+
+
+\begin_inset Formula $\left(\vec{p},\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\longrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{H}\left(\hat{\vec{p}},\hat{\vec{r}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+klassische Mechanik
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantenmechanik
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Ortsdarstellung 
+\begin_inset Formula $\hat{\vec{r}}=\vec{r}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\vec{p}}=\frac{\hbar}{i}\vec{\triangledown}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dies gilt z.B.
+ auch für zeitlich veränderliches Potential 
+\begin_inset Formula $V\left(\vec{r},t\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=\left(\frac{\hat{p}^{2}}{2m}+V\left(\vec{r},t\right)\right)\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ kann folgende Formen annehmen
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+Abstrakte Darstellung
+\bar default
+: 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}+V\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+Ortsdarstellung
+\bar default
+: 
+\begin_inset Formula $\hat{H}=-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}+V\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+Impulsdarstellung
+\bar default
+: 
+\begin_inset Formula $\hat{H}=\frac{\vec{p}^{2}}{2m}+V\left(i\hbar\vec{\triangledown}\vec{p},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Konzept:
+\end_layout
+
+\begin_layout Enumerate
+Stelle Hamiltonfuntion 
+\begin_inset Formula $H$
+\end_inset
+
+ auf
+\end_layout
+
+\begin_layout Enumerate
+Gehe von 
+\begin_inset Formula $H$
+\end_inset
+
+ zum Hamiltonoperator 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Löse die Schrödingergleichung 
+\begin_inset Formula $\rightarrow\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Berechne Erwartungswerte der physikalischen Größen
+\end_layout
+
+\begin_layout Subsection
+Operatoren und Kommutatoren
+\end_layout
+
+\begin_layout Standard
+Operator 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+: 
+\begin_inset Formula \[
+\hat{O}\psi\left(\vec{r},t\right)=\varphi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Operator 
+\begin_inset Quotes gld
+\end_inset
+
+verändert
+\begin_inset Quotes grd
+\end_inset
+
+ die Funktion 
+\begin_inset Formula $\psi$
+\end_inset
+
+ nach 
+\begin_inset Formula $\varphi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Beispiele
+\end_layout
+
+\begin_layout Enumerate
+Impulsoperator 
+\begin_inset Formula $\hat{O}=\hat{\vec{p}}$
+\end_inset
+
+: 
+\begin_inset Formula $\hat{\vec{p}}\psi\left(\vec{r},t\right)=\frac{\hbar}{i}\vec{\triangledown}\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Ortsoperator 
+\begin_inset Formula $\hat{O}=\hat{\vec{r}}$
+\end_inset
+
+: 
+\begin_inset Formula $\hat{\vec{r}}\psi\left(\vec{r},t\right)=\vec{r}\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Einheitsoperator 
+\begin_inset Formula $\hat{O}=\hat{1}$
+\end_inset
+
+: 
+\begin_inset Formula $\hat{1}\psi\left(\vec{r},t\right)=\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Inversionsoperator 
+\begin_inset Formula $\hat{O}=\hat{I}$
+\end_inset
+
+: 
+\begin_inset Formula $\hat{I}\psi\left(\vec{r},t\right)=\psi\left(-\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Translation um Vektor 
+\begin_inset Formula $\vec{d}$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{O}=\hat{T}_{\vec{d}}$
+\end_inset
+
+: 
+\begin_inset Formula $\hat{T}_{\vec{d}}\psi\left(\vec{r},t\right)=\psi\left(\vec{r}+\vec{d},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Achtung: in der Regel ist die Reihenfolge von Operatoren in Rechnungen wichtig
+\end_layout
+
+\begin_layout Standard
+Klassisch: Ort 
+\begin_inset Formula $x$
+\end_inset
+
+ und Impuls 
+\begin_inset Formula $p_{x}$
+\end_inset
+
+ in 
+\begin_inset Formula $x$
+\end_inset
+
+-Richtung 
+\begin_inset Formula $xp_{x}=p_{x}x$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $xp_{x}-p_{x}x=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik: 
+\begin_inset Formula \begin{eqnarray*}
+\hat{x}\hat{p}_{x}\psi\left(\vec{r},t\right) & = & x\frac{\hbar}{i}\frac{\partial}{\partial x}\psi\left(\vec{r},t\right)\\
+\hat{p}_{x}\hat{x}\psi\left(\vec{r},t\right) & = & \hat{p}_{x}\left(\hat{x}\psi\left(\vec{r},t\right)\right)\\
+ & = & \frac{\hbar}{i}\frac{\partial}{\partial x}\left(x\psi\left(\vec{r},t\right)\right)\\
+ & = & \frac{\hbar}{i}\psi\left(\vec{r},t\right)+\frac{\hbar}{i}x\frac{\partial}{\partial x}\psi\left(\vec{r},t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Operatoren wirken auf alles, was rechts von ihnen steht!
+\begin_inset Formula \[
+\hat{x}\hat{p}_{x}\psi\left(\vec{r},t\right)-\hat{p}_{x}\hat{x}\psi\left(\vec{r},t\right)=-\frac{\hbar}{i}\psi\left(\vec{r},t\right)=i\hbar\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\hat{x}\hat{p}_{x}-\hat{p}_{x}\hat{x}\right)\psi\left(\vec{r},t\right)=i\hbar\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Gehalt dieser Gleichung wird durch folgende Kurzschreibweise zum Ausdruck
+ gebracht
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{x}\hat{p}_{x}-\hat{p}_{x}\hat{x}=i\hbar\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Definition
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Für Operatorn 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+ bezeichnet man
+\begin_inset Formula \[
+\left[\hat{A},\hat{B}\right]=\hat{A}\hat{B}-\hat{B}\hat{A}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+als 
+\bar under
+Kommutator
+\bar default
+ von 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{x},\hat{p}_{x}\right] & = & i\hbar\\
+\left[\hat{y},\hat{p}_{x}\right] & = & 0\\
+\left[\hat{y},\hat{p}_{y}\right] & = & i\hbar\end{eqnarray*}
 
 \end_inset
 
