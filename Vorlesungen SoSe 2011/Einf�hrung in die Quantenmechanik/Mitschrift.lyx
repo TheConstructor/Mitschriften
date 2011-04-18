@@ -3874,7 +3874,76 @@ Kommutator
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Erinnerung
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\underbrace{\psi\left(\vec{r},t\right)}_{\text{Wellenfkt. ,,Zustand''}}=\underbrace{\hat{H}}_{\text{Hamiltonoperator}}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}^{2}}{2m}+V\left(\hat{\vec{r}},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Ortsdarstellung
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{\vec{r}}=\vec{r}=\begin{pmatrix}x\\
+y\\
+z\end{pmatrix}\]
+
+\end_inset
+
  
+\begin_inset Formula \[
+\hat{\vec{p}}=\frac{\hbar}{i}\vec{\triangledown}=\begin{pmatrix}\hat{p}_{x}\\
+\hat{p}_{y}\\
+\hat{p}_{z}\end{pmatrix}=\frac{\hbar}{i}\begin{pmatrix}\frac{\partial}{\partial x}\\
+\frac{\partial}{\partial y}\\
+\frac{\partial}{\partial z}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula \begin{eqnarray*}
 \left[\hat{x},\hat{p}_{x}\right] & = & i\hbar\\
 \left[\hat{y},\hat{p}_{x}\right] & = & 0\\
@@ -3882,6 +3951,1125 @@ Kommutator
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Denn
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{y}\hat{p}_{x}\psi\left(\vec{r},t\right)=y\frac{\hbar}{i}\frac{\partial}{\partial x}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{p}_{x}\hat{y}\psi\left(\vec{r},t\right)=\frac{\hbar}{i}\frac{\partial}{\partial x}\left(y\psi\left(\vec{r},t\right)\right)=\frac{\hbar}{i}y\frac{\partial}{\partial x}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\left(\hat{y}\hat{p}_{x}-\hat{p}_{x}\hat{y}\right)\psi\left(\vec{r},t\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left[\hat{y},\hat{p}_{x}\right]=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Insgesamt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left[\hat{\vec{r}}_{j},\hat{\vec{p}}_{k}\right]=i\hbar\delta_{j,k}\]
+
+\end_inset
+
+ mit 
+\begin_inset Formula $j,k=1,2,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vertauschungsrelation für Ort und Impuls
+\end_layout
+
+\begin_layout Subsection
+Wahrscheinlichkeitsstromdichte
+\end_layout
+
+\begin_layout Standard
+In einer Dimension:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varrho\left(x,t\right)=\overset{\star}{\psi}\left(x,t\right)\psi\left(x,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+i\hbar\frac{\partial}{\partial t}\psi=\hat{H}\psi\left(x,t\right)=\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V\left(x,t\right)\right)\psi\left(x,t\right)\label{eq:wksdichte1}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+-i\hbar\frac{\partial}{\partial t}\overset{\star}{\psi}=\overset{\star}{\hat{H}}\overset{\star}{\psi}\left(x,t\right)=\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+\underbrace{V\left(x,t\right)}_{\text{reeles Potential}}\right)\overset{\star}{\psi}\left(x,t\right)\label{eq:wksdichte2}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial t}\varrho\left(x,t\right)=\left(\frac{\partial}{\partial t}\overset{\star}{\psi}\left(x,t\right)\right)\psi\left(x,t\right)+\overset{\star}{\psi}\left(x,t\right)\frac{\partial}{\partial t}\psi\left(x,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:wksdichte1"
+
+\end_inset
+
+ 
+\begin_inset Formula $+$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:wksdichte2"
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\frac{\partial}{\partial t}\varrho\left(x,t\right) & = & \left(-\frac{1}{i\hbar}\left(\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V\left(x,t\right)\right)\overset{\star}{\psi}\left(x,t\right)\right)\psi\left(x,t\right)\right)\\
+ &  & +\frac{1}{i\hbar}\left(\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V\left(x,t\right)\right)\psi\left(x,t\right)\right)\overset{\star}{\psi}\left(x,t\right)\\
+ & = & \frac{1}{i\hbar}\left(\overset{\star}{\psi}\left(x,t\right)\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\right)\psi\left(x,t\right)-\psi\left(x,t\right)\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\right)\overset{\star}{\psi}\left(x,t\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula \begin{eqnarray*}
+\overset{\star}{\psi}\frac{\partial^{2}}{\partial x^{2}}\psi & = & \frac{\partial}{\partial x}\left(\overset{\star}{\psi}\frac{\partial}{\partial x}\psi\right)-\frac{\partial\overset{\star}{\psi}}{\partial x}\frac{\partial\psi}{\partial x}\\
+\psi\frac{\partial^{2}}{\partial x^{2}}\overset{\star}{\psi} & = & \frac{\partial}{\partial x}\left(\psi\frac{\partial}{\partial x}\overset{\star}{\psi}\right)-\frac{\partial\psi}{\partial x}\frac{\partial\overset{\star}{\psi}}{\partial x}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial\varrho}{\partial t}=\frac{1}{i\hbar}\frac{\hbar^{2}}{2m}\frac{\partial}{\partial x}\left(\psi\frac{\partial}{\partial x}\overset{\star}{\psi}-\overset{\star}{\psi}\frac{\partial}{\partial x}\psi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial\varrho\left(r,t\right)}{\partial t}+\frac{\partial}{\partial x}\underbrace{\frac{\hbar}{i2m}\left(\overset{\star}{\psi}\frac{\partial}{\partial x}\psi-\psi\frac{\partial}{\partial x}\overset{\star}{\psi}\right)}_{j\left(x,t\right)\text{ Wahrscheinlichkeitsstromdichte}}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{\partial\varrho\left(x,t\right)}{\partial t}+\frac{\partial}{\partial x}j\left(x,t\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kontinuitätsgleichung
+\end_layout
+
+\begin_layout Standard
+In drei Dimensionen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{\partial\varrho\left(\vec{r},t\right)}{\partial t}+\text{div}\vec{j}\left(\vec{r},t\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\vec{j}\left(\vec{r},t\right)=\frac{\hbar}{i2m}\left(\overset{\star}{\psi}\left(\vec{r},t\right)\vec{\triangledown}\psi\left(\vec{r},t\right)-\psi\left(\vec{r},t\right)\vec{\triangledown}\overset{\star}{\psi}\left(\vec{r},t\right)\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Physikalische Bedeutung
+\end_layout
+
+\begin_layout Standard
+Eindemensional:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial t}\varrho\left(x,t\right)=-\frac{\partial}{\partial x}j\left(x,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Interpretation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial t}\overset{b}{\underset{a}{\int}}\varrho\left(x,t\right)dx=-\overset{b}{\underset{a}{\int}}\frac{\partial}{\partial x}j\left(x,t\right)dx=j\left(a,t\right)-j\left(b,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q11)
+\end_layout
+
+\begin_layout Standard
+In drei Dimensionen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial\varrho\left(\vec{r},t\right)}{\partial t}=-\text{div}\vec{j}\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial t}\underset{V}{\int}\varrho\left(\vec{r},t\right)d^{3}r=-\underset{V}{\int}\text{div}j\left(\vec{r},t\right)d^{3}r=-\underset{\text{OF um }V}{\oint}\vec{j}\left(\vec{r},t\right)\cdot d\vec{f}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q12)
+\end_layout
+
+\begin_layout Subsection
+Stationäre Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+Sei 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ zeitunabhängig (also 
+\begin_inset Formula $V\left(\vec{r}\right)$
+\end_inset
+
+ hängt nicht von 
+\begin_inset Formula $t$
+\end_inset
+
+ ab)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=\hat{H}\psi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Separationsansatz:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(\vec{r},t\right)=f\left(t\right)\varphi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\left(\frac{\partial}{\partial t}f\left(t\right)\right)\varphi\left(\vec{r}\right)=f\left(t\right)\hat{H}\varphi\left(\vec{r}\right)\,|:f\left(t\right)\varphi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sei 
+\begin_inset Formula $f\left(t\right)\neq0$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi\left(\vec{r}\right)\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{i\hbar\frac{\partial}{\partial t}f\left(t\right)}{f\left(t\right)}=\frac{\hat{H}\varphi\left(\vec{r}\right)}{\varphi\left(\vec{r}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Soll für alle 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ gelten 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{i\hbar\frac{\partial}{\partial t}f\left(t\right)}{f\left(t\right)}=\underbrace{E}_{\text{Konstante mit Dimension Energie}}=\frac{\hat{H}\varphi\left(\vec{r}\right)}{\varphi\left(\vec{r}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray}
+i\hbar\frac{\partial}{\partial t}f\left(t\right) & = & Ef\left(t\right)\label{eq:statschr1}\\
+\hat{H}\varphi\left(\vec{r}\right) & = & E\varphi\left(\vec{r}\right)\label{eq:statschr2}\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Stationäre Schrödingergleichung
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+gilt auch falls 
+\begin_inset Formula $f\left(t\right)=0$
+\end_inset
+
+ bzw.
+ 
+\begin_inset Formula $\varphi\left(\vec{r}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:statschr1"
+
+\end_inset
+
+ ist direkt lösbar:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+f\left(t\right)=e^{\frac{E}{i\hbar}t}\left(\cdot\text{Konstante}\right)\label{eq:statschrtyp}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\psi\left(\vec{r},t\right)=e^{\frac{E}{i\hbar}t}\cdot\varphi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Hinweis
+\end_layout
+
+\begin_layout Standard
+Häufig wird die Wellenfunktion 
+\begin_inset Formula $\varphi\left(\vec{r}\right)$
+\end_inset
+
+ auch mit 
+\begin_inset Formula $\psi\left(\vec{r}\right)$
+\end_inset
+
+ bezeichnet
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}\psi\left(\vec{r}\right)=E\psi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im allgemeinen Fall ergibt sich die Lösung von 
+\begin_inset Formula $i\hbar\frac{\partial}{\partial t}\psi\left(\vec{r},t\right)=\hat{H}\psi\left(\vec{r},t\right)$
+\end_inset
+
+ aus einer Überlagerung von Lösungen des 
+\begin_inset Quotes gld
+\end_inset
+
+Types 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:statschrtyp"
+
+\end_inset
+
+
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Stationäre Schrödingergleichungen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\varphi_{n}\left(\vec{r}\right)=\underbrace{E_{n}}_{\text{Eigenwert}}\underbrace{\varphi_{n}\left(\vec{r}\right)}_{\text{Eigenfunktion}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eigenwertgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n$
+\end_inset
+
+: Index, der die verschiedenen Lösungen der Gleichung 
+\begin_inset Quotes gld
+\end_inset
+
+abzählt
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+ wird als Quantenzahl bezeichnet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Beispiel Freies Teilchen
+\end_layout
+
+\begin_layout Enumerate
+Eindimensional: 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}_{x}^{2}}{2m}=-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}$
+\end_inset
+
+ 
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\varphi\left(x\right) & = & E\varphi\left(x\right)\\
+-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\varphi\left(x\right) & = & E\varphi\left(x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula \[
+\Rightarrow\varphi\left(x\right)=Ae^{ikx}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\Rightarrow\frac{\hbar^{2}k^{2}}{2m}\varphi\left(x\right)=E\varphi\left(x\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E=\frac{\hbar^{2}}{2m}k^{2}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Quantenzahl 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ 
+\begin_inset Formula $k$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+E_{k} & = & \frac{\hbar^{2}}{2m}k^{2}\\
+\varphi_{k}\left(x\right) & = & Ae^{ikx}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(x,t\right) & = & e^{\frac{\hbar^{2}k^{2}}{2m}t\frac{1}{i\hbar}}\cdot Ae^{ikx}\\
+ & = & Ae^{ikx}e^{-i\underbrace{\frac{\hbar k^{2}}{2m}}_{=\omega}t}\\
+ & = & Ae^{i\left(kx-\omega t\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Dreidimensional 
+\begin_inset Formula $\hat{H}=\frac{\hat{\vec{p}}^{2}}{2m}=-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}$
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{H}\varphi\left(\vec{r}\right)=E\varphi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\Rightarrow\varphi_{\vec{k}}\left(\vec{r}\right) & = & Ae^{i\vec{k}\vec{r}}\\
+E_{\vec{k}} & = & \frac{\hbar^{2}k^{2}}{2m}\\
+k^{2} & = & k_{x}^{2}+k_{y}^{2}+k_{z}^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Quantenzahlen 
+\begin_inset Formula $\vec{k}=\left(k_{x},k_{y},k_{z}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Falls Eigenwerte 
+\begin_inset Formula $E_{m}=E_{m^{\prime}}$
+\end_inset
+
+ übereinstimmen, aber die zugehörigen Eigenfunktionen 
+\begin_inset Formula $\varphi_{m}\left(\vec{r}\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi_{m^{\prime}}\left(\vec{r}\right)$
+\end_inset
+
+ unterschiedlich sind, so liegt eine 
+\begin_inset Quotes gld
+\end_inset
+
+
+\bar under
+Entartung
+\bar default
+
+\begin_inset Quotes grd
+\end_inset
+
+ vor
+\begin_inset Formula \begin{eqnarray*}
+E_{m}=E_{m^{\prime}} & , & \varphi_{m}\left(\vec{r}\right)\neq\varphi_{m^{\prime}}\left(\vec{r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Potentialtopf mit unendlich hoher Wahrscheinlichkeit
+\end_layout
+
+\begin_layout Standard
+Eindimendionales System 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}_{x}^{2}}{2m}+V\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q13)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{0}\rightarrow\infty$
+\end_inset
+
+: Das Teilchen hält sih nur im Breich II auf
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varphi^{\text{I}}\left(x\right)=0$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi^{\text{III}}\left(x\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Forderung an Wellenfunktion
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ stetig (damit 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ definiert)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ stetig (damit 
+\begin_inset Formula $\varphi^{\prime\prime}\left(x\right)$
+\end_inset
+
+ definiert)
+\end_layout
+
+\begin_layout Standard
+Gilt dies auch bei Unstetigkeitsstellen des Potentials?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ stetig
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ stetig bei endlichen Sprüngen von 
+\begin_inset Formula $V\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Stetigkeit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{II}}\left(0\right) & = & \varphi^{\text{I}}\left(0\right)=0\\
+\varphi^{\text{II}}\left(L\right) & = & \varphi^{\text{III}}\left(L\right)=0\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{II}}\left(0\right)=\varphi^{\text{II}}\left(L\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Schrödingergleichung im Bereich II
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V\left(x\right)=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{H}^{\text{II}}=\frac{p_{x}^{2}}{2m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}^{\text{II}}\varphi^{\text{II}}\left(x\right)=E\varphi^{\text{II}}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Lösungen 
+\begin_inset Formula $\varphi\left(x\right)\sim e^{ikx}$
+\end_inset
+
+ oder 
+\begin_inset Formula $e^{-ikx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{II}}\left(x\right) & = & ae^{ikx}+be^{-ikx}\\
+\varphi^{\text{II}}\left(0\right) & = & a\cdot1+b\cdot1\overset{!}{=}0\Rightarrow a=-b\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{II}}\left(x\right) & = & a\left(e^{ikx}-e^{-ikx}\right)\\
+\varphi^{\text{II}}\left(x\right) & = & 2ai\sin kx\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=L$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{II}}\left(L\right)=2ai\sin\left(kL\right)\overset{!}{=}0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+kL=n\pi\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+k=\frac{n\pi}{L}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=\frac{\hbar^{2}k^{2}}{2m}=\frac{\hbar^{2}}{2m}\frac{\pi^{2}}{L^{2}}\cdot n^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{n}\sim n^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $n=1,2,3,...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
