@@ -1027,5 +1027,718 @@ Experiment: große Streuwinkel treten auf; Winkelverteilung folgt
  mit Kometenbahnen und Gravitätswechselwirkung)
 \end_layout
 
+\begin_layout Section
+Quantelung der Strahlung und atomarer Anregung
+\end_layout
+
+\begin_layout Subsection
+Hohlraumstrahlung
+\end_layout
+
+\begin_layout Standard
+(Abb.
+ A10)
+\end_layout
+
+\begin_layout Standard
+Hohlraumstrahlung, Schwarzkörperstrahlung (100% Absorptionsvermögen)
+\end_layout
+
+\begin_layout Standard
+einfallendes Licht wird vollständig geschluckt, emitiertes Licht hängt von
+ der Temperatur ab, z.B.
+ rotglühendes Eisen (
+\begin_inset Formula $1000\text{°C}$
+\end_inset
+
+), Sonnenoberfläche (
+\begin_inset Formula $5700\text{K}$
+\end_inset
+
+), Universum (
+\begin_inset Formula $2,73\text{K}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Ende des 19.
+ Jhds lieferten die Experimente Spektren
+\end_layout
+
+\begin_layout Enumerate
+kleine Frequenzen (langweillig):
+\begin_inset Newline newline
+\end_inset
+
+Rayleigh-Jeans-Gesetz:
+\begin_inset Newline newline
+\end_inset
+
+Spektrale Strahlungsdichte 
+\begin_inset Formula $\varrho\left(\nu\right)=\frac{d^{2}E}{dVd\nu}=\frac{8\pi\nu^{2}}{c^{3}}k_{B}T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Problem: Energiedichte 
+\begin_inset Formula $\rightarrow\infty$
+\end_inset
+
+ für große Frequenzen 
+\begin_inset Formula $\lightning$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+große Frequenzen 
+\begin_inset Formula $\nu$
+\end_inset
+
+ (kleine Wellenlängen)
+\begin_inset Newline newline
+\end_inset
+
+Wiensches Strahlungsgesetz 
+\begin_inset Formula $\varrho\left(\nu\right)\sim e^{-\alpha\frac{\nu}{T}}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=4,8\cdot10^{-11}\frac{\text{K}}{\text{Hz}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb.
+ A11)
+\end_layout
+
+\begin_layout Standard
+1900 mißt Rubens komplettes Spektrum und zeigt es Plank
+\end_layout
+
+\begin_layout Standard
+Herleitung des Rayleigh-Jeans-Gesetz
+\end_layout
+
+\begin_layout Standard
+Bestimme die Anzahl der Eigenschwingungen (stehende Wellen) in einem Resonator
+ der Grüße 
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Eindimensional: Resonator der Länge 
+\begin_inset Formula $a$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $n\frac{\lambda}{2}=a$
+\end_inset
+
+, mit 
+\begin_inset Formula $\nu=\frac{c}{\lambda}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\nu=\frac{c}{2a}n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Dreidimensional: Kubus mit Kantenlänge 
+\begin_inset Formula $a$
+\end_inset
+
+: 
+\begin_inset Formula $\sqrt{n^{2}+m^{2}+l^{2}}\cdot\frac{\lambda}{2}=a$
+\end_inset
+
+, 
+\begin_inset Formula $\nu=\frac{c}{2a}\sqrt{n^{2}+m^{2}+l^{2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Jedes Zahlentrippel 
+\begin_inset Formula $\left(n,m,l\right)\in\mathbb{N}_{0}^{3}\backslash\left\{ \left(0,0,0\right)\right\} $
+\end_inset
+
+ entspricht eine Eigenfrequenz
+\begin_inset Newline newline
+\end_inset
+
+Betrachte Oktanten im 
+\begin_inset Formula $n,m,l$
+\end_inset
+
+-Koordinatensystem
+\begin_inset Newline newline
+\end_inset
+
+(Abb A12)
+\begin_inset Newline newline
+\end_inset
+
+Jede Eigenfrequenz entspricht einem Koordinatenpunkt un einem Volumen 
+\begin_inset Formula $1^{3}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Die Anzahl der Eigenfrequenzen in der Kugelschale zwischen 
+\begin_inset Formula $r$
+\end_inset
+
+ und 
+\begin_inset Formula $r+dr$
+\end_inset
+
+ ist 
+\begin_inset Formula $r^{2}=n^{2}+m^{2}+l^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $r\frac{\lambda}{2}=a$
+\end_inset
+
+, 
+\begin_inset Formula $\nu=\frac{c}{\lambda}=\frac{cr}{2a}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $r=\frac{2a\nu}{c}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $dN=dV=\underbrace{\frac{1}{8}}_{\text{Oktand, da }n,m,l\in\mathbb{N}_{0}^{3}}4\pi r^{2}dr=\frac{1}{2}\pi\left(\frac{2a}{c}\right)^{3}\nu^{2}d\nu=\frac{4\pi V\nu^{2}d\nu}{c^{3}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\frac{dN}{Vd\nu}=\frac{4\pi\nu^{2}}{c^{3}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Muss noch Faktor 
+\begin_inset Formula $2$
+\end_inset
+
+ für die beiden möglichen Polarisationszustände der elektromagnetischen
+ Strahlung berücksichtigen und betrachte auch Differenzial bezüglich Volumen
+\begin_inset Formula \[
+\frac{d^{2}N}{dVd\nu}=\frac{8\pi\nu^{2}}{c^{3}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Klassich ist jede dieser Eigenschwingungen im Mittel mit der Energie 
+\begin_inset Formula $k_{B}T$
+\end_inset
+
+ besetzt
+\begin_inset Formula \[
+\varrho_{RJ}\left(\nu\right)=\frac{d^{2}N}{dVd\nu}k_{B}T=\frac{d^{2}E}{dVd\nu}=\frac{8\pi\nu^{2}}{c^{3}}k_{B}T\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Plank beschreibt Rubens' Schwarzkörperspektrum mit Plankschen Strahlungsgesetz
+\begin_inset Formula \[
+\varrho\left(\nu,T\right)=\underbrace{\frac{8\pi\nu^{2}}{c^{3}}}_{\text{Dichte der Eigenfrequenz}}\underbrace{h\nu}_{\text{Energie eines ,,Photons''}}\underbrace{\frac{1}{e^{\frac{h\nu}{k_{B}T}}-1}}_{\text{Besetzungswahrscheinlichkeit}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb.
+ A13)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\nu\rightarrow\infty$
+\end_inset
+
+: 
+\begin_inset Formula $\varrho\sim e^{-\frac{h\nu}{k_{B}T}}$
+\end_inset
+
+ (Wien)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\nu\rightarrow0$
+\end_inset
+
+: 
+\begin_inset Formula $e^{\frac{h\nu}{k_{B}T}}-1=\left(1+\frac{h\nu}{k_{B}T}+...\right)-1=\frac{h\nu}{k_{B}T}$
+\end_inset
+
+, 
+\begin_inset Formula $\varrho\sim\nu^{2}$
+\end_inset
+
+ (RJ)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $h$
+\end_inset
+
+ heißt Planksches Wirkungsquantum: 
+\begin_inset Formula $h=6,63\cdot10^{-34}\text{Js}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zwei Monate später gelang Plank die Herleitung des Strahlungsgesetzes unter
+ der Annahme, dass die Strahlung im Hohlraum in festen Energiestufen gequantelt
+ ist 
+\begin_inset Formula $E_{n}\left(\nu\right)=nh\nu$
+\end_inset
+
+ (
+\begin_inset Quotes gld
+\end_inset
+
+Geburt der Quantenphysik
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Besetzungswahrscheinlichkeit der 
+\begin_inset Formula $n$
+\end_inset
+
+-ten Stufe aus Boltzmann-Faktor:
+\begin_inset Formula \[
+e^{-\frac{nh\nu}{k_{B}T}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Übungsaufgabe 
+\begin_inset Formula $\left\langle E\left(\nu\right)\right\rangle =h\nu\left\langle n\right\rangle =h\nu\underbrace{\frac{1}{e^{\frac{h\nu}{k_{B}T}}-1}}_{\text{Bose-Einstein-Statistik}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folien zur Leuchtkraft, ...
+ von Leuchtmitteln und der Erklärung durch das Planksche Strahlungsspektrum)
+\end_layout
+
+\begin_layout Subsection
+Photoeffekt
+\end_layout
+
+\begin_layout Standard
+1.
+ Versuch von H.
+ Hertz 1887, Hallwachs 1895
+\end_layout
+
+\begin_layout Standard
+(Abb A14)
+\end_layout
+
+\begin_layout Enumerate
+Platte wird positiv aufgeladen 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ kein Effekt
+\end_layout
+
+\begin_layout Enumerate
+Platte wird negativ aufgeladen 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Platte entlädt sich in Sekunden
+\end_layout
+
+\begin_layout Enumerate
+Platte wird negativ aufgeladen, aber UV-Anteil des Quecksilberlichts wird
+ durch Glasplatte absorbiert 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ kein Effekt
+\end_layout
+
+\begin_layout Standard
+2.
+ Versuch von Lennard 1902
+\end_layout
+
+\begin_layout Standard
+(Abb A15)
+\end_layout
+
+\begin_layout Standard
+Messe 
+\begin_inset Formula $U$
+\end_inset
+
+ in Abhängigkeit der Wellenlänge
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $U$
+\end_inset
+
+ hängt nicht von der Intensität ab
+\end_layout
+
+\begin_layout Itemize
+keine messbare Verzögerung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Farbe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda$
+\end_inset
+
+ (nm)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\nu$
+\end_inset
+
+ (Hz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $U$
+\end_inset
+
+ (V)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gelb
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $579,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,89$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+grün
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $546,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,02$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+blau 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $435,8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,67$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+blau 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $406$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,89$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+blau 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $365,5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2,13$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
