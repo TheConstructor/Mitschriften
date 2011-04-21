@@ -4798,7 +4798,7 @@ Eindimendionales System
 \begin_inset Formula $V_{0}\rightarrow\infty$
 \end_inset
 
-: Das Teilchen hält sih nur im Breich II auf
+: Das Teilchen hält sich nur im Breich II auf
 \end_layout
 
 \begin_layout Standard
@@ -5070,7 +5070,769 @@ E_{n}=\frac{\hbar^{2}k^{2}}{2m}=\frac{\hbar^{2}}{2m}\frac{\pi^{2}}{L^{2}}\cdot n
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
+\begin_layout Plain Layout
+
+\series bold
+Erinnerung
+\end_layout
+
+\begin_layout Plain Layout
+(Abb Q13)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varphi^{\text{I}}\left(x\right)=0=\varphi^{\text{III}}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}\varphi\left(x\right)=E\varphi\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varphi^{\text{II}}\left(0\right)=0=\varphi^{\text{II}}\left(L\right)$
+\end_inset
+
+; im Bereich II: 
+\begin_inset Formula $V\left(x\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}_{x}^{2}}{2m}=-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varphi\left(x\right)=e^{ikx}$
+\end_inset
+
+ bzw.
+ 
+\begin_inset Formula $\varphi\left(x\right)=e^{-ikx}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linearkombinationen der Lösung 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ erfüllen der Randbedingungen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi\left(x\right)=ae^{ikx}+b^{-ikx}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rand: 
+\begin_inset Formula $\varphi\left(0\right)=a+b\overset{!}{=}0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $a=-b$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi\left(x\right) & = & a\left(e^{ikx}-e^{-ikx}\right)\\
+ & = & 2ai\sin\left(kx\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rand: 
+\begin_inset Formula $\varphi\left(L\right)=2ai\sin\left(kx\right)\overset{!}{=}0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\sin\left(kx\right)=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+kL & = & n\pi\,\,\, n\text{:ganze Zahl}\\
+k & = & \frac{n\pi}{L}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Im gesamten Gebiet:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi\left(x\right)=\begin{cases}
+2ai\sin\left(\frac{\pi}{L}nx\right) & \text{für }0\le x\le L\\
+0 & \text{sonst}\end{cases}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normierung: 
+\begin_inset Formula $A=2ai$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{-\infty}{\int}}\left|\varphi\left(x\right)\right|^{2}dx=1\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\overset{L}{\underset{0}{\int}}\left|A\sin\left(\frac{\pi}{L}nx\right)\right|^{2}dx & \overset{!}{=} & 1\\
+\left|A\right|^{2}\overset{L}{\underset{0}{\int}}\sin^{2}\left(\frac{\pi}{L}nx\right)dx & \overset{!}{=} & 1\\
+\left|A\right|^{2}\left(\frac{L}{2}-0\right) & \overset{!}{=} & 1\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da 
+\begin_inset Formula $\int\sin^{2}\left(\alpha x\right)dx=\frac{x}{2}-\frac{1}{4\alpha}\sin\left(2\alpha x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left|A\right|^{2}=\frac{2}{L}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula \[
+A=\sqrt{\frac{2}{L}}\cdot\underbrace{\text{Phasenfaktor}}_{=e^{i\vartheta},\,\vartheta\text{ reel}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typischerweise wählt man als Phasenfaktor den Wert 
+\begin_inset Quotes gld
+\end_inset
+
+Eins
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{n}=\begin{cases}
+\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}nx\right) & 0\le x\le L\\
+0 & \text{sonst}\end{cases}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=1,2,3,4,..$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=0$
+\end_inset
+
+ ausgeschlossen, da 
+\begin_inset Formula $\varphi_{0}\left(x\right)=0$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ physikalisch nicht sinnvoll
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=-1,-2,..$
+\end_inset
+
+: 
+\begin_inset Formula $\sin\left(\frac{\pi}{L}\left(-n\right)x\right)=-\sin\left(\frac{\pi}{L}nx\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi_{-n}\left(x\right)=-\varphi_{n}\left(x\right)$
+\end_inset
+
+.
+ d.h.
+ 
+\begin_inset Formula $\varphi_{-n}\left(x\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi_{n}\left(x\right)$
+\end_inset
+
+ stimmen bis auf Phasenfaktor überein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\varphi_{n}\left(x\right)=-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\varphi_{n}\left(x\right)\overset{!}{=}E_{n}\varphi_{n}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bereich II:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}nx\right) & = & -\frac{\hbar^{2}}{2m}\sqrt{\frac{2}{L}}\left(\frac{\pi}{L}n\right)^{2}\left(-\right)\sin\left(\frac{\pi}{2}nx\right)\\
+ & = & \frac{\hbar^{2}}{2m}\frac{\pi^{2}}{L^{2}}n^{2}\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}nx\right)\\
+ & \overset{!}{=} & E_{n}\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}nx\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=\frac{\hbar^{2}}{2m}\frac{\pi^{2}}{L^{2}}n^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Grafische Darstellung der Resultate
+\end_layout
+
+\begin_layout Standard
+(Abb Q14)
+\end_layout
+
+\begin_layout Standard
+Oft findet man folgende Darstellung:
+\end_layout
+
+\begin_layout Standard
+(Abb Q15)
+\end_layout
+
+\begin_layout Subsubsection
+Physikalische Aspekte
+\end_layout
+
+\begin_layout Itemize
+Eigenzustände können (im Potentialtopf) nur bestimmte Energien haben (
+\bar under
+diskretes
+\bar default
+ Energiespektrum)
+\end_layout
+
+\begin_layout Itemize
+Aufenthaltswahrscheinlichkeitsdichte ist räumlich nicht konstant
+\end_layout
+
+\begin_layout Itemize
+In allen Zuständen 
+\begin_inset Formula $\varphi_{n}$
+\end_inset
+
+ ist das Teilchen mit der größten Wahrscheinlichkeit in der Mitte des Topfes
+ (
+\begin_inset Formula $x=\frac{L}{2}$
+\end_inset
+
+) zu finden: 
+\begin_inset Formula $\left\langle x\right\rangle =\frac{L}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Erwartungswert des Impulses: 
+\begin_inset Formula $\left\langle \hat{p}_{x}\right\rangle =0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Formale Aspekte
+\end_layout
+
+\begin_layout Paragraph
+1.
+ Orthogonalität
+\end_layout
+
+\begin_layout Standard
+Skalarprodukt zwischen Funktionen 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\chi\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\chi,\varphi\right):=\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\chi}\left(x\right)\varphi\left(x\right)dx\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Analog zu 
+\begin_inset Formula $\overset{\star}{\vec{b}}\cdot\vec{a}=\overset{n}{\underset{j=1}{\sum}}\overset{\star}{b}_{j}a_{j}$
+\end_inset
+
+ mit 
+\begin_inset Formula $\vec{a}=\left(a_{1},a_{2},..\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{b}=\left(b_{1},b_{2},..\right)$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\chi,\varphi\right)=0\Rightarrow\text{Funktionen sind ,,orthogonal''}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Hier:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\varphi_{n},\varphi_{n^{\prime}}\right) & = & \overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\varphi_{n}}\left(x\right)\varphi_{n^{\prime}}\left(x\right)dx\\
+ & = & \overset{L}{\underset{0}{\int}}\sqrt{\frac{2}{L}}sin\left(\frac{\pi}{L}nx\right)\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}n^{\prime}x\right)dx\\
+ & = & \delta_{n,n^{\prime}}\text{ (analog zu Forierreihen)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Eigenfunktionen sind 
+\bar under
+orthogonal
+\end_layout
+
+\begin_layout Paragraph
+2.
+ Vollständigkeit
+\end_layout
+
+\begin_layout Standard
+Jede Funktion 
+\begin_inset Formula $f\left(x\right)$
+\end_inset
+
+ mit 
+\begin_inset Formula $f\left(0\right)=0$
+\end_inset
+
+ und 
+\begin_inset Formula $f\left(L\right)=0$
+\end_inset
+
+ kann durch die 
+\begin_inset Formula $\varphi_{n}\left(x\right)$
+\end_inset
+
+ dargestellt werden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f\left(x\right)=\overset{\infty}{\underset{n=1}{\sum}}c_{n}\sqrt{\frac{2}{L}}\left(\frac{\pi}{L}nx\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{n}$
+\end_inset
+
+: Entwicklungskoeffizient (analog zu Fourierdarstellung)
+\end_layout
+
+\begin_layout Subsubsection
+Lösung der zeitabhängigen Schrödingergleichung für Potentiale
+\end_layout
+
+\begin_layout Standard
+Bisher:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(x,t\right)= & e^{\frac{E_{n}t}{i\hbar}}\varphi_{n}\left(x\right) & \text{mit }\hat{H}\varphi_{n}=E_{n}\varphi_{n}\\
+ & \text{stationäre Zustände}\\
+\Rightarrow\left|\psi\left(x,t\right)\right|^{2}= & \underbrace{e^{-\frac{E_{n}t}{i\hbar}}e^{\frac{E_{n}t}{i\hbar}}}_{=1}\overset{\star}{\varphi}_{n}\left(x\right)\varphi_{n}\left(x\right)\\
+= & \left|\varphi_{n}\left(x\right)\right|^{2} & \text{unabhängig von }t\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allgemein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=\overset{\infty}{\underset{n=1}{\sum}}c_{n}e^{\frac{E_{n}t}{i\hbar}}\varphi_{n}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+erfüllt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\frac{\partial}{\partial t}\psi\left(x,t\right)=\hat{H}\psi\left(x,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Beispiel
+\end_layout
+
+\begin_layout Standard
+Wellenpaket
+\end_layout
+
+\begin_layout Standard
+(Abb Q16)
+\end_layout
+
+\begin_layout Standard
+Teilchen ist bei 
+\begin_inset Formula $x=\frac{L}{2}$
+\end_inset
+
+ lokalisiert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,0\right)=\frac{1}{\pi^{\frac{1}{4}}b^{\frac{1}{2}}}e^{-\frac{\left(x-\frac{L}{2}\right)^{2}}{2b^{2}}}e^{ik_{0}\left(x-\frac{L}{2}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\varphi}_{n^{\prime}}\left(x\right)\psi\left(x,t\right)dx & = & \overset{\infty}{\underset{n=1}{\sum}}c_{n}e^{\frac{E_{n}t}{i\hbar}}\underbrace{\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\varphi}_{n^{\prime}}\left(x\right)\varphi_{n}\left(x\right)dx}_{=\delta_{n,n^{\prime}}}\\
+ & = & c_{n^{\prime}}e^{\frac{E_{n^{\prime}}t}{i\hbar}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+c_{n}=\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\varphi}_{n^{\prime}}\left(x\right)\psi\left(x,0\right)dx\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit: 
+\begin_inset Formula $\sin\beta x=\frac{1}{2i}\left(e^{i\beta x}-e^{-i\beta x}\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\frac{1}{\sqrt{2\pi}}\overset{\infty}{\underset{-\infty}{\int}}e^{-\alpha x^{2}}e^{i\beta x}dx=\frac{1}{\sqrt{2\alpha}}e^{-\frac{\beta^{2}}{4\alpha}}$
+\end_inset
+
+ für reele 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann gilt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+c_{n}=\frac{1}{\pi^{\frac{1}{4}}}\sqrt{b}\frac{1}{2i}\sqrt{\frac{2}{L}}\sqrt{2\pi}\left(e^{ik_{0}\frac{L}{2}}e^{-\left(k_{0}+k_{n}\right)^{2}\frac{b^{2}}{2}}+e^{-ik_{0}\frac{L}{2}}e^{-\left(-k_{0}+k_{n}\right)^{2}\frac{b^{2}}{2}}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $k_{n}=\frac{n\pi}{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Insgesamt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=\overset{\infty}{\underset{n=1}{\sum}}c_{n}\sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}nx\right)\cdot e^{\frac{1}{i\hbar}\frac{\hbar^{2}}{2m}\frac{\pi^{2}}{L^{2}}n^{2}t}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Formula $\left|\psi\left(x,t\right)\right|^{2}$
+\end_inset
+
+ für Teilchen im Potentialtopf)
+\end_layout
+
+\begin_layout Standard
+Klassisch:
+\end_layout
+
+\begin_layout Standard
+(Abb Q17)
 \end_layout
 
 \end_body
