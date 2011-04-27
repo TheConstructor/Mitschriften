@@ -1740,5 +1740,571 @@ blau 3
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $m=4,24\cdot10^{-15}\text{Vs}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1905: Einstein deutet das Experiment zum Photoelektrischen Effekt:
+\end_layout
+
+\begin_layout Itemize
+Licht tritt wie die Hohlraumstrahlung in Quanten auf mit der Energie 
+\begin_inset Formula $E_{\gamma}=h\nu$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Wenn ein Lcihtquant auf die Metalloberfläche trifft, dann kann ein Photoelektron
+ ausgelöst werden 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ nur Platte auf negativer Hochspannung wird entladen
+\end_layout
+
+\begin_layout Itemize
+Kinetische Energie der Photoelektronen: 
+\begin_inset Formula $E_{Kin}=h\nu-\underbrace{W_{A}}_{\text{Austrittsarbeit}}$
+\end_inset
+
+; Austrittsarbeit beträgt typischerweise einige eV 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ ging bei Metallplatte nur mit UV-Licht
+\end_layout
+
+\begin_layout Itemize
+1922 Einstein erhält Nobelpreis für Erklärung des Lichtelektrischen-Effekts
+\end_layout
+
+\begin_layout Standard
+Teilchencharakter von elektromagnetischer Strahlung 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Photonen müssen nicht nur definierte Energie, sondern auch definierten
+ Impuls tragen z.B.
+ Beweis durch Compton-Effekt
+\end_layout
+
+\begin_layout Standard
+(Abb A16)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $^{241}\text{Am}$
+\end_inset
+
+, 
+\begin_inset Formula $E_{\gamma}=60\text{keV}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{\gamma}^{\prime}$
+\end_inset
+
+ exp.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{\gamma}^{\prime}$
+\end_inset
+
+ erwartet
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $60$
+\end_inset
+
+keV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $60$
+\end_inset
+
+keV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $180$
+\end_inset
+
+°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $49$
+\end_inset
+
+keV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{60\text{keV}}{1+\frac{60\text{keV}}{511\text{keV}}2}=\frac{60\text{keV}}{1,22}=49\text{keV}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Interpretation
+\end_layout
+
+\begin_layout Standard
+Photon trifft auf Elektron eines Atoms, ionisiert das Atom und gibt Impuls
+ und Energie auf das freie Elektron, aber 
+\bar under
+im Gegensatz zum Photoelektrischen Effekt
+\bar default
+ ist das Photon noch da, es hat nur seine Richtung geändert und hat Energie
+ verloren.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\gamma+e^{-}\left(E_{Kin}=0\right)\rightarrow\gamma^{\prime}+e^{-}\left(E_{Kin}^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Wir vernachlässigen die Bindungsenergie des Elektrons)
+\end_layout
+
+\begin_layout Standard
+Ordne Photon Impuls zu:
+\begin_inset Formula \[
+p_{\gamma}=\frac{E_{\gamma}}{c}=\frac{h\nu}{c}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Vgl.
+ relativistische Energie-Impuls-Beziehung für Teilchen der Masse 
+\begin_inset Formula $m$
+\end_inset
+
+: 
+\begin_inset Formula $E_{tot}=\sqrt{p^{2}c^{2}+m^{2}c^{4}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Energiesatz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{\gamma}=E_{\gamma}^{\prime}+E_{Kin,e}^{\prime}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Impulserhaltung
+\end_layout
+
+\begin_layout Standard
+longitudinal:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+p_{\gamma}=p_{\gamma}^{\prime}\cos\theta+p_{e,\parallel}^{\prime}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+transversal:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+p_{\gamma}^{\prime}\sin\theta=p_{e,\perp}^{\prime}=\sqrt{p_{e}^{\prime2}-p_{e,\parallel}^{\prime2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+...Übung...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{\gamma}^{\text{\prime}}=\frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}\left(1-\cos\theta\right)}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zusammenfassung:
+\end_layout
+
+\begin_layout Standard
+Elektromagnetische Strahlung tritt in Quanten (Photonen) auf mit
+\begin_inset Formula \begin{eqnarray*}
+E_{\gamma} & = & h\nu\\
+p_{\gamma} & = & \frac{E_{\gamma}}{c}=\frac{h\nu}{c}=\frac{h}{\lambda}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wellencharakter von Teilchen
+\end_layout
+
+\begin_layout Standard
+Experiment: Beugung eines Elektronenstrahls an polychristaliner Substanz
+ (Graffit)
+\end_layout
+
+\begin_layout Standard
+(Abb A17)
+\end_layout
+
+\begin_layout Standard
+1924: De Broglie macht Vorschlag, dass normale Materieteilchen (
+\begin_inset Formula $e^{-},$
+\end_inset
+
+
+\begin_inset Formula $p$
+\end_inset
+
+, 
+\begin_inset Formula $n$
+\end_inset
+
+, Atome, ...) auch Wellencharakter haben mit Wellenlänge
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda_{\text{de Broglie}}=\frac{h}{p}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(wie bei Photonen)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Funktioniert genauso mit allen bekannten Materieteilchen
+\end_layout
+
+\begin_layout Subsection
+Materiewellen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=ae^{i\left(\frac{2\pi t}{T}-\frac{2\pi x}{\lambda}\right)}=ae^{i\left(\omega t-kx\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\hbar=\frac{h}{2\pi}$
+\end_inset
+
+ und 
+\begin_inset Formula $\omega=2\pi\nu=\frac{E_{Kin}}{\hbar}$
+\end_inset
+
+; 
+\begin_inset Formula $p=\frac{h}{\lambda}=\hbar k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+2 Probleme:
+\end_layout
+
+\begin_layout Enumerate
+Welle ist völlig delokalisiert, zwischen 
+\begin_inset Formula $x=-\infty$
+\end_inset
+
+ und 
+\begin_inset Formula $x=+\infty$
+\end_inset
+
+ sind alle 
+\begin_inset Formula $x$
+\end_inset
+
+ gleichberechtigt.
+ 
+\begin_inset Formula $\lightning$
+\end_inset
+
+ zu Erfahrung mit Teilchen
+\end_layout
+
+\begin_layout Enumerate
+Geschwindigkeit
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v_{ph}=\frac{\omega}{k}=\frac{\frac{E_{Kin}}{\hbar}}{\frac{p}{\hbar}}=\frac{\frac{p^{2}}{2m}}{p}=\frac{p}{2m}=\frac{mv}{2m}=\frac{v}{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Lösung: Wellenpakete 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Überlagerung verschiedener Wellen unterschiedlicher Frequenzen
+\end_layout
+
+\begin_layout Standard
+z.B.
+ (Abb A18)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Lokalisierung
+\end_layout
+
+\begin_layout Standard
+Jetzt noch mehr Frequenzen 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ bessere Lokalisierung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=\overset{\infty}{\underset{-\infty}{\int}}a_{k}e^{i\left(\omega\left(k\right)-kx\right)}dk\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+z.B.
+ 
+\begin_inset Formula \[
+a\left(k\right)=a\left(k_{0}\right)e^{-\frac{\left(k-k_{0}\right)^{2}}{2\sigma_{k}^{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A19)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Wellenpaket ist räumlich lokalisiert mit 
+\begin_inset Formula $\sigma_{x}=\frac{1}{\sigma_{k}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ausbreitungsgeschwindigkeit des gausförmigen Wellenpakets im Raum mit Gruppenges
+chwindigkeit:
+\begin_inset Formula \begin{eqnarray*}
+v_{G} & = & \frac{\partial\omega}{\partial k}=v\\
+\sigma_{x}\underbrace{\sigma_{p}}_{p=\hbar k} & = & \sigma_{x}\sigma_{k}\hbar=\hbar\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Korrektur zur Aufgabe E6
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{n}\left(\nu\right)=nh\nu$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+-te Energiestufe, Boltzmannfaktor
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{-\frac{E_{n}\left(\nu\right)}{kT}}=e^{-\frac{h\nu}{kT}n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $W_{n}=\frac{e^{-\frac{h\nu}{kT}n}}{\overset{\infty}{\underset{n^{\prime}=0}{\sum}}e^{-\frac{h\nu}{kT}n^{\prime}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A20)
+\end_layout
+
 \end_body
 \end_document
