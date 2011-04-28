@@ -5835,5 +5835,963 @@ Klassisch:
 (Abb Q17)
 \end_layout
 
+\begin_layout Subsection
+Dreidimensionale Separable Potentiale
+\end_layout
+
+\begin_layout Standard
+Schrödinger-Gleichung 
+\begin_inset Formula $\left(-\frac{\hbar^{2}\vec{\triangledown}^{2}}{2m}+V\left(\vec{r}\right)\right)\varphi\left(\vec{r}\right)=E\varphi\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Seperables Potential: 
+\begin_inset Formula $V\left(\vec{r}\right)=V_{1}\left(x\right)+V_{2}\left(y\right)+V_{3}\left(z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\underbrace{\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V_{1}\left(x\right)\right)}_{\hat{H}_{1}\left(x\right)}+\underbrace{\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial y^{2}}+V_{2}\left(y\right)\right)}_{\hat{H}_{2}\left(y\right)}+\underbrace{\left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial z^{2}}+V_{3}\left(z\right)\right)}_{\hat{H}_{3}\left(z\right)}\right)\varphi\left(\vec{r}\right) & = & E\varphi\left(\vec{r}\right)\\
+\left(\hat{H}_{1}\left(x\right)+\hat{H}_{2}\left(y\right)+\hat{H}_{3}\left(z\right)\right) & = & E\varphi\left(\vec{r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Separationsansatz: 
+\begin_inset Formula $\varphi\left(\vec{r}\right)=f\left(x\right)\cdot g\left(y\right)\cdot h\left(z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Einsetzen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\hat{H}_{1}\left(x\right)f\left(x\right)\right)g\left(x\right)h\left(z\right)+\left(\hat{H}_{2}\left(y\right)g\left(y\right)\right)f\left(x\right)h\left(z\right)+\left(\hat{H}_{3}\left(z\right)h\left(z\right)\right)f\left(x\right)g\left(y\right)= & Ef\left(x\right)g\left(y\right)h\left(z\right) & |\,\div f\left(x\right)g\left(y\right)h\left(z\right)\\
+\frac{\hat{H}_{1}\left(x\right)f\left(x\right)}{f\left(x\right)}+\frac{\hat{H}_{2}\left(y\right)g\left(y\right)}{g\left(y\right)}+\frac{\hat{H}_{3}\left(z\right)h\left(z\right)}{h\left(z\right)}= & E\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Soll für alle 
+\begin_inset Formula $x$
+\end_inset
+
+, 
+\begin_inset Formula $y$
+\end_inset
+
+, 
+\begin_inset Formula $z$
+\end_inset
+
+ gelten 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Terme sind alle 
+\bar under
+konstant
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E^{\left(x\right)}+E^{\left(y\right)}+E^{\left(z\right)}=E\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}_{1}\left(x\right)f_{n_{x}}\left(x\right) & = & E^{\left(x\right)}f_{n_{x}}\left(x\right)\\
+\hat{H}_{2}\left(y\right)g_{n_{x}}\left(y\right) & = & E^{\left(y\right)}g_{n_{y}}\left(y\right)\\
+\hat{H}_{3}\left(z\right)h_{n_{z}}\left(z\right) & = & E^{\left(z\right)}h_{n_{z}}\left(z\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $n_{y}$
+\end_inset
+
+, 
+\begin_inset Formula $n_{z}$
+\end_inset
+
+: Quantenzahlen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Eigenzustände von 
+\begin_inset Formula $\hat{H}\left(\vec{r}\right)$
+\end_inset
+
+ haben die Form
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{n_{x},n_{y},n_{z}}\left(\vec{r}\right)=f_{n_{x}}\left(x\right)g_{n_{y}}\left(y\right)h_{n_{z}}\left(z\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\bar under
+Energien:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n_{x},n_{y},n_{z}}=E_{n_{x}}^{\left(x\right)}+E_{n_{y}}^{\left(y\right)}+E_{n_{z}}^{\left(z\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann ist es notwendig 
+\bar under
+drei
+\bar default
+ 
+\bar under
+eindimensionale
+\bar default
+ Schrödinger-Gleichungen zu lösen.
+\end_layout
+
+\begin_layout Subsubsection
+Beispiel: Potentialrinne
+\end_layout
+
+\begin_layout Standard
+(Abb Q18)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{0}\rightarrow\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+V\left(\vec{r}\right)=\begin{cases}
+0 & \text{für }0\le x\le L\\
+V_{0} & \text{sonst}\end{cases}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Teilchen ist in 
+\begin_inset Formula $x$
+\end_inset
+
+-Richtung im Topf von 
+\begin_inset Formula $0$
+\end_inset
+
+ bis 
+\begin_inset Formula $L$
+\end_inset
+
+ eingesperrt
+\end_layout
+
+\begin_layout Itemize
+Freies Teilchen in 
+\begin_inset Formula $y$
+\end_inset
+
+- und 
+\begin_inset Formula $z$
+\end_inset
+
+-Richtung
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $x$
+\end_inset
+
+-Richtung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}_{1}\left(x\right) & = & -\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V_{1}\left(x\right)\\
+V_{1}\left(x\right) & = & \begin{cases}
+0 & \text{für }0\le x\le L\\
+V_{0} & \text{sonst}\end{cases}\\
+f\left(x\right) & = & \sqrt{\frac{2}{L}}\sin\left(\frac{\pi}{L}xn_{x}\right)\\
+E_{n_{x}}^{\left(x\right)} & = & \frac{\hbar^{2}}{2m}\left(\frac{\pi}{L}\right)^{2}n_{x}^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $y$
+\end_inset
+
+-Richtung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+V_{2}\left(y\right) & = & 0\\
+\hat{H}_{2}\left(y\right) & = & -\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial y^{2}}\\
+g_{k_{y}}\left(y\right) & = & N_{y}e^{ik_{y}y}\\
+E_{k_{y}}^{\left(y\right)} & = & \frac{\hbar^{2}}{2m}k_{y}^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenzahl 
+\begin_inset Formula $-\infty\le k_{y}\le\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{y}$
+\end_inset
+
+: Normierungsfaktor
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $z$
+\end_inset
+
+-Richtung
+\end_layout
+
+\begin_layout Standard
+analog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+h_{k_{z}}\left(z\right) & = & N_{z}e^{ik_{z}z}\\
+E_{k_{z}}^{\left(z\right)} & = & \frac{\hbar^{2}}{2m}k_{z}^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Also
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\varphi_{n_{x},k_{y},k_{z}}\left(\vec{r}\right) & = & N\sin\left(\frac{\pi}{L}xn_{x}\right)e^{ik_{y}y}e^{ik_{z}z}\\
+E_{n_{x},k_{y},k_{z}} & = & \frac{\hbar^{2}}{2m}\left(\left(\frac{\pi}{2}\right)^{2}n_{x}^{2}+k_{y}^{2}+k_{z}^{2}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N$
+\end_inset
+
+: Normierungsfaktor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n_{x}=1,2,3,...$
+\end_inset
+
+, 
+\begin_inset Formula $-\infty\le k_{y}\le\infty$
+\end_inset
+
+, 
+\begin_inset Formula $-\infty\le k_{z}\le\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ein solches Potential tritt näherungsweise bei Halbleiterquantenstrukturen
+ auf
+\end_layout
+
+\begin_layout Standard
+(Abb Q19)
+\end_layout
+
+\begin_layout Subsection
+Hermitesche Operatoren
+\end_layout
+
+\begin_layout Standard
+Skalarprodukt zwischen 
+\begin_inset Formula $\chi\left(\vec{r}\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{O}\varphi\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+: Operator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\chi\left(\vec{r}\right),\hat{O}\varphi\left(\vec{r}\right)\right)\equiv\int\overset{\star}{\chi}\left(\vec{r}\right)\hat{O}\varphi\left(\vec{r}\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\chi\left(\vec{r}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi\left(\vec{r}\right)$
+\end_inset
+
+: diffenrierbar und quadratintegrabel (oder periodisch)
+\end_layout
+
+\begin_layout Subsubsection
+Adjungierter Operator 
+\begin_inset Formula $\hat{O}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underset{\mathbb{R}^{3}}{\int}\overset{\star}{\chi}\left(\vec{r}\right)\hat{O}\varphi\left(\vec{r}\right)d^{3}r\equiv\underset{\mathbb{R}^{3}}{\int}\left(\hat{O}^{+}\chi\left(\vec{r}\right)\right)\varphi\left(r\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{O}^{+}$
+\end_inset
+
+ ist der zu 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+ adjungierte Operator
+\end_layout
+
+\begin_layout Standard
+Also
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\chi,\hat{O}\varphi\right)=\left(\hat{O}^{+}\chi,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Beispiel 
+\begin_inset Formula $\hat{O}=\frac{d}{dx}$
+\end_inset
+
+ (eindimensional)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\chi}\left(x\right)\hat{O}\varphi\left(x\right)dx & = & \overset{\infty}{\underset{-\infty}{\int}}\underbrace{\overset{\star}{\chi}\left(x\right)}_{u}\underbrace{\frac{d}{dx}\varphi\left(x\right)}_{v^{\prime}}dx\\
+\text{partielle Integration} & = & \underbrace{\left[\underbrace{\overset{\star}{\chi}\left(x\right)}_{u}\underbrace{\varphi\left(x\right)}_{v}\right]_{-\infty}^{\infty}}_{0}-\overset{\infty}{\underset{-\infty}{\int}}\underbrace{\left(\frac{d}{x}\overset{\star}{\chi}\left(x\right)\right)}_{u^{\prime}}\underbrace{\varphi\left(x\right)}_{v}dx\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overset{\star}{\chi}\left(\infty\right)=\overset{\star}{\chi}\left(-\infty\right)=0$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi\left(\infty\right)=\varphi\left(-\infty\right)=0$
+\end_inset
+
+, da 
+\begin_inset Formula $\chi$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ quadratinegrabel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\chi}\left(x\right)\frac{d}{dx}\varphi\left(x\right)dx=\overset{\infty}{\underset{-\infty}{\int}}\left(-\frac{d}{dx}\overset{\star}{\chi}\left(x\right)\right)\varphi\left(x\right)dx\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{O}^{+}=-\frac{d}{dx}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Speziell
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{O}=\hat{O}^{+}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Selbstadjungierter Operator (hermitescher Operator)
+\end_layout
+
+\begin_layout Standard
+Diese Operatoren sind in der Quantenmnechanik von besonderer Bedeutung
+\end_layout
+
+\begin_layout Standard
+(Hermitescher Operator: Definitionbereich von 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{O}^{+}$
+\end_inset
+
+ können unterschiedlich sein)
+\end_layout
+
+\begin_layout Paragraph
+Beispiele
+\end_layout
+
+\begin_layout Enumerate
+Ortsoperator 
+\begin_inset Formula $\hat{\vec{r}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\int\overset{\star}{\chi}\left(\vec{r}\right)\vec{r}\varphi\left(\vec{r}\right)d^{3}r=\int\left(\vec{r}\chi\left(\vec{r}\right)\right)^{\star}\varphi\left(\vec{r}\right)d^{3}r\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{\vec{r}}^{+}=\hat{\vec{r}}$
+\end_inset
+
+ (hermitescher Operator)
+\end_layout
+
+\begin_layout Enumerate
+Impulsoperator
+\begin_inset Newline newline
+\end_inset
+
+eindimensional: 
+\begin_inset Formula $\hat{p}_{x}=\frac{\hbar}{i}\frac{d}{dx}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\overset{\text{\infty}}{\underset{-\infty}{\int}}\overset{\text{\star}}{\chi}\left(x\right)\underbrace{\frac{\hbar}{i}\frac{d}{dx}}_{\hat{p}_{x}}\varphi\left(x\right)dx & = & \frac{\hbar}{i}\overset{\text{\infty}}{\underset{-\infty}{\int}}\overset{\star}{\chi}\left(x\right)\frac{d}{dx}\varphi\left(x\right)dx\\
+ & = & \frac{\hbar}{i}\overset{\text{\infty}}{\underset{-\infty}{\int}}\left(-\frac{d}{dx}\chi\left(x\right)\right)^{\star}\varphi\left(x\right)dx\\
+ & = & \overset{\text{\infty}}{\underset{-\infty}{\int}}\left(\underbrace{\frac{\hbar}{i}\frac{d}{dx}}_{\hat{p}_{x}^{+}}\chi\left(x\right)\right)^{\star}\varphi\left(x\right)dx\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hat{p}_{x}^{+}=\hat{p}_{x}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{p}_{x}$
+\end_inset
+
+ ist ein hermitescher Operator
+\begin_inset Newline newline
+\end_inset
+
+Analog 
+\begin_inset Formula $\hat{\vec{p}}=\frac{\hbar}{i}\vec{\triangledown}$
+\end_inset
+
+ ist ebenfalls hermitesch
+\end_layout
+
+\begin_layout Enumerate
+Aus 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+ hermitesch folgt 
+\begin_inset Formula $\hat{O}^{2}$
+\end_inset
+
+ ist ebenfalls hermitesch:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\int\overset{\star}{\chi}\left(\vec{r}\right)\hat{O}^{2}\varphi\left(\vec{r}\right)d^{3}r & = & \int\overset{\star}{\chi}\left(\vec{r}\right)\hat{O}\left(\hat{O}\varphi\left(\vec{r}\right)\right)d^{3}r\\
+ & = & \int\left(\hat{O}^{+}\chi\left(\vec{r}\right)\right)^{\star}\left(\hat{O}\varphi\left(\vec{r}\right)\right)d^{3}r\\
+ & = & \int\left(\hat{O}\chi\left(\vec{r}\right)\right)^{\star}\left(\hat{O}\varphi\left(\vec{r}\right)\right)d^{3}r\\
+ & = & \int\left(\hat{O}^{+}\hat{O}\chi\left(\vec{r}\right)\right)^{\star}\varphi\left(\vec{r}\right)d^{3}r\\
+ & = & \int\left(\hat{O}^{2}\chi\left(\vec{r}\right)\right)^{\star}\varphi\left(\vec{r}\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left(\hat{O}^{2}\right)^{+}=\hat{O}^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{\vec{p}}^{2}$
+\end_inset
+
+ ist hermitesch (da 
+\begin_inset Formula $\hat{\vec{p}}$
+\end_inset
+
+ hermitesch ist)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $V\left(\hat{\vec{r}}\right)$
+\end_inset
+
+ ist auch hermitesch 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}+V\left(\vec{r}\right)$
+\end_inset
+
+ ist ein hermitescher Operator
+\end_layout
+
+\begin_layout Subsubsection
+Eigenschaften hermitescher Operatoren
+\end_layout
+
+\begin_layout Paragraph
+Erwartungswerte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{O}\right\rangle  & = & \int\overset{\star}{\varphi}\left(\vec{r}\right)\hat{O}\varphi\left(\vec{r}\right)d^{3}r\\
+ & \overset{\text{da }\hat{O}^{+}=\hat{O}}{=} & \int\left(\hat{O}\varphi\left(\vec{r}\right)\right)^{\star}\varphi\left(\vec{r}\right)d^{3}r\\
+ & = & \int\varphi\left(\vec{r}\right)\left(\hat{O}\varphi\left(\vec{r}\right)\right)^{\star}d^{3}r\\
+ & = & \left(\int\overset{\star}{\varphi}\left(\vec{r}\right)\hat{O}\varphi\left(\vec{r}\right)d^{3}r\right)^{\star}\\
+ & = & \left(\left\langle \hat{O}\right\rangle \right)^{\star}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left\langle \hat{O}\right\rangle $
+\end_inset
+
+ ist reel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Erwartungswerte hermitescher Operatoren sind 
+\bar under
+immer
+\bar default
+ reell
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Eigenwerte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{O}\varphi_{n}\left(\vec{r}\right) & = & \lambda_{n}\varphi_{n}\left(\vec{r}\right)\\
+\underbrace{\int\overset{\star}{\varphi}_{n}\left(\vec{r}\right)\hat{O}\varphi_{n}d^{3}r}_{\text{reell}} & = & \lambda_{n}\underbrace{\int\overset{\star}{\varphi}_{n}\left(\vec{r}\right)\varphi_{n}\left(\vec{r}\right)d^{3}r}_{\underbrace{\int\left|\varphi_{n}\left(\vec{r}\right)\right|^{2}d^{3}r}_{\text{reell}}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\lambda_{n}$
+\end_inset
+
+ reell
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Eigenwerte hermitescher Operatoren sind 
+\bar under
+immer
+\bar default
+ reell
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Operthogonalität der Eigenfunktionen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{O}\varphi_{1}\left(\vec{r}\right) & = & \lambda_{1}\varphi_{1}\left(\vec{r}\right)\\
+\hat{O}\varphi_{2}\left(\vec{r}\right) & = & \lambda_{2}\varphi_{2}\left(\vec{r}\right)\\
+\varphi_{1}\left(\vec{r}\right) & \neq & \varphi_{2}\left(\vec{r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+I & = & \int\overset{\star}{\varphi}_{2}\left(\vec{r}\right)\underbrace{\hat{O}\varphi_{1}\left(\vec{r}\right)}_{\lambda_{1}\varphi_{1}\left(\vec{r}\right)}d^{3}r=\lambda_{1}\int\overset{\star}{\varphi}_{2}\left(\vec{r}\right)\varphi_{1}\left(\vec{r}\right)d^{3}r\\
+ & = & \int\left(\underbrace{\hat{O}\varphi_{2}\left(\vec{r}\right)}_{\lambda_{2}\varphi_{2}\left(\vec{r}\right)}\right)^{\star}\varphi_{1}\left(\vec{r}\right)d^{3}r=\underbrace{\lambda_{2}^{\star}}_{=\lambda_{2}}\int\overset{\star}{\varphi}_{2}\left(\vec{r}\right)\varphi_{1}\left(\vec{r}\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Fallunterscheidung
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\lambda_{1}\neq\lambda_{2}$
+\end_inset
+
+ also keine Entartung
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\int\overset{\star}{\varphi}_{2}\left(\vec{r}\right)\varphi_{1}\left(\vec{r}\right)d^{3}r=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+d.h.
+ 
+\begin_inset Formula $\varphi_{1}$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi_{2}$
+\end_inset
+
+ sind 
+\begin_inset Quotes gld
+\end_inset
+
+Orthogonal
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+allg.
+ 
+\begin_inset Formula $\lambda_{n}\neq\lambda_{n^{\prime}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\int\overset{\star}{\varphi}_{n^{\prime}}\varphi_{n}\left(\vec{r}\right)d^{3}r=\delta_{n.n^{\prime}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
