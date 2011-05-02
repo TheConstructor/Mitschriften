@@ -6793,5 +6793,1182 @@ status open
 
 \end_layout
 
+\begin_layout Enumerate
+\begin_inset Formula $\lambda_{1}=\lambda_{2}\equiv\lambda$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Entartung
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\chi=c_{1}\varphi_{1}\left(\vec{r}\right)+c_{2}\varphi_{2}$
+\end_inset
+
+
+\begin_inset Formula $\left(\vec{r}\right)$
+\end_inset
+
+ ist Eigenfunktion
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hat{O}\chi=c_{1}\hat{O}\varphi_{1}\left(\vec{r}\right)+c_{2}\hat{O}\varphi_{2}\left(\vec{r}\right)=\lambda\left(c_{1}\varphi_{1}\left(\vec{r}\right)+c_{2}\varphi_{2}\left(\vec{r}\right)\right)=\lambda\chi\left(\vec{r}\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Wähle dabei:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\tilde{\varphi}_{1}\left(\vec{r}\right) & = & \varphi_{1}\left(\vec{r}\right)\\
+\tilde{\varphi}_{2}\left(\vec{r}\right) & = & \left(\varphi_{2}\left(\vec{r}\right)-\varphi\left(\vec{r}\right)\int\overset{\star}{\varphi}_{1}\left(\vec{r}\right)\varphi_{2}\left(\vec{r}\right)d^{3}r\right)\cdot\underbrace{N_{2}}_{\text{Normierungsfaktor}}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\int\overset{\star}{\tilde{\varphi}}_{1}\left(\vec{r}\right)\tilde{\varphi}_{2}\left(\vec{r}\right)d^{3}r & = & \left(\int\overset{\star}{\varphi}_{1}\left(\vec{r}\right)\varphi_{2}\left(\vec{r}\right)d^{3}r-\underbrace{\int\overset{\star}{\varphi}_{1}\left(\vec{r}\right)\varphi_{1}\left(\vec{r}\right)d^{3}r}_{=1\text{, da }\varphi_{1}\text{normiert}}\int\overset{\star}{\varphi}_{1}\left(\vec{r}\right)\varphi_{2}\left(\vec{r}\right)d^{3}r\right)N_{2}\\
+ & = & 0\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Analog bei drei entarteten Eigenwerten 
+\begin_inset Formula $\lambda_{1}=\lambda_{2}=\lambda_{3}\equiv\lambda$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\tilde{\varphi}_{3}=N_{3}\left(\varphi_{3}\left(\vec{r}\right)-\tilde{\varphi}_{2}\left(\vec{r}\right)\int\overset{\star}{\tilde{\varphi}}_{2}\left(\vec{r}\right)\varphi_{3}\left(\vec{r}\right)d^{3}r-\tilde{\varphi}_{1}\left(\vec{r}\right)\int\overset{\star}{\tilde{\varphi}}_{1}\left(\vec{r}\right)\varphi_{3}\left(\vec{r}\right)d^{3}r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Die Eigenfunktionen hermitescher Operatoren sind orthogonal zueinander (wählbar)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\int\overset{\star}{\varphi}_{n}\left(\vec{r}\right)\varphi_{n^{\prime}}\left(\vec{r}\right)d^{3}r=\delta_{n,n^{\prime}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Orthogonalsystem von Eigenfunktionen
+\end_layout
+
+\begin_layout Subparagraph
+Beispiele
+\end_layout
+
+\begin_layout Itemize
+Teilchen im Potentialtopf: Quantenzahl 
+\begin_inset Formula $n\hat{=}\text{ganze Zahl}$
+\end_inset
+
+ (diskretes Spektrum)
+\end_layout
+
+\begin_layout Itemize
+Freie Teilchen: Quantenzahl 
+\begin_inset Formula $k\hat{=}\text{reelle Zahl}$
+\end_inset
+
+ (kontinuierliches Spektrum)
+\end_layout
+
+\begin_layout Standard
+z.B.
+ in einer Dimension
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi_{k}\left(x\right) & = & Ne^{ikx}\\
+\varphi_{k^{\prime}}\left(x\right) & = & Ne^{ik^{\prime}x}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gilt 
+\begin_inset Formula \[
+\overset{\infty}{\underset{-\infty}{\int}}e^{ikx}e^{-ik^{\prime}x}dx=2\pi\delta\left(k-k^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wähle 
+\begin_inset Formula $N=\frac{1}{\sqrt{2\pi}}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\int\overset{\star}{\varphi}_{k}\left(x\right)\varphi_{k^{\prime}}\left(\vec{r}\right)dx=\delta\left(k-k^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Normierung auf 
+\begin_inset Formula $\delta$
+\end_inset
+
+-Funktion
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Analog in drei Dimensionen
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi_{\vec{k}}\left(\vec{r}\right)=\frac{1}{\left(2\pi\right)^{\nicefrac{3}{2}}}e^{i\vec{k}\vec{r}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\int\overset{\star}{\varphi}_{\vec{k}}\left(\vec{r}\right)\varphi_{\vec{k}^{\prime}}\left(\vec{r}\right)d^{3}r=\delta\left(\vec{k}-\vec{k}^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Vollständiges Orthogonalsystem (VONS)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(\vec{r}\right)$
+\end_inset
+
+ Funktion, die mit Randbedingungen verträglich ist
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(\vec{r}\right)=\underset{n}{\sum}c_{n}\varphi_{n}\left(\vec{r}\right)$
+\end_inset
+
+ ist beliebig genau darstellbar bzw.
+ 
+\begin_inset Formula $f\left(r\right)=\int c_{\vec{k}}\varphi_{\vec{k}}\left(\vec{r}\right)d^{3}k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Typischerweise sind Funktionensysteme der in der Quantenmechanik auftretenden
+ hermiteschen Operatoren vollständig.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Postulate der Quantenmechanik
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Für jedes physikalische System existiert eine Wellenfunktion 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ beschreibt den 
+\begin_inset Quotes gld
+\end_inset
+
+Zustand
+\begin_inset Quotes grd
+\end_inset
+
+ des Systems.
+ In 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ steckt unsere gesamte Information über das System.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Physikalisch beobachtbare Größen (Observable) werden durch hermitsche Operatoren
+ dargestellt.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Die zeitliche Entwicklungg der Wellenfunktion wird durch die Schrödinger-Gleichu
+ng
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+i\hbar\frac{\partial\psi\left(\vec{r},t\right)}{\partial t}=\hat{H}\varphi\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+beschrieben.
+\end_layout
+
+\begin_layout Plain Layout
+Der Hamiltonoperator 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ ergibt sich aus der Hamiltonfunktion der klassischen Mechanik durch Ersetzen
+ der Observablen durch hermitesche Operatoren.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Anwendungen der Quantenmechanik in einer Dimension
+\end_layout
+
+\begin_layout Subsection
+Stetigkeit der Wellenfunktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(-\frac{\hbar^{2}}{2m}\underbrace{\frac{d^{2}}{dx^{2}}\varphi\left(x\right)}_{\varphi^{\prime\prime}\left(x\right)}+V\left(x\right)\varphi\left(x\right)\right)=E\varphi\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Was gilt für die Stetigkeit von 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+, wenn 
+\begin_inset Formula $V\left(x\right)$
+\end_inset
+
+ unstetig ist?
+\end_layout
+
+\begin_layout Standard
+(Abb Q 20)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi^{\prime\prime}\left(x\right)=\frac{2m}{\hbar^{2}}\left(V\left(x\right)-E\right)\varphi\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Falls
+\bar default
+ 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ bei 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ einen Sprung hätte:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi\left(x\right)=\underbrace{\tilde{\varphi}\left(x\right)}_{\text{stetiger Teil}}+\underbrace{A}_{\text{Höhe des Sprungs}}\theta\left(x-x_{0}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\prime}\left(x\right)=\tilde{\varphi}^{\prime}\left(x\right)+A\delta\left(x-x_{0}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\prime\prime}\left(x\right)=\tilde{\varphi}^{\prime\prime}\left(x\right)+A\delta^{\prime}\left(x-x_{0}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gilt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\int f\left(x\right)\delta\left(x-x_{0}\right)dx & = & f\left(x_{0}\right)\\
+\int f\left(x\right)\delta^{\prime}\left(x-x_{0}\right)dx & = & -f^{\prime}\left(x_{0}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\prime\prime}\left(x\right) & = & \tilde{\varphi}^{\prime\prime}\left(x\right)=A\underbrace{\delta^{\prime}\left(x-x_{0}\right)}_{\text{tritt auf der rechten Seite nicht auf}}\\
+ & = & \frac{2m}{\hbar^{2}}\left(\underbrace{V\left(x\right)}_{\text{Sprung bei }x_{0}}-E\right)\left(\underbrace{\tilde{\varphi}\left(x\right)}_{\text{stetig}}+A\theta\left(x-x_{0}\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+A=0\Rightarrow\varphi\left(x\right)\text{ ist stetig!}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Was lässt sich über 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ aussagen?
+\end_layout
+
+\begin_layout Standard
+Dann
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\overset{x_{0}+d}{\underset{x_{0}-d}{\int}}\underbrace{\varphi^{\prime\prime}\left(x\right)}_{\frac{d}{dx}\varphi^{\prime}\left(x\right)} & = & \frac{2m}{\hbar^{2}}\overset{x_{0}+d}{\underset{x_{0}-d}{\int}}\left(V\left(x\right)-E\right)dx\\
+=\varphi^{\prime}\left(x_{0}+d\right)-\varphi^{\prime}\left(x_{0}-d\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Endlicher Sprung in 
+\begin_inset Formula $V\left(x\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\bar under
+endlicher
+\bar default
+ Wert des Integrals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lim_{d\rightarrow0}\left(\varphi^{\prime}\left(x_{0}+d\right)-\varphi^{\prime}\left(x_{0}-d\right)\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ ist bei 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ stetig
+\end_layout
+
+\begin_layout Standard
+Falls 
+\begin_inset Formula $V\left(x\right)$
+\end_inset
+
+ unendlich groß wird, ist 
+\bar under
+keine Aussage
+\bar default
+ möglich.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Bei Potentialen mit 
+\bar under
+endlich
+\bar default
+ großen Sprungstellen sind 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ stetig.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gebundene Zustände beim Potentialtopf mit endlich hohen Wänden
+\end_layout
+
+\begin_layout Standard
+(Abb Q21)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+V\left(x\right)=\begin{cases}
+0 & -\infty<x<\le a\\
+-V_{0} & -a\le x\le a\\
+0 & a\le x\le\infty\end{cases}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Betrachte hier 
+\bar under
+nur
+\bar default
+ Lösungen mit 
+\begin_inset Formula $-V_{0}\le E\le0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lösungen in den Bereichen I, II, III
+\end_layout
+
+\begin_layout Paragraph
+Bereich I: 
+\begin_inset Formula $V\left(x\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}\varphi\left(x\right)=E\varphi\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ansatz: 
+\begin_inset Formula $\varphi=e^{\pm ikx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
++\frac{\hbar^{2}}{2m}k^{2}\varphi\left(x\right)=E\varphi\left(x\right)\Rightarrow E=\frac{\hbar^{2}k^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $E\le0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ ist imaginär
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+k & = & \sqrt{\frac{2m}{\hbar^{2}}E}=i\underbrace{\sqrt{\frac{2m}{\hbar^{2}}\left(-E\right)}}_{:=\kappa}\\
+k & = & i\kappa\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\left(\text{I}\right)}\left(x\right)=Ae^{\kappa x}+Be^{-\kappa x}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\kappa=\sqrt{\frac{2m}{\hbar^{2}}\left(-E\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $e^{-\kappa x}$
+\end_inset
+
+ für 
+\begin_inset Formula $x\rightarrow-\infty$
+\end_inset
+
+ divergiert, ist aus physikalischen Gründen (Normierbarkeit) 
+\begin_inset Formula $B=0$
+\end_inset
+
+ zu wählen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi^{\text{I}}\left(x\right)=Ae^{+\kappa x}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Bereich II: 
+\begin_inset Formula $V\left(x\right)=-V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}-V_{0}\right)\varphi\left(x\right) & = & E\varphi\left(x\right)\\
+-\frac{d^{2}}{dx^{2}}\varphi\left(x\right) & = & \frac{2m}{\hbar^{2}}\left(V_{0}+E\right)\varphi\left(x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi\left(x\right) & = & e^{\pm ikx}\\
+k^{2} & = & \frac{2m}{\hbar^{2}}\underbrace{\left(V_{0}+E\right)}_{\ge0}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{II}}\left(x\right)=\tilde{C}e^{ikx}+\tilde{D}e^{-ikx}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+oder
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi^{\text{II}}\left(x\right)=C\cos\left(kx\right)+D\sin\left(kx\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(ist in diesem Fall günstiger, da 
+\begin_inset Formula $\varphi^{\text{II}}\left(x\right)$
+\end_inset
+
+ reell)
+\end_layout
+
+\begin_layout Paragraph
+Bereich III:
+\end_layout
+
+\begin_layout Standard
+Analog zu I
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{III}}\left(x\right) & = & Fe^{\kappa x}+G^{-\kappa x}\\
+\kappa & = & \sqrt{\frac{2m}{\hbar^{2}}\left(-E\right)}\\
+F & = & 0\text{, da }e^{\kappa x}\rightarrow\infty\text{ für }x\rightarrow\infty\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{I}}\left(x\right) & = & Ae^{\kappa x}\\
+\varphi^{\text{II}}\left(x\right) & = & C\cos\left(kx\right)+D\sin\left(kx\right)\\
+\varphi^{\text{III}}\left(x\right) & = & Ge^{-\kappa x}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\varphi^{\text{I}^{\prime}}\left(x\right) & = & \kappa Ae^{\kappa x}\\
+\varphi^{\text{II}^{\prime}}\left(x\right) & = & -kC\sin\left(kx\right)+kD\cos\left(kx\right)\\
+\varphi^{\text{III}^{\prime}}\left(x\right) & = & -\kappa Ge^{-\kappa x}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anpassung von 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ bei 
+\begin_inset Formula $x=-a$
+\end_inset
+
+ und 
+\begin_inset Formula $x=a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{I}}(-a)=\varphi^{\text{II}}\left(-a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+Ae^{-\kappa a} & = & C\cos\left(-ka\right)+D\sin\left(-ka\right)\\
+ & = & C\cos\left(ka\right)-D\sin\left(ka\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{I}^{\prime}}\left(-a\right)=\varphi^{\text{II}^{\prime}}\left(-a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\kappa Ae^{-\kappa a} & = & -kC\sin\left(-ka\right)+kD\cos\left(-ka\right)\\
+ & = & kC\sin\left(ka\right)+kD\cos\left(ka\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{II}}\left(a\right)=\varphi^{\text{III}}\left(a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+C\cos\left(ka\right)+D\sin\left(ka\right)=Ge^{-\kappa a}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{II}^{\prime}}\left(a\right)=\varphi^{\text{III}^{\prime}}\left(a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+-kC\sin\left(ka\right)+kD\cos\left(ka\right)=-\kappa Ge^{\kappa x}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
++ Normierung 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+5 Gleichungen für 4 Unbekannte 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+, 
+\begin_inset Formula $G$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
