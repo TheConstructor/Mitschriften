@@ -4780,6 +4780,13 @@ E_{m}=E_{m^{\prime}} & , & \varphi_{m}\left(\vec{r}\right)\neq\varphi_{m^{\prime
 
 \begin_layout Subsection
 Potentialtopf mit unendlich hoher Wahrscheinlichkeit
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Potentialtopf-mit-unendlich"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7885,9 +7892,9 @@ Anpassung von
 \end_inset
 
 
-\begin_inset Formula \begin{eqnarray*}
-Ae^{-\kappa a} & = & C\cos\left(-ka\right)+D\sin\left(-ka\right)\\
- & = & C\cos\left(ka\right)-D\sin\left(ka\right)\end{eqnarray*}
+\begin_inset Formula \begin{eqnarray}
+Ae^{-\kappa a} & = & C\cos\left(-ka\right)+D\sin\left(-ka\right)\nonumber \\
+ & = & C\cos\left(ka\right)-D\sin\left(ka\right)\label{eq:geb_zus_eins}\end{eqnarray}
 
 \end_inset
 
@@ -7903,9 +7910,9 @@ Ae^{-\kappa a} & = & C\cos\left(-ka\right)+D\sin\left(-ka\right)\\
 \end_inset
 
 
-\begin_inset Formula \begin{eqnarray*}
-\kappa Ae^{-\kappa a} & = & -kC\sin\left(-ka\right)+kD\cos\left(-ka\right)\\
- & = & kC\sin\left(ka\right)+kD\cos\left(ka\right)\end{eqnarray*}
+\begin_inset Formula \begin{eqnarray}
+\kappa Ae^{-\kappa a} & = & -kC\sin\left(-ka\right)+kD\cos\left(-ka\right)\nonumber \\
+ & = & kC\sin\left(ka\right)+kD\cos\left(ka\right)\label{eq:geb_zus_zwei}\end{eqnarray}
 
 \end_inset
 
@@ -7921,8 +7928,8 @@ Ae^{-\kappa a} & = & C\cos\left(-ka\right)+D\sin\left(-ka\right)\\
 \end_inset
 
 
-\begin_inset Formula \[
-C\cos\left(ka\right)+D\sin\left(ka\right)=Ge^{-\kappa a}\]
+\begin_inset Formula \begin{equation}
+C\cos\left(ka\right)+D\sin\left(ka\right)=Ge^{-\kappa a}\label{eq:geb_zus_drei}\end{equation}
 
 \end_inset
 
@@ -7938,8 +7945,8 @@ C\cos\left(ka\right)+D\sin\left(ka\right)=Ge^{-\kappa a}\]
 \end_inset
 
 
-\begin_inset Formula \[
--kC\sin\left(ka\right)+kD\cos\left(ka\right)=-\kappa Ge^{\kappa x}\]
+\begin_inset Formula \begin{equation}
+-kC\sin\left(ka\right)+kD\cos\left(ka\right)=-\kappa Ge^{\kappa x}\label{eq:geb_zus_vier}\end{equation}
 
 \end_inset
 
@@ -7967,6 +7974,1106 @@ C\cos\left(ka\right)+D\sin\left(ka\right)=Ge^{-\kappa a}\]
 \begin_inset Formula $G$
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_eins"
+
+\end_inset
+
+ 
+\begin_inset Formula $+$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_drei"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\left(A+G\right)e^{-\kappa a}=2C\cos\left(ka\right)\label{eq:geb_zus_fuenf}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_eins"
+
+\end_inset
+
+ 
+\begin_inset Formula $-$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_drei"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\left(A-G\right)e^{-\kappa a}=-2D\sin\left(ka\right)\label{eq:geb_zus_sechs}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_zwei"
+
+\end_inset
+
+ 
+\begin_inset Formula $+$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_vier"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\kappa\left(A-G\right)e^{-\kappa a}=2Dk\cos\left(ka\right)\label{eq:geb_zus_sieben}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_zwei"
+
+\end_inset
+
+ 
+\begin_inset Formula $-$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_vier"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\kappa\left(A+G\right)e^{-\kappa a}=2Ck\sin\left(ka\right)\label{eq:geb_zus_acht}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_fuenf"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_acht"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\kappa2C\cos\left(ka\right)=2Ck\sin\left(ka\right)\label{eq:geb_zus_neun}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{\kappa}{k}=\tan\left(ka\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_sechs"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:geb_zus_sieben"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+-\kappa2D\sin\left(ka\right)=2Dk\cos\left(ka\right)\label{eq:eb_zus_zehn}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+-\frac{\kappa}{k}=\cot\left(ka\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also: wir erhalten Lösungen des Gleichungssystems
+\end_layout
+
+\begin_layout Enumerate
+wenn 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{\kappa}{k}=\tan\left(ka\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:eb_zus_zehn"
+
+\end_inset
+
+ ist nur erfüllbar für 
+\begin_inset Formula $D=0$
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\eqref{eq:geb_zus_sechs}}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $A=G$
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\eqref{eq:geb_zus_fuenf}}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $2A\cdot e^{-\kappa a}=2G\cos\left(ka\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\varphi\left(x\right) & = & \begin{cases}
+Ae^{\kappa x} & -\infty\le x\le-a\\
+A\frac{e^{-\kappa a}}{\cos\left(ka\right)} & -a\le x\le a\\
+Ae^{-\kappa x} & a\le x\le\infty\end{cases}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ gerade Funktion
+\end_layout
+
+\begin_layout Enumerate
+wenn 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+-\frac{\kappa}{k}=\cot\left(ka\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\eqref{eq:geb_zus_neun}}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $C=0$
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\eqref{eq:geb_zus_fuenf}}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $G=-A$
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\eqref{eq:geb_zus_sieben}}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $2A\kappa e^{-\kappa a}=2Dk\cos\left(ka\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\varphi\left(x\right) & = & \begin{cases}
+Ae^{+\kappa x} & -\infty\le x\le-a\\
+A\frac{e^{-\kappa a}}{\cos\left(ka\right)}\sin\left(kx\right)=-A\frac{e^{-\kappa a}}{\sin\left(ka\right)}\sin\left(kx\right) & -a\le x\le a\\
+-Ae^{-\kappa x} & a\le x\le\infty\end{cases}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ ungerade Funktion
+\end_layout
+
+\begin_layout Subsubsection
+Auswertung der Lösungsbedingung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\kappa^{2}= & \frac{2m}{\hbar^{2}}\left|E\right| & =\frac{2m}{\hbar^{2}}V_{0}-k^{2}\\
+k^{2}= & \frac{2m}{\hbar^{2}}\left(V_{0}-\left|E\right|\right) & =\frac{2m}{\hbar^{2}}V_{0}-\kappa^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Gerade Zustände
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\tan\left(ka\right) & = & \frac{\kappa}{k}=\frac{\sqrt{\frac{2m}{\hbar^{2}}V_{0}-k^{2}}\cdot a}{k\cdot a}\\
+ka\tan\left(ka\right) & = & \sqrt{\frac{2m}{\hbar^{2}}V_{0}a^{2}-\left(ka\right)^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y:=ka$
+\end_inset
+
+, 
+\begin_inset Formula $R^{2}=\frac{2m}{\hbar^{2}}V_{0}a^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+y\tan y=\sqrt{R^{2}-y^{2}}\hspace{1em}\leftarrow\text{Kreis}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q22)
+\end_layout
+
+\begin_layout Standard
+Je nach Größe von 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ (und damit von 
+\begin_inset Formula $R$
+\end_inset
+
+) gibt es 
+\bar under
+eine
+\bar default
+ oder mehrere Lösungen 
+\begin_inset Formula $k_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+k_{n}^{2}=\frac{2m}{\hbar^{2}}\left(V_{0}-\left|E_{n}\right|\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left|E_{n}\right|=V_{0}-\frac{\hbar^{2}k_{n}^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Energie der Zustände mit gerader Wellenfunktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=-V_{0}+\frac{\hbar^{2}k_{n}^{2}}{2m}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ungerade Zustände
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\kappa=-k\cot\left(ka\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+-y\cdot\cot\left(y\right)=\sqrt{R^{2}-y^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gibt 
+\bar under
+nicht
+\bar default
+ für alle Werte von 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ eine Lösung.
+\end_layout
+
+\begin_layout Standard
+Nur Lösung für 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+V_{0}\ge\frac{\hbar^{2}\pi^{2}}{8ma^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q23)
+\end_layout
+
+\begin_layout Itemize
+Zustände mit gerader und ungerader Symmetrie wechseln sich ab
+\end_layout
+
+\begin_layout Itemize
+Abstand zwischen den 
+\begin_inset Formula $k_{n}$
+\end_inset
+
+ ist nahezu konstant
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Abstände zwischen den Energien 
+\begin_inset Formula $E_{n}$
+\end_inset
+
+ ist nahezu quadratisch bezüglich 
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Grenzfall 
+\begin_inset Formula $V_{0}\to\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Schnittpunkte von 
+\begin_inset Formula $y\cdot\tan y$
+\end_inset
+
+ (bzw.
+ 
+\begin_inset Formula $-y\cdot\cot y$
+\end_inset
+
+) liegen bei 
+\begin_inset Formula $y_{n}=n\frac{\pi}{2}$
+\end_inset
+
+ 
+\begin_inset Formula $n=1,2,3,...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+k_{n}=\frac{y_{n}}{a}=\frac{\pi}{2a}n\hspace{1em}\left(L=2a\hat{=}\text{Breite des Topfes}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abstände der Energien vom Topfboden:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Delta E_{n}=E_{n}+V_{0}=\frac{\hbar^{2}}{2m}\left(\frac{\pi}{L}\cdot n\right)^{2}\]
+
+\end_inset
+
+ Vergleiche mit Kapitel 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Potentialtopf-mit-unendlich"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Wellenfunktion im endlich hohen Topf
+\end_layout
+
+\begin_layout Standard
+(Abb Q24)
+\end_layout
+
+\begin_layout Subsection
+Harmonischer Oszillator
+\end_layout
+
+\begin_layout Standard
+(Abb Q25)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{1}{2}kx^{2}=V\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Klassisches System
+\end_layout
+
+\begin_layout Standard
+z.B.
+ Federpendel
+\end_layout
+
+\begin_layout Standard
+(Abb Q26)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+V\left(x\right)=\frac{1}{2}kx^{2}\Rightarrow F\left(x\right)=-kx\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Newton:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+m\dot{x}=F\left(x\right)=-kx\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+x\left(t\right) & = & A\cos\left(\omega t\right)+B\sin\left(\omega t\right)\\
+\omega & = & \sqrt{\frac{k}{m}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Energie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E & = & \frac{1}{2}m\dot{x}^{2}\left(t\right)+\frac{1}{2}kx^{2}\left(t\right)\\
+E & = & \frac{1}{2}m\omega^{2}\left(A^{2}+B^{2}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Quantenmechanische Systeme
+\end_layout
+
+\begin_layout Itemize
+Schwingungen von Atomen inMolekülen und Festkörpern
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Beispiel
+\bar default
+: 
+\begin_inset Formula $\text{H}_{2}$
+\end_inset
+
+ Molekül (Abb Q27)
+\begin_inset Newline newline
+\end_inset
+
+Potential zwischen Atomen:
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q28)
+\begin_inset Newline newline
+\end_inset
+
+Harmonischer Oszillator ist sehr gute Näherung bei Schwingungen mit kleiner
+ Auslenkung
+\end_layout
+
+\begin_layout Itemize
+Photonen (Lichtquanten) verhalten sich wie quantenmechanische Oszillatoren
+\end_layout
+
+\begin_layout Subsubsection
+Lösung der stationären Schrödinger-Gleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\varphi\left(x\right) & = & E\varphi\left(x\right)\\
+\hat{H} & = & \frac{\hat{p}^{2}}{2m}+V\left(x\right)=-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}+\frac{1}{2}kx^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lösung durch
+\end_layout
+
+\begin_layout Itemize
+Potentenzreihenansatz
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes gld
+\end_inset
+
+algebraische
+\begin_inset Quotes grd
+\end_inset
+
+ Methode (Später)
+\end_layout
+
+\begin_layout Paragraph
+1.
+ Schritt: Transformation auf dimensionslose Koordinaten
+\end_layout
+
+\begin_layout Standard
+Idee: Substitution 
+\begin_inset Formula $y=\alpha\cdot x$
+\end_inset
+
+ so, dass 
+\begin_inset Formula $\frac{d^{2}}{dy^{2}}$
+\end_inset
+
+ und 
+\begin_inset Formula $y^{2}$
+\end_inset
+
+ gleiche Vorfaktoren haben
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $x=\frac{1}{\alpha}y$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $x^{2}=\frac{1}{\alpha^{2}}y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}=\alpha\frac{d}{dx}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{d^{2}}{dx^{2}}=\alpha^{2}\frac{d^{2}}{dy^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{-\hbar^{2}}{2m}\alpha^{2}\frac{d^{2}}{dy^{2}}+\frac{1}{2}k\frac{1}{\alpha^{2}}y^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\alpha^{2}\hbar^{2}}{m}=\frac{k}{\alpha^{2}}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha^{4}=\frac{km}{\hbar^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abkürzung: 
+\begin_inset Formula $\omega:=\sqrt{\frac{k}{m}}$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha^{4}=\frac{1}{\hbar^{2}}m^{2}\omega^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\alpha=\sqrt{\frac{m\omega}{\hbar}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H} & = & \frac{\hbar\omega}{2}\left(-\frac{d^{2}}{dy^{2}}+y^{2}\right)\\
+\hat{H}\varphi\left(x\right) & = & E\varphi\left(x\right)\\
+\varphi\left(x\right) & = & \varphi\left(\frac{y}{\alpha}\right):=\phi\left(y\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\hbar\omega}{2}\left(-\frac{d^{2}}{dy^{2}}+y^{2}\right)\phi\left(y\right)=E\phi\left(y\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(-\frac{d^{2}}{dy^{2}}+y^{2}\right)\phi\left(y\right)=\lambda\phi\left(y\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda=\frac{E\cdot2}{\hbar\omega}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
