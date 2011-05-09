@@ -9073,8 +9073,1039 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
+2.
+ Schritt: Ansatz für 
+\begin_inset Formula $\phi\left(y\right)$
+\end_inset
 
+
+\end_layout
+
+\begin_layout Subparagraph
+Zunächst Analyse für 
+\begin_inset Formula $y\to\pm\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sei 
+\begin_inset Formula $\left|y\right|\gg\left|\lambda\right|$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+Näherungsweise: 
+\begin_inset Formula $\left(\frac{d^{2}}{dy^{2}}-y^{2}\right)\phi\left(y\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz: 
+\begin_inset Formula \begin{eqnarray*}
+\phi\left(y\right) & = & e^{-\beta y^{2}}\\
+\phi^{\prime}\left(y\right) & = & -\beta2ye^{-\beta y^{2}}\\
+\phi^{\prime\prime}\left(y\right) & = & -\beta2e^{-\beta y^{2}}+\beta^{2}4y^{2}e^{-\beta y^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit 
+\begin_inset Formula $\beta=\frac{1}{2}$
+\end_inset
+
+ folgt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\phi^{\prime\prime}\left(y\right)=\left(-1+y^{2}\right)e^{-\frac{y^{2}}{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y\to\pm\infty$
+\end_inset
+
+: 
+\begin_inset Formula $\left(-1\right)$
+\end_inset
+
+ kann vernachlässigt werden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\phi\left(y\right)=e^{-\frac{y^{2}}{2}}$
+\end_inset
+
+ löst Differntialgleichung für 
+\begin_inset Formula $y\to\pm\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Ansatz für alle 
+\begin_inset Formula $y$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\phi\left(y\right)=\underbrace{f\left(y\right)}_{\text{gesuchte Funktion}}e^{-\frac{y^{2}}{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\phi^{\prime}\left(y\right) & = & f^{\prime}\left(y\right)e^{-\frac{y^{2}}{2}}+f\left(y\right)\left(-\frac{2y}{2}\right)e^{-\frac{y^{2}}{2}}\\
+\phi^{\prime\prime}\left(y\right) & = & \left(f^{\prime\prime}\left(y\right)-f\left(y\right)-yf^{\prime}\left(y\right)\right)e^{-\frac{y^{2}}{2}}+\left(-\frac{2y}{2}\right)\left(f^{\prime}\left(y\right)-yf\left(y\right)\right)e^{-\frac{y^{2}}{2}}\\
+ & = & \left(f^{\prime\prime}\left(y\right)-2yf^{\prime}\left(y\right)+\left(y^{2}-1\right)f\left(y\right)\right)e^{-\frac{y^{2}}{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Somit wird aus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\phi^{\prime\prime}\left(y\right)+\left(\lambda-y^{2}\right)\phi\left(y\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgende Differentialgleichung für 
+\begin_inset Formula $f\left(y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+f^{\prime\prime}\left(y\right)-2yf^{\prime}\left(y\right)+\left(\lambda-1\right)f\left(y\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermitesche Differentialgleichung nach C.
+ Hermite (1822 - 1901)
+\end_layout
+
+\begin_layout Subparagraph
+Einfache Ansätze
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f\left(y\right)=c$
+\end_inset
+
+ (Konstante)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $f^{\prime\prime}=f^{\text{\prime}}=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left(\lambda-1\right)c=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Eigenwert 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+, 
+\begin_inset Formula $f=\text{const}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f\left(y\right)=a\cdot y$
+\end_inset
+
+, 
+\begin_inset Formula $f^{\prime}\left(y\right)=a$
+\end_inset
+
+, 
+\begin_inset Formula $f^{\prime\prime}\left(y\right)=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $0-2y\cdot a+\left(\lambda-1\right)ay=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left(\lambda-3\right)ay=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Eigenwert 
+\begin_inset Formula $\lambda=3$
+\end_inset
+
+, 
+\begin_inset Formula $f\left(y\right)=ay$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f\left(y\right)=by^{2}$
+\end_inset
+
+ keine Lösung, aber 
+\begin_inset Formula $f\left(y\right)=by^{2}+ay+c$
+\end_inset
+
+ ist Lösung
+\end_layout
+
+\begin_layout Paragraph
+3.
+ Schritt Lösung der Differentialgleichung durch Potenzreihenansatz
+\end_layout
+
+\begin_layout Standard
+Idee: Setze 
+\begin_inset Formula \[
+f\left(y\right)=\underset{j=0}{\overset{\infty}{\sum}}A_{j}y^{j}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dazu:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+f^{\prime}\left(y\right) & = & \underset{j=0}{\overset{\infty}{\sum}}A_{j}jy^{j-1}\\
+f^{\prime\prime}\left(y\right) & = & \overset{\infty}{\underset{j=0}{\sum}}A_{j}j\left(j-1\right)y^{j-2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Damit folgt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underbrace{\overset{\infty}{\underset{j=0}{\sum}}A_{j}j\left(j-1\right)y^{j-2}}_{f^{\prime\prime}\left(y\right)}-\underbrace{\overset{\infty}{\underset{j=0}{\sum}}2A_{j}jy^{j}}_{2yf^{\prime}\left(y\right)}+\underbrace{\overset{\infty}{\underset{j=0}{\sum}}A_{j}\left(\lambda-1\right)y^{j}}_{\left(\lambda-1\right)f\left(y\right)}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Umsummation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f^{\prime\prime}\left(y\right)=\overset{\infty}{\underset{j=0}{\sum}}A_{j}j\left(j-1\right)y^{j-2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $l:=j-2$
+\end_inset
+
+ 
+\begin_inset Formula $\curvearrowright$
+\end_inset
+
+ 
+\begin_inset Formula $j=l+2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f^{\prime\prime}\left(y\right)=\overset{\infty}{\underset{l=0}{\sum}}A_{l+2}\left(l+2\right)\left(l+1\right)y^{l}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nenne 
+\begin_inset Formula $l=j$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f^{\prime\prime}\left(y\right)=\overset{\infty}{\underset{j=0}{\sum}}A_{j+2}\left(j+2\right)\left(j+1\right)y^{j}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $f^{\prime\prime}\left(y\right)-2yf^{\prime}\left(y\right)+\left(\lambda-1\right)f\left(y\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{j=0}{\sum}}\underbrace{\left(A_{j+2}\left(j+2\right)\left(j+1\right)+\left(\lambda-1-2j\right)Aj\right)}_{\text{Soll für alle }y\text{ gelten!}\Rightarrow\sim=0}y^{j}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sim=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+A_{j+2}=-\frac{\lambda-1-2j}{\left(j+2\right)\left(j+1\right)}A_{j}\label{eq:potenzreihen_koeffizienten}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rekursionsformel für die Koeffizienten
+\end_layout
+
+\begin_layout Standard
+Starte z.B.
+ mit 
+\begin_inset Formula $A_{0}\Rightarrow A_{2},A_{4},A_{6},...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+oder mit 
+\begin_inset Formula $A_{1}\Rightarrow A_{3},A_{5},A_{7},...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Liefert für alle 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ Lösungen
+\end_layout
+
+\begin_layout Standard
+Aber 
+\begin_inset Formula $\phi\left(y\right)=f\left(y\right)e^{-\frac{y^{2}}{2}}$
+\end_inset
+
+ muss normierbar bleiben
+\end_layout
+
+\begin_layout Standard
+Wir überzeugen uns davon, dass 
+\begin_inset Formula $f\left(y\right)$
+\end_inset
+
+ wie 
+\begin_inset Formula $e^{y^{2}}$
+\end_inset
+
+ anwächst, falls die Potentzreihe 
+\bar under
+nicht
+\bar default
+ abbricht.
+\end_layout
+
+\begin_layout Subparagraph
+Zwischenrechnung
+\end_layout
+
+\begin_layout Standard
+Betrachte 
+\begin_inset Quotes gld
+\end_inset
+
+große
+\begin_inset Quotes grd
+\end_inset
+
+ Werte von 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $j\to\infty$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+A_{j+2} & = & \frac{2j}{j^{2}}A_{j}=\frac{2}{j}A_{j}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\curvearrowright\left\Vert \frac{A_{j+2}}{A_{j}}=\frac{2}{j}\right\Vert \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+e^{y^{2}}=\underset{n=0}{\overset{\infty}{\sum}}\frac{1}{n!}\left(y^{2}\right)^{n}=\underset{n=0}{\overset{\infty}{\sum}}\frac{1}{n!}y^{2n}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $j=2n$
+\end_inset
+
+, 
+\begin_inset Formula $n=\frac{j}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+e^{y^{2}} & = & \underset{\text{mit }j\text{ gerade}}{\underset{j=0}{\overset{\infty}{\sum}}}\frac{1}{\left(\frac{j}{2}\right)!}y^{j}=\underset{\text{alle }j}{\underset{j=0}{\overset{\infty}{\sum}}}B_{j}y^{j}\\
+B_{j} & = & \begin{cases}
+\frac{1}{\left(\frac{j}{2}\right)!} & j\text{ gerade}\\
+0 & j\text{ ungerade}\end{cases}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+B_{j+2} & = & \frac{1}{\left(\frac{j+2}{2}\right)!}=\frac{1}{\left(\frac{j}{2}+1\right)!}=\frac{1}{\left(\frac{j}{2}\right)!}\frac{1}{\left(\frac{j}{2}+1\right)}=B_{j}\frac{1}{\left(\frac{j}{2}+1\right)}\\
+\frac{B_{j+2}}{B_{j}} & = & \frac{1}{\frac{j}{2}+1}\underset{j\to\infty}{=}\frac{1}{\frac{j}{2}}=\frac{2}{j}\left(\text{wie }\frac{A_{j+2}}{A_{j}}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Potenzreihe verhält sich für große 
+\begin_inset Formula $y$
+\end_inset
+
+ wie 
+\begin_inset Formula $e^{y^{2}}$
+\end_inset
+
+ (für ungerade Potenzen Vergleich mit 
+\begin_inset Formula $ye^{y^{2}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Potenzreihe muss abbrechen!
+\end_layout
+
+\begin_layout Standard
+Abbrechen bedeutet: Ab einem bestimmten Index 
+\begin_inset Formula $n$
+\end_inset
+
+ sind alle Koeffizienten mit 
+\begin_inset Formula $j>n$
+\end_inset
+
+ gleich null.
+\end_layout
+
+\begin_layout Standard
+Also
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{0},A_{2}A_{4},...A_{n}\neq0$
+\end_inset
+
+ und 
+\begin_inset Formula $A_{n+2},A_{n+4},...=0$
+\end_inset
+
+ (
+\begin_inset Formula $n$
+\end_inset
+
+ gerade)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1},A_{3}A_{5},...A_{n}\neq0$
+\end_inset
+
+ und 
+\begin_inset Formula $A_{n+2},A_{n+4},...=0$
+\end_inset
+
+ (
+\begin_inset Formula $n$
+\end_inset
+
+ ungerade)
+\end_layout
+
+\begin_layout Standard
+Dies tritt nach 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:potenzreihen_koeffizienten"
+
+\end_inset
+
+ auf für:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\lambda-1-2n\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda=2n+1\hspace{1em}n=0,1,2,...\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E=\frac{\hbar\omega}{2}\lambda=\frac{\hbar\omega}{2}\left(2n+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=\hbar\omega\left(n+\frac{1}{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Energienieveaus des harmonischen Oszillators
+\end_layout
+
+\begin_layout Standard
+(Abb Q29)
+\end_layout
+
+\begin_layout Standard
+Grundzustandsenergie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{0}=\frac{\hbar\omega}{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{n}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+diskret
+\end_layout
+
+\begin_layout Itemize
+äquidistant
+\end_layout
+
+\begin_layout Subsubsection
+Wellenfunktionen 
+\begin_inset Formula $\phi_{n}\left(x\right)=f_{n}\left(x\right)e^{-\frac{y^{2}}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+A_{j+2}^{\left(n\right)}=\frac{\left(2_{j}+1-\lambda^{\left(n\right)}\right)}{\left(j+2\right)(j+1)}A_{j}^{\left(n\right)}=\frac{2j-2n}{\left(j+2\right)\left(j+1\right)}A_{j}^{\left(n\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Gerade Werte von 
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=0$
+\end_inset
+
+: 
+\begin_inset Formula $A_{0}^{\left(0\right)}\neq0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $A_{2}^{\left(0\right)}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+f_{0}\left(y\right) & = & A_{0}^{\left(0\right)}\\
+\lambda^{\left(0\right)} & = & 1\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=2$
+\end_inset
+
+: (
+\begin_inset Formula $\lambda=5$
+\end_inset
+
+) 
+\begin_inset Formula $A_{0}^{\left(2\right)}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+A_{2}^{\left(2\right)}=\frac{2\cdot0-2\cdot2}{2\cdot1}A_{0}^{\left(2\right)}=-2A_{0}^{\left(2\right)}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+f_{2}\left(y\right)=A_{0}^{\left(2\right)}\left(-2y^{2}+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=4$
+\end_inset
+
+: 
+\begin_inset Formula $A_{0}^{\left(4\right)}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+A_{2}^{\left(4\right)} & = & \frac{2\cdot0-2\cdot4}{2}A_{0}^{\left(4\right)}=-4A_{0}^{\left(4\right)}\\
+A_{4}^{\left(4\right)} & = & \frac{2\cdot2-2\cdot4}{\left(2+2\right)\left(2+1\right)}A_{2}^{\left(4\right)}=\frac{-4}{4\cdot3}A_{2}^{\left(4\right)}=-\frac{1}{3}A_{2}^{\left(4\right)}\\
+ & = & +\frac{4}{3}A_{0}^{\left(4\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f_{4}\left(y\right)=A_{0}^{\left(4\right)}\left(1-4y^{2}+\frac{4}{3}y^{4}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+und so weiter.
+\end_layout
+
+\begin_layout Paragraph
+Ungerade Werte von 
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+f_{1}\left(y\right) & = & A_{1}^{\left(1\right)}=y\\
+f_{3}\left(y\right) & = & A_{1}^{\left(3\right)}\left(y-\frac{2}{3}y^{3}\right)\\
+ & \vdots\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Konvention
+\end_layout
+
+\begin_layout Standard
+Wählt man die 
+\begin_inset Formula $A_{0}^{\left(n\right)}$
+\end_inset
+
+ bzw.
+ 
+\begin_inset Formula $A_{1}^{\left(n\right)}$
+\end_inset
+
+ danach, dass vor der höchsten Potenz von 
+\begin_inset Formula $y$
+\end_inset
+
+ ein Faktor 
+\begin_inset Formula $2^{n}$
+\end_inset
+
+ steht, so bezeichnet man die Lösung als Kermite Polynmoe.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+H_{0}\left(y\right) & = & 1\\
+H_{1}\left(y\right) & = & 2y\\
+H_{2}\left(y\right) & = & 4y^{2}-2\\
+H_{3}\left(y\right) & = & 8y^{3}-12y\\
+H_{4}\left(y\right) & = & 16y^{4}-48y^{2}+12\\
+ & \vdots\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $\varphi_{n}\left(x\right)=\phi_{n}\left(\alpha x\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=\sqrt{\frac{m\omega}{\hbar}}$
+\end_inset
+
+ und 
+\begin_inset Formula \[
+\phi_{n}\left(\alpha x\right)=H_{n}\left(\alpha x\right)e^{-\frac{\left(\alpha x\right)^{2}}{2}}\underbrace{N_{n}}_{\text{Normierungsfaktor}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{n}\left(x\right)=N_{n}H_{n}\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{m\omega}{2\hbar}x^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eigenzustände des harmonischen Oszillators
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $N_{n}=\sqrt[4]{\frac{m\omega}{\hbar}}\sqrt{\frac{1}{2^{n}n!\sqrt{\pi}}}$
+\end_inset
+
+ (hier ohne Rechnung)
 \end_layout
 
 \end_body
