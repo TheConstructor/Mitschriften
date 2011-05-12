@@ -9870,7 +9870,7 @@ diskret
 äquidistant
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph
 Wellenfunktionen 
 \begin_inset Formula $\phi_{n}\left(x\right)=f_{n}\left(x\right)e^{-\frac{y^{2}}{2}}$
 \end_inset
@@ -10106,6 +10106,910 @@ mit
 \end_inset
 
  (hier ohne Rechnung)
+\end_layout
+
+\begin_layout Paragraph
+Resultate
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=\hbar\omega\left(n+\frac{1}{2}\right)\hspace{1em}n=0,1,2,\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi_{n}\left(x\right)=N_{n}H_{n}\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{m\omega}{2\hbar}x^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\alpha=\sqrt{\frac{m\omega}{\hbar}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Der harmonische Oszillator
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n$
+\end_inset
+
+ gerade 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varphi_{n}\left(x\right)=\varphi_{n}\left(-x\right)$
+\end_inset
+
+, 
+\begin_inset Formula $n$
+\end_inset
+
+ ungerade 
+\begin_inset Formula $\varphi_{n}\left(x\right)=-\varphi_{n}\left(-x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varphi_{n}\left(x\right)$
+\end_inset
+
+ besitzt 
+\begin_inset Formula $\underbar{n}$
+\end_inset
+
+ Knoten
+\end_layout
+
+\begin_layout Itemize
+Abfall von 
+\begin_inset Formula $e^{-\frac{m}{2\hbar}\sqrt{\frac{k}{m}}x^{2}}=e^{-\frac{\sqrt{m}\sqrt{k}}{2\hbar}x^{2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Starker Abfall bei:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+großer Federkonstante 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+großer Masse
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Quantenmechanische Aufenthaltswahrscheinlichkeitsdichte im Vergleich mit
+ klassischer Aufenthaltswahrscheinlichkeitsdichte
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varrho_{qm}\left(x\right)=\left|\psi_{n}\left(x,t\right)\right|^{2}=\left|\varphi_{n}\left(x\right)\right|^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da 
+\begin_inset Formula $\psi_{n}\left(x,t\right)=e^{\frac{E_{n}t}{i\hbar}}\varphi_{n}\left(x\right)$
+\end_inset
+
+ stationärer Zustand
+\end_layout
+
+\begin_layout Standard
+Klassisches Aufenthaltwahrscheinlichkeitsdichte
+\end_layout
+
+\begin_layout Standard
+(Abb Q30)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+x\left(t\right) & = & x_{0}\cos\left(\omega t\right)\\
+\varrho_{kl}\left(x\right) & = & \frac{N}{\left|v\left(x\right)\right|}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N$
+\end_inset
+
+: Normierungskonstante 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\int\varrho_{kl}\left(x\right)dx=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v\left(x\right)$
+\end_inset
+
+: Geschwindigkeit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\dot{x}\left(t\right) & = & -x_{0}\omega\sin\left(\omega t\right)\\
+\left|\dot{x}\left(t\right)\right| & = & x_{0}\omega\sqrt{1-\cos^{2}\left(\omega t\right)}\\
+ & = & \omega\sqrt{x_{0}^{2}-x_{0}^{2}\cos^{2}\left(\omega t\right)}\\
+ & = & \omega\sqrt{x_{0}^{2}-x^{2}}\\
+\varrho_{kl}\left(x\right) & = & \frac{N}{\omega\sqrt{x_{0}^{2}-x^{2}}}\text{, Es folgt dann }N=\frac{\omega}{\pi}\\
+\varrho_{kl}\left(x\right) & = & \frac{1}{\pi}\frac{1}{\sqrt{x_{0}^{2}-x^{2}}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q31)
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Vergleich mit klassischer Aufenthaltswahrscheinlichkeitsdichte
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Paragraph
+Beispiel
+\end_layout
+
+\begin_layout Standard
+klassischer Oszillator mit 
+\begin_inset Formula $m=0,1\text{kg}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega=10\text{Hz}$
+\end_inset
+
+, 
+\begin_inset Formula $x_{0}=1\text{cm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+E=\frac{1}{2}kx_{0}^{2}=\frac{1}{2}\cdot10^{-3}\frac{\text{kg}\text{m}^{2}}{\text{s}^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quantenmechanischer Oszillator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{n}=\hbar\omega\left(n+\frac{1}{2}\right)=1,054\cdot10^{-34}\frac{\text{kg}\text{m}^{2}}{\text{s}}\cdot10\cdot\frac{1}{\text{s}}\left(n+\frac{1}{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+n+\frac{1}{2}=4,7\cdot10^{29}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Eigenschaften der Hermite-Polynome
+\end_layout
+
+\begin_layout Standard
+Hermite-Polynome zählen zu 
+\begin_inset Quotes gld
+\end_inset
+
+speziellen Funktionen der mathematischen Physik
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diffenrentialgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+H_{n}^{\prime\prime}\left(x\right)-2xH_{n}^{\prime}\left(x\right)+2nH_{n}\left(x\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+H_{n}\left(x\right) & = & \overset{\left\lfloor \frac{n}{2}\right\rfloor }{\underset{j=0}{\sum}}\frac{\left(-1\right)^{j}n!}{j!\left(n-2j\right)!}\left(2x\right)^{n-2j}\label{eq:hermite-rekursform}\\
+\left\lfloor \frac{n}{2}\right\rfloor  & = & \begin{cases}
+\frac{n}{2} & \text{für }n\text{ gerade}\\
+\frac{n-1}{2} & \text{für }n\text{ ungerade}\end{cases}\nonumber \end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(folgt aus Rekursionsformel)
+\end_layout
+
+\begin_layout Paragraph
+Rodrigues Formel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+H_{n}\left(x\right)=\left(-1\right)^{n}e^{x^{2}}\frac{d^{n}}{dx^{n}}e^{-x^{2}}\label{eq:hermite-rodriques}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beweis z.B.
+\end_layout
+
+\begin_layout Itemize
+Berechnung 
+\begin_inset Formula $H_{n}^{\prime}\left(x\right)$
+\end_inset
+
+, 
+\begin_inset Formula $H_{n}^{\prime\prime}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Einsetzen in Differentialgleichung
+\end_layout
+
+\begin_layout Itemize
+vollständige Induktion: 
+\begin_inset Formula $n=0$
+\end_inset
+
+, Schluss von 
+\begin_inset Formula $n$
+\end_inset
+
+ auf 
+\begin_inset Formula $n+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Rekursionsformeln
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+\frac{d}{dx}H_{n}\left(x\right)=2nH_{n-1}\left(x\right)\label{eq:hermite-rekursion}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgt durch Ableitung von 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:hermite-rekursform"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+2xH_{n}\left(x\right)=H_{n+1}\left(x\right)+2nH_{n-1}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+folgt aus 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:hermite-rekursion"
+
+\end_inset
+
+ durch 
+\begin_inset Formula $\frac{d}{dx}$
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:hermite-rodriques"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+H_{n+1}\left(x\right)=2xH_{n}\left(x\right)-2nH_{n-1}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Erzeugende Funktionen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+F\left(x,s\right) & = & e^{x^{2}-\left(s-x\right)^{2}}=\overset{\infty}{\underset{n=0}{\sum}}H_{n}\left(x\right)\frac{s^{n}}{n!}\\
+ & = & \underbrace{1}_{H_{0}}+\underbrace{2x}_{H_{1}}s+\underbrace{\left(4x^{2}-2\right)}_{H_{2}}\frac{s^{2}}{2}+\ldots\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Orthogonalität (bezüglich 
+\begin_inset Formula $e^{-x^{2}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\varphi}_{n}\left(x\right)\varphi_{n^{\prime}}\left(x\right)dx=\delta_{n,n^{\prime}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\overset{\infty}{\underset{-\infty}{\int}}H_{n}\left(x\right)H_{n^{\prime}}\left(x\right)e^{-x^{2}}dx=\delta_{n,n^{\prime}}2^{n}n!\sqrt{\pi}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Zeitliches Verhalten des harmonischen Oszillators
+\end_layout
+
+\begin_layout Standard
+Bisher: stationäre Lösung 
+\begin_inset Formula \[
+\psi_{n}\left(x,t\right)=e^{\frac{E_{n}t}{i\hbar}}\varphi_{n}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Jetzt: Überlagerung: 
+\begin_inset Formula \begin{equation}
+\psi\left(x,t\right)=\underset{n}{\sum}c_{n}e^{\frac{E_{n}t}{i\hbar}}\varphi_{n}\left(x\right)\label{eq:harmosz-ueberlagerung}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Beispiel I: Überlagerung von 3 Zuständen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,t\right)=\frac{1}{2}\psi_{1}\left(x,t\right)+\frac{1}{2}\psi_{2}\left(x,t\right)+\frac{1}{\sqrt{2}}\psi_{3}\left(x,t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+1\overset{!}{=}\int\left|\psi\left(x,t\right)\right|dx & = & \frac{1}{4}\int\left|\psi_{1}\left(x,t\right)\right|dx+\frac{1}{4}\int\left|\psi_{2}\left(x,t\right)\right|dx+\frac{1}{2}\int\left|\psi_{3}\left(x,t\right)\right|dx\\
+ &  & +\text{Mischterme, deren Integral verschwindet}\\
+ & = & \frac{1}{4}+\frac{1}{4}+\frac{1}{2}=1\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(x,t\right) & = & e^{-\frac{\alpha}{2}x^{2}}\left(\frac{\alpha^{2}}{\pi}\right)^{\nicefrac{1}{4}}\\
+ &  & \cdot\left(\frac{1}{2}\cdot e^{-i\frac{3}{2}\omega t}\cdot\frac{2\alpha x}{\sqrt{2}}+\frac{1}{2}\cdot e^{-i\frac{5}{2}\omega t}\frac{4\alpha^{2}x^{2}-2}{\sqrt{8}}+\frac{1}{\sqrt{2}}e^{-i\frac{7}{2}\omega t}\frac{8\alpha^{3}x^{3}-12\alpha x}{\sqrt{48}}\right)\\
+\alpha & = & \sqrt{\frac{m\omega}{\hbar}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Dynamik von Wellenpaketen
+\begin_inset Quotes grd
+\end_inset
+
+ linke Spalte)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\psi\left(x,t\right)\right|^{2}$
+\end_inset
+
+ oszilliert mit 
+\begin_inset Formula $\cos\left(\omega t\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\cos\left(2\omega t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\langle \hat{x}\right\rangle _{t}$
+\end_inset
+
+ oszilliert 
+\bar under
+nur
+\bar default
+ mit 
+\begin_inset Formula $\cos\left(\omega t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Beispiel II: quasi klassischer Zustand
+\end_layout
+
+\begin_layout Standard
+Dazu: Wellenpaket 
+\begin_inset Formula $\psi\left(x,t\right)$
+\end_inset
+
+ bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(x,0\right)=\sqrt{\alpha}\left(\frac{1}{\pi}\right)^{\nicefrac{1}{4}}e^{-\frac{\alpha^{2}}{2}\left(x-x_{0}\right)^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(1) Berechnung der 
+\begin_inset Formula $c_{n}$
+\end_inset
+
+ bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+ aus 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:harmosz-ueberlagerung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underbrace{\eqref{eq:harmosz-ueberlagerung}}_{\text{mit }t=0}\int\overset{\star}{\varphi}_{n}\left(x\right)dx\Rightarrow\int\overset{\star}{\varphi_{n}}\psi\left(x,0\right)dx=\underset{n^{\prime}}{\sum}c_{n^{\prime}}\underbrace{\int\overset{\star}{\psi}_{n}\left(x\right)\psi_{n^{\prime}}\left(x\right)dx}_{\delta_{n,n^{\prime}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+c_{n}=\int\overset{\star}{\varphi}_{n}\left(x\right)\psi\left(x,0\right)dx\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die explizite Rechnung liefert (siehe w.
+ Nolting, Quantenmechanik I, Aufabe 4.4.17)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+c_{n}=\frac{e^{-\frac{\alpha^{2}}{4}x_{0}^{2}}}{\sqrt{n!2^{n}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Einsetzen in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:harmosz-ueberlagerung"
+
+\end_inset
+
+ liefert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left|\psi\left(x,t\right)\right|^{2}=\sqrt{\frac{m\omega}{4\pi}}e^{-\frac{m\omega}{k}\left(x-x_{0}\overbrace{\cos\left(\omega t\right)}^{\text{Oszillation mit }\omega}\right)^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Dynamik von Wellenpaketen
+\begin_inset Quotes grd
+\end_inset
+
+ rechte Spalten)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varrho\left(x,t\right)$
+\end_inset
+
+ ist formstabil und oszilliert mit Frequenz 
+\begin_inset Formula $\omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+quasiklassischer Zustand (Glauber-Zustand) (kohärente Zustände)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\langle \hat{x}\right\rangle _{t}\sim\cos\left(\omega t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Allgemeine Aussagen über das zeitliche Verhalten von Erwartungswerten: die
+ Ehrenfest-Gleichungen
+\end_layout
+
+\begin_layout Standard
+Dann 
+\begin_inset Formula $\left\langle \hat{O}\right\rangle _{t}=\int\overset{\star}{\psi}\left(x,t\right)\hat{O}\psi\left(x,t\right)dx$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{d}{dt}\left\langle \hat{O}\right\rangle _{t} & = & \int\frac{\partial\overset{\star}{\psi}\left(x,t\right)}{\partial t}\hat{O}\psi\left(x,t\right)dx\\
+ &  & +\int\overset{\star}{\psi}\left(x,t\right)\frac{\partial\hat{O}}{\partial t}\psi\left(x,t\right)dx\hspace{1em}\left(\text{falls }\hat{O}\text{ von }t\text{ abhängt}\right)\\
+ &  & +\int\overset{\star}{\psi}\left(x,t\right)\hat{O}\frac{\partial\psi\left(x,t\right)}{\partial t}dx\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\frac{\partial\psi}{\partial t} & = & \hat{H}\psi\\
+-i\hbar\frac{\partial\overset{\star}{\psi}}{\partial t} & = & \overset{\star}{\hat{H}}\overset{\star}{\psi}\underset{\text{für }\hat{H}\text{ reell}}{=}\hat{H}\overset{\star}{\psi}\\
+ & = & \frac{1}{i\hbar}\int\left(-\hat{H}\overset{\star}{\psi}\left(x,t\right)\right)\hat{O}\psi\left(x,t\right)dx+\frac{1}{i\hbar}\int\overset{\star}{\psi}\left(x,t\right)\hat{O}\hat{H}\psi\left(x,t\right)dx+\int\overset{\star}{\psi}\left(x,t\right)\frac{\partial\hat{O}}{\partial t}\psi\left(x,t\right)dx\end{eqnarray*}
+
+\end_inset
+
+
 \end_layout
 
 \end_body
