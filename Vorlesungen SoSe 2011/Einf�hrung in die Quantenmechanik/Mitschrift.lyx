@@ -11004,12 +11004,811 @@ Dann
 \begin_layout Standard
 \begin_inset Formula \begin{eqnarray*}
 i\hbar\frac{\partial\psi}{\partial t} & = & \hat{H}\psi\\
--i\hbar\frac{\partial\overset{\star}{\psi}}{\partial t} & = & \overset{\star}{\hat{H}}\overset{\star}{\psi}\underset{\text{für }\hat{H}\text{ reell}}{=}\hat{H}\overset{\star}{\psi}\\
- & = & \frac{1}{i\hbar}\int\left(-\hat{H}\overset{\star}{\psi}\left(x,t\right)\right)\hat{O}\psi\left(x,t\right)dx+\frac{1}{i\hbar}\int\overset{\star}{\psi}\left(x,t\right)\hat{O}\hat{H}\psi\left(x,t\right)dx+\int\overset{\star}{\psi}\left(x,t\right)\frac{\partial\hat{O}}{\partial t}\psi\left(x,t\right)dx\end{eqnarray*}
+-i\hbar\frac{\partial\overset{\star}{\psi}}{\partial t} & = & \overset{\star}{\hat{H}}\overset{\star}{\psi}\underset{\text{für }\hat{H}\text{ reell}}{=}\hat{H}\overset{\star}{\psi}\end{eqnarray*}
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+= & \frac{1}{i\hbar}\int\left(-\hat{H}\overset{\star}{\psi}\left(x,t\right)\right)\hat{O}\psi\left(x,t\right)dx+\frac{1}{i\hbar}\int\overset{\star}{\psi}\left(x,t\right)\hat{O}\hat{H}\psi\left(x,t\right)dx+\underbrace{\int\overset{\star}{\psi}\left(x,t\right)\frac{\partial\hat{O}}{\partial t}\psi\left(x,t\right)dx}_{\left\langle \frac{\partial\hat{O}}{\partial t}\right\rangle _{t}}\\
+\frac{d}{dt}\left\langle \hat{O}\right\rangle _{t}= & \frac{1}{-i\hbar}\int\left(\overset{\star}{\psi}\left(x,t\right)\hat{H}\hat{O}\psi\left(x,t\right)-\overset{\star}{\psi}\left(x,t\right)\hat{O}\hat{H}\psi\left(x,t\right)\right)d^{3}r+\left\langle \frac{\partial\hat{O}}{\partial t}\right\rangle _{t}\\
+= & \frac{1}{-i\hbar}\int\overset{\star}{\psi}\left(x,t\right)\left[\hat{H},\hat{O}\right]\psi\left(x,t\right)d^{3}r+\left\langle \frac{\partial\hat{O}}{\partial t}\right\rangle _{t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{d}{dt}\left\langle \hat{O}\right\rangle _{t}=\frac{i}{\hbar}\left\langle \left[\hat{H},\hat{O}\right]\right\rangle _{t}+\left\langle \frac{\partial\hat{O}}{\partial t}\right\rangle _{t}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Heisenberg'sche Bewegungsgleichung
+\end_layout
+
+\begin_layout Standard
+Anwendung
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{O}=\hat{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\partial\hat{x}}{\partial t}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\frac{d}{dt}\left\langle \hat{x}\right\rangle _{t} & = & \frac{i}{\hbar}\left\langle \left[\hat{H},\hat{x}\right]\right\rangle _{t}\\
+\hat{H} & = & \frac{\hat{\vec{p}}^{2}}{2m}+V\left(\vec{r}\right)=\frac{\hat{p}_{x}^{2}}{2m}+\frac{\hat{p}_{y}^{2}}{2m}+\frac{\hat{p}_{z}^{2}}{2m}+V\left(\vec{r}\right)\\
+\left[\hat{H},\hat{x}\right] & = & \underbrace{\left[\frac{\hat{p}_{x}^{2}}{2m},\hat{x}\right]}_{\underset{\text{(siehe Übungsaufgabe)}}{\frac{1}{2m}\frac{2\hbar}{i}\hat{p}_{x}}}+\underbrace{\left[\frac{\hat{p}_{y}^{2}}{2m},\hat{x}\right]}_{=0}+\underbrace{\left[\frac{\hat{p}_{z}^{2}}{2m},\hat{x}\right]}_{=0}+\underbrace{\left[V\left(\vec{r}\right),\hat{x}\right]}_{=0}\\
+\Rightarrow\frac{d}{dt}\left\langle \hat{x}\right\rangle _{t} & = & \frac{i}{\hbar}\frac{\hbar}{i}\frac{1}{m}\left\langle \hat{p}_{x}\right\rangle _{t}=\frac{\left\langle \hat{p}_{x}\right\rangle _{t}}{m}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Analog 
+\begin_inset Formula $\frac{d}{dt}\left\langle \hat{y}\right\rangle _{t}=\frac{\left\langle \hat{p}_{y}\right\rangle _{t}}{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{d}{dt}\left\langle \hat{z}\right\rangle _{t}=\frac{\left\langle \hat{p}_{z}\right\rangle _{t}}{m}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+m\frac{d}{dt}\left\langle \hat{\vec{r}}\right\rangle _{t}=\left\langle \hat{\vec{p}}\right\rangle _{t}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Klassische Physik:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+m\frac{d}{dt}\vec{r}\left(t\right)=\vec{p}\left(t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{O}=\hat{p}_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\partial\hat{p}_{x}}{\partial t}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\frac{d}{dt}\left\langle \hat{p}_{x}\right\rangle _{t}=\frac{i}{\hbar}\left\langle \left[\hat{H},\hat{p}_{x}\right]\right\rangle _{t}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dazu:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{H},\hat{p}_{x}\right] & = & \left[\frac{\hat{\vec{p}}^{2}}{2m}+V\left(\vec{r}\right),\hat{p}_{x}\right]=\left[V\left(\vec{r}\right),\hat{p}_{x}\right]\\
+\left[V\left(\vec{r}\right),\hat{p}_{x}\right]f\left(\vec{r}\right) & = & \left(V\left(\vec{r}\right)\frac{\hbar}{i}\frac{\partial}{\partial x}-\frac{\hbar}{i}\frac{\partial}{\partial x}V\left(\vec{r}\right)\right)f\left(\vec{r}\right)\\
+ & = & V\left(\vec{r}\right)\frac{\hbar}{i}\frac{\partial}{\partial x}f\left(\vec{r}\right)-\frac{\hbar}{i}\left(\frac{\partial}{\partial x}V\left(\vec{r}\right)\right)f\left(\vec{r}\right)-\frac{\hbar}{i}V\left(\vec{r}\right)\frac{\partial}{\partial x}f\left(\vec{r}\right)\\
+\Rightarrow\left[V\left(\vec{r}\right),\hat{p}_{x}\right] & = & -\frac{\hbar}{i}\frac{\partial}{\partial x}V\left(\vec{r}\right)=\frac{\hbar}{i}F_{x}\left(\vec{r}\right)\\
+\Rightarrow\frac{d}{dt}\left\langle \hat{p}_{x}\right\rangle _{t} & = & \left\langle F_{x}\left(\vec{r}\right)\right\rangle \end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Kraft: 
+\begin_inset Formula $\vec{F}\left(\vec{r}\right)=-\vec{\triangledown}V\left(\vec{r}\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Analog für 
+\begin_inset Formula $\left\langle \hat{p}_{y}\right\rangle _{t}$
+\end_inset
+
+ und 
+\begin_inset Formula $\left\langle \hat{p}_{z}\right\rangle _{t}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{d}{dt}\left\langle \hat{\vec{p}}\right\rangle _{t}=\left\langle \vec{F}\left(\vec{r}\right)\right\rangle _{t}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{d}{dt}\left\langle \hat{\vec{r}}\right\rangle _{t}=\frac{1}{m}\left\langle \hat{\vec{p}}\right\rangle _{t}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes gld
+\end_inset
+
+Ehrenfest-Gleichungen
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Newton:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{d}{dt}\vec{p}\left(t\right) & = & \vec{F}\left(\vec{r}\right)=\vec{F}\left(\vec{r}\left(t\right)\right)\\
+\frac{d}{dt}\vec{r}\left(t\right) & = & \frac{\vec{p}\left(t\right)}{m}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Achtung
+\end_layout
+
+\begin_layout Standard
+Im Allgemeinen ist
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \vec{F}\left(\vec{r}\right)\right\rangle _{t}\neq\vec{F}\left(\left\langle \vec{r}\right\rangle _{t}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Spezialfälle:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{F}=\text{const}\hat{=}V\left(x\right)=-\alpha x+c$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+insbesondere 
+\begin_inset Formula $\vec{F}=0\hat{=}V\left(x\right)=\text{const}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(Siehe Teilchen im Potentialtopf, bis auf Sprungstellen des Topfes)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{F}=\beta\vec{r}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+u.a.
+ 
+\begin_inset Formula $F_{x}=\beta x$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $V\left(x\right)=-\frac{1}{2}\beta x^{2}+c$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+auch 
+\begin_inset Formula $F_{x}=\beta x+j$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $V\left(x\right)=-\frac{1}{2}\beta x^{2}-jx+c$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left\langle F_{x}\left(\vec{r}\right)\right\rangle =\beta\left\langle x\right\rangle +j=F_{x}\left(\left\langle x\right\rangle \right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Beim harmonischen Oszillator verhält sich der Erwartungswert 
+\begin_inset Formula $\left\langle \vec{r}\right\rangle _{t}$
+\end_inset
+
+ wie die klassische Bahnkurve
+\begin_inset Newline newline
+\end_inset
+
+Also: 
+\begin_inset Formula $\left\langle \vec{r}\right\rangle _{t}=A\cos\left(\omega t\right)+B\sin\left(\omega t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Auch für räumlich schwach veränderliche Kräfte gilt näherungsweise 
+\begin_inset Formula $\left\langle \vec{F}\left(\vec{r}\right)\right\rangle _{t}=\vec{F}\left(\left\langle \vec{r}\right\rangle _{t}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Streuzustände beim Potentialtopf
+\end_layout
+
+\begin_layout Standard
+(Abb Q32)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich I
+\bar default
+: 
+\begin_inset Formula $V\left(x\right)=0$
+\end_inset
+
+, 
+\begin_inset Formula $-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}\varphi\left(x\right)=E\varphi\left(x\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi\left(x\right)\sim e^{\pm iqx}$
+\end_inset
+
+, 
+\begin_inset Formula $q=\sqrt{\frac{2m}{\hbar^{2}}\cdot E}$
+\end_inset
+
+ 
+\begin_inset Formula $E>0$
+\end_inset
+
+!
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi^{\text{I}}\left(x\right)=Ae^{iqx}+Be^{-iqx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich II
+\bar default
+: 
+\begin_inset Formula $V\left(x\right)=-V_{0}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi^{\text{II}}\left(x\right)=Ce^{ikx}+D^{-ikx}$
+\end_inset
+
+, 
+\begin_inset Formula $k=\sqrt{\frac{2m}{\hbar^{2}}\left(E+V_{0}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich II
+\bar default
+: 
+\begin_inset Formula $V\left(x\right)=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi^{\text{III}}\left(x\right)=Fe^{iqx}+Ge^{-iqx}$
+\end_inset
+
+, 
+\begin_inset Formula $q=\sqrt{\frac{2m}{\hbar^{2}}E}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Physikalische Überlegung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+e^{iqx}\hat{=}\text{Ortsanteil von }\psi\left(x,t\right) & = & e^{\frac{Et}{i\hbar}}e^{iqx}\\
+ & = & \underbrace{e^{i\left(qx-\frac{E}{\hbar}t\right)}}_{\underset{\text{größere Zeit}\Rightarrow\text{,,größerer'' Ort}}{\text{Konstante Phase:}}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q33)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Welle läuft von 
+\begin_inset Quotes gld
+\end_inset
+
+links
+\begin_inset Quotes grd
+\end_inset
+
+ nach 
+\begin_inset Quotes gld
+\end_inset
+
+rechts
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bezeichnung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{iqx}$
+\end_inset
+
+ ist 
+\begin_inset Quotes gld
+\end_inset
+
+Welle
+\begin_inset Quotes grd
+\end_inset
+
+, die von links einläuft
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Be^{-iqx}$
+\end_inset
+
+: Welle, die bei 
+\begin_inset Formula $x=-a$
+\end_inset
+
+ reflektiert wird
+\end_layout
+
+\begin_layout Standard
+(Abb Q34)
+\end_layout
+
+\begin_layout Standard
+Annahme: Für 
+\begin_inset Formula $x>a$
+\end_inset
+
+ tritt keine Reflexion auf 
+\begin_inset Formula $G\Rightarrow0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+ und 
+\begin_inset Formula $F$
+\end_inset
+
+ folgen aus Stetigkeit von 
+\begin_inset Formula $\varphi\left(x\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi^{\prime}\left(x\right)$
+\end_inset
+
+ bei 
+\begin_inset Formula $x=\pm a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Zunächst
+\bar default
+: Wahrscheinlichkeitsstromdichte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+j\left(x\right)=\frac{\hbar}{i2m}\left(\overset{\star}{\psi}\left(x,t\right)\frac{\partial}{\partial t}\psi\left(x,t\right)-\overset{\star}{\psi}\left(x,t\right)\frac{\partial}{\partial x}\psi\left(x,t\right)\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für 
+\begin_inset Formula $\psi\left(x,t\right)=e^{\frac{E}{i\hbar}t}\varphi\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+j\left(x\right) & = & \frac{\hbar}{i2m}\left(\overset{\star}{\varphi}\left(x\right)\frac{\partial}{\partial x}\varphi\left(x\right)-\underbrace{\varphi\left(x\right)\frac{\partial}{\partial t}\overset{\star}{\varphi}\left(x\right)}_{\left(\overset{\star}{\varphi}\left(x\right)\frac{\partial}{\partial t}\varphi\left(x\right)\right)^{\star}}\right)\\
+j\left(x\right) & = & \frac{\hbar}{m}\Im\left(\overset{\star}{\varphi}\left(x\right)\frac{\partial}{\partial x}\varphi\left(x\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich I
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+j\left(x\right) & = & \frac{\hbar}{m}\Im\left(\left(e^{-iqx}+\overset{\star}{B}e^{iqx}\right)\underbrace{\frac{\partial}{\partial x}\left(e^{iqx}+Be^{-iqx}\right)}_{iq\left(e^{iqx}-Be^{-iqx}\right)}\right)\\
+ & = & \frac{\hbar}{m}q-\frac{\hbar}{m}q\left|B\right|^{2}\\
+ & = & \underset{\text{einfallende Welle}}{j_{ein}}+\underset{\text{reflektierte Welle}}{j_{ref}}\\
+j_{ein} & = & \frac{\hbar}{m}q\left(=\text{const}\right)\\
+j_{ref} & = & \frac{\hbar}{m}q\left|B\right|^{2}\left(=\text{const}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Definition
+\bar default
+: 
+\begin_inset Formula $R:=\frac{\left|j_{ref}\right|}{\left|j_{ein}\right|}$
+\end_inset
+
+ Reflexionskoeffizient
+\end_layout
+
+\begin_layout Standard
+Hier: 
+\begin_inset Formula $R=\frac{\frac{\hbar}{m}q\left|B\right|^{2}}{\frac{\hbar}{m}q}=\left|B\right|^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich III
+\bar default
+: 
+\begin_inset Formula $\varphi^{\text{III}}\left(x\right)=Fe^{iqx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $j_{trans}=\frac{\hbar}{m}q\left|F\right|^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T:=\left|\frac{j_{trans}}{j_{ein}}\right|$
+\end_inset
+
+ Transmissionskoeffizien
+\end_layout
+
+\begin_layout Standard
+Hier: 
+\begin_inset Formula $T=\left|F\right|^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Berechnung von 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+, 
+\begin_inset Formula $G$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{I}}\left(-a\right)=\varphi^{\text{II}}\left(-a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $e^{-iqa}+Be^{iqa}=Ce^{-ika}+De^{+ika}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{d}{dx}\varphi^{\text{I}}\left(-a\right)=\frac{d}{dx}\varphi^{\text{II}}\left(-a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\frac{d}{dx}\varphi^{\text{I}}\left(x\right)=iq\left(e^{iqx}-Be^{-iqx}\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $iq\left(e^{-iqa}-Be^{iqa}\right)=ik\left(Ce^{-ika}-De^{+ika}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi^{\text{II}}\left(a\right)=\varphi^{\text{III}}\left(a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Ce^{ika}+D^{-ika}=Fe^{iqa}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{d}{dx}\varphi^{\text{II}}\left(a\right)=\frac{d}{dx}\varphi^{\text{III}}\left(a\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $ik\left(Ce^{ika}-De^{-ika}\right)=iqFe^{iqa}$
+\end_inset
+
+ 
 \end_layout
 
 \end_body
