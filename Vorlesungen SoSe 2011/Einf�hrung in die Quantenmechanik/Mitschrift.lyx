@@ -11398,6 +11398,12 @@ Auch für räumlich schwach veränderliche Kräfte gilt näherungsweise
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Streuzustände-beim-Potentialtopf"
+
+\end_inset
+
 Streuzustände beim Potentialtopf
 \end_layout
 
@@ -11721,9 +11727,7 @@ Hier:
 
 \end_layout
 
-\begin_layout Standard
-
-\bar under
+\begin_layout Paragraph
 Berechnung von 
 \begin_inset Formula $B$
 \end_inset
@@ -11752,7 +11756,9 @@ Berechnung von
 \end_inset
 
 
-\begin_inset Formula $e^{-iqa}+Be^{iqa}=Ce^{-ika}+De^{+ika}$
+\begin_inset Formula \begin{equation}
+e^{-iqa}+Be^{iqa}=Ce^{-ika}+De^{+ika}\label{eq:streu_eins}\end{equation}
+
 \end_inset
 
 
@@ -11775,7 +11781,9 @@ Berechnung von
 \end_inset
 
 
-\begin_inset Formula $iq\left(e^{-iqa}-Be^{iqa}\right)=ik\left(Ce^{-ika}-De^{+ika}\right)$
+\begin_inset Formula \begin{equation}
+iq\left(e^{-iqa}-Be^{iqa}\right)=ik\left(Ce^{-ika}-De^{+ika}\right)\label{eq:streu_zwei}\end{equation}
+
 \end_inset
 
 
@@ -11790,7 +11798,9 @@ Berechnung von
 \end_inset
 
 
-\begin_inset Formula $Ce^{ika}+D^{-ika}=Fe^{iqa}$
+\begin_inset Formula \begin{equation}
+Ce^{ika}+D^{-ika}=Fe^{iqa}\label{eq:streu_drei}\end{equation}
+
 \end_inset
 
 
@@ -11805,10 +11815,700 @@ Berechnung von
 \end_inset
 
 
-\begin_inset Formula $ik\left(Ce^{ika}-De^{-ika}\right)=iqFe^{iqa}$
+\begin_inset Formula \begin{equation}
+ik\left(Ce^{ika}-De^{-ika}\right)=iqFe^{iqa}\label{eq:streu_vier}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\eqref{eq:streu_eins}+\frac{\eqref{eq:streu_zwei}}{iq}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+2e^{-iqa}=\left(1+\frac{k}{q}\right)Ce^{-ika}+\left(1-\frac{k}{q}\right)De^{+ika}\label{eq:streu_fuenf}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\eqref{eq:streu_drei}+\frac{\eqref{eq:streu_vier}}{ik}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+2Ce^{ika}=F\left(1+\frac{q}{k}\right)e^{iqa}\label{eq:streu_sechs}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\eqref{eq:streu_drei}-\frac{\eqref{eq:streu_vier}}{ik}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+2De^{-ika}=F\left(1-\frac{q}{k}\right)e^{iqa}\label{eq:streu_sieben}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:streu_sechs"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:streu_sieben"
+
+\end_inset
+
+ in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:streu_fuenf"
+
+\end_inset
+
+ einsetzen und nach 
+\begin_inset Formula $F$
+\end_inset
+
+ auflösen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
 \end_inset
 
  
+\begin_inset Formula \begin{eqnarray*}
+F & = & e^{-2iqa}\left(\cos\left(2ka\right)-i\sin\left(2ka\right)\frac{k^{2}+q^{2}}{2qk}\right)^{-1}\\
+T=\left|F\right|^{2} & = & \frac{1}{\cos^{2}\left(2ka\right)+\left(\frac{k^{2}+q^{2}}{2qk}\right)^{2}\sin^{2}\left(2ka\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos^{2}\left(2ka\right)=1-\sin^{2}\left(2ka\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(k^{2}+q^{2}\right)^{2}=k^{4}+q^{4}+2k^{2}q^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T=\frac{1}{1+\left(\frac{k^{2}+q^{2}}{2qk}\right)^{2}\sin^{2}\left(2ka\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Analog
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+B & = & iF\frac{k^{2}-q^{2}}{2kq}\sin\left(2ka\right)\\
+R=\left|B\right|^{2} & = & \left|F\right|^{2}\left(\frac{k^{2}-q^{2}}{2kq}\right)^{2}\sin^{2}\left(2ka\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+R+T=1\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Diskussion von 
+\begin_inset Formula $T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T\left(E\right)=\frac{1}{1+\frac{V_{0}^{2}}{E\left(E+V_{0}\right)}\sin^{2}\left(2a\sqrt{\frac{2m}{\hbar^{2}}\left(E+V_{0}\right)}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q35)
+\end_layout
+
+\begin_layout Standard
+(Abb Q36)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L=2a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Transmission hängt von 
+\begin_inset Formula $E$
+\end_inset
+
+ ab!
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T=1$
+\end_inset
+
+ für bestimmte Energien
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\sin\left(2a\sqrt{\frac{2m}{\hbar^{2}}\left(E+V_{0}\right)}\right)=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $2a\sqrt{\frac{2m}{\hbar^{2}}\left(E+V_{0}\right)}=n\pi$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left(E+V_{0}\right)=\frac{n^{2}\pi^{2}}{\left(2a\right)^{2}}\cdot\frac{\hbar^{2}}{2m}=\underbrace{\frac{\hbar^{2}}{2m}\frac{1}{L^{2}}n^{2}\pi^{2}}_{\text{Energien des unendlich hohen Topfes}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=-V_{0}+\frac{\hbar^{2}n^{2}\pi^{2}}{2nL^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $E_{n}\hat{=}$
+\end_inset
+
+ Energien mit 
+\begin_inset Formula $T=1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Da 
+\begin_inset Formula $E_{n}>0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+-V_{0}+\frac{\hbar^{2}n^{2}\pi^{2}}{2nL^{2}} & > & 0\\
+n^{2} & > & \frac{V_{0}2nL^{2}}{\hbar^{2}\pi^{2}}\\
+ & \hat{=} & \text{minimaler Wert von }n\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $E_{n}\hat{=}$
+\end_inset
+
+ Resonanzenergien (
+\begin_inset Quotes gld
+\end_inset
+
+Streuresonanzen
+\begin_inset Quotes grd
+\end_inset
+
+ bei diesen Energien 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Tranmission 
+\begin_inset Formula $=1$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Paragraph
+Zusammenfassung
+\end_layout
+
+\begin_layout Standard
+(Abb Q37)
+\end_layout
+
+\begin_layout Subsection
+Potentialwall
+\end_layout
+
+\begin_layout Standard
+(Abb Q38)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+V\left(x\right)=\begin{cases}
+V_{0} & -a\le x\le a\\
+0 & \text{sonst}\end{cases}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $0<E<V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich I
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{I}}\left(x\right)=e^{iqx}+Be^{-iqx},\, q=\sqrt{E\frac{2m}{\hbar^{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich II
+\bar default
+: 
+\begin_inset Formula $V\left(x\right)=V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Da 
+\begin_inset Formula $E<V_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{II}}\left(x\right)=Ce^{\kappa x}+De^{-\kappa x},\,\kappa=\sqrt{\frac{2m}{\hbar^{2}}\left(V_{0}-E\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bereich III
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi^{\text{III}}\left(x\right)=Fe^{iqx}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+, 
+\begin_inset Formula $F$
+\end_inset
+
+ folgen aus Stetigkeitsbedingungen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\to$
+\end_inset
+
+ Analoge Rechnung (siehe 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Streuzustände-beim-Potentialtopf"
+
+\end_inset
+
+) mit 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ statt 
+\begin_inset Formula $ik$
+\end_inset
+
+, bzw.
+ 
+\begin_inset Formula $-V_{0}$
+\end_inset
+
+ statt 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+T\left(E\right)=\frac{1}{1+\frac{V_{0}^{2}}{4E\left(E-V_{0}\right)}\sin^{2}\left(2a\sqrt{\frac{2m}{\hbar^{2}}\left(E-V_{0}\right)}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $E<V_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\sin$
+\end_inset
+
+ mit imaginärem Argument
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sin\left(ix\right)=i\sinh\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T\left(E\right)=\frac{1}{1-\frac{V_{0}^{2}}{4E\left(E-V_{0}\right)}\sinh^{2}\left(2a\sqrt{\frac{2m}{\hbar^{2}}\left(V_{0}-E\right)}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T>0$
+\end_inset
+
+ für 
+\begin_inset Formula $E>0$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ endliche Transmission (im Gegensatz zur klassischen Physik) 
+\begin_inset Quotes gld
+\end_inset
+
+Tunneleffekt
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Aufenthaltswahrscheinlichkeitsdichte
+\end_layout
+
+\begin_layout Standard
+(Abb Q39)
+\end_layout
+
+\begin_layout Standard
+Betrachte Fall 
+\begin_inset Formula $2a\sqrt{\frac{2m}{\hbar^{2}}\left(V_{0}-E\right)}\gg1$
+\end_inset
+
+ d.h.
+ 
+\begin_inset Formula $E\ll V_{0}-\frac{\hbar^{2}}{2m}\frac{1}{4a^{2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\sinh\left(x\right)=\frac{1}{2}\left(e^{x}-e^{-x}\right)\overset{x\gg1}{\approx}\frac{1}{2}e^{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann kann auch die 
+\begin_inset Quotes gld
+\end_inset
+
+
+\begin_inset Formula $1$
+\end_inset
+
+
+\begin_inset Quotes grd
+\end_inset
+
+ im Nenner von 
+\begin_inset Formula $T\left(E\right)$
+\end_inset
+
+ vernachlässigt werden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T\left(E\right)\approx\frac{16\left(V_{0}-E\right)\cdot E}{V_{0}^{2}}e^{-4a\sqrt{\frac{2m}{\hbar^{2}}\left(V_{0}-E\right)}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
