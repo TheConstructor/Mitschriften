@@ -12507,7 +12507,558 @@ T\left(E\right)\approx\frac{16\left(V_{0}-E\right)\cdot E}{V_{0}^{2}}e^{-4a\sqrt
 
 \end_layout
 
+\begin_layout Paragraph
+Tunneleffekt
+\end_layout
+
 \begin_layout Standard
+Sei 
+\begin_inset Formula $E\ll V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+T\left(E\right)=\frac{16\left(V_{0}-E\right)E}{V_{0}}e^{-4a\sqrt{\frac{2m}{\hbar^{2}}\left(V_{0}-E\right)}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Exponentialer Abfall:
+\end_layout
+
+\begin_layout Itemize
+Breite des Walls
+\end_layout
+
+\begin_layout Itemize
+Wurzel der Masse
+\end_layout
+
+\begin_layout Itemize
+Wurzel 
+\begin_inset Formula $\left(V_{0}-E\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Allgemeine Form einer Barriere
+\end_layout
+
+\begin_layout Standard
+(Abb Q40)
+\end_layout
+
+\begin_layout Paragraph
+Näherungsformel
+\end_layout
+
+\begin_layout Standard
+Transmission durch 
+\begin_inset Formula $j$
+\end_inset
+
+-ten Wall
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+T_{j}=\frac{16\left(V_{j}-E\right)E}{V_{j}^{2}}e^{-2\Delta x\sqrt{\frac{2m}{\hbar^{2}}\left(V_{j}-E\right)}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Näherungsweise
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+T_{j}\approx e^{-2\Delta x\sqrt{\frac{2m}{\hbar^{2}}\left(V_{j}-E\right)}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gesamte Transmission
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+T & = & T_{1}\cdot T_{2}\cdot...\cdot T_{N}=\overset{N}{\underset{j=1}{\prod}}T_{j}\\
+ & = & \overset{N}{\underset{j=1}{\prod}}e^{-2\Delta x\sqrt{\frac{2m}{\hbar^{2}}\left(V_{j}-E\right)}}\\
+ & = & e^{-2\Delta x\overset{N}{\underset{j=1}{\sum}}\sqrt{\frac{2m}{\hbar^{2}}\left(V_{j}-E\right)}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Grenzfall 
+\begin_inset Formula $N\to\infty$
+\end_inset
+
+ (unendlich feine Unterteilung)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T=e^{-2\overset{x_{B}}{\underset{x_{A}}{\int}}\sqrt{\frac{2m}{\hbar^{2}}\left(V\left(x\right)-E\right)}dx}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+mit 
+\begin_inset Formula $V\left(x_{A}\right)=E$
+\end_inset
+
+, 
+\begin_inset Formula $V\left(x_{B}\right)=E$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Gamow-Faktor
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q41)
+\end_layout
+
+\begin_layout Standard
+Rechnung wie beim Potentialtopf 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Streuzustände-beim-Potentialtopf"
+
+\end_inset
+
+ mit 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ statt 
+\begin_inset Formula $\left(-V_{0}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+T\left(E\right)=\frac{1}{1+\frac{1}{4}\frac{V_{0}^{2}}{E\left(E-V_{0}\right)}\sin^{2}\left(2a\sqrt{\frac{2m}{\hbar^{2}}\left(E-V_{0}\right)}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q42)
+\end_layout
+
+\begin_layout Subsection
+Wellenpakete an Potentialbarrieren
+\end_layout
+
+\begin_layout Standard
+Bisher: uneigentliche Eigenzustände
+\end_layout
+
+\begin_layout Standard
+(Abb Q43)
+\end_layout
+
+\begin_layout Paragraph
+Wellenpaket
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(x,t\right) & = & \overset{\infty}{\underset{0}{\int}}g\left(q\right)\varphi_{q}\left(x\right)e^{\frac{E_{q}t}{i\hbar}}dq\\
+g\left(q\right) & z.B. & e^{-j\left(q-q_{0}\right)^{2}}\hspace{1em}\text{Qauß'sches Wellenpaket, zentriert um }q_{0}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Energie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E=\left\langle \hat{H}\right\rangle =\overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\psi}\left(x,t\right)\hat{H}\psi\left(x,t\right)dx\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\psi\left(x,t\right) & = & \overset{\infty}{\underset{0}{\int}}g\left(q\right)E_{q}\varphi_{q}\left(x\right)e^{\frac{E_{q}t}{i\hbar}}dq\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E= & \overset{\infty}{\underset{-\infty}{\int}}\overset{\star}{\psi}\left(x,t\right)\hat{H}\psi\left(x,t\right)dx\\
+= & \overset{\infty}{\underset{-\infty}{\int}}\overset{\infty}{\underset{0}{\int}}g\left(q^{\prime}\right)E_{q^{\prime}}\varphi_{q^{\prime}}\left(x\right)e^{\frac{E_{q^{\prime}}t}{i\hbar}}dq^{\prime}\overset{\infty}{\underset{0}{\int}}g\left(q\right)E_{q}\varphi_{q}\left(x\right)e^{\frac{E_{q}t}{i\hbar}}dq\, dx\\
+ & \text{Mit }\overset{\infty}{\underset{-\infty}{\int}}\varphi_{q^{\text{\prime}}}\left(x\right)\varphi_{q}\left(x\right)dx=\delta\left(q-q^{\prime}\right)\\
+ & \text{(Normierung der uneigentlichen Eigenfunktion) ,,auf }\delta\text{-Funktion''}\\
+\Rightarrow E= & \overset{\infty}{\underset{0}{\int}}g\left(q\right)\overset{\star}{g}\left(q\right)E_{q}dq=\overset{\infty}{\underset{0}{\int}}\left|g\left(q\right)\right|^{2}E_{q}dq\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie: 
+\begin_inset Quotes gld
+\end_inset
+
+Wellepaket an einem Potentialberg
+\begin_inset Quotes grd
+\end_inset
+
+, Folie: 
+\begin_inset Quotes gld
+\end_inset
+
+Welle an einem Potentialtopf
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Formalismus der Quantenmechanik
+\end_layout
+
+\begin_layout Subsection
+Unschärferelation
+\end_layout
+
+\begin_layout Standard
+(Abb Q44)
+\end_layout
+
+\begin_layout Standard
+Dazu: Operator 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unschärfe (zum Quadrat): 
+\begin_inset Formula \[
+\left(\Delta O\right)^{2}=\left\langle \left(\hat{O}-\left\langle \hat{O}\right\rangle \right)^{2}\right\rangle =\left\langle \hat{O}^{2}\right\rangle -\left\langle \hat{O}\right\rangle ^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Betrachte zwei 
+\bar under
+hermitesche
+\bar default
+ Operatoren 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\Delta A\right)^{2} & = & \left\langle \left(\hat{A}-\left\langle \hat{A}\right\rangle \right)^{2}\right\rangle \\
+\left(\Delta B\right)^{2} & = & \left\langle \left(\hat{B}-\left\langle \hat{B}\right\rangle \right)^{2}\right\rangle \end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann gilt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\Delta A\cdot\Delta B\geq\frac{\left|\left[\hat{A},\hat{B}\right]\right|}{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verallgemeinerte Unschärferealtion
+\end_layout
+
+\begin_layout Standard
+z.B.
+ 
+\begin_inset Formula $\hat{A}=\hat{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{B}=\hat{p}_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\left[\hat{x},\hat{p}_{x}\right]=i\hbar$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta x\Delta p_{x}\geq\frac{\left|i\hbar\right|}{2}=\frac{\hbar}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Beweis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{a}=\hat{A}-\left\langle \hat{A}\right\rangle $
+\end_inset
+
+, 
+\begin_inset Formula $\hat{b}=\hat{B}-\left\langle \hat{B}\right\rangle $
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{a}=\hat{a}^{+}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{b}=\hat{b}^{+}$
+\end_inset
+
+ da 
+\begin_inset Formula $\hat{A}=\hat{A}^{+}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{B}=\hat{B}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\Delta A\right)^{2} & = & \left\langle \hat{a}^{2}\right\rangle \\
+ & = & \int\overset{\star}{\psi}\left(\vec{r},t\right)\hat{a}^{2}\psi\left(\vec{r},t\right)d^{3}r\\
+ & = & \int\overset{\star}{\psi}\left(\vec{r},t\right)\hat{a}\hat{a}\psi\left(\vec{r},t\right)d^{3}r\\
+\text{mit} &  & \hat{a}=\hat{a}^{+}\\
+ & = & \int\left(\hat{a}\psi\left(\vec{r},t\right)\right)^{\star}\hat{a}\psi\left(\vec{r},t\right)d^{3}r\\
+ & = & \int\left|\hat{a}\psi\left(\vec{r},t\right)\right|^{2}d^{3}r\\
+\left(\Delta B\right)^{2} & = & \int\left|\hat{b}\psi\left(\vec{r},t\right)\right|^{2}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Betrachte:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+F\left(\lambda\right)=\int\left|\left(\hat{a}+i\lambda\hat{b}\right)\psi\left(\vec{r},t\right)\right|^{2}d^{3}r\ge0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda$
+\end_inset
+
+: reell
+\end_layout
+
+\begin_layout Paragraph
+Ausmultiplizieren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\int\left(\left(\hat{a}+i\lambda\hat{b}\right)\psi\right)^{\star}\left(\hat{a}+i\hat{b}\right)\psi d^{3}r & = & \int\left(\left(\hat{a}\psi\right)^{\star}-i\lambda\left(\hat{b}\psi\right)^{\star}\right)\left(\hat{a}\psi+i\lambda\hat{b}\psi\right)d^{3}r\\
+ & = & \int\overset{\star}{\psi}\left(\hat{a}-i\lambda\hat{b}\right)\left(\hat{a}+i\lambda\hat{b}\right)\psi d^{3}r\\
+ & = & \int\overset{\star}{\psi}\left(\hat{a}^{2}+\lambda^{2}\hat{b}^{2}+i\lambda\underbrace{\left(\hat{a}\hat{b}-\hat{b}\hat{a}\right)}_{\left[\hat{a},\hat{b}\right]}\psi\right)d^{3}r\\
+ & = & \left\langle \hat{a}^{2}\right\rangle +\lambda^{2}\left\langle \hat{b}^{2}\right\rangle +i\lambda\left\langle \left[\hat{a},\hat{b}\right]\right\rangle \ge0\end{eqnarray*}
+
+\end_inset
+
+Es gilt 
+\begin_inset Formula $\left[\hat{a},\hat{b}\right]=\left[\hat{A},\hat{B}\right]$
+\end_inset
+
+, 
+\begin_inset Formula $i\left[\hat{a},\hat{b}\right]=:c$
+\end_inset
+
+ (hermitesch)
+\end_layout
+
+\begin_layout Standard
+Wähle speziell 
+\begin_inset Formula $\lambda=\lambda_{0}$
+\end_inset
+
+ mit 
+\begin_inset Formula $\left.\frac{dF\left(\lambda\right)}{d\lambda}\right|_{\lambda=\lambda_{0}}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left.\frac{dF\left(\lambda\right)}{d\lambda}\right|_{\lambda_{0}} & = & 2\lambda_{0}\left\langle \hat{b}^{2}\right\rangle +\underbrace{\left\langle i\left[\hat{a},\hat{b}\right]\right\rangle }_{\hat{c}}=0\\
+\Rightarrow\lambda_{0} & = & -\frac{\left\langle \hat{c}\right\rangle }{2\left\langle \hat{b}^{2}\right\rangle }\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+F\left(\lambda_{0}\right) & = & \left\langle \hat{a}^{2}\right\rangle +\left(\frac{\left\langle \hat{c}\right\rangle ^{2}}{4\left(\left\langle \hat{b}^{2}\right\rangle \right)^{2}}\right)\left\langle \hat{b}^{2}\right\rangle +\left(-\frac{\left\langle \hat{c}\right\rangle }{2\left\langle \hat{b}^{2}\right\rangle }\right)\left\langle \hat{c}\right\rangle \\
+ & = & \left\langle \hat{a}^{2}\right\rangle -\frac{1}{4}\frac{\left\langle \hat{c}\right\rangle ^{2}}{\left\langle \hat{b}^{2}\right\rangle }\ge0\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{a}^{2}\right\rangle \left\langle \hat{b}^{2}\right\rangle  & \ge & \frac{1}{4}\left\langle \hat{c}\right\rangle ^{2}\\
+\left\langle \Delta A\right\rangle ^{2}\left(\Delta B\right)^{2} & \ge & \frac{1}{4}\left\langle \hat{c}\right\rangle ^{2}\\
+\Delta A\Delta B & \ge & \frac{1}{2}\left|i\left[\hat{A},\hat{B}\right]\right|=\frac{1}{2}\left|\left[\hat{A},\hat{B}\right]\right|\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da 
+\begin_inset Formula $\hat{c}=i\left[\hat{A},\hat{B}\right]$
+\end_inset
+
 
 \end_layout
 
