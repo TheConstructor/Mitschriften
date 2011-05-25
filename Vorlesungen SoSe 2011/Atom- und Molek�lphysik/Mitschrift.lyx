@@ -4216,5 +4216,623 @@ An Wasserstoff (Folie), hier an Natrium (Alkali: 1 Valenzelektron wie Wasserstof
 f)
 \end_layout
 
+\begin_layout Section
+Details des Wasserstoffatoms
+\end_layout
+
+\begin_layout Subsection
+Feinstruktur und Spin des Elektrons
+\end_layout
+
+\begin_layout Standard
+Wir beobachten, dass bei der Natrium-D-Linie (
+\begin_inset Quotes gld
+\end_inset
+
+Zebrastreifenbeleuchtung
+\begin_inset Quotes grd
+\end_inset
+
+) und weitere Natrium-Spektrallinien in Dubletts (Doppellinien) aufgespalten
+ sind, 
+\begin_inset Formula $\lambda=\begin{cases}
+589,0\text{nm}\\
+589,6\text{nm}\end{cases}10^{-3}\text{-Effekt}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Natrium ist ähnlich zu Wasserstoff: Alkali, 1 Valenzelektron in der 
+\begin_inset Formula $3s$
+\end_inset
+
+-Schale
+\end_layout
+
+\begin_layout Standard
+Woran liegt das?
+\end_layout
+
+\begin_layout Subsubsection
+Relativistische Korrekturen
+\end_layout
+
+\begin_layout Standard
+Bei der Aufstellung der Schrödingergleichung hatten wie 
+\begin_inset Formula $E_{kin}=\frac{p^{2}}{2m}$
+\end_inset
+
+ nichtrelativistisch angsetzt, aber für Wasserstoffgrundzustand 
+\begin_inset Formula $\Psi_{100}$
+\end_inset
+
+ gilt: 
+\begin_inset Formula $\left\langle v\right\rangle =\alpha c\approx\frac{c}{137}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relativistische Energie-Impuls-Beziehung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{kin}+mc^{2}=E_{tot}=\sqrt{p^{2}c^{2}+m^{2}c^{4}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $m$
+\end_inset
+
+ ist die Ruhemasse des Teilchens 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $E_{tot}=\gamma mc^{2}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E_{kin} & = & \sqrt{p^{2}c^{2}+m^{2}c^{4}}-mc^{2}\\
+ & = & mc^{2}\left[\sqrt{1+\underbrace{\frac{p^{2}}{m^{2}c^{2}}}_{=x}}-1\right]\\
+ & \approx & mc^{2}\left[1+\frac{1}{2}\frac{p^{2}}{m^{2}c^{2}}-\frac{1}{8}\frac{p^{4}}{m^{4}c^{4}}-1\right]\\
+ & = & \frac{p^{2}}{2m}-\frac{p^{4}}{8m^{3}c^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Framed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Entwickle 
+\begin_inset Formula $f\left(x\right)=\sqrt{1+x}$
+\end_inset
+
+ um 
+\begin_inset Formula $x_{0}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+f\left(x\right) & = & f\left(0\right)+x\frac{\partial f}{\partial x}\left(0\right)+\frac{x^{2}}{2!}\frac{\partial^{2}f}{\partial x^{2}}\left(0\right)+...\\
+\frac{\partial f}{\partial x} & = & \frac{1}{2}\frac{1}{\sqrt{1+x}}\Rightarrow\frac{\partial f}{\partial x}\left(0\right)=\frac{1}{2}\\
+\frac{\partial^{2}}{\partial x^{2}} & = & \frac{1}{2}\left(-\frac{1}{2}\right)\frac{1}{\left(1+x\right)^{\nicefrac{3}{2}}}\Rightarrow\frac{\partial^{2}f}{\partial x^{2}}\left(0\right)=-\frac{1}{4}\\
+f\left(x\right) & = & 1+\frac{1}{2}x-\frac{1}{8}x^{2}+...\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Es gibt eine relativistische Korrektur der Energie von 
+\begin_inset Formula $\left(\hat{p}\hat{=}\frac{\hbar}{i}\vec{\triangledown}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Delta E=-\frac{p^{4}}{8m^{3}c^{2}}=-\frac{\hbar^{4}}{8m^{3}c^{2}}\triangledown^{4}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Müßte Schrödingergleichung um Term 
+\begin_inset Formula $\Delta E$
+\end_inset
+
+ erweitern und neue Lösungen 
+\begin_inset Formula $\Psi^{\prime}$
+\end_inset
+
+ berechnen.
+ Erwarte kleine Korrekturen!
+\end_layout
+
+\begin_layout Standard
+Abschätzung des Effektes über
+\begin_inset Formula \begin{eqnarray*}
+\Delta E_{rel} & = & \frac{\hbar^{4}}{8m^{3}c^{2}}\left\langle \triangledown^{4}\right\rangle \\
+ & = & \frac{\hbar^{4}}{8m^{3}c^{2}}\int\overset{\star}{\Psi^{\prime}}_{nlm}\left(r,\vartheta,\varphi\right)\triangledown^{4}\Psi_{nlm}^{\prime}\left(r,\vartheta,\varphi\right)d\Omega r^{2}dr\\
+ & = & \frac{\hbar^{4}}{8m^{3}c^{2}}\int\overset{\star}{\Psi}_{nlm}\left(r,\vartheta,\varphi\right)\triangledown^{4}\Psi_{nlm}\left(r,\vartheta,\varphi\right)d\Omega r^{2}dr+\not\overbrace{\int\underbrace{\delta\Psi}_{\Psi^{\prime}-\Psi}\triangledown^{4}\delta\Psi d\Omega r^{2}dr}^{O\left(\delta^{2}\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Quotes gld
+\end_inset
+
+Störungstheorie
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E_{nl} & = & \underbrace{E_{n}}_{-\frac{1}{2}z^{2}\alpha^{2}mc^{2}\frac{1}{n^{2}}}-\Delta E_{r}\left(nl\right)\\
+ & = & -\underbrace{\frac{1}{2}mc^{2}\alpha^{2}}_{\underset{=13,6\text{eV}}{=:R\left(\text{Rythbog-Konstante}\right)}}\frac{z^{2}}{n^{2}}\left(1-\underbrace{\frac{\alpha^{2}z^{2}}{n}\left(\frac{3}{4n}-\frac{1}{l+\frac{1}{2}}\right)}_{\text{rel. Korrektur}}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Korrektur ist am größten, wenn 
+\begin_inset Formula $n$
+\end_inset
+
+ klein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\Delta E_{r}\left(n=1,l=0\right) & = & 9\cdot10^{-4}\text{eV}\\
+\Delta E_{r}\left(n=2,l=1\right) & = & 1,5\cdot10^{-4}\text{eV}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+Nicht die Erklärung der 
+\begin_inset Formula $Na$
+\end_inset
+
+-Doppellinien!
+\end_layout
+
+\begin_layout Subsubsection
+Normaler Zeeman-Effekt
+\end_layout
+
+\begin_layout Standard
+Ein Elektron auf einer klassischen Kreisbahn (s.
+ Bohrsches Atommodell) hat ein magentisches Bahnmoment 
+\begin_inset Formula $\vec{\mu}$
+\end_inset
+
+, das senkrecht zur Bahnebene ist
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mu=IA=-e\frac{v}{2\pi r}\pi r^{2}=-\frac{evr}{2}=-\frac{e}{2m_{e}}l\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Definition:
+\begin_inset Formula \[
+\mu_{B}:=\frac{e\hbar}{2m_{e}}=9,27\cdot10^{-24}\frac{\text{J}}{\text{T}}\]
+
+\end_inset
+
+(
+\begin_inset Quotes gld
+\end_inset
+
+Bohrsches Magnetron
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{\mu}_{e}=-\mu_{B}\frac{\vec{l}}{\hbar}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In einem homogenen Magnetfeld 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ (o.B.d.A 
+\begin_inset Formula $\vec{B}=\left(0,0,B\right)$
+\end_inset
+
+) ist die potentielle Energie dieses magnetischen Moment
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{pot}=-\vec{\mu}_{l}\vec{B}=\mu_{B}\frac{\vec{l}}{\hbar}\underbrace{\vec{B}}_{\left(0,0,B\right)^{t}}=\mu_{B}\frac{\overbrace{l_{z}}^{m\hbar}}{\hbar}B=\mu_{B}mB\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Die 
+\begin_inset Quotes gld
+\end_inset
+
+Magnetquantenzahl
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\begin_inset Formula $m$
+\end_inset
+
+ gibt die potentielle Energie in 
+\begin_inset Formula $B$
+\end_inset
+
+ an!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Wir erwarten, dass die Wasserstoffenergieniveaus im äußeren Magnetfeld
+ in 
+\begin_inset Formula $\left(2l+1\right)$
+\end_inset
+
+-Unterniveaus aufspalten.
+ Die Größe der Auspaltung hängt nicht von den Quantenzahlen 
+\begin_inset Formula $n$
+\end_inset
+
+ oder 
+\begin_inset Formula $l$
+\end_inset
+
+ ab.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bemerkung
+\bar default
+: 
+\begin_inset Formula $\left(2l+1\right)$
+\end_inset
+
+ ist immer ungerade, da 
+\begin_inset Formula $l=0,1,2,...$
+\end_inset
+
+ 
+\begin_inset Formula $\lightning$
+\end_inset
+
+ zu 
+\begin_inset Formula $Na$
+\end_inset
+
+-Doppellinie
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bemerkung
+\bar default
+: Diese Erwartung steht auch im Widerspruch zu den meisten Beobachtungen:
+ Die meisten Spektrallinien von Atomen spalten im homogenen Magnetfeld anders
+ auf, z.B.
+ geradzahlige Anzahl von Unterniveaus (
+\begin_inset Quotes gld
+\end_inset
+
+anormaler Zeeman-Effekt
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bemerkung
+\bar default
+: Wenn man die Atomniveaus über die Spektrallinien bestimmt, dann spielen
+ noch 
+\begin_inset Quotes gld
+\end_inset
+
+Auswahlregeln
+\begin_inset Quotes grd
+\end_inset
+
+ für die elektromagnetischen Übergänge eine Rolle, z.B.
+ 
+\begin_inset Formula $\Delta l=1$
+\end_inset
+
+, 
+\begin_inset Formula $\left|\Delta m\right|=1$
+\end_inset
+
+, siehe Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Atome-in-äußeren"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Bemerkung
+\bar default
+: Die Rotationssymmetrie des Wasserstoffproblems wird durch das äußere 
+\begin_inset Formula $B$
+\end_inset
+
+-Feld explizit gebrochen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\vec{l}$
+\end_inset
+
+ ist nicht erhalten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\vec{l}$
+\end_inset
+
+ päzediert um die 
+\begin_inset Formula $z$
+\end_inset
+
+-Achse, so dass 
+\begin_inset Formula $\left|l\right|^{2}=l\left(l+1\right)\hbar^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $l_{z}=m\hbar$
+\end_inset
+
+ konstant bleiben, aufgrund eines Drehmomentes 
+\begin_inset Formula $\vec{D}=\vec{\mu}_{l}\times\vec{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A25)
+\end_layout
+
+\begin_layout Standard
+1921: Stern und Gerlach bestimmten die Ablenkung von Silberatomen im inhomogenen
+ Magnetfeld (Silber 1 Valenzelektron in der 
+\begin_inset Formula $5s$
+\end_inset
+
+-Schale, 
+\begin_inset Formula $z=47$
+\end_inset
+
+, Unterschalen der 
+\begin_inset Formula $n=1,2,3$
+\end_inset
+
+-Schalen sind voll besetzt, die 4.
+ Schale ist voll besetzt, außer 
+\begin_inset Formula $4f$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+(Abb A26)
+\end_layout
+
+\begin_layout Standard
+Experimentelles Ergebnis
+\end_layout
+
+\begin_layout Standard
+(Abb A27)
+\end_layout
+
+\begin_layout Standard
+Räumlicheiche Doppelstruktur
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E_{pot} & = & -\vec{\mu}\vec{B}\\
+\vec{F} & = & -\vec{\triangledown}E_{pot}=\mu\vec{\triangledown}B\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für Silber gilt 
+\begin_inset Formula $l=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\underbrace{\text{Zusätzliches}}_{\text{bezieht sich auf }l}$
+\end_inset
+
+ magnetisches Moment
+\end_layout
+
+\begin_layout Standard
+1925: Goudsmit und Uhlenbeck schlagen vor, dass das Elektron einen Eigendrehimpu
+ls (
+\begin_inset Quotes gld
+\end_inset
+
+Spin
+\begin_inset Quotes grd
+\end_inset
+
+) 
+\begin_inset Formula $s$
+\end_inset
+
+ besitzt, der 
+\begin_inset Formula $s=\frac{1}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $m_{s}=\pm\frac{1}{2}$
+\end_inset
+
+ als Eigenwerte hat 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Aufspaltung wird verständlich!
+\end_layout
+
+\begin_layout Section
+Mehrelektronenatome
+\end_layout
+
+\begin_layout Section
+Atome in äußeren Feldern
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Atome-in-äußeren"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Moleküle
+\end_layout
+
+\begin_layout Section
+Moderne Atomphysik
+\end_layout
+
 \end_body
 \end_document
