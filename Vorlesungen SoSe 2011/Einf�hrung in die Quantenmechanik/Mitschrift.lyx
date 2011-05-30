@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -12873,7 +12873,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Formula \[
-\Delta A\cdot\Delta B\geq\frac{\left|\left[\hat{A},\hat{B}\right]\right|}{2}\]
+\Delta A\cdot\Delta B\geq\frac{\left|\left\langle \left[\hat{A},\hat{B}\right]\right\rangle \right|}{2}\]
 
 \end_inset
 
@@ -13047,7 +13047,7 @@ F\left(\lambda_{0}\right) & = & \left\langle \hat{a}^{2}\right\rangle +\left(\fr
 \begin_inset Formula \begin{eqnarray*}
 \left\langle \hat{a}^{2}\right\rangle \left\langle \hat{b}^{2}\right\rangle  & \ge & \frac{1}{4}\left\langle \hat{c}\right\rangle ^{2}\\
 \left\langle \Delta A\right\rangle ^{2}\left(\Delta B\right)^{2} & \ge & \frac{1}{4}\left\langle \hat{c}\right\rangle ^{2}\\
-\Delta A\Delta B & \ge & \frac{1}{2}\left|i\left[\hat{A},\hat{B}\right]\right|=\frac{1}{2}\left|\left[\hat{A},\hat{B}\right]\right|\end{eqnarray*}
+\Delta A\Delta B & \ge & \frac{1}{2}\left|\left\langle i\left[\hat{A},\hat{B}\right]\right\rangle \right|=\frac{1}{2}\left|\left\langle \left[\hat{A},\hat{B}\right]\right\rangle \right|\end{eqnarray*}
 
 \end_inset
 
@@ -13057,6 +13057,2949 @@ F\left(\lambda_{0}\right) & = & \left\langle \hat{a}^{2}\right\rangle +\left(\fr
 \begin_layout Standard
 da 
 \begin_inset Formula $\hat{c}=i\left[\hat{A},\hat{B}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Folgerungen
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left[\hat{A},\hat{B}\right]=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta A\cdot\Delta B\ge0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{A}=\hat{\vec{r}}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{B}=\hat{\vec{p}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20page%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left[\hat{r}_{j},\hat{p}_{j^{\prime}}\right]=i\hbar\delta_{j,j^{\prime}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20page%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta r_{j}\cdot\Delta p_{j^{\prime}}\ge\frac{\hbar}{2}\delta_{j,j^{\prime}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Heisenberg'sche Unschärferalation
+\begin_inset Newline newline
+\end_inset
+
+z.B.
+ 
+\begin_inset Formula $\Delta x\cdot\Delta p_{x}\ge\frac{\hbar}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta y\cdot\Delta p_{x}\ge0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+In einer Raumrichtung können Ort und Impuls nicht gleichzeitig genau bekannt
+ sein
+\end_layout
+
+\end_inset
+
+
+\bar under
+
+\begin_inset Newline newline
+\end_inset
+
+Beispiel
+\bar default
+: 
+\begin_inset Quotes gld
+\end_inset
+
+klassisches Teilchen
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $m=10^{-6}\text{g}=10^{-9}\text{kg}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Delta x=1\text{Å}=10^{-10}\text{m}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta v_{x}\ge0,5\cdot10^{7}\frac{\text{m}}{\text{s}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ extrem große Unschärfe
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\begin_inset Quotes gld
+\end_inset
+
+Energie-Zeit-Unschärfe
+\begin_inset Quotes grd
+\end_inset
+
+
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+Energie 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ Hamiltonoperator 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Zeit: spielt in der Quantenmechanik eine andere Rolle als z.B.
+ Ort oder Geschwindigkeit.
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Es gibt keinen Zeitoperator
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Betrachte Operator 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+.
+ (
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ soll nicht explizit von 
+\begin_inset Formula $t$
+\end_inset
+
+ abhängen)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{d}{dt}\left\langle \hat{A}\right\rangle =\frac{i}{\hbar}\left\langle \left[\hat{H},\hat{A}\right]\right\rangle +\underbrace{\left\langle \frac{\partial\hat{A}}{\partial t}\right\rangle }_{=0}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Aus Unschärferelation
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\Delta H\cdot\Delta A\ge\frac{1}{2}\left|\left\langle \left[\hat{H},\hat{A}\right]\right\rangle \right|=\frac{1}{2}\left|\frac{\hbar}{i}\frac{d\left\langle \hat{A}\right\rangle }{dt}\right|=\frac{\hbar}{2}\left|\frac{d\left\langle \hat{A}\right\rangle }{dt}\right|\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\Delta H=\sqrt{\left\langle \left(\hat{H}-\left\langle \hat{H}\right\rangle \right)^{2}\right\rangle }\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes gld
+\end_inset
+
+Unschärfe der Energie
+\begin_inset Quotes grd
+\end_inset
+
+: 
+\begin_inset Formula $\Delta E$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\Delta E\cdot\frac{\Delta A}{\left|\frac{d\left\langle \hat{A}\right\rangle }{dt}\right|}\ge\frac{\hbar}{2}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\frac{\Delta A}{\left|\frac{d\left\langle \hat{A}\right\rangle }{dt}\right|}$
+\end_inset
+
+ hat die Dimension einer Zeit 
+\begin_inset Formula $\hat{=}\Delta t$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Delta\hat{t}\hat{=}$
+\end_inset
+
+Zeitintervall in dem sich 
+\begin_inset Formula $\left\langle \hat{A}\right\rangle $
+\end_inset
+
+ um 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+ verändert
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\Delta E\cdot\Delta t\ge\frac{\hbar}{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Energie-Zeit-Unschärfe
+\begin_inset Quotes grd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+mit 
+\begin_inset Formula \[
+\Delta t=\frac{\Delta A}{\left|\frac{d\left\langle \hat{A}\right\rangle }{dt}\right|}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Kommutierende Operatoren
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Kommutierende-Operatoren"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{A}\varphi_{n}\left(\vec{r}\right)=a_{n}\varphi_{n}\left(\vec{r}\right)\]
+
+\end_inset
+
+ Eigenzustandsgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{A}=\hat{A}^{+}$
+\end_inset
+
+ hermitesch
+\end_layout
+
+\begin_layout Paragraph
+Zunächst
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+ sei hermitescher Operator, der auch 
+\begin_inset Formula $\varphi_{n}\left(\vec{r}\right)$
+\end_inset
+
+ als Eigenfunktionen besitzt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{B}\varphi_{n}\left(\vec{r}\right)=b_{n}\varphi_{n}\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gilt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Zwei hermitsche Operatoren 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+, die gemeinsame Eigenfunktionen besitzen, vertauschen miteinander
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Denn
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f\left(\vec{r}\right)=\underset{n}{\sum}c_{n}\varphi_{n}\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{n}$
+\end_inset
+
+: Entwicklungskoeffizienten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{A},\hat{B}\right]f\left(\vec{r}\right) & = & \underset{n}{\sum}c_{n}\left(\hat{A}\hat{B}-\hat{B}\hat{A}\right)\varphi_{n}\left(\vec{r}\right)\\
+ & = & \underset{n}{\sum}c_{n}\left(\hat{A}b_{n}-\hat{B}a_{n}\right)\varphi_{n}\left(\vec{r}\right)\\
+ & = & \underset{n}{\sum}c_{n}\underbrace{\left(a_{n}b_{n}-b_{n}a_{n}\right)}_{=0}\varphi_{n}\left(\vec{r}\right)=0\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\hat{A},\hat{B}\right]=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Umkehrung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Zwei hermitesche Operatoren 
+\begin_inset Formula $\hat{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+, die miteinander vertauschen, besitzen ein System von gemeinsamen Eigenfunktion
+en
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\hat{A},\hat{B}\right]=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{A}\varphi_{n}\left(x\right)=a_{n}\varphi_{n}\left(x\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{B}\varphi_{n}\left(x\right)=b_{n}\varphi_{n}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Denn
+\end_layout
+
+\begin_layout Standard
+Starte von 
+\begin_inset Formula \begin{equation}
+\hat{A}\varphi_{n}\left(x\right)=a_{n}\varphi_{n}\left(x\right)\label{eq:vertauschen_eins}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+und
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\left[\hat{A},\hat{B}\right]=0\label{eq:vertauschen_zwei}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{A}\underline{\hat{B}\varphi_{n}\left(x\right)} & \overset{\eqref{eq:vertauschen_zwei}}{=} & \hat{B}\hat{A}\varphi_{n}\left(x\right)\\
+ & \overset{\eqref{eq:vertauschen_zwei}}{=} & \hat{B}a_{n}\varphi_{n}\left(x\right)\\
+ & = & a_{n}\underline{\hat{B}\varphi_{n}\left(x\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Fall: keine Entartung
+\end_layout
+
+\begin_layout Standard
+zu 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ ehört eine Eigenfunktion 
+\begin_inset Formula $\varphi_{n}$
+\end_inset
+
+, die bis auf multiplikativen Faktor eindeutig ist
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{B}\varphi_{n}\left(x\right)=\underbrace{b_{n}}_{\text{Faktor}}\varphi_{n}\left(x\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\varphi_{n}\left(x\right)$
+\end_inset
+
+ ist auf Eigenfunktion von 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Fall: Entartung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{A}\varphi_{n}^{\left(j\right)}\left(x\right)=a_{n}\varphi_{n}^{\left(j\right)}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $j=1,2,...,g$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ 
+\begin_inset Formula $g$
+\end_inset
+
+-fache Entartung des Eigenwertes 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Idee
+\end_layout
+
+\begin_layout Standard
+Man bildet Linearkombinationen der 
+\begin_inset Formula $g$
+\end_inset
+
+ entarteten Zustände
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\chi_{n}^{\left(s\right)}\left(x\right)=\overset{g}{\underset{j=1}{\sum}}c_{j,s,n}\varphi_{n}^{\left(j\right)}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s=1,2,...,g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Man kann die Koeffizienten 
+\begin_inset Formula $c_{j,s,n}$
+\end_inset
+
+ so wählen, dass 
+\begin_inset Formula $\chi_{n}^{\left(s\right)}\left(x\right)$
+\end_inset
+
+ Eigenfunktionen von 
+\begin_inset Formula $\hat{B}$
+\end_inset
+
+ sind.
+ Beweis siehe z.B.
+ Merbacher 
+\begin_inset Quotes gld
+\end_inset
+
+Quantum Mechanics
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Parität
+\end_layout
+
+\begin_layout Standard
+Harmonischer Oszillator, Potentialtopf (gebundene Zustände)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Zustände sind gerade bzw.
+ ungerade
+\end_layout
+
+\begin_layout Standard
+(Abb Q45)
+\end_layout
+
+\begin_layout Standard
+Potential: 
+\begin_inset Formula $V\left(x\right)=V\left(-x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vermutung: Symmetrie des Potentials ist verantwortlich für das Auftreten
+ von geraden, bzw.
+ ungeraden Zuständen
+\end_layout
+
+\begin_layout Paragraph
+Dazu
+\end_layout
+
+\begin_layout Standard
+Definiere Operator 
+\begin_inset Formula $\hat{\Pi}$
+\end_inset
+
+ (Paritätsoperator)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\Pi}f\left(x\right)=f\left(-x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(bzw.
+ 
+\begin_inset Formula $\hat{\Pi}f\left(\vec{r}\right)=f\left(-\vec{r}\right)$
+\end_inset
+
+ im Dreidimensionalen)
+\end_layout
+
+\begin_layout Standard
+Hamiltonoperator:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\left(x\right) & = & -\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}+V\left(x\right)\\
+\hat{H}\left(-x\right) & = & -\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}+V\left(-x\right)\\
+ & = & -\frac{\hbar^{2}}{2m}\frac{d^{2}}{dx^{2}}+V\left(x\right)\\
+ & = & \hat{H}\left(x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\hat{\Pi}\hat{H}=\hat{H}\hat{\Pi}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\hat{H},\hat{\Pi}\right]=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{\ref{sub:Kommutierende-Operatoren}}{\Rightarrow}$
+\end_inset
+
+ es gibt gemeinsame Eigenfunktionen
+\end_layout
+
+\begin_layout Paragraph
+Eigenfunktionen von 
+\begin_inset Formula $\hat{\Pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+\hat{\Pi}\varphi_{n}\left(x\right) & = & \lambda_{n}\varphi_{n}\left(x\right)\label{eq:par_eins}\\
+\hat{\Pi}\varphi_{n}\left(x\right) & = & \varphi_{n}\left(-x\right)\label{eq:par_zwei}\\
+\hat{\Pi}^{2}\varphi_{n}\left(x\right) & = & \hat{\Pi}\hat{\Pi}\varphi_{n}\left(x\right)\nonumber \\
+ & \overset{\eqref{eq:par_eins}}{=} & \hat{\Pi}\lambda_{n}\varphi_{n}\left(x\right)\nonumber \\
+ & \overset{\eqref{eq:par_eins}}{=} & \lambda_{n}^{2}\varphi_{n}\left(x\right)\\
+\hat{\Pi}^{2}\varphi_{n}\left(x\right) & \overset{\eqref{eq:par_zwei}}{=} & \hat{\Pi}\varphi_{n}\left(-x\right)\\
+ & \overset{\eqref{eq:par_zwei}}{=} & \varphi_{n}\left(x\right)\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda_{n}^{2}\varphi_{n}\left(x\right)=\varphi_{n}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi_{n}^{2}=1\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda_{n}=\pm1\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $\lambda_{n}=+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{\Pi}\varphi_{n}\left(x\right) & \overset{\eqref{eq:par_eins}}{=} & 1\varphi_{n}\left(x\right)\\
+\hat{\Pi}\varphi_{n}\left(x\right) & \overset{\eqref{eq:par_zwei}}{=} & \varphi_{n}\left(-x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varphi_{n}\left(x\right)=\varphi_{n}\left(-x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ gerade Funktion
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $\lambda_{n}=-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{\Pi}\varphi_{n}\left(x\right) & \overset{\eqref{eq:par_eins}}{=} & -1\varphi_{n}\left(x\right)\\
+\hat{\Pi}\varphi_{n}\left(x\right) & \overset{\eqref{eq:par_zwei}}{=} & \varphi_{n}\left(-x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+-\varphi_{n}\left(x\right) & = & \varphi_{n}\left(-x\right)\\
+\Rightarrow\varphi_{n}\left(x\right) & =- & \varphi_{n}\left(-x\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ ungerade Funktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left[\hat{\Pi},\hat{H}\right]=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ besitzt auch gerade bzw.
+ ungerade Eigenfunktionen
+\end_layout
+
+\begin_layout Standard
+Eigenzustände lassen sich nach der Symmetrieeigenschaften des Potentials
+ klassifizieren
+\end_layout
+
+\begin_layout Standard
+z.B.
+\end_layout
+
+\begin_layout Itemize
+Potential mit Spiegelsymmetrie 
+\begin_inset Formula $V\left(x\right)=V\left(-x\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{\Pi}$
+\end_inset
+
+ Paritätsoperator
+\end_layout
+
+\begin_layout Itemize
+Potential mit 
+\begin_inset Quotes gld
+\end_inset
+
+Drehsymmetrie
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\begin_inset Formula $V\left(\vec{r}\right)=V\left(\underbrace{\overline{D}}_{\text{Drehmatrix}}\vec{r}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{R}_{\overline{D}}$
+\end_inset
+
+:Drehoperator, 
+\begin_inset Formula $\hat{R}_{\overline{D}}f\left(\vec{r}\right)=f\left(\overline{D}\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Atome: kontinuierliche Drehungen (alle Winkel)
+\end_layout
+
+\begin_layout Itemize
+Molekül: endliche Drehungen (nur für bestimmte Winkel bleibt 
+\begin_inset Formula $V\left(\vec{r}\right)$
+\end_inset
+
+ unverändert)
+\end_layout
+
+\begin_layout Itemize
+Periodische Potentiale 
+\begin_inset Formula $V\left(\vec{r}\right)=V\left(\vec{r}+\underbrace{\vec{t}}_{\text{Verschiebung um }\vec{t}}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{T}_{\vec{t}}$
+\end_inset
+
+ Translationsoperator, 
+\begin_inset Formula $\hat{T}_{\vec{t}}f\left(\vec{r}\right)=f\left(\vec{r}+\vec{t}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dirac-Notation
+\end_layout
+
+\begin_layout Standard
+Bisher: quantenmechanische Zustände als Wellenfunktion
+\end_layout
+
+\begin_layout Standard
+Ortsdarstellung: 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Impulsdarstellung: 
+\begin_inset Formula $\phi\left(\vec{p},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Notation nach Dirac
+\end_layout
+
+\begin_layout Standard
+Skalarprodukt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\chi,\psi\right) & = & \int\overset{\star}{\chi}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)d^{3}r\\
+ & = & <\chi|\psi>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+bracket (englisch: Klammer)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|\psi>$
+\end_inset
+
+ quantenmechanischer Zustand 
+\begin_inset Quotes gld
+\end_inset
+
+ket
+\begin_inset Quotes grd
+\end_inset
+
+-Vektor (
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ abstrakte Darstellung der Wellenfunktion 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\curvearrowright$
+\end_inset
+
+ 
+\begin_inset Formula $\psi\left(\vec{r},t\right)$
+\end_inset
+
+ ist Orstdarstellung von 
+\begin_inset Formula $|\psi>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $<\chi|$
+\end_inset
+
+ quantenmechanischer Zustand im dualen Raum 
+\begin_inset Quotes gld
+\end_inset
+
+bra
+\begin_inset Quotes grd
+\end_inset
+
+-Vektor
+\end_layout
+
+\begin_layout Standard
+Erwartungswert des Operator 
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \hat{O}\right\rangle =<\psi|\hat{O}|\psi>=\int\overset{\star}{\psi}\left(\vec{r},t\right)\hat{O}\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Allgemein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+<\chi|\hat{O}|\psi>=\int\overset{\star}{\chi}\left(\vec{r},t\right)\hat{O}\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Eigenschaften:
+\end_layout
+
+\begin_layout Standard
+(folgen direkt aus Definition)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+<\chi|\varphi> & = & <\varphi|\chi>^{\star}\\
+<\chi|\hat{O}|\varphi> & = & <\chi|\hat{O}\varphi>=<\hat{O}^{+}\chi|\varphi>\\
+<\chi|\left(\varphi+\phi\right)> & = & <\chi|\varphi>+<\chi|\phi>\\
+<\chi|c\cdot\psi> & = & c<\chi|\varphi>\hspace{1em}c\in\mathbb{C}\\
+<c\cdot\chi|\varphi> & = & c^{\star}<\chi|\varphi>\hspace{1em}c\in\mathbb{C}\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Eigenwertgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{O}|\varphi_{n}>=\lambda|\varphi_{n}>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{O}=\hat{O}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+<\varphi_{n}|\varphi_{n^{\prime}}>=\delta_{n,n^{\prime}}\hspace{1em}\text{Orthogonalität}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Entwicklung
+\end_layout
+
+\begin_layout Standard
+Ortsdarstellung
+\begin_inset Formula \[
+f\left(\vec{r}\right)=\underset{n}{\sum}c_{n}\varphi_{n}\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dirac-Notation
+\begin_inset Formula \[
+|f>=\underset{n}{\sum}c_{n}|\varphi_{n}>\hspace{1em}|\cdot<\varphi_{n^{\prime}}|\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+<\varphi_{n^{\prime}}|f>=\underset{n}{\sum}c_{n}\underbrace{<\varphi_{n^{\prime}}|\varphi_{n}>}_{\delta_{n,n^{\prime}}}=c_{n^{\prime}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+c_{n}=<\varphi_{n}|f>\label{eq:dirac_c_n}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Damit
+\bar default
+:
+\begin_inset Formula \[
+|f>=\underset{n}{\sum}|\varphi_{n}>c_{n}\overset{\eqref{eq:dirac_c_n}}{=}\underset{n}{\sum}|\varphi_{n}><\varphi_{n}|f>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\underset{n}{\sum}|\varphi_{n}><\varphi_{n}|=\hat{1}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Vollständige Eins
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Projektionsoperator
+\begin_inset Formula \[
+\hat{P}_{n}=|\varphi_{n}><\varphi_{n}|\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ortsraumdarstellung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(\vec{r},t\right):=<\vec{r}|\psi>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|\vec{r}>$
+\end_inset
+
+: Eigenzustände des Ortsraumoperators 
+\begin_inset Formula $\hat{\vec{r}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $<\vec{r}|\vec{r}^{\prime}>=\delta\left(\vec{r}-\vec{r}^{\prime}\right)$
+\end_inset
+
+ Orthogonalität
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+<\vec{r}|\vec{r}>=<\vec{r}|\hat{1}|\vec{r}^{\prime}>=\underset{n}{\sum}\underbrace{<\vec{r}|\varphi_{n}>}_{\varphi_{n}\left(\vec{r}\right)}\underbrace{<\varphi_{n}|\vec{r}^{\prime}>}_{\varphi_{n}^{\star}\left(\vec{r}^{\prime}\right)}=\delta\left(\vec{r}-\vec{r}^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\underset{n}{\sum}\varphi_{n}\left(\vec{r}\right)\varphi_{n}^{\star}\left(\vec{r}^{\prime}\right)=\delta\left(\vec{r}-\vec{r}^{\prime}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ vollständiger Eins
+\end_layout
+
+\begin_layout Paragraph
+Bemerkung:
+\end_layout
+
+\begin_layout Standard
+Die Zustände 
+\begin_inset Formula $|\psi>$
+\end_inset
+
+ sind mathematisch gesehen Elemente eines komplexen, linearen und vollständigen
+ Vektorraums.
+ Ein solcher Raum wird als Hilbert-Raum bezeichnet.
+\end_layout
+
+\begin_layout Paragraph
+Vergleich zwischen Quantenmechanik und linearer Algebra
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="4">
+<features islongtable="true" firstHeadBottomDL="true">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row endfirsthead="true">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+QM
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Lineare Algebra
+\bar default
+ (in drei Dimmensionen)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Zustand
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $|\psi>$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+bra
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Vektor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+\begin_inset Formula $\vec{a}=\begin{pmatrix}a_{1}\\
+a_{2}\\
+a_{3}\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<\chi|$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+ket
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{b}^{T}=\begin{pmatrix}b_{1} & b_{2} & b_{3}\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Skalarprodukt
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<\chi|\varphi>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{b}^{T}\cdot a=\underset{n=1}{\overset{3}{\sum}}b_{i}a_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Operator
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{O}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Matrix
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\overline{M}=\begin{pmatrix}M_{11} & M_{12} & M_{13}\\
+ & \ddots & \vdots\\
+ &  & M_{33}\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Eigenwertgleichung
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{O}|\varphi_{n}>=\lambda_{n}|\varphi_{n}>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\overline{M}\vec{d}^{\left(n\right)}=\lambda_{n}\vec{d}^{\left(n\right)}$
+\end_inset
+
+, 
+\begin_inset Formula $n=1,2,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gilt für 
+\begin_inset Formula $\hat{O}=\hat{O}^{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gilt für 
+\begin_inset Formula $\overline{M}=\overline{M}^{+}=\left(\overline{M}^{T}\right)^{\star}$
+\end_inset
+
+ (hermitesche Matrix)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Orthogonalität
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<\varphi_{n}|\varphi_{n^{\prime}}>=\delta_{n,n^{\prime}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{d}^{\left(n\right)}{}^{T}\cdot\vec{d}^{\left(n^{\prime}\right)}=\delta_{n,n^{\prime}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Vollständigkeit
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\underset{n}{\sum}|\varphi_{n}><\varphi_{n}|=\hat{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\underset{n}{\sum}d_{i}^{\left(n\right)}d_{j}^{\left(n\right)}=\delta_{i,j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Entwicklung
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $|f>=\underset{n}{\sum}c_{n}|f>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vec{a}=\underset{n=1}{\overset{3}{\sum}}c_{n}\vec{d}^{\left(n\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Operatormethode zur Behandlung des harmonischen Oszilators
+\end_layout
+
+\begin_layout Subsection
+Eigenwerte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}^{2}}{2m}+\frac{1}{2}k\hat{x}^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\hat{p}=\hat{p}_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega=\sqrt{\frac{k}{m}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{1}{2}m\omega^{2}\left(\hat{x}^{2}+\frac{\hat{p}^{2}}{m^{2}\omega^{2}}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+1.
+ Schritt
+\end_layout
+
+\begin_layout Standard
+Faktorisurng (Idee von Schrödinger)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Dazu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\hat{x}+i\frac{\hat{p}}{m\omega}\right)\left(\hat{x}-i\frac{\hat{p}}{m\omega}\right) & = & \left(\hat{x}^{2}+\frac{\hat{p}^{2}}{m^{2}\omega^{2}}-\frac{i}{m\omega}\underbrace{\left(\hat{x}\hat{p}-\hat{p}\hat{x}\right)}_{=\left[\hat{x},\hat{p}\right]=i\hbar}\right)\\
+ & = & \hat{x}^{2}+\frac{\hat{p}^{2}}{m^{2}\omega^{2}}+\frac{\hbar}{m\omega}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+bzw.
+\begin_inset Formula \[
+\left(\hat{x}-i\frac{\hat{p}}{m\omega}\right)\left(\hat{x}+i\frac{\hat{p}}{m\omega}\right)=\hat{x}^{2}+\frac{\hat{p}^{2}}{m^{2}\omega^{2}}-\frac{\hbar}{m\omega}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H} & = & \frac{1}{2}m\omega^{2}\left(\left(\hat{x}-i\frac{\hat{p}}{m\omega}\right)\left(\hat{x}+i\frac{\hat{p}}{m\omega}\right)+\frac{\hbar}{\omega}\right)\\
+\hat{H} & = & \hbar\omega\left(\frac{m\omega}{\hbar^{2}}\left(\hat{x}-i\frac{\hat{p}}{m\omega}\right)\left(\hat{x}+i\frac{\hat{p}}{m\omega}\right)+\frac{1}{2}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Definition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{a}:=\sqrt{\frac{m\omega}{2\hbar}}\left(\hat{x}+i\frac{\hat{p}}{2m}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Adjungierter Operator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{a}^{+}=\sqrt{\frac{m\omega}{2\hbar}}\left(\hat{x}-i\frac{\hat{p}}{m\omega}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}=\hbar\omega\left(\hat{a}^{+}\hat{a}+\frac{1}{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Suche
+\bar default
+: 
+\begin_inset Formula $\hat{H}|\varphi_{n}>=E_{n}|\varphi_{n}>$
+\end_inset
+
+ also 
+\begin_inset Formula $\hat{a}^{+}\hat{a}|\varphi_{n}>=\lambda_{n}|\varphi_{n}>$
+\end_inset
+
+ mit 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{n}=\hbar\omega\left(\lambda_{n}+\frac{1}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Ziel
+\bar default
+: Berechnung der Eigenwerte von 
+\begin_inset Formula $\hat{a}^{+}\hat{a}=\hat{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dazu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{a},\hat{a}^{+}\right] & = & \hat{a}\hat{a}^{+}-\hat{a}^{+}\hat{a}=?\\
+ & = & \left[\hat{x}-i\frac{\hat{p}}{m\omega},\hat{x}-i\frac{\hat{p}}{m\omega}\right]\frac{m\omega}{2\hbar}\\
+ & = & \frac{i}{m\omega}\left(\underbrace{\left[\hat{p},\hat{x}\right]}_{-i\hbar}-\underbrace{\left[\hat{x},\hat{p}\right]}_{i\hbar}\right)\frac{m\omega}{2\hbar}\\
+ & = & \frac{i}{m\omega}\left(2\left(-i\right)\hbar\right)\frac{m\omega}{2\hbar}=1\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+\left[\hat{a},\hat{a}^{+}\right]=1\label{eq:harmosz_op_eins}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+2.
+ Schritt
+\end_layout
+
+\begin_layout Standard
+Lösung der Eigenwertgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+\hat{a}^{+}\hat{a}|\varphi_{n}>=\lambda_{n}|\varphi_{n}>\label{eq:harmosz_op_zwei}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Die Eigenwerte 
+\begin_inset Formula $\lambda_{n}$
+\end_inset
+
+ haben die Eigenschaft 
+\begin_inset Formula $\lambda_{n}\ge0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Denn
+\bar default
+:
+\begin_inset Formula \begin{eqnarray*}
+<\varphi_{n}|\hat{a}^{+}\hat{a}|\varphi_{n}> & = & <\left(\hat{a}^{+}\right)^{+}\varphi_{n}|\hat{a}\varphi_{n}>\\
+ & = & <\hat{a}\varphi_{n}|\hat{a}\varphi_{n}>\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\int\left(\hat{a}\varphi_{n}\left(x\right)\right)^{\star}\left(\hat{a}\varphi_{n}\left(x\right)\right)dx & = & \int\left|\hat{a}\varphi_{n}\left(x\right)\right|^{2}dx\ge0\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+<\varphi_{n}|\hat{a}^{+}\hat{a}|\varphi_{n}>\overset{\eqref{eq:harmosz_op_zwei}}{=}<\varphi_{n}|\lambda_{n}|\varphi_{n}>=\lambda_{n}\underbrace{<\varphi_{n}|\varphi_{n}>}_{1}=\lambda_{n}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda_{n}\ge1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{equation}
+\lambda_{n}=<\varphi_{n}|\hat{a}^{+}\hat{a}|\varphi_{n}>\ge0\label{eq:harmosz_op_drei}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Falls 
+\begin_inset Formula $|\varphi_{n}>$
+\end_inset
+
+ ein Eigenzustand von 
+\begin_inset Formula $\hat{a}^{+}\hat{a}$
+\end_inset
+
+ ist, so ist 
+\begin_inset Formula $\hat{a}|\varphi_{n}>$
+\end_inset
+
+ auch Eigenwert von 
+\begin_inset Formula $\hat{a}^{+}\hat{a}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Dazu
+\bar default
+:
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}^{+}\hat{a}\hat{a}|\varphi_{n}> & \overset{\eqref{eq:harmosz_op_eins}}{=} & \left(\hat{a}\hat{a}^{+}-1\right)\hat{a}|\varphi_{n}>\\
+ & = & \left(\hat{a}\hat{a}^{+}\hat{a}-\hat{a}\right)|\varphi_{n}\\
+ & = & \hat{a}\left(\hat{a}^{+}\hat{a}-1\right)|\varphi_{n}>\\
+ & \overset{\eqref{eq:harmosz_op_zwei}}{=} & \hat{a}\left(\lambda_{n}-1\right)|\varphi_{n}>\\
+ & = & \left(\lambda_{n}-1\right)\hat{a}|\varphi_{n}>\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{a}|\varphi_{n}>$
+\end_inset
+
+ ist Eigenwert von 
+\begin_inset Formula $\hat{N}=\hat{a}^{+}\hat{a}$
+\end_inset
+
+ mit Eigenwert 
+\begin_inset Formula $\lambda_{n}-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Analog
+\bar default
+ 
+\begin_inset Formula $\hat{a}^{+}|\varphi_{n}>$
+\end_inset
+
+ ist Eigenwert von 
+\begin_inset Formula $\hat{N}=\hat{a}^{+}\hat{a}$
+\end_inset
+
+ mit Eigenwert 
+\begin_inset Formula $\lambda_{n}+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes gld
+\end_inset
+
+Leiter
+\begin_inset Quotes grd
+\end_inset
+
+ von Zuständen
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q46)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\lambda_{n+1} & = & \lambda_{n}+1\\
+\lambda_{n-1} & = & \lambda_{n}-1\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\left.\begin{array}{cc}
+\hat{a}^{+} & \text{Aufsteigeoperator}\\
+\hat{a} & \text{Absteigeoperator}\end{array}\right\} \text{,,Leiteroperatoren''}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Da 
+\begin_inset Formula $\lambda_{n}\ge0$
+\end_inset
+
+ kleinster Eigenwert 
+\begin_inset Formula $\lambda_{0}$
+\end_inset
+
+ (
+\begin_inset Formula $n=0$
+\end_inset
+
+).
+ Daher:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{a}|\lambda_{0}>=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+da 
+\begin_inset Formula $\lambda_{0}$
+\end_inset
+
+ kleinster Wert ist.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{a}^{+}\hat{a}|\varphi_{0}>\overset{\eqref{eq:harmosz_op_zwei}}{=}\lambda_{0}|\varphi_{0}>\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\lambda_{0}|\varphi_{0}>=0\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\lambda_{0}=0\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\lambda_{1}=1,\,\lambda_{2}=2,\,\lambda_{n}=n\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=\hbar\omega\left(\lambda_{n}+\frac{1}{2}\right)=\hbar\omega\left(n+\frac{1}{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Eigenwertspektrum des harmonischen Oszillators
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{a}|\underbrace{\varphi_{n}}_{\text{normiert}}>=\underbrace{c}_{\text{Normierungsfaktor}}|\underbrace{\varphi_{n-1}}_{\text{normiert}}>$
+\end_inset
+
+, 
+\begin_inset Formula $<\varphi_{n}|\varphi_{n^{\prime}}>=\delta_{n,n^{\prime}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Da
+\begin_inset Formula \begin{eqnarray*}
+\lambda_{n} & \overset{\eqref{eq:harmosz_op_zwei}}{=} & <\hat{a}\lambda_{n}|\hat{a}\lambda_{n}>\\
+ & = & c^{\star}c\underbrace{<\varphi_{n-1}|\lambda_{n-1}>}_{=1}=\left|c\right|^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+c=\sqrt{\lambda_{n}}=\sqrt{n}\hspace{1em}\left(\text{bis auf Phasenfaktor}\right)\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Analog
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}|\varphi_{n}> & = & \sqrt{n}|\varphi_{n-1}>\\
+\hat{a}^{+}|\varphi_{n}> & = & \sqrt{n+1}|\varphi_{n+1}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+<\varphi_{n}|x^{2}|\varphi_{n}>\]
+
 \end_inset
 
 
