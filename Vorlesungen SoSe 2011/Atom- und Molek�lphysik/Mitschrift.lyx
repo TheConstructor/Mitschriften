@@ -4320,7 +4320,7 @@ E_{kin} & = & \sqrt{p^{2}c^{2}+m^{2}c^{4}}-mc^{2}\\
 \begin_inset Box Framed
 position "t"
 hor_pos "c"
-has_inner_box 1
+has_inner_box 0
 inner_pos "t"
 use_parbox 0
 width "100col%"
@@ -4809,6 +4809,541 @@ Spin
 \end_inset
 
  Aufspaltung wird verständlich!
+\end_layout
+
+\begin_layout Subsubsection
+?
+\end_layout
+
+\begin_layout Subsubsection
+Einstein-de-Haas-Effekt 1915
+\end_layout
+
+\begin_layout Standard
+Vorschlag: Einstein, Experiement: de Haas
+\end_layout
+
+\begin_layout Standard
+(Abb A28)
+\end_layout
+
+\begin_layout Standard
+Eisenzylinder wird durch äußere Spule bis zur Sättigungsmagnetisierung (
+\begin_inset Formula $B\approx1,5\text{T})$
+\end_inset
+
+ magnetisiert
+\end_layout
+
+\begin_layout Standard
+Die Magnetisierung wird wesentlich durch die magnetischen Momente der Elektronen
+spins getragen 
+\begin_inset Formula $M=N\mu_{s}$
+\end_inset
+
+ (
+\begin_inset Formula $N$
+\end_inset
+
+ ist 
+\begin_inset Formula $\tfrac{1}{\text{Atom}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Jetzt wird das magnetische Feld 
+\begin_inset Formula $B$
+\end_inset
+
+ umgepolt 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Spins klappen alle um
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Delta M=2N\mu_{s}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Damit ist eine Drehimpulsänderung
+\begin_inset Formula \[
+\Delta S=2Ns\]
+
+\end_inset
+
+verbunden.
+ Wegen Gesamtdrehimpulserhaltung, erfährt der Eisenzylinder eine Drehimpulsänder
+ung 
+\begin_inset Formula $\Delta L=-\Delta S$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{vorher}=0$
+\end_inset
+
+, 
+\begin_inset Formula $L_{nachher}=\Delta L=\underbrace{I}_{\text{Trägheitsmoment}}\cdot\underbrace{\omega}_{\text{Kreisfrequenz}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Drehschwingung wegen rücktreibendem Drehmoment des Fadens, die messbar
+ ist.
+\end_layout
+
+\begin_layout Standard
+D.h.
+ messe 
+\begin_inset Formula $\omega$
+\end_inset
+
+, berechne 
+\begin_inset Formula $I$
+\end_inset
+
+, kenne 
+\begin_inset Formula $N$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\gamma_{s}=\frac{\mu_{s}}{s}$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+gyromagnetisches Verhältnis
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\mu_{s}\approx\frac{e}{m_{e}}$
+\end_inset
+
+ während 
+\begin_inset Formula $\gamma_{l}=\frac{e}{2m_{e}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Landé-
+\begin_inset Formula $g$
+\end_inset
+
+-Faktor: 
+\begin_inset Formula $\mu_{s}=g_{s}\mu_{B}\frac{s}{\hbar}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $g_{s}=2$
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{s}=2$
+\end_inset
+
+ verständlich aus Dirac-Gleichung (KT II)
+\end_layout
+
+\begin_layout Standard
+Noch genauer: 
+\begin_inset Formula $g_{s}=2,002...$
+\end_inset
+
+ (Strahlungskorrekturen)
+\end_layout
+
+\begin_layout Subsubsection
+Spin-Bahn-Kopplung: Feinstruktur
+\end_layout
+
+\begin_layout Standard
+Im Ruhesystem des Elektrons gilt:
+\end_layout
+
+\begin_layout Standard
+Der 
+\begin_inset Quotes gld
+\end_inset
+
+kreisende Kern
+\begin_inset Quotes grd
+\end_inset
+
+ mit 
+\begin_inset Formula $q=+e$
+\end_inset
+
+ erzeugt nach Biot-Sarvart-Gesetz am Ort des Elektrons ein Magnetfeld 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für einen stromdurchflossenen dünnen Leiter im Abstand 
+\begin_inset Formula $r$
+\end_inset
+
+ gilt
+\end_layout
+
+\begin_layout Standard
+(Abb A29)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{B}\left(r\right)=-\frac{\mu_{0}}{4\pi}I\underbrace{\underset{2\pi}{\oint}\frac{\overbrace{\vec{e}_{r}}^{\text{Einheitsvektor und }r\text{-Richtung}}\times\vec{d}s}{r^{2}}}_{\frac{2\pi r}{r^{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+hier 
+\begin_inset Formula $I=+\frac{eZv}{2\pi r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{B}_{l}\left(r\right)=\frac{\mu_{0}}{4\pi}\frac{eZ}{mr^{3}}\underbrace{\vec{l}}_{mvr}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Spin des Elektrons orientiert sich in diesem 
+\begin_inset Formula $B$
+\end_inset
+
+-Feld
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\Delta E & = & -\vec{\mu}_{s}\vec{B}=g_{s}\mu_{B}\frac{\vec{s}}{\hbar}\frac{\mu_{0}Ze}{4\pi m_{e}^{2}r^{3}}\vec{l}\\
+ & = & \frac{\mu_{0}ze^{2}}{4\pi m_{e}^{2}r^{3}}\left(\vec{s}\vec{l}\right)\\
+\mu_{B} & = & \frac{e\hbar}{2m_{e}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Transformiert man wieder zurück ins Laborssystem, so erhäöt man einen weiteren
+ Faktor 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ (Thomas-Faktor)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Delta E=\frac{\mu_{0}ze^{2}}{8\pi m_{e}^{2}r^{3}}\vec{s}\vec{l}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{s}\vec{l}$
+\end_inset
+
+ aus Verktoraddition der Drehimpulse 
+\begin_inset Formula $\vec{l}$
+\end_inset
+
+ und 
+\begin_inset Formula $\vec{s}$
+\end_inset
+
+ zum Gesamtdrehimpuls 
+\begin_inset Formula $\vec{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{j} & = & \vec{l}+\vec{s}\\
+\left|\vec{j}^{2}\right| & = & \left|\left(\vec{l}+\vec{s}\right)^{2}\right|\\
+j\left(j+1\right)\hbar^{2} & = & l\left(l+1\right)\hbar^{2}+s\left(s+1\right)\hbar^{2}+2\vec{l}\vec{s}\\
+\vec{s}\vec{l} & = & \frac{1}{2}\left(j\left(j+1\right)-l\left(l+1\right)-\underbrace{s}_{\frac{1}{2}}\left(s+1\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2 Möglichkeiten: 
+\begin_inset Formula $l\pm\frac{1}{2}$
+\end_inset
+
+ für 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Dubletts
+\end_layout
+
+\begin_layout Standard
+(Abb A30)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 2 Möglichkeiten: Maximale 
+\begin_inset Formula $z$
+\end_inset
+
+-Projektion des Gesamtdrehimpulses Ist immer 
+\begin_inset Formula $=l+\frac{1}{2}$
+\end_inset
+
+ oder 
+\begin_inset Formula $l-\frac{1}{2}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $j=l\pm\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wenn 
+\begin_inset Formula $j=l\pm\frac{1}{2}$
+\end_inset
+
+ gewählt ist, hängt 
+\begin_inset Formula $\vec{s}\vec{l}$
+\end_inset
+
+ nur noch von 
+\begin_inset Formula $l$
+\end_inset
+
+ ab.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left\langle \frac{1}{r^{3}}\right\rangle $
+\end_inset
+
+-Erwartungswert ausrechnen.
+\end_layout
+
+\begin_layout Standard
+Zusammen mit relativistischer Korrektur ergibt sich:
+\begin_inset Formula \[
+E_{n,\underbrace{j}_{l=\pm\frac{1}{2}}}=\underbrace{E_{n}}_{-\frac{1}{2}mc^{2}z^{2}\alpha^{2}\frac{1}{n^{2}}}\left(1-\frac{z^{2}\alpha^{2}}{n}\left(\frac{1}{j+\frac{1}{2}}-\frac{3}{4n}\right)\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Anormaler Zeeman Effekt
+\end_layout
+
+\begin_layout Standard
+Jetzt: unter Berücksichtigung zweier magnetischer Momente
+\end_layout
+
+\begin_layout Standard
+magnetischer Bahnmoment 
+\begin_inset Formula $\mu_{l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Spin 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ist das äußere Magnetfeld 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ schwächer als die Feinstruktur (das die 
+\begin_inset Formula $e$
+\end_inset
+
+-Bewegung erzeugende 
+\begin_inset Formula $B$
+\end_inset
+
+-Feld), so bleibt 
+\begin_inset Formula $\vec{j}=\vec{l}+\vec{s}$
+\end_inset
+
+ erhalten (
+\begin_inset Formula $j$
+\end_inset
+
+ bleibt gute Quantenzahl)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{\mu}_{e}+\vec{\mu}_{s} & = & \vec{\mu}_{j}=\frac{-e}{2m_{e}}\left(\vec{l}+g_{s}\vec{s}\right)\\
+\left\langle \mu_{j}\right\rangle  & = & \frac{\vec{\mu}_{j}\vec{j}}{\left|j\right|}\hspace{1em}\left(\vec{\mu}_{j}\text{ präzediert um }\vec{j}\right)\\
+ & = & \frac{-e}{2m_{e}}\left(\frac{\vec{l}\vec{j}}{\left|j\right|}+2\frac{\vec{s}\vec{j}}{\left|j\right|}\right)\\
+ & = & \frac{-e}{2m_{e}}\underbrace{\frac{3j\left(j+1\right)+s\left(s+1\right)-l\left(l+1\right)}{2j\left(j+1\right)}}_{g_{j}}\cdot\underbrace{\left|j\right|}_{?}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{s} & = & \vec{j}-\vec{l}\hspace{1em}|^{2}\\
+\vec{l}\vec{j} & = & \frac{1}{2}\left(\vec{j}^{2}+\vec{l}^{2}-\vec{s}^{2}\right)\\
+ & = & \frac{1}{2}\left[j\left(j+1\right)+l\left(l+1\right)-s\left(s+1\right)\right]\hbar^{2}\\
+\vec{s}\vec{j} & = & \frac{1}{2}\left[j\left(j+1\right)-l\left(l+1\right)+s\left(s+1\right)\right]\hbar^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\Delta E_{B} & = & -\left\langle \mu_{j}\right\rangle _{z}B\hspace{1em}\text{wenn }\vec{B}=\begin{pmatrix}0\\
+0\\
+B\end{pmatrix}\\
+ & = & -m_{j}g_{j}\mu_{B}B\\
+g_{j} & = & 1+\frac{j\left(j+1\right)+s\left(s+1\right)-l\left(l+1\right)}{2j\left(j+1\right)}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hyperfeinstruktur
+\end_layout
+
+\begin_layout Standard
+Bei sehr genauer und 
+\begin_inset Quotes gld
+\end_inset
+
+dopplerfreier
+\begin_inset Quotes grd
+\end_inset
+
+ Spektroskopie (Spektroskopie an gekühlten Atomen, Sättigungsspektroskopie,...)
+ kannman die Aufspaltung des Wasserstoffgrundzustandes in 2 Linien beobachten.
+\end_layout
+
+\begin_layout Standard
+Magnetische Wechselwirkung des Kernmagnetmoementes 
+\begin_inset Formula $\mu_{I}$
+\end_inset
+
+ aufgrund des Kernspins 
+\begin_inset Formula $I$
+\end_inset
+
+ mit dem durch das Elektron am Kern verursachte Magnetfeld (und Wechselwirkung
+ des 
+\begin_inset Formula $\mu_{s}$
+\end_inset
+
+ und 
+\begin_inset Formula $\mu_{I}$
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Section
