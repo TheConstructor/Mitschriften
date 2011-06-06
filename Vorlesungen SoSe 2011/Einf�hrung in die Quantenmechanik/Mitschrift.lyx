@@ -1,4 +1,4 @@
-#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -15989,19 +15989,1026 @@ status open
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $n=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{a}^{+}|\varphi_{0}>=\sqrt{1}|\varphi_{1}>\]
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $n=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}^{+}|\varphi_{1}> & = & \sqrt{2}|\varphi_{2}>\\
+\Rightarrow\hspace{1em}|\varphi_{2}> & = & \frac{\hat{a}^{+}}{\sqrt{2}}|\varphi_{1}>=\frac{\left(\hat{a}^{+}\right)^{2}}{\sqrt{2}}|\varphi_{0}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $n=2$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}^{+}|\varphi_{2}> & = & \sqrt{3}|\varphi_{3}>\\
+\Rightarrow\hspace{1em}|\varphi_{3}> & = & \frac{\left(\hat{a}^{+}\right)^{3}}{\sqrt{3\cdot2}}|\varphi_{0}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Allgemein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+|\varphi_{n}>=\frac{\left(\hat{a}^{+}\right)^{n}}{\sqrt{n!}}|\varphi_{0}>\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Berechnung von 
+\begin_inset Formula $\varphi_{0}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abbruchbedingung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{a}|\varphi_{0}>=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ortsdarstellung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{x}=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\frac{m\omega}{2\hbar}\right)^{\frac{1}{2}}\left(x+\frac{\hbar}{m\omega}\frac{d}{dx}\right)\varphi_{0}\left(x\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Differentialgleichung für 
+\begin_inset Formula $\varphi_{0}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\hbar}{m\omega}\frac{d}{dx}\varphi_{0}\left(x\right)=-x\varphi_{0}\left(x\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ansatz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\varphi_{0}\left(x\right) & = & e^{-\beta\cdot x^{2}}\\
+\frac{d}{dx}\varphi_{0}\left(x\right) & = & -2\beta xe^{-\beta x^{2}}\hspace{1em}\Rightarrow\beta=\frac{m\omega}{2\hbar}\\
+\frac{\hbar}{m\omega}\left(-2\beta x\right)e^{-\beta x^{2}} & = & -xe^{-\beta x^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula \[
-<\varphi_{n}|x^{2}|\varphi_{n}>\]
+\varphi_{0}\left(x\right)=e^{-\frac{m\omega}{2\hbar}x^{2}}\]
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+(bis auf Faktor)
+\end_layout
+
+\begin_layout Paragraph
+Normierung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{0}\left(x\right)=\left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}e^{-\frac{m\omega}{2\hbar}x^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Alle anderen Zustände
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{n}\left(x\right)=\left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}\frac{1}{\sqrt{n!}}\left(\frac{m\omega}{2\hbar}\right)^{\frac{n}{2}}\left(x-\frac{\hbar}{m\omega}\frac{d}{dx}\right)^{n}e^{-\frac{m\omega}{2\hbar}x^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\alpha & = & \sqrt{\frac{m\omega}{\hbar}}\\
+\varphi_{n}\left(x\right) & = & \underbrace{\left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}\cdot\frac{1}{\sqrt{n!\cdot2^{n}}}}_{=A_{n}}\left(\alpha x-\frac{1}{2}\frac{d}{dx}\right)^{n}e^{-\frac{\alpha^{2}}{2}x^{2}}\\
+y & = & \alpha x\\
+\varphi_{n}\left(\frac{y}{\alpha}\right) & = & A_{n}\left(y-\frac{d}{dy}\right)^{n}e^{-\frac{y^{2}}{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Was liefert 
+\begin_inset Formula $\left(y-\frac{d}{dy}\right)^{n}e^{-\frac{y^{2}}{2}}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Paragraph
+Dazu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(y-\frac{d}{dy}\right)e^{\frac{y^{2}}{2}}f\left(y\right) & = & \underbrace{ye^{\frac{y^{2}}{2}}f\left(y\right)-\frac{2y}{2}e^{\frac{y^{2}}{2}}f\left(y\right)}_{=0}-e^{\frac{y^{2}}{2}}\frac{d}{dy}f\left(y\right)\\
+\Rightarrow\hspace{1em}\left(y-\frac{d}{dy}\right)^{n}e^{\frac{y^{2}}{2}}f\left(y\right) & = & \left(-1\right)^{n}e^{\frac{y^{2}}{2}}\frac{d^{n}}{dy^{n}}f\left(y\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Speziell
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(y\right)=e^{-y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(y-\frac{d}{dy}\right)^{n}e^{-\frac{y^{2}}{2}} & = & \left(-1\right)^{n}e^{\frac{y^{2}}{2}}\frac{d^{n}}{dy^{n}}e^{-y^{2}}\\
+ & = & e^{-\frac{y^{n}}{2}}\underbrace{\left(-1\right)^{n}e^{y^{2}}\frac{d^{n}}{dy^{n}}e^{-y^{2}}}_{H_{n}\left(y\right)\, n\text{-tes Hermite-Polynom}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $H_{n}\left(y\right)$
+\end_inset
+
+ wie in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:hermite-rodriques"
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "eq:hermite-rodriques"
+
+\end_inset
+
+ in Rodriques-Darstellung)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\varphi_{n}\left(x\right)=\left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}\frac{1}{\sqrt{n!2^{n}}}H_{n}\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{1}{2}\frac{m\omega}{\hbar}x^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Bewegung in einem Zentralfeld
+\end_layout
+
+\begin_layout Standard
+Potential 
+\begin_inset Formula $V\left(\vec{r}\right)=V\left(\left|\vec{r}\right|\right)=V\left(r\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Feld 
+\begin_inset Formula $\vec{F}\left(\vec{r}\right)=-\text{grad}V\left(\vec{r}\right)=f\left(r\right)\vec{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Speziell
+\end_layout
+
+\begin_layout Standard
+Coulomb-Potential 
+\begin_inset Formula $V\left(r\right)=-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Drehimpulsoperator
+\end_layout
+
+\begin_layout Subsubsection
+Vorbemerkung: Drehimpuls in klassischer Physik
+\end_layout
+
+\begin_layout Paragraph
+Klassische Physik:
+\end_layout
+
+\begin_layout Standard
+Energiesatz bei kugelsymmetrischem Potential
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E & = & \frac{1}{2}mv^{2}+V\left(r\right)\\
+\vec{v} & = & \frac{d}{dt}\vec{r}\\
+\dot{r} & = & \frac{d}{dt}\left|\vec{r}\right|\hspace{1em}\left(\text{,,Radialgeschwindigkeit''}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+liefert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E & = & \underbrace{\frac{1}{2}m\dot{r}^{2}}_{=\frac{p_{r}^{2}}{2m}}+\underbrace{\frac{L^{2}}{2mr^{2}}+V\left(r\right)}_{\text{effektives Potential}}\\
+ & = & \frac{p_{r}^{2}}{2m}+\frac{L^{2}}{2mr^{2}}+V\left(r\right)\\
+ & = & \underbrace{H}_{\text{Hamilton-Funktion}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{r}=m\dot{r}$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+Radialimpuls
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Drehimpuls in Quantenmechanik
+\end_layout
+
+\begin_layout Paragraph
+Definition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{\vec{L}}:=\hat{\vec{r}}\times\hat{\vec{p}}\underset{\text{Ortsdarstellung}}{=}\frac{\hbar}{i}\vec{r}\times\vec{\triangledown}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{L}=\begin{pmatrix}\hat{L}_{x}\\
+\hat{L}_{y}\\
+\hat{L}_{z}\end{pmatrix}$
+\end_inset
+
+, es gilt: 
+\begin_inset Formula $\vec{L}=\vec{L}^{+}$
+\end_inset
+
+ d.h.
+ Drehimpuls ist ein hermitscher Operator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{L}}=\begin{pmatrix}\hat{y}\hat{p}_{z}-\hat{z}\hat{p}_{y}\\
+\hat{z}\hat{p}_{x}-\hat{x}\hat{p}_{z}\\
+\hat{x}\hat{p}_{y}-\hat{y}\hat{p}_{x}\end{pmatrix}=\frac{\hbar}{i}\begin{pmatrix}y\frac{\partial}{\partial z}-z\frac{\partial}{\partial y}\\
+z\frac{\partial}{\partial x}-x\frac{\partial}{\partial z}\\
+x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Vertauschungsrelationen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{L}_{x},\hat{L}_{y}\right] & = & \left[\hat{L}_{x},\hat{z}\hat{p}_{x}-\hat{x}\hat{p}_{z}\right]\\
+ & = & \left[\hat{L}_{x},\hat{z}\hat{p}_{x}\right]-\left[\hat{L}_{x},\hat{x}\hat{p}_{z}\right]\\
+\left[\hat{A},\hat{B}\hat{C}\right] & = & \left[\hat{A},\hat{B}\right]\hat{C}+\hat{B}\left[\hat{A},\hat{C}\right]\\
+\left[\hat{L}_{x},\hat{z}\right] & = & \left[\hat{y}\hat{p}_{z}-\hat{z}\hat{p}_{y},\hat{z}\right]\\
+ & = & \hat{y}\left[\hat{p}_{z},\hat{z}\right]\\
+ & = & -i\hbar\hat{y}\\
+\left[\hat{L}_{x},\hat{p}_{x}\right] & = & \left[\hat{y}\hat{p}_{z}-\hat{z}\hat{p}_{y},\hat{p}_{x}\right]\\
+ & = & 0\\
+\Rightarrow\hspace{1em}\left[\hat{L}_{x},\hat{z}\hat{p}_{x}\right] & = & -\hbar\hat{y}\hat{p_{x}}\\
+\left[\hat{L}_{x},\hat{x}\right] & = & 0\\
+\left[\hat{L}_{x},\hat{p}_{z}\right] & = & -i\hbar\hat{p}_{y}\\
+\Rightarrow\hspace{1em}\left[\hat{L}_{x},\hat{x}\hat{p}_{z}\right] & = & -i\hbar\hat{x}\hat{p}_{y}\\
+\Rightarrow\hspace{1em}\left[\hat{L}_{x},\hat{L}_{y}\right] & = & -\hbar\left(\hat{x}\hat{p}_{y}-\hat{y}\hat{p}_{x}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left[\hat{L}_{x},\hat{L}_{y}\right]=i\hbar\hat{L}_{z}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Analog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{L}_{y},\hat{L}_{z}\right] & = & i\hbar\hat{L}_{x}\\
+\left[\hat{L}_{z},\hat{L}_{x}\right] & = & i\hbar\hat{L}_{y}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left[\hat{L}_{x},\hat{L}_{x}\right]=0=\left[\hat{L}_{y},\hat{L}_{y}\right]=\left[\hat{L}_{z},\hat{L}_{z}\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Die verschiedenen Komponeneten von 
+\begin_inset Formula $\hat{\vec{L}}$
+\end_inset
+
+ vertauschen 
+\bar under
+nicht
+\bar default
+ miteinander
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{L}_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{y}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ besitzen keine gemeinsamen Eigenfunktionen
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{L}_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{y}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ sind nicht gleichzeitig genau messbar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Operator 
+\begin_inset Formula $\hat{\vec{L}}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(in klassischer Hamiltonfunktion tritt 
+\begin_inset Formula $\vec{L}^{2}$
+\end_inset
+
+ auf)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{L}}^{2}:=\hat{L}_{x}^{2}+\hat{L}_{y}^{2}+\hat{L}_{z}^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Vertauschung
+\begin_inset Formula $\left[\hat{\vec{L}}^{2},\hat{L}_{x}\right]=?$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dazu:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{L}_{x}^{2},\hat{L}_{x}\right] & = & 0\\
+\left[\hat{L}_{y}^{2}.\hat{L}_{x}\right] & = & \left[\hat{L}_{y}\hat{L}_{y},\hat{L}_{x}\right]\\
+ & = & \hat{L}_{y}\underbrace{\left[\hat{L}_{y},\hat{L}_{x}\right]}_{-i\hbar\hat{L}_{z}}+\underbrace{\left[\hat{L}_{y}\hat{L}_{x}\right]}_{-i\hbar\hat{L}_{z}}\hat{L}_{y}\\
+ & = & -\hbar\hat{L}_{y}\hat{L}_{z}-i\hbar\hat{L}_{z}\hat{L}_{y}\\
+\left[\hat{L}_{z}^{2},\hat{L}_{x}\right] & = & \left[\hat{L}_{z}\hat{L}_{z},\hat{L}_{x}\right]\\
+ & = & i\hbar\hat{L}_{z}\hat{L}_{y}+i\hbar\hat{L}_{y}\hat{L}_{z}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left[\hat{L}_{x}^{2},\hat{L}_{x}\right]+\left[\hat{L}_{y}^{2},\hat{L}_{x}\right]+\left[\hat{L}_{z}^{2},\hat{L}_{x}\right]=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ vertauscht mit 
+\begin_inset Formula $\hat{L}_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analog: 
+\begin_inset Formula $\left[\hat{L}^{2},\hat{L}_{y}\right]=0$
+\end_inset
+
+, 
+\begin_inset Formula $\left[\hat{L}^{2},\hat{L}_{z}\right]=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ (bzw.
+ 
+\begin_inset Formula $\hat{L}_{x}$
+\end_inset
+
+ oder 
+\begin_inset Formula $\hat{L}_{y}$
+\end_inset
+
+) haben ein System von gemeinsamen Eigenfunktionen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es wird sich zeigen, dass 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ mit 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ vertauschen 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ haben gemeinsame Eigenfunktionen
+\end_layout
+
+\begin_layout Subsubsection
+Hamiltonoperator für kugelsymmetrisches Potential
+\end_layout
+
+\begin_layout Paragraph
+Kugelkoordinaten
+\end_layout
+
+\begin_layout Standard
+(Abb Q47)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{r}=\begin{pmatrix}r\sin\theta\cos\varphi\\
+r\sin\theta\sin\varphi\\
+r\cos\theta\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Einheitsvektoren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{j}\hat{=}r,\theta,\varphi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{e}_{g_{j}}=\frac{\frac{\partial\vec{r}}{\partial g_{j}}}{\left|\frac{\partial\vec{r}}{\partial g_{j}}\right|}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{e}_{r} & = & \begin{pmatrix}\sin\theta\cos\varphi\\
+\sin\theta\sin\varphi\\
+\cos\theta\end{pmatrix}\\
+\vec{e}_{\theta} & = & \begin{pmatrix}\cos\theta\cos\varphi\\
+\cos\theta\sin\varphi\\
+-\sin\theta\end{pmatrix}\\
+\vec{e}_{\varphi} & = & \begin{pmatrix}-\sin\varphi\\
+\cos\varphi\\
+0\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{e}_{r}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{e}_{\theta}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{e}_{\varphi}$
+\end_inset
+
+ bilden Rechtssystem
+\end_layout
+
+\begin_layout Paragraph
+Gradient
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{\triangledown}=\vec{e}_{r}\frac{\partial}{\partial r}+\vec{e}_{\theta}\frac{1}{r}\frac{\partial}{\partial\theta}+\vec{e}_{\varphi}\frac{1}{r\sin\theta}\frac{\partial}{\partial\varphi}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{L} & = & \left(\hat{r}\times\vec{\triangledown}\right)\\
+ & = & \frac{\hbar}{i}r\left(\vec{e}_{r}\times\vec{\triangledown}\right)\\
+ & = & \frac{\hbar}{i}r\left(0+\vec{e}_{\varphi}\frac{1}{r}\frac{\partial}{\partial\theta}-\vec{e}_{\vartheta}\frac{\frac{\partial}{\partial\varphi}}{r\sin\theta}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{\vec{L}}=\frac{\hbar}{i}\left(\vec{e}_{\varphi}\frac{\partial}{\partial\theta}-\frac{\vec{e}_{\theta}}{\sin\theta}\frac{\partial}{\partial\varphi}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{L}}=\frac{\hbar}{i}\left(\begin{pmatrix}-\sin\varphi\\
+\cos\varphi\\
+0\end{pmatrix}\frac{\partial}{\partial\theta}-\begin{pmatrix}\cot\theta\cos\varphi\\
+\cot\theta\sin\varphi\\
+-1\end{pmatrix}\frac{\partial}{\partial\varphi}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{z}=\frac{\hbar}{i}\frac{\partial}{\partial\varphi}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $z$
+\end_inset
+
+-Komponente des Drehimpulsoperatpors in Kugelkoordinaten
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
