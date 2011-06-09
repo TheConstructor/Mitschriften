@@ -17008,6 +17008,1249 @@ status open
 -Komponente des Drehimpulsoperatpors in Kugelkoordinaten
 \end_layout
 
+\begin_layout Paragraph
+Drehimpuls
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{\vec{L}} & = & \hat{\vec{r}}\times\hat{\vec{p}}\\
+ & = & \frac{\hbar}{i}\left(\vec{e}_{\varphi}\frac{\partial}{\partial\theta}-\vec{e}_{\theta}\frac{1}{\sin\theta}\frac{\partial}{\partial\varphi}\right)\\
+\Rightarrow\hspace{1em}\hat{\vec{L}}^{2} & = & \left(\frac{\hbar}{i}\right)^{2}\left(\vec{e}_{\varphi}\frac{\partial}{\partial\theta}-\vec{e}_{\theta}\frac{1}{\sin\theta}\frac{\partial}{\partial\varphi}\right)\left(\vec{e}_{\varphi}\frac{\partial}{\partial\theta}-\vec{e}_{\theta}\frac{1}{\sin\theta}\frac{\partial}{\partial\varphi}\right)\\
+\left(\text{siehe Übung}\right) & = & -\frac{\hbar^{2}}{\sin^{2}\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{\partial^{2}}{\partial\varphi^{2}}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}=-\frac{\hbar^{2}}{2m}\left(\frac{\partial^{2}}{\partial r^{2}}+\frac{2}{r}\frac{\partial}{\partial r}\right)+\frac{\hat{\vec{L}}^{2}}{2mr^{2}}+V\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\hat{\vec{L}}$
+\end_inset
+
+ hängt nur von 
+\begin_inset Formula $\theta$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ ab (nicht von 
+\begin_inset Formula $r$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\hat{p}_{r}^{2}=-\hbar^{2}\left(\frac{\partial^{2}}{\partial r^{2}}+\frac{2}{r}\frac{\partial}{\partial r}\right)=\hat{p}_{r}\hat{p}_{r}$
+\end_inset
+
+ radialer Impuls 
+\begin_inset Formula $\hat{p}_{r}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{p}_{r}=\frac{\hbar}{i}\left(\frac{\partial}{\partial r}+\frac{1}{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Denn
+\bar default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\hat{p}_{r}\hat{p}_{r}f\left(\vec{r}\right) & = & -\hbar^{2}\left(\frac{\partial}{\partial r}+\frac{1}{r}\right)\left(\frac{\partial f}{\partial r}+\frac{1}{r}f\right)\\
+ & = & -\hbar^{2}\left(\frac{\partial^{2}}{\partial r^{2}}f-\frac{1}{r^{2}}f+\frac{1}{r}\frac{\partial f}{\partial r}+\frac{1}{r}\frac{\partial f}{\partial r}+\frac{1}{r}f\right)\\
+ & = & -\hbar^{2}\left(\frac{\partial^{2}}{\partial r^{2}}+\frac{2}{r}\frac{\partial}{\partial r}\right)f\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}_{r}^{2}}{2m}+\frac{\hat{L}^{2}}{2mr^{2}}+V\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ vertauscht mit 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left[\hat{H},\hat{L}^{2}\right]=\underbrace{\left[\hat{p}_{r}^{2},\hat{L}\right]}_{0}\frac{1}{2m}+\underbrace{\left[\hat{L}^{2},\hat{L}^{2}\right]}_{0}\frac{1}{2mr^{2}}+\underbrace{\left[\hat{L}^{2},V\left(r\right)\right]}_{0}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $\hat{p}_{r}$
+\end_inset
+
+ nur von 
+\begin_inset Formula $r$
+\end_inset
+
+ abhängt, 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ nur von 
+\begin_inset Formula $\theta$
+\end_inset
+
+ und 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ abhängt und 
+\begin_inset Formula $V\left(r\right)$
+\end_inset
+
+ nur von 
+\begin_inset Formula $r$
+\end_inset
+
+ abhängt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left[\hat{H},\hat{L}_{z}\right]=0\]
+
+\end_inset
+
+, da 
+\begin_inset Formula $\hat{L}_{z}=\frac{\hbar}{i}\frac{\partial}{\partial\varphi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ besitzen daher gemeinsame Eigenfunktionen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Eigenwerte des Drehimpulsoperators
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}^{2}Y\left(\theta,\varphi\right)=\hbar^{2}\lambda Y\left(\theta,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{L}$
+\end_inset
+
+ hat Dimension 
+\begin_inset Formula $\text{m}\,\text{kg}\,\frac{\text{m}}{\text{s}}$
+\end_inset
+
+, 
+\begin_inset Formula $\hbar$
+\end_inset
+
+ hat ebenfalls diese Dimension 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ stelle Eigenwert als Vielfaches von 
+\begin_inset Formula $\hbar^{2}$
+\end_inset
+
+ dar
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{z}Y\left(\theta,\varphi\right)=\hbar mY\left(\theta,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+Quantenzahlen
+\begin_inset Quotes grd
+\end_inset
+
+: 
+\begin_inset Formula $Y_{\lambda m}\left(\theta,\varphi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Dirac-Notation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray}
+\hat{L}^{2}|Y_{\lambda m}> & = & \hbar^{2}\lambda|Y_{\lambda m}>\label{eq:ewdreh_eins}\\
+\hat{L}_{z}|Y_{\lambda m}> & = & \hbar m|Y_{\lambda m}>\label{eq:ewdreh_zwei}\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+<Y_{\lambda m}|\hat{L}^{2}|Y_{\lambda m}> & \overset{\eqref{eq:ewdreh_eins}}{=} & <Y_{\lambda m}|\hbar^{2}\lambda|Y_{\lambda m}>\\
+ & = & \hbar^{2}\lambda\underbrace{<Y_{\lambda m}|Y_{\lambda m}>}_{=1}\\
+ & = & \hbar^{2}\lambda\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+<Y_{\lambda m}|\hat{L}\hat{L}|Y_{\lambda m}> & = & <\underbrace{\hat{L}^{+}}_{\hat{L}}Y_{\lambda m}|\hat{L}Y_{\lambda m}>\\
+ & = & <\hat{L}Y_{\lambda m}|\hat{L}Y_{\lambda m}>\ge0\\
+\Rightarrow\hspace{1em}\lambda & \ge & 0\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Definition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{+} & := & \hat{L}_{x}+i\hat{L}_{y}\\
+\hat{L}_{-} & := & \hat{L}_{x}-i\hat{L}_{y}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(\hat{L}_{+}\right)^{+} & = & \hat{L}_{x}-i\hat{L}_{y}=\hat{L}_{-}\\
+\left(\hat{L}_{-}\right)^{+} & = & \hat{L}_{+}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Wichtige Eigenschaften
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{eqnarray}
+\left[\hat{L}_{z},\hat{L}_{+}\right] & = & \left[\hat{L}_{z},\hat{L}_{x}+i\hat{L}_{y}\right]\nonumber \\
+ & = & \underbrace{\left[\hat{L}_{z},\hat{L}_{x}\right]}_{i\hbar\hat{L}_{y}}+i\underbrace{\left[\hat{L}_{z},\hat{L_{y}}\right]}_{-i\hbar\hat{L}_{x}}\nonumber \\
+ & = & \hbar\hat{L}_{x}+i\hbar\hat{L}_{y}\nonumber \\
+ & = & \hbar\left(\hat{L}_{x}+i\hat{L}_{y}\right)\nonumber \\
+\left[\hat{L}_{z},\hat{L}_{+}\right] & = & \hbar\hat{L}_{+}\label{eq:ewdreh_drei}\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{equation}
+\left[\hat{L}_{z},\hat{L}_{-}\right]=-i\hbar\hat{L}_{-}\label{eq:ewdreh_vier}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{equation}
+\left[\hat{L}_{+},\hat{L}_{-}\right]=2\hbar\hat{L}_{z}\label{eq:ewdreh_fuenf}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{eqnarray}
+\hat{L}_{+}\hat{L}_{-} & = & \left(\hat{L}_{x}+i\hat{L}_{y}\right)\left(\hat{L}_{y}-i\hat{L}_{y}\right)\nonumber \\
+ & = & \hat{L}_{x}^{2}+i\underbrace{\left(\hat{L}_{y}\hat{L}_{x}-\hat{L}_{x}\hat{L}_{y}\right)}_{\left[\hat{L}_{y},\hat{L}_{x}\right]=-i\hbar\hat{L}_{z}}+\hat{L}_{y}^{2}\nonumber \\
+ & = & \hat{L}^{2}-\hat{L}_{z}^{2}+\hbar\hat{L}_{z}\label{eq:ewdreh_sechs}\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{equation}
+\hat{L}_{-}\hat{L}_{+}=\hat{L}^{2}-\hat{L}_{z}^{2}+\hbar\hat{L}_{z}\label{eq:ewdreh_sieben}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aus diesen Relationen folgt
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{L}_{+}|Y_{\lambda m}>$
+\end_inset
+
+ ist Eigenfunktion von 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ zum Eigenwert 
+\begin_inset Formula $\hbar\left(m+1\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{z}\underline{\hat{L}_{+}|Y_{\lambda m}>} & = & \left(\hat{L}_{+}\hat{L}_{z}+\hbar\hat{L}_{+}\right)|Y_{\lambda m}>\\
+ & \overset{\eqref{eq:ewdreh_zwei}}{=} & \left(\hat{L}_{+}\hbar m+\hbar\hat{L}_{+}\right)|Y_{\lambda m}>\\
+ & = & \underbrace{\hbar\left(m+1\right)}_{\text{Eigenwert}}\underline{\hat{L}_{+}|Y_{\lambda m}>}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\hat{L}_{-}|Y_{\lambda m}>$
+\end_inset
+
+ ist Eigenfunktion von 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ zum Eigenwert 
+\begin_inset Formula $\hbar\left(m-1\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{L}_{z}\hat{L}_{-}|Y_{\lambda m}>=\hbar\left(m-1\right)\hat{L}_{-}|Y_{\lambda m}>\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q48)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hat{L}_{+}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{L}_{-}$
+\end_inset
+
+: Leiteroperatoren
+\end_layout
+
+\begin_layout Enumerate
+Aus der Norm von 
+\begin_inset Formula $\hat{L}_{+}|Y_{\lambda m}>$
+\end_inset
+
+ folgt
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray}
+<\hat{L}_{+}Y_{\lambda m}|\hat{L}_{+}Y_{\lambda m}> & \ge & 0\nonumber \\
+ & = & <Y_{\lambda m}|\left(\hat{L}_{+}\right)^{+}\hat{L}_{+}|Y_{\lambda m}>\nonumber \\
+ & = & <Y_{\lambda m}|\hat{L}_{-}\hat{L}_{+}|Y_{\lambda m}>\nonumber \\
+ & \overset{\eqref{eq:ewdreh_sieben}}{=} & <Y_{\lambda m}|\hat{L}^{2}-\hat{L}_{z}-\hbar\hat{L}_{z}|Y_{\lambda m}>\nonumber \\
+ & \overset{\eqref{eq:ewdreh_eins},\eqref{eq:ewdreh_zwei}}{=} & <Y_{\lambda m}|\hbar^{2}\lambda-\left(\hbar m\right)^{2}-\hbar\hbar m|Y_{\lambda m}>\nonumber \\
+ & = & \hbar^{2}\left(\lambda-m\left(m+1\right)\right)\label{eq:ewdreh_acht}\\
+ & \ge & \text{0}\nonumber \end{eqnarray}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\lambda\ge m\left(m+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Analog folgt aus der Norm von 
+\begin_inset Formula $\hat{L}_{-}|Y_{\lambda m}>$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\lambda\ge m\left(m-1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Aus 3.
+ und 4.
+ folgt
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\lambda\ge m\left(m+1\right)\ge m\left(m-1\right)$
+\end_inset
+
+ für 
+\begin_inset Formula $m$
+\end_inset
+
+ positiv
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\lambda\ge m\left(m-1\right)\ge m\left(m+1\right)$
+\end_inset
+
+ für 
+\begin_inset Formula $m$
+\end_inset
+
+ negativ
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda\ge\left|m\right|\left(\left|m\right|+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Die möglichen Werte von 
+\begin_inset Formula $\left|m\right|$
+\end_inset
+
+ sind durch 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ 
+\bar under
+nach oben
+\bar default
+ beschränkt
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Es gibt einen maximalen Wert von 
+\begin_inset Formula $m$
+\end_inset
+
+: 
+\begin_inset Formula $m_{max}:=l$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{+}|Y_{\lambda l}>=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+da Zustand mit 
+\begin_inset Formula $l+1$
+\end_inset
+
+ nicht existiert
+\begin_inset Newline newline
+\end_inset
+
+Nach 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:ewdreh_acht"
+
+\end_inset
+
+ mit 
+\begin_inset Formula $m=l$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray*}
+\hbar^{2}\left(\lambda-l\left(l+1\right)\right) & \ge & 0\\
+ & = & <\hat{L}_{+}Y_{\lambda l}|\hat{L}_{+}Y_{\lambda l}>\\
+ & = & 0\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(Abbruchbedingung)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\lambda-l\left(l+1\right)=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda=l\left(l+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Es gibt einen minimalen Wert von 
+\begin_inset Formula $m$
+\end_inset
+
+: 
+\begin_inset Formula $m_{min}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{-}|Y_{\lambda m_{min}}>=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda=m_{min}\left(m_{min}-1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+m_{min}=-l\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $m$
+\end_inset
+
+ 
+\begin_inset Quotes gld
+\end_inset
+
+läuft
+\begin_inset Quotes grd
+\end_inset
+
+ von 
+\begin_inset Formula $-l$
+\end_inset
+
+ bis 
+\begin_inset Formula $+l$
+\end_inset
+
+:
+\begin_inset Formula \[
+\underbrace{-l,-l+1,...,l-1,l}_{\text{,,Länge'': }2l}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Da Schritte von 
+\begin_inset Formula $m$
+\end_inset
+
+ die 
+\begin_inset Quotes gld
+\end_inset
+
+Länge
+\begin_inset Quotes grd
+\end_inset
+
+ Eins haben: 
+\begin_inset Formula $2l$
+\end_inset
+
+ ist ganze Zahl
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $l$
+\end_inset
+
+ ist halbzahlig oder ganzzahlig
+\begin_inset Formula \begin{eqnarray*}
+l & = & 0,\frac{1}{2},1,\frac{3}{2},2,...\\
+\lambda & = & l\left(l+1\right)\\
+\hat{L}^{2}|Y_{\lambda m}> & = & \hbar^{2}l\left(l+1\right)|Y_{\lambda m}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Konvention
+\end_layout
+
+\begin_layout Standard
+Man beschreibt die Zusände mit Hilfe der 
+\begin_inset Quotes gld
+\end_inset
+
+Quantenzahl
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\begin_inset Formula $l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}^{2}|Y_{lm}>=\hbar^{2}l\left(l+1\right)|Y_{lm}>\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(nicht 
+\begin_inset Formula $|Y_{l\left(l+1\right)m}>$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $l=0,\frac{1}{2},1,\frac{3}{2},...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{z}|Y_{lm}>=\hbar m|Y_{lm}>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+mit 
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Bemerkung
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Leiteroperatoren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{L}_{+}|Y_{lm}>=\underbrace{c_{lm}}_{\text{Normierungsfaktor}}|Y_{l\, m+1}>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+<\hat{L}_{+}Y_{lm}|\hat{L}_{+}Y_{lm}> & = & \left|c_{lm}\right|^{2}\\
+ & \overset{\eqref{eq:ewdreh_acht}}{=} & \hbar^{2}\left(\lambda-m\left(m+1\right)\right)\\
+ & = & \hbar^{2}\left(l\left(l+1\right)-m\left(m+1\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{+}|Y_{lm}> & = & \hbar\sqrt{l\left(l+1\right)-m\left(m+1\right)}|Y_{l\, m+1}>\\
+ & = & \hbar\sqrt{\left(l-m\right)\left(l+m+1\right)}|Y_{l\, m+1}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{-}|Y_{lm}> & = & \hbar\sqrt{l\left(l+1\right)-m\left(m-1\right)}|Y_{l\, m-1}>\\
+ & = & \hbar\sqrt{\left(l+m\right)\left(l-m+1\right)}|Y_{l\, m-1}>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 
 \end_layout
