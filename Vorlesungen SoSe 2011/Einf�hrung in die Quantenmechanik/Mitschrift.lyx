@@ -18252,6 +18252,1007 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H} & = & \frac{\hat{p}_{r}^{2}}{2m}+\frac{\hat{L}^{2}}{2mr^{2}}+V\left(r\right)\\
+\hat{L}^{2}Y_{lm}\left(\theta,\varphi\right) & = & \hbar^{2}l\left(l+1\right)Y_{lm}\left(\theta,\varphi\right)\\
+\hat{L}_{z}Y_{lm}\left(\theta,\varphi\right) & = & \hbar mY_{lm}\left(\theta,\varphi\right)\\
+l & = & 0,\frac{1}{2},1,\frac{3}{2},...\\
+-l & \le & m\le l\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im Fall des Bahndrehimpulses sind die Werte von 
+\begin_inset Formula $l$
+\end_inset
+
+ auf ganze positive Zahlen beschränkt
+\end_layout
+
+\begin_layout Paragraph
+Denn
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+L_{z} & = & \hat{x}\hat{p}_{y}-\hat{y}\hat{p}_{x}\\
+\left[\hat{x},\hat{p}_{x}\right] & = & i\hbar\left[\hat{y},\hat{p}_{y}\right]=i\hbar\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Dazu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}_{1} & = & \frac{1}{2}\frac{1}{\sqrt{\pi}}\left(\hat{x}+i\hat{p}_{x}-i\hat{y}+\hat{p}_{y}\right)\\
+\hat{a}_{1}^{+} & = & \frac{1}{2}\frac{1}{\sqrt{\pi}}\left(\hat{x}-i\hat{p}_{x}+i\hat{y}+\hat{p}_{y}\right)\\
+\hat{a}_{2} & = & \frac{1}{2}\frac{1}{\sqrt{\pi}}\left(\hat{x}+i\hat{p}_{x}+i\hat{y}-\hat{p}_{y}\right)\\
+\hat{a}_{2}^{2} & = & \frac{1}{2}\frac{1}{\sqrt{\pi}}\left(\hat{x}-i\hat{p}_{x}-i\hat{y}-\hat{p}_{y}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{a}_{1},\hat{a}_{1}^{+}\right] & = & 1\\
+\left[\hat{a}_{2},\hat{a}_{2}^{+}\right] & = & 1\\
+\left[\hat{a}_{1},\hat{a}_{2}^{+}\right] & = & 0=\left[\hat{a}_{2},\hat{a}_{1}^{+}\right]\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{a}_{1}^{+}\hat{a}_{1}-\hat{a}_{2}^{+} & \underset{\text{folgt durch einsetzen}}{=} & \frac{1}{\hbar}\left(\hat{x}\hat{p}_{y}-\hat{y}\hat{p}_{x}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{L}_{z}=\hbar\left(\hat{a}_{1}^{+}\hat{a}_{1}-\hat{a}_{2}^{+}\hat{a}_{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{N}_{1}=\hat{a}_{1}^{+}\hat{a}_{1}$
+\end_inset
+
+ hat ganzzahlige Eigenwerte (analog zu den Operatoren 
+\begin_inset Formula $\hat{a}^{+}\hat{a}$
+\end_inset
+
+ beim harmonischen Oszillator)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{N}_{2}=\hat{a}_{2}^{+}\hat{a}_{2}$
+\end_inset
+
+ hat ganzzahlige Eigenwerte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{z}Y_{lm}\left(\theta,\varphi\right) & = & \hbar mY_{lm}\left(\theta,\varphi\right)\hbar\underbrace{\left(\hat{a}_{1}^{+}\hat{a}_{1}-\hat{a}_{2}^{+}\hat{a}_{2}\right)}_{\text{ganzzahlige EW}}Y_{lm}\left(\theta,\varphi\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $m$
+\end_inset
+
+ ist ganzzahlig
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $l$
+\end_inset
+
+ ist ganzzahlig
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $l=0,1,2,3,...$
+\end_inset
+
+, 
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+ beim Bahndrehimpuls
+\end_layout
+
+\begin_layout Subsubsection
+Eigenfunktion des Bahndrehimpulses
+\end_layout
+
+\begin_layout Paragraph
+Eigenfunktion für 
+\begin_inset Formula $L_{z}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{L}_{z}Y_{lm}\left(\theta,\varphi\right)=\frac{\hbar}{i}\frac{\partial}{\partial\varphi}Y_{lm}\left(\theta,\varphi\right)=\hbar mY_{lm}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+Y_{lm}\left(\theta,\varphi\right)=e^{im\varphi}\underbrace{f_{l,m}\left(\theta\right)}_{\text{Funktion, die noch berechnet werden muss}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi\rightarrow\varphi+2\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+Y_{lm}\left(\theta,\varphi+2\pi\right) & = & e^{im\varphi}\underbrace{e^{im2\pi}}_{=1}f_{l.m}\left(\theta\right)\\
+ & = & Y_{lm}\left(\theta,\varphi\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Eigenwertgleichung für 
+\begin_inset Formula $\hat{L}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}^{2} & = & -\hbar\frac{1}{\sin^{2}\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{\partial^{2}}{\partial\varphi^{2}}\right)\\
+\hat{L}^{2}Y_{lm}\left(\theta,\varphi\right) & = & \hbar^{2}l\left(l+1\right)Y_{lm}\left(\theta,\varphi\right)\\
+Y_{lm}\left(\theta,\varphi\right) & = & e^{im\varphi}f_{l,m}\left(\theta\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+-\hbar\frac{1}{\sin^{2}\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)-m^{2}\right)f_{l,m}\left(\theta\right)=\hbar l\left(l+1\right)f_{l,m}\left(\theta\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f_{l,m}\left(\theta\right)=f_{l,-m}\left(\theta\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Substitution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+w & = & \cos\theta\\
+\Rightarrow\sin\theta\frac{d}{d\theta} & = & \left(w^{2}-1\right)\frac{d}{dw}\\
+f_{l,m}\left(\theta\right) & \rightarrow & \tilde{f}_{l,m}\left(w\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+-\frac{1}{1-w^{2}}\left(\left(w^{2}-1\right)\frac{d}{dw}\left(\left(w^{2}-1\right)\frac{d}{dw}\right)-m^{2}\right)\tilde{f}_{l,m}\left(w\right) & = & l\left(l+1\right)\tilde{f}_{l,m}\left(w\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(\frac{d}{dw}\left(w^{2}-1\right)\frac{d}{dw}-\frac{m^{2}}{1-w^{2}}\right)\tilde{f}_{l,m}\left(w\right)=-l\left(l+1\right)\tilde{f}_{l,m}\left(w\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Differentialgleichung liefert als Lösungen: 
+\begin_inset Formula $\tilde{f}_{l,m}\left(w\right)=N_{l,m}P_{l}^{m}\left(w\right)$
+\end_inset
+
+ zugeordnete Legendre-Funktion
+\end_layout
+
+\begin_layout Paragraph
+Fall 
+\begin_inset Formula $n=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P_{l}^{0}\left(w\right)=P_{l}\left(w\right)$
+\end_inset
+
+ Legendre-Polynome
+\end_layout
+
+\begin_layout Paragraph
+Idee
+\end_layout
+
+\begin_layout Standard
+Löse die Differentiagleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(\frac{d}{dw}\left(w^{2}-1\right)\frac{d}{dw}+l\left(l+1\right)\right)P_{l}\left(w\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+z.B.
+ durch Potentzreihenansatz.
+\end_layout
+
+\begin_layout Standard
+Bestimme die Polynome derart, dass 
+\begin_inset Formula $P_{l}\left(1\right)=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+P_{0}\left(w\right) & = & 1\\
+P_{1}\left(w\right) & = & w\\
+p_{2}\left(w\right) & = & \frac{1}{2}\left(3w^{2}-1\right)\\
+ & \vdots\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Legendre-Polynome
+\end_layout
+
+\begin_layout Paragraph
+Hinweise
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\int P_{l}\left(w\right)P_{l^{\prime}}\left(w\right)dw=\frac{\delta_{l,l^{\prime}}}{l+\frac{1}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P_{l}\left(w\right)=\frac{\left(-1\right)^{l}}{2^{l}l!}\frac{d^{l}}{dw^{l}}\left(1-w^{2}\right)^{l}$
+\end_inset
+
+ Rodrigues Formel
+\end_layout
+
+\begin_layout Paragraph
+Damit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+Y_{l,0}\left(\theta,\varphi\right) & = & N_{l,0}P_{l}\left(\cos\theta\right)\\
+N_{l,0} & = & \sqrt{\frac{2l+1}{4\pi}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Berechnung der 
+\begin_inset Formula $Y_{l,m}$
+\end_inset
+
+ für 
+\begin_inset Formula $m>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anwendung von 
+\begin_inset Formula $\hat{L}_{+}$
+\end_inset
+
+:
+\begin_inset Formula \begin{eqnarray*}
+\hat{L}_{+}Y_{l,m}\left(\theta,\varphi\right) & = & \hbar\sqrt{l\left(l+1\right)-m\left(m+1\right)}Y_{l,m+1}\left(\theta,\varphi\right)\\
+\hat{L}_{+} & = & \hat{L}_{x}+i\hat{L}_{y}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{L}=\frac{\hbar}{i}\left(\underbrace{\begin{pmatrix}-\sin\varphi\\
+\cos\varphi\\
+0\end{pmatrix}}_{\vec{e}_{\varphi}}\frac{\partial}{\partial\theta}-\begin{pmatrix}\cot\theta\cos\varphi\\
+\cot\theta\sin\varphi\\
+-1\end{pmatrix}\frac{\partial}{\partial\varphi}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\cos\varphi+i\sin\varphi=e^{i\varphi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{L}_{+}=\hbar e^{i\varphi}\left(\frac{\partial}{\partial\theta}+i\cot\theta\frac{\partial}{\partial\varphi}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{L}_{+}Y_{l,0}\left(\theta,\varphi\right)\rightarrow\hbar\sqrt{l\left(l+1\right)}Y_{l,1}\left(\theta,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+liefert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+Y_{l,m}\left(\theta,\varphi\right)=N_{l,m}e^{im\varphi}P_{l}^{m}\left(\cos\theta\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+mit 
+\begin_inset Formula $P_{l}^{m}\left(\cos\theta\right)=\left(\sin\theta\right)^{m}\frac{d^{m}}{d\left(\cos\theta\right)^{m}}P_{l}\left(\cos\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+N_{l,m}=\sqrt{\frac{2l+1}{4\pi}}\cdot\sqrt{\frac{\left(l-m\right)!}{\left(l+m\right)!}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Explizite Form der Kugelflächenfunktion
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Grafische Darstellung: Polardiagramme
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left|Y_{l,m}\left(\theta,\varphi\right)\right|^{2}=\left|N_{l,m}P_{l}^{m}\left(\cos\theta\right)\right|^{2}=a_{l,m}\left(\theta\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zeichne Vektor 
+\begin_inset Formula $\vec{a}_{l,m}\left(\theta\right)=\vec{e}_{r}a_{l,m}\left(\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wähle z.B.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+-
+\begin_inset Formula $z$
+\end_inset
+
+-Ebene
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $Y_{00}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|Y_{00}\right|^{2}=\frac{1}{4\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q49)
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $Y_{10}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|Y_{10}\left(\theta,\varphi\right)\right|^{2}=\frac{3}{4\pi}\cos^{2}\left(\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{a}_{10}=\frac{3}{4\pi}\cos^{2}\theta\begin{pmatrix}\sin\theta\\
+\cos\theta\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q50)
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Darstellung von 
+\begin_inset Formula $\left|Y_{lm}\right|^{2}$
+\end_inset
+
+ im Polardiagramm
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Radiale Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\chi\left(\vec{r}\right)=E\chi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+stationäre Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H} & = & \frac{\hat{p}_{r}^{2}}{2m}+V\left(r\right)+\frac{\hat{L}^{2}}{2mr^{2}}\\
+\hat{p}_{r} & = & -\hbar^{2}\left(\frac{\partial^{2}}{\partial r^{2}}+\frac{2}{r}\frac{\partial}{\partial r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Idee
+\end_layout
+
+\begin_layout Standard
+Separationsansatz: 
+\begin_inset Formula $\chi\left(\vec{r}\right)=R\left(r\right)Y_{l,m}\left(\theta,\varphi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\chi\left(\vec{r}\right)=\left(\left(\frac{\hat{p}_{r}^{2}}{2m}+V\left(r\right)\right)R\left(r\right)+\frac{R\left(r\right)}{2mr^{2}}\hbar^{2}l\left(l+1\right)\right)Y_{lm}\left(\theta,\varphi\right)=E\cdot R\left(r\right)\cdot Y_{lm}\left(\theta,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(\frac{\hat{p}_{r}^{2}}{2m}+V\left(r\right)+\frac{\hbar^{2}l\left(l+1\right)}{2mr^{2}}\right)R\left(r\right)=ER\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radiale Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula \begin{eqnarray*}
+\frac{\partial^{2}}{\partial r^{2}}rR\left(r\right) & = & \frac{\partial}{\partial r}\left(R\left(r\right)+r\frac{\partial}{\partial r}R\left(r\right)\right)\\
+ & = & 2\frac{\partial}{\partial r}R\left(r\right)+r\frac{\partial^{2}}{\partial r^{2}}R\left(r\right)\\
+ & = & r\left(\frac{2}{r}\frac{\partial}{\partial r}R\left(r\right)+\frac{\partial^{2}}{\partial r^{2}}R\left(r\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dr^{2}}+V\left(r\right)+\frac{\hbar^{2}l\left(l+1\right)}{2mr^{2}}\right)+R\left(r\right)=E\cdot r\cdot R\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u\left(r\right):=rR\left(r\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dr^{2}}+V\left(r\right)+\frac{\hbar^{2}l\left(l+1\right)}{2mr^{2}}\right)u\left(r\right)=Eu\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Bemerkungen
+\end_layout
+
+\begin_layout Enumerate
+In dieser Form hat die radiale Schrödingergleichung für die 
+\begin_inset Quotes gld
+\end_inset
+
+kinetische Energie
+\begin_inset Quotes grd
+\end_inset
+
+ die gleiche Form wie im eindimensionalen Fall
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+Randbedingungen
+\bar default
+ (für gebundene Zustände)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $R\left(r\right)\rightarrow0$
+\end_inset
+
+ für 
+\begin_inset Formula $r\rightarrow\infty$
+\end_inset
+
+, damit Wellenfunktion normierbar 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $u\left(r\right)=0$
+\end_inset
+
+ für 
+\begin_inset Formula $r\rightarrow\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R$
+\end_inset
+
+
+\begin_inset Formula $\left(r\right)$
+\end_inset
+
+ endlich für 
+\begin_inset Formula $r\rightarrow0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $u\left(r\right)\rightarrow0$
+\end_inset
+
+ für 
+\begin_inset Formula $r\rightarrow0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q51)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Normierung:
+\begin_inset Formula \begin{eqnarray*}
+\underset{\mathbb{R}^{3}}{\int}\left|\chi\left(\vec{r}\right)\right|^{2}d^{3}r & = & 1\\
+\Rightarrow\hspace{1em}\overset{\infty}{\underset{0}{\int}}\left|R\left(r\right)\right|^{2}\underbrace{\iint\left|Y\left(\theta,\varphi\right)\right|^{2}\sin\theta d\theta d\varphi}_{=1}r^{2}dr & = & 1\\
+\Rightarrow\hspace{1em}\underset{0}{\overset{\infty}{\int}}\left|R\left(r\right)\right|^{2}r^{2}dr & = & 1\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\overset{\infty}{\underset{0}{\int}}\left|u\left(r\right)\right|^{2}dr=1\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
