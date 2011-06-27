@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -19268,6 +19268,922 @@ status open
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Bewegung im Coulombfeld
+\end_layout
+
+\begin_layout Standard
+(Abb Q52)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V\left(r\right)=-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(-\frac{\hbar^{2}}{2m}\frac{d^{2}}{dr^{2}}-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}+\frac{\hbar^{2}l\left(l+1\right)}{2mr^{2}}\right)u\left(r\right)=E\cdot u\left(r\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Eigenwerte
+\end_layout
+
+\begin_layout Paragraph
+1.
+ Schritt
+\end_layout
+
+\begin_layout Standard
+Dimmensionslose Einheiten: 
+\begin_inset Formula $r=\varrho a_{B}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{B}=\frac{4\pi\varepsilon_{0}}{e^{2}m}\hbar^{2}$
+\end_inset
+
+ (Bohr'scher Radius) 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\frac{d}{dr}=\frac{1}{a_{0}}\frac{d}{d\varrho}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(-\frac{1}{a_{B}^{2}}\frac{d^{2}}{dr^{2}}-\frac{2m}{\hbar^{2}}\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{\varrho}\frac{1}{a_{B}}+\frac{l\left(l+1\right)}{\varrho^{2}a_{B}^{2}}\right)\underbrace{u\left(\varrho a_{B}\right)}_{:=g\left(\varrho\right)}=\frac{2m}{\hbar^{2}}E\cdot u\left(\varrho a_{B}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\left(-\frac{d^{2}}{d\varrho^{2}}-\frac{2}{\varrho}+\frac{l\left(l+1\right)}{\varrho^{2}}\right)g\left(\varrho\right) & = & \tilde{E}g\left(\varrho\right)\\
+\tilde{E} & = & \frac{2m}{\hbar^{2}}a_{B}^{2}E\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+2.
+ Schritt
+\end_layout
+
+\begin_layout Standard
+Analyse des Verhaltens für 
+\begin_inset Formula $\varrho\rightarrow0$
+\end_inset
+
+, 
+\begin_inset Formula $\varrho\rightarrow\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varrho\rightarrow\infty$
+\end_inset
+
+:
+\begin_inset Formula \[
+-\frac{d^{2}}{d\varrho^{2}}g\left(\varrho\right)=\tilde{E}\cdot g\left(\varrho\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q53)
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Hier 
+\begin_inset Formula $\tilde{E}<0$
+\end_inset
+
+
+\bar default
+
+\begin_inset Formula \[
+\frac{d^{2}}{d\varrho^{2}}g\left(\varrho\right)=-\tilde{E}g\left(\varrho\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g\left(\varrho\right)=e^{-\sqrt{-\tilde{E}}\varrho}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varrho\rightarrow0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{l\left(l+1\right)}{\varrho^{2}}$
+\end_inset
+
+ besonders wichtig!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(-\frac{d^{2}}{d\varrho^{2}}+\frac{l\left(l+1\right)}{\varrho^{2}}\right)g\left(\varrho\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz 
+\begin_inset Formula $\varrho\left(\varrho\right)=\varrho^{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+-\alpha\left(\alpha-1\right)\varrho^{\alpha-2}+l\left(l+1\right)\frac{\varrho^{\alpha}}{\varrho^{2}}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+-\alpha\left(\alpha-1\right)+l\left(l+1\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\alpha\left(\alpha-1\right)=l\left(l+1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\alpha_{1} & = & l+1\\
+\alpha_{2} & = & -l\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\varrho^{-l}=\frac{1}{\varrho^{l}}\to\infty\text{, für }\varrho\to\infty\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Physikalisch Sinnvoll:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g\left(\varrho\right)=\varrho^{l+1}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Ansatz 
+\begin_inset Quotes gld
+\end_inset
+
+für alle Werte von 
+\begin_inset Formula $\varrho$
+\end_inset
+
+
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+g\left(\varrho\right) & = & e^{-\sqrt{-\tilde{E}}\varrho}\cdot\varrho^{l+1}\cdot\tilde{f}\left(r\right)\\
+\tilde{f}\left(r\right) & = & \overset{\infty}{\underset{i=0}{\sum}}\tilde{A}_{i}\varrho^{i}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Alternativ
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+g\left(\varrho\right) & = & e^{-\sqrt{-\tilde{E}}\varrho}f\left(\varrho\right)\\
+f\left(\varrho\right) & = & \overset{\infty}{\underset{i=l+1}{\sum}}A_{i}\varrho^{i}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+3.
+ Schritt
+\end_layout
+
+\begin_layout Standard
+Auswertung des Ansatzes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g\left(\varrho\right)=e^{-\sqrt{-\tilde{E}}\varrho}f\left(\varrho\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\sqrt{-\tilde{E}}=\lambda$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g^{\prime\prime}\left(\varrho\right)=\lambda^{2}e^{-\lambda\varrho}f\left(\varrho\right)+e^{-\lambda\varrho}f^{\prime\prime}\left(\varrho\right)-2\lambda e^{-\lambda\varrho}f^{\prime}\left(\varrho\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Einsetzen in Differentialgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left(-\left(\lambda^{2}f\left(\varrho\right)+f^{\prime\prime}\left(\varrho\right)-2\lambda f^{\prime}\left(\varrho\right)\right)+\left(\frac{l\left(l+1\right)}{\varrho^{2}}-\frac{2}{\varrho}\right)f\left(\varrho\right)\right)e^{-\lambda\varrho} & = & \tilde{E}f\left(\varrho\right)e^{-\lambda\varrho}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dann 
+\begin_inset Formula $\div e^{-\lambda\varrho}$
+\end_inset
+
+und 
+\begin_inset Formula $+\underbrace{\lambda^{2}}_{=-\tilde{E}}f\left(\varrho\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+f^{\prime\prime}\left(\varrho\right)-2\lambda f^{\prime}\left(\varrho\right)+\left(\frac{2}{\varrho}-\frac{l\left(l+1\right)}{\varrho^{2}}\right)f\left(\varrho\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f\left(\varrho\right)=\overset{\infty}{\underset{i=l+1}{\sum}}A_{i}\varrho^{i}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{l=l+1}{\sum}}A_{i}\left(i\left(i-1\right)-l\left(l+1\right)\right)\varrho^{i-2}+A_{i}\left(-2\lambda i+2\right)\varrho^{i-1}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Umsummation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\overset{\infty}{\underset{j=l+1}{\sum}}A_{j+1}\left(\left(j+1\right)j-l\left(l+1\right)\right)\varrho^{j-1}+\overset{\infty}{\underset{j=l+1}{\sum}}A_{j}\left(-2\lambda_{j}+2\right)\varrho^{j-1}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Erste Summe beginnt bei 
+\begin_inset Formula $j=l+1$
+\end_inset
+
+, da der Term mit 
+\begin_inset Formula $j=l$
+\end_inset
+
+ keinen Beitrag liefert.
+\end_layout
+
+\begin_layout Standard
+Dieses Soll für alle 
+\begin_inset Formula $\varrho$
+\end_inset
+
+ gelten
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+A_{j+1}\left(\left(j+1\right)j-l\left(l+1\right)\right)+A_{j}\left(-2\lambda j+2\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+A_{j+1}=A_{j}\frac{2\lambda j-2}{j\left(j+1\right)-l\left(l+1\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+für 
+\begin_inset Formula $j\ge l+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Reihe muss abbrechen (siehe Aufgabe T14) (sonst wächst 
+\begin_inset Formula $f\left(\varrho\right)$
+\end_inset
+
+ wie 
+\begin_inset Formula $e^{2\lambda\varrho}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Abbruch bei 
+\begin_inset Formula $j_{max}=n$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{2\lambda n-1}{n\left(n+1\right)-l\left(l+1\right)}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda=\frac{1}{n}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\lambda^{2} & = & \frac{1}{n^{2}}\\
+-\tilde{E} & = & \frac{1}{n^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\tilde{E}=-\frac{1}{n^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n}=-\frac{1}{n^{2}}\frac{\hbar^{2}}{2ma_{B}^{2}}=-\frac{1}{n^{2}}\underbrace{\frac{me^{4}}{\left(4\pi\varepsilon_{0}\right)^{2}2\hbar^{2}}}_{\underset{\approx13,605\text{eV}}{\hat{=1}\text{Rydberg}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{n}=-\frac{1}{n^{2}}\cdot1\text{Rydberg}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Energie hängt nicht von Quantenzahl 
+\begin_inset Formula $l$
+\end_inset
+
+ ab!!)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=1,2,3,\dots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $0\le l\le n-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Wellenfunktion
+\end_layout
+
+\begin_layout Standard
+Rekursionsformel: 
+\begin_inset Formula $\lambda=\frac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+A_{j+1}^{\left(n,l\right)}=A_{j}^{\left(n,l\right)}\frac{2\cdot\frac{1}{n}\cdot j-2}{j\left(j+1\right)-l\left(l+1\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für jedes 
+\begin_inset Formula $n$
+\end_inset
+
+ und 
+\begin_inset Formula $l$
+\end_inset
+
+ ergeben sich unterschiedliche Koeffizienten.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+A_{j+1}^{\left(n,l\right)} & = & A_{j}^{\left(n,l\right)}\frac{2}{n}\frac{j-n}{j\left(j+1\right)-l\left(l+1\right)}\\
+f_{n,l}\left(\varrho\right) & = & \overset{n}{\underset{j=l+1}{\sum}}\tilde{\tilde{A}}_{j}^{\left(n,l\right)}\cdot\left(\frac{2}{n}\varrho\right)^{j}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\tilde{\tilde{A}}_{j+1}^{\left(n,l\right)}=\tilde{\tilde{A}}_{j}^{\left(n,l\right)}\frac{j-n}{j\left(j+1\right)-l\left(l+1\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+f_{n,l}\left(\varrho\right)=\left(\frac{2}{n}\varrho\right)^{l+1}\cdot\underbrace{\overset{n-l-1}{\underset{j=0}{\sum}}\tilde{\tilde{A}}_{j+l+1}^{\left(n,l\right)}\left(\frac{2}{n}\varrho\right)^{j}}_{\underset{\text{,,zugeordnete Laguerre Polynome''}}{:=L_{n+l}^{2l+1}\left(\frac{2\varrho}{n}\right)\cdot\underbrace{D_{n,l}}_{\text{Faktor}}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Radiale Wellenfunktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+R\left(r\right) & = & \frac{u\left(r\right)}{r}=\frac{1}{r}g\left(\frac{r}{a_{B}}\right)\\
+g\left(\varrho\right) & = & e^{-\lambda\varrho}f\left(\varrho\right)\\
+\lambda & = & \frac{1}{n}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+R\left(r\right) & = & \frac{1}{r}e^{-\frac{1}{n}\frac{r}{a_{B}}}\left(\frac{2}{n}\frac{r}{a_{B}}\right)^{l+1}\cdot L_{n+l}^{2l+1}\left(\frac{2}{n}\frac{r}{a_{B}}\right)\cdot D_{n,l}\\
+ & = & \underbrace{\frac{2}{na_{B}}D_{n,l}}_{\underset{\text{Normierungsfaktor}}{:=N_{n,l}}}\cdot e^{-\frac{r}{na_{B}}}\left(\frac{2r}{na_{B}}\right)^{l}L_{n+l}^{2l+1}\left(\frac{2}{n}\frac{r}{a_{B}}\right)\\
+ & = & R_{n,l}\left(r\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normierungsfaktor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+N_{n,l}=-\left(\frac{1}{a_{B}}\right)^{\nicefrac{3}{2}}\frac{2}{n^{2}}\sqrt{\frac{\left(n-l-1\right)!}{\left(\left(n+l\right)!\right)^{3}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das Minuszeichen sorgt dafür, dass die Wellenfunktion für kleine Werte von
+ 
+\begin_inset Formula $r$
+\end_inset
+
+ positiv ist.
+\end_layout
+
+\begin_layout Standard
+(Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Wasserstoffatom
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Paragraph
+Laguerre Polynome
+\end_layout
+
+\begin_layout Enumerate
+Aus Rekursionsformel folgt 
+\begin_inset Formula \[
+L_{n+l}^{2l+1}\left(\varrho\right)=\left(\left(n+l\right)!\right)^{2}\overset{n-l-1}{\underset{j=0}{\sum}}\frac{\left(-1\right)^{2l+1}\left(-1\right)^{j}}{\left(n-l-1-j\right)!\left(2l+1+j\right)!}\frac{\varrho^{j}}{j!}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Aus Rodrigues-Formel
+\begin_inset Formula \[
+L_{p}^{k}\left(\varrho\right)=\frac{d^{k}}{d\varrho^{k}}e^{\varrho}\frac{d^{p}}{d\varrho^{p}}\left(\varrho^{p}\cdot e^{-\varrho}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Bezeichnung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underset{\text{Laguerre-Polynom}}{L_{p}\left(\varrho\right)=L_{p}^{0}\left(\varrho\right)=e^{\varrho}\frac{d^{p}}{d\varrho^{p}}\left(\varrho^{p}e^{-\varrho}\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underset{\text{zugeordnetes Laguerre Polynom}}{L_{p}^{k}\left(\varrho\right)=\frac{d^{k}}{d\varrho^{k}}L_{p}\left(\varrho\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Explizite Form
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+L_{0}\left(\varrho\right) & = & 1\\
+L_{1}\left(\varrho\right) & = & 1-\varrho\\
+L_{2}\left(\varrho\right) & = & 2-4\varrho-\varrho^{2}\\
+L_{1}^{1}\left(\varrho\right) & = & -1\\
+L_{2}^{1}\left(\varrho\right) & = & -4+2\varrho\\
+L_{2}^{2}\left(\varrho\right) & = & 2\end{eqnarray*}
 
 \end_inset
 
