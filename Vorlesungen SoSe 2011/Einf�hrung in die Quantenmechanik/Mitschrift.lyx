@@ -18,7 +18,18 @@
 \graphics default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_title "Einführung in die Quantenmechanik"
+\pdf_author "Vorlesung von Prof. Dr. Peter Krüger; ungeprüfte Mitschrift von Matthias Vill"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry true
 \use_amsmath 1
@@ -48,6 +59,19 @@
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
 
 \begin_layout Part
 Einführung in die Quantenmechanik
@@ -14667,8 +14691,6 @@ Vektor
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\bar under
 \begin_inset Formula $\vec{a}=\begin{pmatrix}a_{1}\\
 a_{2}\\
 a_{3}\end{pmatrix}$
