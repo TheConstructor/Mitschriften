@@ -5346,8 +5346,298 @@ Magnetische Wechselwirkung des Kernmagnetmoementes
 )
 \end_layout
 
+\begin_layout Standard
+(...
+ 2 Vorlesungen fehlen ...)
+\end_layout
+
 \begin_layout Section
 Mehrelektronenatome
+\end_layout
+
+\begin_layout Standard
+Auffüllen der einzelnen Unterschalen geht nicht immer bis zur maximalen
+ 
+\begin_inset Formula $l$
+\end_inset
+
+-Quantenzahl (
+\begin_inset Formula $l_{max}=n-1$
+\end_inset
+
+) wegen der Energie der Niveaus, z.B.
+ wird zuerst 4s und dann 3d besetzt.
+ Bei sehr viel mehr Elektronen kommt es aber wieder zu einer Wiederherstellung
+ der erwarteten Niveauabfolge, d.h.
+ 3d liegt tiefert als 4s
+\end_layout
+
+\begin_layout Paragraph
+Übergangselemente
+\end_layout
+
+\begin_layout Standard
+(Metalle in fester Form)
+\end_layout
+
+\begin_layout Itemize
+Innere Schalen werden aufgefüllt, z.B.
+ 3d-Unterschale für Scandium (
+\begin_inset Formula $Z=21$
+\end_inset
+
+) bis Zink (
+\begin_inset Formula $Z=30$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Innere Elektronen können leicht angeregt werden zu Valenzelektronen
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+chemische Mehrwertigkeit
+\begin_inset Newline newline
+\end_inset
+
+z.B.
+ Fe, Co, Ni sind 
+\begin_inset Formula $2$
+\end_inset
+
+- und 
+\begin_inset Formula $3$
+\end_inset
+
+-wertig
+\begin_inset Newline newline
+\end_inset
+
+z.B.
+ Mn ist 
+\begin_inset Formula $2$
+\end_inset
+
+-, 
+\begin_inset Formula $3$
+\end_inset
+
+-, 
+\begin_inset Formula $4$
+\end_inset
+
+-, 
+\begin_inset Formula $6$
+\end_inset
+
+- und 
+\begin_inset Formula $7$
+\end_inset
+
+-wertig
+\begin_inset Newline newline
+\end_inset
+
+Anwendung als Oxidationsmittel
+\begin_inset Newline newline
+\end_inset
+
+Kaliumpermaganat: 
+\begin_inset Formula $\overset{+I}{\text{K}}\overset{+VII}{\text{Mn}}\overset{-VIII}{\text{O}_{4}}\overset{\text{reduziert}}{\longrightarrow}\overset{+II}{\text{Mn}}$
+\end_inset
+
+ (die römischen Ziffern stellen die Oxidationszahlen dar)
+\end_layout
+
+\begin_layout Itemize
+Beispiel: Seltene Erden (Lanthamiden) Lantham (
+\begin_inset Formula $Z=57$
+\end_inset
+
+) 
+\begin_inset Formula $\longrightarrow$
+\end_inset
+
+ (
+\begin_inset Formula $Z=71$
+\end_inset
+
+) Lutetium
+\begin_inset Newline newline
+\end_inset
+
+Kommen als Salze vor, Oxidationszahl 
+\begin_inset Formula $+III$
+\end_inset
+
+ 4f-Unterschale wird aufgefüllt, Valenzschale ist 6s 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ chemisch sehr ähnlich, so dass das Lebenswerk von v.
+ Welsbach um 1900 war, chemische Trennmethoden zu entwickeln
+\end_layout
+
+\begin_layout Subparagraph
+Bemerkung:
+\end_layout
+
+\begin_layout Standard
+Abgeschlossene Schalen ergeben kugelsymmetrische Edelgaskonfigurationen
+ (vgl.
+ Vollständigkeitsrelationen der 
+\begin_inset Formula $Y_{lm}$
+\end_inset
+
+) Gesamtspim 
+\begin_inset Formula $S=0$
+\end_inset
+
+, Gesamtdrehimpuls 
+\begin_inset Formula $J=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ die zuletzt eingefüllten äußeren Elektronen sehen abgeschirmtes Kernpotential
+\end_layout
+
+\begin_layout Subparagraph
+Beispiel:
+\end_layout
+
+\begin_layout Standard
+Alkaliatom, z.B.
+ Natrium (
+\begin_inset Formula $Z=11$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Na: 
+\begin_inset Formula $\underset{\text{abgeschlossen}}{\underbrace{1s^{2}}_{\text{k-Schale}}\underbrace{2s^{2}2p^{3}}_{\text{l-Schale}}}\underbrace{3s}_{\text{äußere ,,Valenzelektronen''}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die äußeren 
+\begin_inset Quotes gld
+\end_inset
+
+Valenzelektronen
+\begin_inset Quotes grd
+\end_inset
+
+ sehen effektive Kernladung 
+\begin_inset Formula $Z_{eff}=11-10=1$
+\end_inset
+
+, wenn es weiter weg com Kern ist und sieht 
+\begin_inset Formula $Z=11$
+\end_inset
+
+ in Kernnähe
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Ähnlich zu Wasserstoffatom!
+\end_layout
+
+\begin_layout Subparagraph
+Bemerkung:
+\end_layout
+
+\begin_layout Standard
+Da die wasserstoffähnlichen Wellenfunktionen mit 
+\begin_inset Formula $\frac{a_{0}}{Z}$
+\end_inset
+
+ skalieren (hier 
+\begin_inset Formula $Z=Z_{eff}$
+\end_inset
+
+) sind alle Atome ähnlich groß!
+\end_layout
+
+\begin_layout Subparagraph
+Bemerkung
+\end_layout
+
+\begin_layout Standard
+Valenzelektronen sind chemisch aktiv und immer ähnlich tief gebunden (
+\begin_inset Formula $5$
+\end_inset
+
+-
+\begin_inset Formula $10$
+\end_inset
+
+eV)
+\end_layout
+
+\begin_layout Standard
+Generell: die Valenzelektronen bestimmen Platz im Periodensystem
+\end_layout
+
+\begin_layout Subparagraph
+Bemerkung
+\end_layout
+
+\begin_layout Standard
+Für die chemische Bindung ist noch die 2.
+ Hund'sche Regel interessant: 
+\begin_inset Formula $e^{-}$
+\end_inset
+
+ einer Unterschale koppeln zu maximalem Gesamtspin 
+\begin_inset Formula $S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Das heißt die 3
+\begin_inset Formula $e^{-}$
+\end_inset
+
+ der 2p-Unterschale im Stickstoff (N, 
+\begin_inset Formula $Z=7$
+\end_inset
+
+) 
+\begin_inset Formula $\uparrow\uparrow\uparrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Elektron-Elektron Abstoßung bevorzugt eine antisymetrische Wellenfunktion,
+ da dann die Elektronen im Mittel weiter auseinander sind.
+\end_layout
+
+\begin_layout Standard
+Da die Gesamwellenfunktion antisymmetrisch sein muss, st die Spinwellenfunktion
+ symmetrisch.
 \end_layout
 
 \begin_layout Section
@@ -5361,12 +5651,124 @@ name "sec:Atome-in-äußeren"
 
 \end_layout
 
-\begin_layout Section
-Moleküle
+\begin_layout Subsection
+Elektromagnetische Übergänge - Atome und elektromagnetische Wellen
+\end_layout
+
+\begin_layout Standard
+Übergänge von einem Niveau 
+\begin_inset Formula $i\to f$
+\end_inset
+
+ unter Emmision bzw.
+ Absorbtion eines Photons der Frequenz 
+\begin_inset Formula $\nu=\left|\frac{E_{f}-E_{i}}{h}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik und Experimente: nicht alle energetisch möglichen Übergänge
+ finden statt, bzw.
+ viele sind um viele Größenordnungen unterdrückt.
+\end_layout
+
+\begin_layout Standard
+Bevorzugt: 
+\begin_inset Quotes gld
+\end_inset
+
+Elektrische Dipolübergänge
+\begin_inset Quotes grd
+\end_inset
+
+ (siehe zeitabhängige Störungstheorie; Schrödingergleichung: 
+\begin_inset Formula $\hat{p}\to\hat{p}+q\underbrace{\hat{A}}_{\text{em. Feld}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Matrixelement
+\begin_inset Formula \[
+M_{fi}\sim\int\psi_{f}^{\star}\left(\vec{x}\right)\vec{x}\psi_{i}\left(\vec{x}\right)d^{3}x\]
+
+\end_inset
+
+Erinnerung: klassicher Dipol: 
+\begin_inset Formula $q\vec{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das Dipolmatrixelement verbindet Zustände (Wellenfunktionen) unterschiedlicher
+ Parität.
+\end_layout
+
+\begin_layout Standard
+Die Parität ist die Symmetrie unter der Raumspiegelung 
+\begin_inset Formula $\hat{P}$
+\end_inset
+
+: 
+\begin_inset Formula $\vec{x}\to-\vec{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wasserstoffwellenfunktionen sind Eigenfunktionen auch zu 
+\begin_inset Formula $\hat{P}$
+\end_inset
+
+ und besitzen die Parität 
+\begin_inset Formula $\left(-1\right)^{l}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Die elektrische Dipolstrahlung hat 
+\begin_inset Formula $\Delta l=\pm1$
+\end_inset
+
+, bzw.
+ 
+\begin_inset Formula $\Delta L=\pm1$
+\end_inset
+
+; keine Spinänderung 
+\begin_inset Formula $\Delta s=0$
+\end_inset
+
+, bzw.
+ 
+\begin_inset Formula $\Delta S=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Beispiel
+\end_layout
+
+\begin_layout Standard
+H
+\end_layout
+
+\begin_layout Standard
+(Abb A31)
 \end_layout
 
 \begin_layout Section
-Moderne Atomphysik
+Moleküle
 \end_layout
 
 \end_body
