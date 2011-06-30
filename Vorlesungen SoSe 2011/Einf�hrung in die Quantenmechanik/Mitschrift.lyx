@@ -1,4 +1,4 @@
-#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -20184,6 +20184,1026 @@ L_{2}\left(\varrho\right) & = & 2-4\varrho-\varrho^{2}\\
 L_{1}^{1}\left(\varrho\right) & = & -1\\
 L_{2}^{1}\left(\varrho\right) & = & -4+2\varrho\\
 L_{2}^{2}\left(\varrho\right) & = & 2\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Lösung der radialen Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g\left(\varrho\right)=e^{-\lambda\varrho}f\left(\varrho\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda^{2}=-\tilde{E}\hspace{1em}\Rightarrow\hspace{1em}\lambda=\frac{1}{n}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+f^{\prime\prime}\left(\varrho\right)-2\lambda f^{\prime}\left(\varrho\right)+\left(\frac{2}{\varrho}-\frac{l\left(l+1\right)}{\varrho^{2}}\right)f\left(\varrho\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Laguerre Polynome
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{p}^{k}\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(x\frac{d^{2}}{dx^{2}}+\left(k+1-x\right)\frac{d}{dx}+\left(p-k\right)\right)L_{p}^{k}\left(x\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=\frac{2}{n}\varrho$
+\end_inset
+
+, 
+\begin_inset Formula $f\left(\varrho\right)=x^{l+1}\cdot h\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\downarrow$
+\end_inset
+
+ Einsetzen, rechnen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left(x\frac{d^{2}}{dx^{2}}+\left(2l+2-x\right)\frac{d}{dx}+\left(n-l-1\right)\right)h\left(x\right)=0\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+k & = & 2l+1\\
+p & = & n+l\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $p-k=n+l-2l-1=n-l-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $L_{n+l}^{2l+1}\left(x\right)$
+\end_inset
+
+, Polynom vom Grad 
+\begin_inset Formula $n-l-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wellenfunktion 
+\begin_inset Formula $R\left(r\right)\sim e^{-\frac{1}{n}\frac{r}{a_{B}}}\cdot\text{Polynom von }r$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Physikalische Bedeutung
+\end_layout
+
+\begin_layout Subparagraph
+Energiespektrum
+\end_layout
+
+\begin_layout Enumerate
+(Abb Q54)
+\end_layout
+
+\begin_layout Enumerate
+Im Bereich 
+\begin_inset Formula $0\le E\le+\infty$
+\end_inset
+
+ existieren Streuzustände
+\end_layout
+
+\begin_layout Enumerate
+Bezeichnungen
+\begin_inset Newline newline
+\end_inset
+
+Hauptquantenzahl 
+\begin_inset Formula $n$
+\end_inset
+
+: 
+\begin_inset Formula $n=1,2,3,...$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Nebenquantenzahl 
+\begin_inset Formula $l$
+\end_inset
+
+: 
+\begin_inset Formula $l=0,1,...,n-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+magnetische Quantenzahl 
+\begin_inset Formula $m$
+\end_inset
+
+: 
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $l=0$
+\end_inset
+
+: s, 
+\begin_inset Formula $l=1$
+\end_inset
+
+: p, 
+\begin_inset Formula $l=2$
+\end_inset
+
+: d, 
+\begin_inset Formula $l=3$
+\end_inset
+
+: f
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+Schalen
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $n=1$
+\end_inset
+
+: K-Schale, 
+\begin_inset Formula $n=2$
+\end_inset
+
+: L-Schale, 
+\begin_inset Formula $n=3$
+\end_inset
+
+: M-Schale
+\end_layout
+
+\begin_layout Enumerate
+Entartung
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q55)
+\begin_inset Newline newline
+\end_inset
+
+Entartung bezüglich 
+\begin_inset Formula $l$
+\end_inset
+
+: für 
+\begin_inset Formula $n$
+\end_inset
+
+ fest: 
+\begin_inset Formula $0,1,...,n-1\hat{=}n$
+\end_inset
+
+ Werte
+\begin_inset Newline newline
+\end_inset
+
+Entartung bezüglich 
+\begin_inset Formula $m$
+\end_inset
+
+: für 
+\begin_inset Formula $l$
+\end_inset
+
+ fest: 
+\begin_inset Formula $-l\le m\le l\hat{=}\left(1l+1\right)$
+\end_inset
+
+ Werte
+\begin_inset Newline newline
+\end_inset
+
+Insgesamt: 
+\begin_inset Formula $\overset{n-1}{\underset{l=0}{\sum}}\left(2l+1\right)=n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Wellenfunktionen
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula \begin{eqnarray*}
+\chi_{n,l,m}\left(\vec{r}\right)=\chi_{n,l,m}\left(r,\theta,\varphi\right) & = & R_{n,l}\left(r\right)Y_{l,m}\left(\theta,\varphi\right)\\
+\underset{\mathbb{R}^{3}}{\int}\chi_{n,l,m}^{\star}\left(\vec{r}\right)\chi_{n^{\prime},l^{\prime},m^{\prime}}\left(\vec{r}\right)d^{3}r & = & \delta_{n,n^{\prime}}\delta_{l,l^{\prime}}\delta_{m,m^{\prime}}\\
+\overset{2\pi}{\underset{0}{\int}}\overset{\pi}{\underset{0}{\int}}Y_{l,m}^{\star}\left(\theta,\varphi\right)Y_{l^{\prime},m^{\prime}}\left(\theta,\varphi\right)\sin\theta d\theta d\varphi & = & \delta_{l,l^{\prime}}\delta_{m,m^{\prime}}\\
+\overset{\infty}{\underset{0}{\int}}\underbrace{R_{n,l}^{\star}\left(r\right)R_{n^{\prime},l}\left(r\right)}_{\text{gleiche Werte von }l}r^{2}dr & = & \delta_{n,n^{\prime}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Alle 
+\begin_inset Formula $R_{n,l}\left(r\right)$
+\end_inset
+
+ enthalten Faktor 
+\begin_inset Formula $r^{l}$
+\end_inset
+
+ (bis auf 
+\begin_inset Formula $l=0$
+\end_inset
+
+) 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $R_{n,l}\left(0\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Jede Wellenfunktion hat 
+\bar under
+
+\begin_inset Formula $n-l-1$
+\end_inset
+
+
+\bar default
+ Knoten d.h.
+ 
+\begin_inset Formula $n-l-1$
+\end_inset
+
+ Nullstellen für 
+\begin_inset Formula $r>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Radiale Aufenthaltswahrscheinlichkeitsdichte 
+\begin_inset Formula $W_{n,l}\left(r\right):=\underbrace{r^{2}}_{\text{vom Volumenelement}}\left|R_{n,l}\left(r\right)\right|^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ (Folie 
+\begin_inset Quotes gld
+\end_inset
+
+Radiale Aufenthaltswahrscheinlichkeitsdichte
+\begin_inset Quotes grd
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+mit steigender Quantenzahl 
+\begin_inset Formula $n$
+\end_inset
+
+ verlagert sich 
+\begin_inset Formula $W\left(r\right)$
+\end_inset
+
+ nach außen 
+\begin_inset Formula $\sim\left|e^{-\frac{r}{na_{B}}}\right|^{2}$
+\end_inset
+
+ fällt für große 
+\begin_inset Formula $n$
+\end_inset
+
+ schwächer ab
+\end_layout
+
+\begin_layout Itemize
+mit steigendem 
+\begin_inset Formula $l$
+\end_inset
+
+ (bei festem 
+\begin_inset Formula $n$
+\end_inset
+
+) verlagert sich 
+\begin_inset Formula $W\left(r\right)$
+\end_inset
+
+ nach innen
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+Kramers-Relation
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{k+1}{n^{2}}\left\langle r^{k}\right\rangle -\left(2k+1\right)a_{B}\left\langle r^{k-1}\right\rangle +\frac{k}{4}\left(\left(2l+1\right)^{2}-k^{2}\right)a_{B}^{2}\left\langle r^{k-2}\right\rangle =0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $k$
+\end_inset
+
+: ganzzahlig
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Beweis: siehe Nolting Quantenmechanik, Band 2, Aufgabe 6.2.5
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\left\langle r^{k}\right\rangle =\int\chi_{n,l,m}^{\star}\left(\vec{r}\right)r^{k}\chi_{n,l,m}\left(\vec{r}\right)d^{3}r\equiv\left\langle r^{k}\right\rangle _{n,l,m}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $k=0$
+\end_inset
+
+:
+\begin_inset Formula \[
+\frac{1}{n^{2}}\left\langle r^{0}\right\rangle -1a_{B}\left\langle r^{-1}\right\rangle +0=0\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\left\langle r^{0}\right\rangle =\left\langle 1\right\rangle =1\]
+
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{1}{n^{2}}-a_{B}\left\langle r^{-1}\right\rangle =0\hspace{1em}\Rightarrow\hspace{1em}\left\langle \frac{1}{r}\right\rangle =\frac{1}{n^{2}a_{B}}\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $k=1$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle r\right\rangle =\frac{a_{B}}{2}\left(3n^{2}-l\left(l+1\right)\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula \[
+\left\langle r^{2}\right\rangle =\frac{n^{2}a_{B}^{2}}{2}\left(5n^{2}+1-3l\left(l+1\right)\right)\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Da 
+\begin_inset Formula $V\left(r\right)=-\frac{1}{4\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+ folgt: 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left\langle \hat{T}\right\rangle =-\left\langle \hat{V}\right\rangle \frac{1}{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ (Vivial-Theorem)
+\end_layout
+
+\begin_layout Paragraph
+Bohr'sches Atommodell
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\vec{L}\right|=\left|\vec{r}\times\vec{p}\right|=n\hbar$
+\end_inset
+
+, 
+\begin_inset Formula $n=1,2,3,...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Bahnradius 
+\begin_inset Formula $r_{n}=a_{B}n^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $E_{n}=\frac{1}{n^{2}}1\text{Rydberd}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik 
+\begin_inset Formula $\left\langle r\right\rangle =\frac{3}{2}a_{B}n^{2}$
+\end_inset
+
+ (bei 
+\begin_inset Formula $l=0$
+\end_inset
+
+) (etwas größer als beim Bohr'schen Modell)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=1$
+\end_inset
+
+: 
+\begin_inset Formula $\left|\vec{L}\right|=\hbar$
+\end_inset
+
+ (Bohr'sches Modell) Grundzustand
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik 
+\begin_inset Formula $\left\langle \vec{L}\right\rangle =0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Das Bohr'sche Atommodell beschreibt in keiner Weise die tatsächliche Physik
+ eines Atoms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Das Wasserstoffatom als Zweikörperproblem
+\end_layout
+
+\begin_layout Standard
+(Abb Q56)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\vec{p}_{E}^{2}}{2m_{E}}+\frac{\vec{p}_{K}^{2}}{2m_{K}}-\frac{e^{2}}{2\pi\varepsilon_{0}}\frac{1}{\left|\vec{r}_{E}-\vec{r}_{K}\right|}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Impuls des Elektrons
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{p}}_{E}=\frac{\hbar}{i}\vec{\triangledown}_{\vec{r}_{E}}=\frac{\hbar}{i}\begin{pmatrix}\frac{\partial}{\partial x_{E}}\\
+\frac{\partial}{\partial y_{E}}\\
+\frac{\partial}{\partial z_{E}}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Impuls des Kerns
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{p}}_{K}=\frac{\hbar}{i}\vec{\triangledown}_{\vec{r}_{K}}=\frac{\hbar}{i}\begin{pmatrix}\frac{\partial}{\partial x_{K}}\\
+\frac{\partial}{\partial y_{K}}\\
+\frac{\partial}{\partial z_{K}}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Idee
+\end_layout
+
+\begin_layout Standard
+Übergang zu Relativ- und Schwerpunktskoordinaten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\vec{r}=\vec{r}_{E}-\vec{r}_{K}\label{eq:zeikentkop1}\end{equation}
+
+\end_inset
+
+ Relativkoordinate
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\vec{R}=\frac{m_{E}\vec{r}_{E}+m_{K}\vec{r}_{K}}{M}\label{eq:zeikentkop2}\end{equation}
+
+\end_inset
+
+ Schwerpunktskoordinate mit 
+\begin_inset Formula $M=m_{E}+m_{K}$
+\end_inset
+
+ Gesamtmasse
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left.\begin{gathered}\vec{p}=\frac{m_{K}\vec{p}_{E}-m_{E}\vec{p}_{K}}{M}\\
+\vec{P}=\vec{p}_{E}+\vec{p}_{K}\end{gathered}
+\right\} \text{klassische Physik}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\frac{\vec{p}_{E}^{2}}{2m_{E}}+\frac{\vec{p}^{2}}{2m_{K}}=\frac{\vec{P}^{2}}{2M}+\frac{\vec{P}^{2}}{2\mu}$
+\end_inset
+
+, 
+\begin_inset Formula $\mu=\frac{m_{E}\cdot m_{K}}{m_{E}+m_{K}}$
+\end_inset
+
+ (reduizierte Masse)
+\end_layout
+
+\begin_layout Standard
+Gilt das auch in der Quantenmechanik?
+\end_layout
+
+\begin_layout Standard
+Dazu:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{\triangledown}_{\vec{r}_{E}}^{2}=\frac{\partial^{2}}{\partial x_{E}^{2}}+\frac{\partial^{2}}{\partial y_{E}^{2}}+\frac{\partial^{2}}{\partial z_{E}^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zeikentkop1"
+
+\end_inset
+
+:
+\begin_inset Formula \[
+x=x_{E}-x_{K}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zeikentkop2"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+x_{s}=\frac{m_{E}x_{E}+m_{K}x_{K}}{M}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+x_{E} & \rightarrow & x,x_{s}\\
+x_{E} & = & x_{E}\left(x,x_{s}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{\partial}{\partial x_{E}} & = & \frac{\partial}{\partial x}\underbrace{\frac{\partial x}{\partial x_{E}}}_{=1}+\frac{\partial}{\partial x_{s}}\underbrace{\frac{\partial x_{s}}{\partial x_{E}}}_{\frac{m_{E}}{M}}\\
+\frac{\partial}{\partial x_{E}} & = & \frac{\partial}{\partial x}+\frac{m_{E}}{M}\frac{\partial}{\partial x_{s}}\\
+\frac{\partial^{2}}{\partial x_{E}^{2}} & = & \frac{\partial}{\partial x_{E}}\left(\frac{\partial}{\partial x_{E}}\right)\\
+ & = & \frac{\partial}{\partial x_{E}}\left(\frac{\partial}{\partial x}+\frac{m_{E}}{M}\frac{\partial}{\partial x_{s}}\right)\\
+ & = & \frac{\partial}{\partial x}\left(\frac{\partial}{\partial x}+\frac{m_{E}}{M}\frac{\partial}{\partial x_{s}}\right)\underbrace{\frac{\partial x}{\partial x_{E}}}_{1}+\frac{\partial}{\partial x_{s}}\left(\frac{\partial}{\partial x}+\frac{m_{E}}{M}\frac{\partial}{\partial x_{s}}\right)\underbrace{\frac{\partial x_{s}}{\partial x_{E}}}_{\frac{m_{E}}{M}}\\
+ & = & \left(\frac{\partial^{2}}{\partial x^{2}}+\left(\frac{m_{E}}{M}\right)^{2}\frac{\partial^{2}}{\partial x_{s}^{2}}+2\frac{m_{E}}{M}\frac{\partial^{2}}{\partial x\partial x_{s}}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Analog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{\partial^{2}}{\partial x_{K}^{2}} & = & \frac{\partial^{2}}{\partial x^{2}}-2\frac{m_{K}}{M}\frac{\partial^{2}}{\partial x\partial x_{K}}+\left(\frac{m_{K}}{M}\right)^{2}\frac{\partial^{2}}{\partial x_{s}^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{1}{m_{E}}\frac{\partial^{2}}{\partial x_{E}^{2}}+\frac{1}{m_{K}}\frac{\partial^{2}}{\partial x_{K}^{2}} & = & \left(\frac{1}{m_{E}}+\frac{1}{m}\right)\frac{\partial^{2}}{\partial x^{2}}+\left(\frac{1}{m_{E}}\frac{m_{E}^{2}}{M^{2}}+\frac{1}{m_{K}}\frac{m_{K}^{2}}{M^{2}}\right)\frac{\partial^{2}}{\partial x_{s}^{2}}+0\\
+ & = & \frac{1}{\mu}\frac{\partial^{2}}{\partial x^{2}}+\frac{1}{M}\frac{\partial^{2}}{\partial x_{s}^{2}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y$
+\end_inset
+
+, 
+\begin_inset Formula $z$
+\end_inset
+
+ analog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\hat{p}_{E}^{2}}{2m_{E}}+\frac{\hat{p}_{K}^{2}}{2m_{K}}=-\frac{\hbar^{2}\vec{\triangledown}_{\vec{r}}^{2}}{2\mu}-\frac{\hbar^{2}\vec{\triangledown}_{\vec{R}}^{2}}{2M}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\underbrace{-\frac{\hbar^{2}}{2\mu}\vec{\triangledown}_{\vec{r}}^{2}-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}}_{\text{Relativbewegung}}-\underbrace{\frac{\hbar^{2}}{2M}\vec{\triangledown}_{\vec{R}}^{2}}_{\text{Schwerpunktbewegung}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\phi\left(\vec{r},\vec{R}\right) & = & E\phi\left(\vec{r},\vec{R}\right)\\
+\phi\left(\vec{r},\vec{R}\right) & = & \chi\left(\vec{r}\right)\cdot f\left(\vec{R}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $\left(-\frac{1}{2\mu}\vec{\triangledown}_{r}^{2}-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}\right)\chi\left(\vec{r}\right)=E^{rel}\chi\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{rel}=-\frac{1}{n^{2}}\frac{\mu}{m_{E}}\cdot1\text{Rydberg}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{\hbar^{2}}{2M}\vec{\triangledown}_{R}^{2}f\left(\vec{R}\right)=E^{Sch}f\left(\vec{R}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(\vec{R}\right)=e^{i\vec{k}\vec{R}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E^{Sch}=\frac{\hbar^{2}k^{2}}{2M}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{m,\vec{k}}=E_{m}^{Rel}+E_{\vec{k}}^{Sch}\]
 
 \end_inset
 
