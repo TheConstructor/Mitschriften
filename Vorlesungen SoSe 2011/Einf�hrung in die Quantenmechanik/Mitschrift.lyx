@@ -21211,6 +21211,949 @@ E_{m,\vec{k}}=E_{m}^{Rel}+E_{\vec{k}}^{Sch}\]
 \end_layout
 
 \begin_layout Standard
+(Folie mit Zusammenfassung u.A.
+ der Unschärferelation, Heisenberg-Gleichung, Dirac Notation, Harmonischer
+ Oszillator, ...)
+\end_layout
+
+\begin_layout Section
+Teilchen im elektromagnetischem Feld
+\end_layout
+
+\begin_layout Subsection
+Hamiltonoperator
+\end_layout
+
+\begin_layout Standard
+Felder 
+\begin_inset Formula $\vec{E}\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{B}\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Potentiale: 
+\begin_inset Formula $\text{rot}\vec{A}\left(\vec{r},t\right)=\vec{B}\left(\vec{r},t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{E}\left(\vec{r},t\right)=-\frac{\partial\vec{A}\left(\vec{r},t\right)}{\partial t}-\text{grad}\phi\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Klassische Physik
+\end_layout
+
+\begin_layout Standard
+Hamilton: 
+\begin_inset Formula $H\left(\vec{p},\vec{r}\right)$
+\end_inset
+
+ z.B.
+ 
+\begin_inset Formula $H\left(\vec{p},\vec{r}\right)=\frac{\vec{p}^{2}}{2m}+V\left(\vec{r}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\frac{\partial H}{\partial p_{j}}=\dot{r}_{j}\,,\,\frac{\partial H}{\partial r_{j}}=-\dot{p}_{j}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+Hamilton-Gleichungen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{\triangledown}_{\vec{p}}H=\dot{\vec{r}}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{\triangledown}_{\vec{r}}H=-\dot{\vec{p}}$
+\end_inset
+
+ mit 
+\begin_inset Formula $\dot{\vec{p}}=\vec{F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{\triangledown}_{r}\left(\frac{p^{2}}{2m}+V\left(\vec{r}\right)\right)=\vec{\triangledown}V\left(\vec{r}\right)=-\vec{F}\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{\triangledown}_{p}\left(\frac{p^{2}}{2m}+V\left(\vec{r}\right)\right)=\frac{\vec{p}}{2m}=\dot{\vec{r}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{p}=m\dot{\vec{r}}=m\vec{v}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Einbau von 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ und 
+\begin_inset Formula $\phi$
+\end_inset
+
+ in 
+\bar under
+Hamiltonfunktion
+\bar default
+: (
+\begin_inset Formula $Q$
+\end_inset
+
+: Ladung des Teilchens)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+H\left(\vec{p},\vec{r}\right)=\frac{\left(\vec{p}-Q\vec{A}\right)^{2}}{2m}+Q\phi\]
+
+\end_inset
+
+beschreibt Teilchen mit Ladung 
+\begin_inset Formula $Q$
+\end_inset
+
+ im elektromagnetischen Feld (
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Plain Layout
+Die Hammilton-Gleichung liefern
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+m\ddot{\vec{r}}=\vec{F}=Q\left(\vec{E}+\vec{v}\times\vec{B}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beweis: durch Einsetzen
+\end_layout
+
+\begin_layout Standard
+-
+\begin_inset Formula \[
+Q\phi\left(\vec{r},t\right)\hat{=}V\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+-
+\begin_inset Formula \[
+\vec{p}\to\vec{p}-Q\vec{A}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Übertragung auf die Quantenmechanik
+\end_layout
+
+\begin_layout Standard
+Hamiltonoperator 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Hamiltonfunktion mit 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+ und 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+ als Operatoren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}}{2m}+\underbrace{Q\phi\left(\hat{\vec{r}},t\right)}_{:=V\left(\hat{\vec{r}},t\right)}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Bemerkung
+\end_layout
+
+\begin_layout Standard
+Im Rahmen der Quantenelektrodynamik wird 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ durch Operatoren beschrieben
+\end_layout
+
+\begin_layout Standard
+Analyse des Terms 
+\begin_inset Formula $\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{A}=\vec{A}\left(\vec{r},t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}=\hat{\vec{p}}^{2}-\underbrace{Q\hat{\vec{p}}\vec{A}\left(\vec{r},t\right)}_{\text{Reihenfolge beachten}}-\underbrace{Q\vec{A}\left(\vec{r},t\right)\hat{\vec{p}}}_{\text{Reihenfolge beachten}}+Q^{2}\vec{A}^{2}\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im allgemeinen Fall vertauschen 
+\begin_inset Formula $\hat{\vec{p}}$
+\end_inset
+
+ und 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ nicht.
+\end_layout
+
+\begin_layout Standard
+Wähle 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{div}\vec{A}\left(\vec{r},t\right)=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Coulomb-Eichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{p}}\vec{A}f\left(\vec{r}\right)=\frac{\hbar}{i}\vec{\triangledown}\vec{A}f\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rechenregel:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\text{grad}\left(\vec{A}f\right)=\underbrace{\left(\text{div}\vec{A}\right)}_{=0\text{ laut Eichung}}f+\vec{A}\text{grad}f\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{p}}\vec{A}f=\vec{A}\hat{\vec{p}}f\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{\vec{p}}^{2}}{2m}-\frac{2Q\vec{A}\hat{\vec{p}}}{2m}+\frac{Q^{2}\vec{A}^{2}}{2m}+V\left(\vec{r},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\vec{H}=\frac{\hat{p}^{2}}{2m}+V\left(\vec{r},t\right)-\frac{Q}{m}\vec{A}\cdot\hat{\vec{p}}+\frac{Q^{2}}{2m}\vec{A}^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hamiltonoperator für Teilchen im elektromagnetischen Feld (mit Coulomb-Eichung)
+\end_layout
+
+\begin_layout Subsection
+Wasserstoffatom im homogenen Magnetfeld
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ sei homogen 
+\begin_inset Formula $\vec{B}=\vec{B}\left(t\right)$
+\end_inset
+
+ (unabhängig von 
+\begin_inset Formula $\vec{r}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{A}\left(\vec{r},t\right)=\frac{1}{2}\left(\vec{r}\times\vec{B}\left(\vec{r}\right)\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\text{rot}\vec{A}\left(\vec{r},t\right)=\vec{B}\left(t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\text{div}\vec{A}\left(\vec{r},t\right)=0$
+\end_inset
+
+ (Beweis durch Nachrechnen)
+\end_layout
+
+\begin_layout Standard
+Speziell:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{B}\left(t\right)=\begin{pmatrix}0\\
+0\\
+B\left(t\right)\end{pmatrix}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}\left(\vec{r},t\right)=\frac{1}{2}\begin{pmatrix}-By\\
++Bx\\
+0\end{pmatrix}$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\text{rot}\vec{A}=\begin{pmatrix}0\\
+0\\
+B\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{A}\cdot\hat{\vec{p}}=\frac{1}{2}\begin{pmatrix}-By\\
+Bx\\
+0\end{pmatrix}\cdot\begin{pmatrix}\hat{p}_{x}\\
+\hat{p}_{y}\\
+\hat{p}_{z}\end{pmatrix}=\frac{1}{2}\left(-By\hat{p}_{x}+Bx\hat{p}_{y}\right)=\frac{1}{2}B\left(x\hat{p}_{y}-y\hat{p}_{x}\right)=\frac{1}{2}B\hat{L}_{z}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für 
+\begin_inset Formula $\hat{A}=\frac{1}{2}\left(\vec{r}\times\vec{B}\right)$
+\end_inset
+
+ folgt 
+\begin_inset Formula $\vec{A}\hat{\vec{p}}=\frac{1}{2}\vec{B}\cdot\hat{\vec{L}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für 
+\begin_inset Formula $\vec{B}=\begin{pmatrix}0\\
+0\\
+B\end{pmatrix}$
+\end_inset
+
+ folgt 
+\begin_inset Formula $\vec{A}^{2}=\frac{1}{4}\begin{pmatrix}-By\\
+Bx\\
+0\end{pmatrix}\begin{pmatrix}-By\\
+Bx\\
+0\end{pmatrix}=\frac{1}{4}B^{2}\left(x^{2}+y^{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{\vec{p}}^{2}}{2m}+V\left(\vec{r}\right)-\frac{QB}{2m}\hat{L}_{z}+\frac{1}{8m}Q^{2}B^{2}\left(x^{2}+y^{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wasserstoffatom (mit ruhendem Kern)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=m_{E}$
+\end_inset
+
+: Masse des Elektrons, 
+\begin_inset Formula $Q=-e$
+\end_inset
+
+: Ladung des Elektrons, 
+\begin_inset Formula $V\left(r\right)=-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+: Coulomb-Potential
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\underbrace{\frac{\hat{\vec{p}}^{2}}{2m}-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}}_{\underset{\text{Wasserstoffatom ohne Magnetfeld}}{\hat{H}^{\left(0\right)}}}+\underbrace{\frac{eB}{2m_{E}}\hat{L}_{z}}_{\sim B}+\underbrace{\frac{e^{2}}{8m_{E}}B^{2}\left(x^{2}+y^{2}\right)}_{\underset{\text{ist für kleine Felder zu vernachlässigen}}{\sim B^{2}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\hat{H}^{\left(0\right)}+\frac{eB}{2m_{E}}\hat{L}_{z}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gesucht:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\psi\left(\vec{r}\right)=E\psi\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bekannt:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}^{\left(0\right)}\chi_{n,l,m}\left(\vec{r}\right) & = & E_{n}^{\left(0\right)}\chi_{n,l,m}\left(\vec{r}\right)\\
+E_{n}^{\left(0\right)} & = & \frac{1}{n^{2}}\cdot E_{Rydberg}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $\hat{H}^{\left(0\right)}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{L}_{z}$
+\end_inset
+
+ vertauschen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\chi_{n,l,m}\left(\vec{r}\right)=R_{n,l}\left(r\right)Y_{l,m}\left(\theta,\varphi\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sind auch Eigenfunktionen von 
+\begin_inset Formula $\hat{H}=\hat{H}^{\left(0\right)}+\frac{eB}{2m_{E}}\hat{L}_{z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\frac{eB}{2m_{E}}\hat{L}_{z}\chi_{n,l,m}\left(\vec{r}\right) & = & \frac{eB}{2m_{E}}R\left(r\right)\underbrace{\hat{L}_{z}Y_{l,m}\left(\theta,\varphi\right)}_{\hbar mY_{l,m}\left(\theta,\varphi\right)}\\
+ & = & \frac{eB}{2m_{E}}\hbar\chi_{n,l,m}\left(\vec{r}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\chi_{n,l,m}\left(\vec{r}\right)=\left(E_{n}^{\left(0\right)}+\frac{eB}{2m_{E}}\hbar m\right)\chi_{n,l,m}\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n,m}=-\frac{1}{n^{2}}E_{Rydberg}+\frac{e\hbar}{2m_{E}}Bm\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=1,2,3,\dots$
+\end_inset
+
+, 
+\begin_inset Formula $l=0,\dots,n-1$
+\end_inset
+
+, 
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m$
+\end_inset
+
+: magnetische Quantenzahl
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q57 / normaler Zeeman-Effekt)
+\end_layout
+
+\begin_layout Standard
+Der vernachlässigte Term mit 
+\begin_inset Formula $B^{2}$
+\end_inset
+
+ hat bei einem Feld von 
+\begin_inset Formula $4,7\cdot10^{5}\text{T}$
+\end_inset
+
+ den gleichen Effekt wie der Term 
+\begin_inset Formula $\sim B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Magnetisches Moment
+\end_layout
+
+\begin_layout Subsubsection*
+Klassische Physik
+\end_layout
+
+\begin_layout Standard
+(Abb Q58)
+\end_layout
+
+\begin_layout Paragraph
+Definition
+\end_layout
+
+\begin_layout Standard
+Magnetisches Moment
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{M}=\frac{1}{2}\int\vec{r}^{\prime}\times\vec{j}\left(\vec{r}^{\prime},t\right)d^{3}r^{\prime}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{r}\left(t\right)$
+\end_inset
+
+:Bahnkurve eines Teilchens
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{j}=\underbrace{Q}_{\text{Ladung}}\underbrace{\vec{v}\left(t\right)}_{\text{Geschwindigkeit}}\delta\left(\vec{r}^{\prime}-\vec{r}\left(t\right)\right)=\vec{j}\left(\vec{r}^{\prime},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{M}=\frac{1}{2}Q\vec{r}\left(t\right)\times\vec{v}\left(t\right)=\frac{Q}{2m}\vec{r}\left(t\right)\times\vec{p}\left(t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\vec{M}=\frac{Q}{2m}\vec{L}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Magnetisches Moment in der klassichen Physik
+\end_layout
+
+\begin_layout Subsubsection*
+Quantenmechanik
+\end_layout
+
+\begin_layout Standard
+Operator des magnetischen Moments
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{\vec{M}}=\frac{Q}{2m}\hat{\vec{L}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Elektron: 
+\begin_inset Formula $Q=-e$
+\end_inset
+
+, 
+\begin_inset Formula $m=m_{E}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{M}}=-\frac{e}{2m_{E}}\hat{\vec{L}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Wasserstoff
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\hat{H}^{\left(0\right)}+\frac{eB}{2m_{E}}\hat{L}_{z}=\hat{H}^{\left(0\right)}-\hat{M}_{z}B\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{H}=\hat{H}^{\left(0\right)}-\hat{\vec{M}}\vec{B}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Energieänderung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Delta E=-\left\langle \hat{\vec{M}}\vec{B}\right\rangle \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
