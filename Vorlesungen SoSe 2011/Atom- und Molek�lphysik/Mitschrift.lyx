@@ -5767,6 +5767,538 @@ H
 (Abb A31)
 \end_layout
 
+\begin_layout Standard
+Bedingung:
+\begin_inset Formula $\left|\psi\left(r_{1},r_{2}\right)\right|^{2}=\left|\psi\left(r_{2},r_{1}\right)\right|^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vertauschungsoperator 
+\begin_inset Formula $\hat{V}$
+\end_inset
+
+ 
+\begin_inset Formula $\psi\left(\vec{r}_{1},\vec{r}_{2}\right)\to\psi\left(\vec{r}_{2},\vec{r}_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aus Bedingung oben 
+\begin_inset Formula $\psi\left(\vec{r}_{2},\vec{r}_{1}\right)=e^{i\varphi}\psi\left(\vec{r}_{2},\vec{r}_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es gilt aber auch 
+\begin_inset Formula $\hat{V}^{2}\psi\left(\vec{r}_{1},\vec{r}_{2}\right)=\underbrace{\psi\left(\vec{r}_{1},\vec{r}_{2}\right)=e^{i2\varphi}}\psi\left(\vec{r}_{1},\vec{r}_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Paritätsoperator 
+\begin_inset Formula $\hat{P}$
+\end_inset
+
+: 
+\begin_inset Formula $\vec{x}\to-\vec{x}$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{P}^{2}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Linienbreite aufgrund der Lebensdauer
+\end_layout
+
+\begin_layout Standard
+Heißenberg'sche Unschärferelation
+\begin_inset Formula \[
+h\Delta\nu\cdot\Delta t=\Delta E\cdot\Delta t\ge\hbar\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hier 
+\begin_inset Formula $\Delta t=\tau$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+mittlere Lebensdauer
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A32)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $I\sim\left|E\right|^{2}\sim e^{-\frac{t}{\tau}}\cos^{2}\omega_{0}t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{0}$
+\end_inset
+
+-Atome in einem angeregten Niveau nach einer Zeit 
+\begin_inset Formula $t$
+\end_inset
+
+ befinden sich noch 
+\begin_inset Formula $N\left(t\right)$
+\end_inset
+
+ Atome im angeregten Zustand:
+\begin_inset Formula \[
+N\left(t\right)=N_{0}e^{-\frac{t}{\tau}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+mittlere Lebensdauer
+\begin_inset Quotes grd
+\end_inset
+
+, Halbwertszeit 
+\begin_inset Formula $t_{\nicefrac{1}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\tau=\frac{t_{\nicefrac{1}{2}}}{\ln2}\approx\frac{t_{\nicefrac{1}{2}}}{0,69}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+N\left(t_{\nicefrac{1}{2}}\right)=\frac{1}{2}N_{0}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+P\left(t\right)=\frac{1}{\tau}e^{-\frac{t}{\tau}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle t\right\rangle =\tau\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A33)
+\end_layout
+
+\begin_layout Standard
+(Abb A34)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+F\left(\omega\right)\sim\frac{\nicefrac{\Gamma}{2}}{\nicefrac{\Gamma^{2}}{4}+\left(\omega-\omega_{0}\right)^{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\Delta\omega & = & \Gamma=\frac{1}{\tau}\\
+\tau\Delta\omega & = & 1\hspace{1em}|\cdot\hbar\\
+\tau\underbrace{\Delta\omega\hbar}_{\Delta E} & = & \hbar\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typische Lebensdauer 
+\begin_inset Formula $\tau=10^{-8}\text{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta\omega=2\pi\Delta\nu=\frac{1}{\tau}=10^{8}\text{s}=100\text{MHz}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+a) (spontane) Emission eines angeregten Atomzustandes.
+\end_layout
+
+\begin_layout Standard
+Betrachte vereinfachtes System aus 2 atomaren Niveaus
+\end_layout
+
+\begin_layout Standard
+(Abb A35)
+\end_layout
+
+\begin_layout Standard
+Emission eines Photons der Energie 
+\begin_inset Formula $h\nu=E_{2}-E_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rate 
+\begin_inset Formula $W_{21}^{sp}=A\cdot N_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{2}$
+\end_inset
+
+: Anzahl der angeregten Atome im oberen Niveau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+: Einsteinscher 
+\begin_inset Formula $A$
+\end_inset
+
+-Koeffizient.
+ 
+\begin_inset Formula $A=\frac{1}{\tau}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b) (induzierte) Absorption
+\end_layout
+
+\begin_layout Standard
+Vergleiche Beersches Gesetz 
+\begin_inset Formula $I\left(x\right)=I_{0}\cdot e^{-\frac{x}{\mu}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A36)
+\end_layout
+
+\begin_layout Standard
+Rate 
+\begin_inset Formula $W_{12}^{ind}=B_{12}\varrho N_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{1}$
+\end_inset
+
+: Anzahl der Atome im unteren Niveau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varrho$
+\end_inset
+
+: spektrale Energiedichte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B_{12}$
+\end_inset
+
+: Einsteinscher 
+\begin_inset Formula $B$
+\end_inset
+
+-Koeffizient
+\end_layout
+
+\begin_layout Standard
+c) Induzierte Emission
+\end_layout
+
+\begin_layout Standard
+Aus thermodynamischen Überlegungen zur Plankschen Strahlungsformel forderte
+ Einstein 1917 ebenso die induzierte Eimission
+\end_layout
+
+\begin_layout Standard
+(Abb A37)
+\end_layout
+
+\begin_layout Standard
+phasen- und richtungsgleiche Emission eines 1.
+ Photons (gleicher Frequenz)
+\end_layout
+
+\begin_layout Standard
+Rate 
+\begin_inset Formula $W_{21}^{ind}=B_{21}\varrho N_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beziehung zwischen den 
+\begin_inset Formula $B$
+\end_inset
+
+-Koeffizienten
+\begin_inset Formula \[
+g_{1}B_{12}=g_{2}B_{21}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $g_{2}$
+\end_inset
+
+: statistische Gewichte 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Anzahl der entarteten Zustände, z.B.
+ 
+\begin_inset Formula $g_{1}=2$
+\end_inset
+
+ für 
+\begin_inset Formula $j=\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+weiterhin 
+\begin_inset Formula $A=\frac{8\pi h\nu^{3}}{c^{3}}B_{21}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im thermischen Gleichgewicht folgen 
+\begin_inset Formula $N_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ einer Bolzmann-Verteilung
+\begin_inset Formula \[
+\frac{N_{2}}{N_{1}}=\frac{g_{2}}{g_{1}}e^{-\frac{h\nu}{k_{B}T}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb A38)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{W_{12}^{ind}}{W_{21}^{ind}}=\frac{B_{12}\varrho N_{1}}{B_{21}\varrho N_{2}}\underset{\underset{\text{o.B.d.A.}}{g_{1}=g_{2}}}{=}e^{\frac{h\nu}{k_{B}T}}>1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Induzierte Absorbtion überwiegt immer induzierten Emissionen im thermodynamische
+n Gleichgewicht
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Will man die induzierte Emission zur Lichtgewinnung (Laser) nutzen, so
+ muss man vom thermischen Gleihgewicht abweichen und eine Beschreibungsinversion
+ erreichen: 
+\begin_inset Formula $N_{2}>N_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Laser (
+\bar under
+L
+\bar default
+ight 
+\bar under
+a
+\bar default
+mplification by 
+\bar under
+s
+\bar default
+timulated 
+\bar under
+e
+\bar default
+mission of 
+\bar under
+r
+\bar default
+adition)
+\end_layout
+
+\begin_layout Standard
+Grundsätzlicher Aufbau eines Lasers
+\end_layout
+
+\begin_layout Standard
+(Abb A39)
+\end_layout
+
+\begin_layout Standard
+Spiegel:
+\end_layout
+
+\begin_layout Enumerate
+Auswahl einer speziellen Laserwellenlänge unter mehreren Möglichkeiten (Resonato
+r)
+\end_layout
+
+\begin_layout Enumerate
+Erhöhung der Intensität von 
+\begin_inset Formula $\varrho$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Laserprinzip
+\end_layout
+
+\begin_layout Standard
+(Abb A40)
+\end_layout
+
+\begin_layout Standard
+Laserschwelle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\underbrace{\left(W_{21}^{ind}-W_{12}^{ind}\right)}_{\sim\left(N_{2}-N_{1}\right)\varrho B}\cdot t_{w}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t_{w}$
+\end_inset
+
+: Verweildauer 
+\begin_inset Formula $t_{w}=\frac{L}{c}\cdot\frac{1}{1-R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c$
+\end_inset
+
+: Mediumlichtgeschwindigkeit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R$
+\end_inset
+
+: Reflektivität des Spiegels
+\end_layout
+
+\begin_layout Standard
+(Folie & Experiment Stickstoff-Laser)
+\end_layout
+
+\begin_layout Standard
+(Folie & Experiment Helium-Neon-Laser)
+\end_layout
+
 \begin_layout Section
 Moleküle
 \end_layout
