@@ -22154,6 +22154,925 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Anmeldung zur Klausur für Diplom+LP2003:
+\end_layout
+
+\begin_layout Plain Layout
+Heute ab 14:00 R 714 bis 15.07.2011
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spin
+\end_layout
+
+\begin_layout Subsection
+Spin des Elektrons und Pauli-Gleichung
+\end_layout
+
+\begin_layout Subsubsection*
+Experimentelle Hinweise
+\end_layout
+
+\begin_layout Enumerate
+Aufspaltung der Zustände des H-Atoms im Magnetfeld
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q59)
+\begin_inset Newline newline
+\end_inset
+
+Wodurch kommt diese Aufspaltung zustande?
+\end_layout
+
+\begin_layout Enumerate
+Stern-Gerlach-Experiment
+\begin_inset Newline newline
+\end_inset
+
+(Abb Q60)
+\end_layout
+
+\begin_layout Paragraph
+Klassich
+\end_layout
+
+\begin_layout Standard
+Kraft: 
+\begin_inset Formula $\vec{F}=-\vec{M}\cdot\vec{\triangledown}\vec{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quantenmechanik: 
+\begin_inset Formula $\vec{M}=\frac{Q}{2m}\hat{\vec{L}}$
+\end_inset
+
+; 
+\begin_inset Formula $\vec{F}=-\left\langle \hat{\vec{M}}\right\rangle \cdot\vec{\triangledown}\vec{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \hat{\vec{M}}\right\rangle =\frac{Q}{2m}\left\langle \hat{\vec{L}}\right\rangle \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ag: 
+\begin_inset Formula $\left\langle \hat{\vec{L}}\right\rangle =0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5s: 
+\begin_inset Formula $e^{-}$
+\end_inset
+
+ + kugelförmige Ladungsverteilung
+\end_layout
+
+\begin_layout Paragraph
+Hypothese von Uhlenbeck und Gandsmit (1925)
+\end_layout
+
+\begin_layout Standard
+Das Elektron 
+\begin_inset Quotes gld
+\end_inset
+
+dreht sich um sich selbst
+\begin_inset Quotes grd
+\end_inset
+
+ (englisch: to spin) und erzeugt einen 
+\begin_inset Quotes gld
+\end_inset
+
+inneren
+\begin_inset Quotes grd
+\end_inset
+
+ Drehimpuls 
+\begin_inset Formula $\vec{S}$
+\end_inset
+
+ (Spin).
+\end_layout
+
+\begin_layout Standard
+Mit 
+\begin_inset Formula $\vec{S}$
+\end_inset
+
+ ist ein magnetisches Moment 
+\begin_inset Formula $\vec{M}_{s}$
+\end_inset
+
+ verknüpft.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{M}_{s}=g_{E}\frac{e}{2m_{E}}\vec{S}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{E}$
+\end_inset
+
+: Landé-Faktor 
+\begin_inset Formula $g_{E}=2,0023\dots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Theorie des Spins nach Pauli
+\end_layout
+
+\begin_layout Standard
+1) 
+\begin_inset Formula $\hat{\vec{S}}$
+\end_inset
+
+: Operator des Spins
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{\vec{S}}$
+\end_inset
+
+ erfüllt: 
+\begin_inset Formula $\hat{\vec{S}}=\left(\hat{S}_{x},\hat{S}_{y},\hat{S}_{z}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{S}_{x},\hat{S}_{y}\right] & = & i\hbar\hat{S}_{z}\\
+\left[\hat{S}_{y},\hat{S}_{z}\right] & = & i\hbar\hat{S}_{x}\\
+\left[\hat{S}_{z},\hat{S}_{x}\right] & = & i\hbar\hat{S}_{y}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2) Der Operator 
+\begin_inset Formula $\hat{\vec{S}}$
+\end_inset
+
+ wirkt om Hilbertraum 
+\begin_inset Formula $\mathcal{H}_{S}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Spinwellenfunktion: 
+\begin_inset Formula $\phi\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Eigenzustände von 
+\begin_inset Formula $\hat{\vec{S}}^{2}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{S}_{z}$
+\end_inset
+
+ erfüllen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\hat{\vec{S}}^{2}\phi_{s,m_{s}} & = & \hbar^{2}s\left(s+1\right)\phi_{s,m_{s}}\\
+\hat{S}_{z}\phi_{s,m_{s}} & = & \hbar m_{s}\phi_{s,m_{s}}\\
+-s & \le & m_{s}\le s\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s$
+\end_inset
+
+,
+\begin_inset Formula $m_{s}$
+\end_inset
+
+: Quantenzahlen
+\end_layout
+
+\begin_layout Standard
+Ein bestimmter Teilchentyp (z.B.
+ Elektronen) ist durch einen 
+\bar under
+festen
+\bar default
+ Wert von 
+\begin_inset Formula $s$
+\end_inset
+
+ gekenzeischnet.
+\end_layout
+
+\begin_layout Standard
+3) Elektronen und Protonen sind Teilchen mit 
+\begin_inset Formula $s=\frac{1}{2}$
+\end_inset
+
+.
+ Sie besitzen 
+\bar under
+unterschiedliche
+\bar default
+ Landé-Faktoren.
+\end_layout
+
+\begin_layout Standard
+4) Die Operatoren 
+\begin_inset Formula $\hat{\vec{r}}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{\vec{p}}$
+\end_inset
+
+ vertauschen mit 
+\begin_inset Formula $\hat{\vec{S}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subparagraph
+Spin des Elektrons
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+s=\frac{1}{2}\Rightarrow m_{s}=\pm\frac{1}{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da 
+\begin_inset Formula $s$
+\end_inset
+
+ immer gleich 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi_{m_{s}}$
+\end_inset
+
+: Spinwellenfunktion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Zwei 
+\begin_inset Quotes gld
+\end_inset
+
+Basiszustände
+\begin_inset Quotes grd
+\end_inset
+
+: 
+\begin_inset Formula $\phi_{-\frac{1}{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{\frac{1}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unterschiedliche Schreibweisen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\phi_{\frac{1}{2}} & := & \phi_{+}:=\phi_{\uparrow}\\
+\phi_{-\frac{1}{2}} & := & \phi_{-}:=\phi_{\downarrow}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+oder:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+|\phi_{\frac{1}{2}}> & = & |\frac{1}{2}>=|+>=|\uparrow>\\
+|\phi_{-\frac{1}{2}}> & = & |-\frac{1}{2}>=|->=|\downarrow>\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Also
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{\vec{S}}\phi_{+}=\hbar^{2}\frac{1}{2}\left(\frac{1}{2}+1\right)\phi_{+}=\hbar^{2}\frac{3}{4}\phi_{+}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(da 
+\begin_inset Formula $s=\frac{1}{2}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{\vec{S}}^{2}\phi_{-} & = & \hbar\frac{1}{2}\left(\frac{1}{2}+1\right)\phi_{1}=\hbar^{2}\frac{3}{4}\phi_{-}\\
+\hat{S}_{z}\phi_{+} & = & \hbar\frac{1}{2}\phi_{+}\\
+\hat{S}_{z}\phi_{-} & = & -\hbar\frac{1}{2}\phi_{-}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Allgemeine Spindefinition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\phi\left(t\right)=a\left(t\right)\phi_{+}+b\left(t\right)\phi_{-}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Überlagerung der Eigenzustände
+\end_layout
+
+\begin_layout Standard
+Darstellung durch Zweiervektoren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\phi_{+} & \hat{=} & \begin{pmatrix}1\\
+0\end{pmatrix}\\
+\phi_{-} & \hat{=} & \begin{pmatrix}0\\
+1\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Spinoren
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\phi\left(t\right)=a\left(t\right)\begin{pmatrix}1\\
+0\end{pmatrix}+b\left(t\right)\begin{pmatrix}0\\
+1\end{pmatrix}=\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Pauli-Matritzen
+\end_layout
+
+\end_inset
+
+Darstellung der Operatoren durch 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ Matritzen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{S}_{x} & = & \frac{\hbar}{2}\underbrace{\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}}_{:=\varsigma_{x}}\\
+\hat{S}_{y} & = & \frac{\hbar}{2}\underbrace{\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}}_{:=\varsigma_{y}}\\
+\hat{S}_{z} & = & \frac{\hbar}{2}\underbrace{\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}}_{:=\varsigma_{z}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varsigma_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\varsigma_{y}$
+\end_inset
+
+, 
+\begin_inset Formula $\varsigma_{z}$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+Pauli-Matritzen
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diese Matritzen erfüllen die Vertauschungsrelationen und die Eigenwertgleichunge
+n
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\hat{S}_{x},\hat{S}_{y}\right] & = & \hat{S}_{x}\hat{S}_{y}-\hat{S}_{y}\hat{S}_{x}\\
+ & = & \frac{\hbar^{2}}{4}\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}-\frac{\hbar^{2}}{4}\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}\\
+ & = & \frac{\hbar^{2}}{4}\left(\begin{pmatrix}i & 0\\
+0 & -i\end{pmatrix}-\begin{pmatrix}-i & 0\\
+0 & i\end{pmatrix}\right)\\
+ & = & \frac{\hbar^{2}}{4}2i\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\\
+ & = & i\hbar\frac{\hbar}{2}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}=i\hbar\hat{S}_{z}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{S}_{z}\phi_{+} & = & \frac{\hbar}{2}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\begin{pmatrix}1\\
+0\end{pmatrix}=\frac{\hbar}{2}\begin{pmatrix}1\\
+0\end{pmatrix}=\hbar\frac{1}{2}\phi_{+}\\
+\hat{S}_{z}\phi_{-} & = & \frac{\hbar}{2}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\begin{pmatrix}0\\
+1\end{pmatrix}=-\frac{\hbar}{2}\begin{pmatrix}0\\
+1\end{pmatrix}=-\hbar\frac{1}{2}\phi_{-}\\
+\hat{S}^{2}\phi_{+} & = & \left(\hat{S}_{x}^{2}+\hat{S}_{y}^{2}+\hat{S}_{z}^{2}\right)\begin{pmatrix}1\\
+0\end{pmatrix}\\
+ & = & \frac{\hbar^{2}}{4}\left(\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}+\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}+\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\right)\begin{pmatrix}1\\
+0\end{pmatrix}\\
+ & = & \frac{\hbar^{2}}{4}\left(\begin{pmatrix}1 & 0\\
+0 & 1\end{pmatrix}+\begin{pmatrix}1 & 0\\
+0 & 1\end{pmatrix}+\begin{pmatrix}1 & 0\\
+0 & 1\end{pmatrix}\right)\begin{pmatrix}1\\
+0\end{pmatrix}\\
+ & = & 3\frac{\hbar^{2}}{4}\begin{pmatrix}1\\
+0\end{pmatrix}\\
+ & = & \frac{3}{4}\hbar^{2}\phi_{+}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Wellenfunktion eines Teilchens mit 
+\begin_inset Formula $s=\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\psi\left(\vec{r},t\right)=\psi_{+}\left(\vec{r},t\right)\phi_{+}+\psi_{-}\left(\vec{r},t\right)\phi_{-}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hilbertraum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mathcal{H}=\mathcal{H}_{\vec{r}}\otimes\mathcal{H}_{S}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathcal{H}_{\vec{r}}$
+\end_inset
+
+: quadratinegrable Funktionen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathcal{H}_{S}$
+\end_inset
+
+: zweidimensionaler Vektorraum
+\end_layout
+
+\begin_layout Subparagraph
+Dirac
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+|\psi>=|\psi_{+}>|\phi_{+}>+|\psi_{-}>|\phi_{-}>\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Spinor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\psi\left(\vec{r},t\right) & = & \psi_{+}\left(\vec{r},t\right)\begin{pmatrix}1\\
+0\end{pmatrix}+\psi_{-}\left(\vec{r},t\right)\begin{pmatrix}0\\
+1\end{pmatrix}\\
+ & = & \begin{pmatrix}\psi_{+}\left(\vec{r},t\right)\\
+\psi_{-}\left(\vec{r},t\right)\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Skalarprodukt
+\end_layout
+
+\begin_layout Standard
+ohne Spin:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+<\chi|\psi>=\int\chi^{\star}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)d^{3}r\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit Spin:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+<\chi|\psi> & := & \int\begin{pmatrix}\chi_{+}^{\star}\left(\vec{r},t\right)\\
+\chi_{-}^{\star}\left(\vec{r},t\right)\end{pmatrix}\cdot\begin{pmatrix}\psi_{+}\left(\vec{r},t\right)\\
+\psi_{-}\left(\vec{r},t\right)\end{pmatrix}d^{3}r\\
+ & = & \int\left(\chi_{+}^{\star}\left(\vec{r},t\right)\psi_{+}\left(\vec{r},t\right)+\chi_{-}^{\star}\left(\vec{r},t\right)\psi\left(\vec{r},t\right)\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Norm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+<\psi|\psi> & = & \int\underbrace{\left(\left|\psi_{+}\left(\vec{r},t\right)\right|^{2}+\left|\psi_{-}\left(\vec{r},t\right)\right|^{2}\right)}_{=\varrho\left(\vec{r}\right)}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varrho$
+\end_inset
+
+
+\begin_inset Formula $\left(\vec{r}\right)$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+Aufenthaltswahrscheinlichkeitsdichte
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Erwartungswert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\langle \hat{\vec{S}}\right\rangle $
+\end_inset
+
+: Vektor mit 
+\bar under
+drei
+\bar default
+ Komponenten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{\vec{S}}\right\rangle  & := & <\psi|\hat{\vec{S}}|\psi>\\
+ & = & \int\begin{pmatrix}\psi_{+}^{\star}\left(\vec{r},t\right)\\
+\psi_{-}^{\star}\left(\vec{r},t\right)\end{pmatrix}\hat{\vec{S}}\begin{pmatrix}\psi_{+}\left(\vec{r},t\right)\\
+\psi_{-}\left(\vec{r},t\right)\end{pmatrix}d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{x}\right\rangle  & = & \int\begin{pmatrix}\psi_{+}^{\star}\left(\vec{r},t\right)\\
+\psi_{-}^{\star}\left(\vec{r},t\right)\end{pmatrix}\frac{\hbar}{2}\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}\begin{pmatrix}\psi_{+}\left(\vec{r},t\right)\\
+\psi_{-}\left(\vec{r},t\right)\end{pmatrix}d^{3}r\\
+ & = & \frac{\hbar}{2}\int\begin{pmatrix}\psi_{+}^{\star}\left(\vec{r},t\right)\\
+\psi_{-}^{\star}\left(\vec{r},t\right)\end{pmatrix}\begin{pmatrix}\psi_{-}\left(\vec{r},t\right)\\
+\psi_{+}\left(\vec{r},t\right)\end{pmatrix}d^{3}r\\
+ & = & \frac{\hbar}{2}\int\left(\psi_{+}^{\star}\left(\vec{r},t\right)\psi_{-}\left(\vec{r},t\right)+\psi_{-}^{\star}\left(\vec{r},t\right)\psi_{+}\left(\vec{r},t\right)\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+a^{\star}b+b^{\star}a & = & a^{\star}b+\left(a^{\star}b\right)^{\star}\\
+ & = & 2\Re\left(a^{\star}b\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{x}\right\rangle  & = & \hbar\cdot\Re\left(\int\left(\psi_{+}^{\star}\left(\vec{r},t\right)\psi_{-}\left(\vec{r},t\right)\right)d^{3}r\right)\\
+\left\langle \hat{S}_{y}\right\rangle  & = & \hbar\cdot\Im\left(\int\left(\psi_{+}^{\star}\left(\vec{r},t\right)\psi_{-}\left(\vec{r},t\right)\right)d^{3}r\right)\\
+\left\langle \hat{S}_{z}\right\rangle  & = & \frac{\hbar}{2}\int\left(\left|\psi_{+}\left(\vec{r},t\right)\right|^{2}+\left|\psi_{-}\left(\vec{r},t\right)\right|^{2}\right)d^{3}r\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Hamiltonoperator
+\end_layout
+
+\begin_layout Subparagraph
+Ohne Spin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}}{2m}+V\left(\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+mit 
+\begin_inset Formula $V\left(\vec{r}\right)=Q\phi\left(\vec{r}\right)$
+\end_inset
+
+, Potential aus der Elektrodynamik
+\end_layout
+
+\begin_layout Standard
+Homogenese Magnetfeld, 
+\begin_inset Formula $Q=-e$
+\end_inset
+
+, 
+\begin_inset Formula $m=m_{E}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\vec{A}=\frac{1}{2}\left(\vec{B}\times\vec{r}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}^{2}}{2m_{E}}+V\left(\vec{r}\right)+\frac{e}{2m_{E}}\hat{\vec{L}}\cdot\vec{B}+\frac{1}{8m_{E}}\left(\vec{B}\times\vec{r}\right)^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Mit Spin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Pauli-Hamilton-Operator
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \[
+\hat{H}=\frac{\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}}{2m}+V\left(\vec{r}\right)-\frac{gQ}{2m}\hat{\vec{S}}\cdot\vec{B}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pauli-Hamilton-Operator
+\end_layout
+
+\begin_layout Standard
+Elektron:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}^{2}}{2m_{E}}+V\left(\vec{r}\right)+\frac{e}{2m_{E}}\left(\hat{\vec{L}}+g_{E}\hat{\vec{S}}\right)\cdot\vec{B}+\frac{1}{8m_{E}}\left(\vec{B}\times\vec{r}\right)^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
