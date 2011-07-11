@@ -23043,7 +23043,7 @@ Pauli-Hamilton-Operator
 
 
 \begin_inset Formula \[
-\hat{H}=\frac{\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}}{2m}+V\left(\vec{r}\right)-\frac{gQ}{2m}\hat{\vec{S}}\cdot\vec{B}\]
+\hat{H}=\frac{\left(\hat{\vec{p}}-Q\vec{A}\right)^{2}}{2m}+V\left(\vec{r}\right)-\frac{gQ}{2m}\vec{B}\cdot\hat{\vec{S}}\]
 
 \end_inset
 
@@ -23064,8 +23064,872 @@ Elektron:
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $g=g_{E}=2$
+\end_inset
+
+, 
+\begin_inset Formula $Q=-e$
+\end_inset
+
+, 
+\begin_inset Formula $m=m_{E}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 \begin_inset Formula \[
-\hat{H}=\frac{\hat{p}^{2}}{2m_{E}}+V\left(\vec{r}\right)+\frac{e}{2m_{E}}\left(\hat{\vec{L}}+g_{E}\hat{\vec{S}}\right)\cdot\vec{B}+\frac{1}{8m_{E}}\left(\vec{B}\times\vec{r}\right)^{2}\]
+\hat{H}=\underbrace{\frac{\hat{p}^{2}}{2m_{E}}+V\left(\vec{r}\right)+\frac{e}{2m_{E}}\vec{B}\cdot(\hat{\vec{L}}}_{\hat{H}_{r}}+g_{E}\hat{\vec{S}})+\left(\text{Term mit }B^{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wasserstoffatom: 
+\begin_inset Formula $V\left(\vec{r}\right)=-\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{B}=\left(0,0,B\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Schrödinger-Gleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\chi\left(\vec{r},\vec{s}\right)=E\chi\left(\vec{r},\vec{s}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{s}$
+\end_inset
+
+: 
+\begin_inset Quotes gld
+\end_inset
+
+Spinkoordinate
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}=\hat{H}_{r}+\hat{H}_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{H}_{s}=\frac{eg_{E}}{2m_{E}}\underbrace{\vec{B}\cdot\hat{\vec{S}}}_{B\cdot\hat{S}_{z}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\chi_{n,l,m,m_{s}}=R_{n,l}\left(r\right)Y_{l,m}\left(\theta,\varphi\right)\cdot\phi_{m_{s}}\left(\vec{s}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}_{s}\phi_{m_{s}}\left(\vec{s}\right) & = & \frac{eg}{2m_{E}}\hat{S}_{z}\phi_{m_{s}}\left(\vec{s}\right)\\
+ & = & \underbrace{\frac{eg}{2m_{E}}B\hbar m_{s}}_{\text{Eigenwert}}\phi_{m_{s}}\left(\vec{s}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E_{n,m,m_{s}}=-\frac{1}{n^{2}}E_{Rydberg}+\frac{e}{2m_{E}}B\hbar m+\frac{eg_{E}}{2m_{E}}B\hbar m_{s}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\chi_{n,l,m,m_{s}}\left(\vec{r},\vec{s}\right)=R_{n,l}\left(r\right)Y_{l,m}\left(\theta,\varphi\right)\phi_{m_{s}}\left(\vec{s}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=1,2,3,\dots$
+\end_inset
+
+, 
+\begin_inset Formula $l=0,1,\dots n-1$
+\end_inset
+
+, 
+\begin_inset Formula $-l\le m\le l$
+\end_inset
+
+, 
+\begin_inset Formula $m_{s}\in\left\{ -\frac{1}{2},\frac{1}{2}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{E}=2$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta E=\frac{e\hbar}{2m_{E}}B\left(m+2m_{s}\right)$
+\end_inset
+
+, Notation 
+\begin_inset Formula $|n\, l\, m\, m_{s}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q61)
+\end_layout
+
+\begin_layout Subsection
+Spinpräzession
+\end_layout
+
+\begin_layout Standard
+Betrachte zeitliche Änderung von 
+\begin_inset Formula $\phi\left(\vec{s}\right)$
+\end_inset
+
+ und 
+\begin_inset Formula $\left\langle \hat{\vec{S}}\right\rangle $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\frac{d}{dt}\psi\left(\vec{r},\vec{s},t\right)=\hat{H}\psi\left(\vec{r},\vec{s},t\right)=\left(\hat{H}_{r}+\hat{H}_{s}\right)\underbrace{\tilde{\psi}\left(\vec{r},t\right)}_{\text{Ortsanteil}}\phi\left(\vec{s},t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\frac{d}{dt}\tilde{\psi}\left(\vec{r},t\right) & = & \hat{H}_{r}\tilde{\psi}\left(\vec{r},t\right)\\
+i\hbar\frac{d}{dt}\phi\left(\vec{s},t\right) & = & \hat{H}_{s}\phi\left(\vec{s},t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wir wollen und mit der Lösung der zweiten Gleichung beschäftigen.
+ Zunächst für 
+\begin_inset Formula $\vec{B}=\left(0,0,B\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}_{s} & = & \frac{g_{E}e}{2m_{E}}B\cdot\hat{S}_{z}\\
+ & = & \frac{g_{E}e}{2m_{E}}B\frac{\hbar}{2}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\\
+\phi\left(\vec{s},t\right) & = & \begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\\
+i\hbar\frac{d}{dt}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix} & = & \hat{H}_{s}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz: 
+\begin_inset Formula $a\left(t\right)=e^{\frac{Et}{i\hbar}}\tilde{a}$
+\end_inset
+
+, 
+\begin_inset Formula $b\left(t\right)=e^{\frac{Et}{i\hbar}}\tilde{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}e^{\frac{Et}{i\hbar}} & = & \hat{H}_{s}\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}e^{\frac{Et}{i\hbar}}\\
+\Rightarrow\hspace{1em}\hat{H}_{s}\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix} & = & E\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{g_{E}e}{4m_{E}}B\hbar\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}=E\begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+E_{1}=+\frac{g_{E}}{4m_{E}}eB\hbar & \Rightarrow & \begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}=\begin{pmatrix}1\\
+0\end{pmatrix}\\
+E_{2}=-\frac{g_{E}}{4m_{E}}eB\hbar & \Rightarrow & \begin{pmatrix}\tilde{a}\\
+\tilde{b}\end{pmatrix}=\begin{pmatrix}0\\
+1\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{E}=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{eB}{2m_{E}}\hbar=\omega_{L}\hbar\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Larmor-Frequenz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\omega_{L}=\frac{eB}{2m_{E}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\phi\left(t\right)=a_{0}e^{-i\omega_{L}t}\begin{pmatrix}1\\
+0\end{pmatrix}+b_{0}e^{+i\omega_{L}t}\begin{pmatrix}0\\
+1\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{E_{1}t}{i\hbar}=\frac{1}{i}\frac{\hbar\omega_{L}}{\hbar}t=i\omega_{L}t\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $b_{0}$
+\end_inset
+
+ werden durch Anfangsbedingungen festgelegt
+\end_layout
+
+\begin_layout Paragraph
+Erwartungswert des Spins
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{x}\right\rangle _{t} & = & \frac{\hbar}{2}\begin{pmatrix}a^{\star}\left(t\right)\\
+b^{\star}\left(t\right)\end{pmatrix}\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\\
+ & = & \frac{\hbar}{2}\begin{pmatrix}a^{\star}\left(t\right)\\
+b^{\star}\left(t\right)\end{pmatrix}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\\
+ & = & \frac{\hbar}{2}\left(a^{\star}\left(t\right)b\left(t\right)+a\left(t\right)b^{\star}\left(t\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}=\begin{pmatrix}a_{0}e^{-i\omega_{L}t}\\
+b_{0}e^{+i\omega_{L}t}\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \hat{S}_{x}\right\rangle _{t}=\frac{\hbar}{2}\left(a_{0}^{\star}e^{+i\omega_{L}t}e^{+i\omega_{L}t}b_{0}+a_{0}b_{0}^{\star}e^{-i\omega_{L}t}e^{-i\omega_{L}t}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sind 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $b_{0}$
+\end_inset
+
+ reel:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{x}\right\rangle _{t} & = & \hbar a_{0}b_{0}\cos\left(2\omega_{L}t\right)\\
+\left\langle \hat{S}_{y}\right\rangle _{t} & = & \hbar a_{0}b_{0}\sin\left(2\omega_{L}t\right)\\
+\left\langle \hat{S}_{z}\right\rangle _{t} & = & \frac{\hbar}{2}\left(a_{0}^{2}-b_{0}^{2}\right)\hspace{1em}\text{zeitlich konstant}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q62)
+\end_layout
+
+\begin_layout Standard
+Präzession des Erwartungswerts des Spins
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\langle \hat{S}_{z}\right\rangle =\text{konst}$
+\end_inset
+
+, da 
+\begin_inset Formula $\left[\hat{H},\hat{S}_{z}\right]=0$
+\end_inset
+
+ (folgt aus Heisenberggleichung)
+\end_layout
+
+\begin_layout Subsection
+Magnetische Resonanz
+\end_layout
+
+\begin_layout Standard
+Betrachte Spin unter Einfluss von
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{B}_{0} & = & \left(0,0,B_{0}\right)\hspace{1em}\text{zeitlich konstant}\\
+\vec{B}_{1} & = & \left(B_{1}\cos\left(\omega t\right),B_{1}\sin\left(\omega t\right),0\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gesucht
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+i\hbar\frac{d}{dt}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}=\hat{H}_{s}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}_{s} & = & \frac{2e}{2m_{E}}\vec{B}\cdot\hat{\vec{S}}\\
+ & = & \frac{e}{m_{E}}B_{1}\cos\left(\omega t\right)\hat{S}_{x}+\frac{e}{m_{E}}B_{2}\sin\left(\omega t\right)\hat{S}_{y}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H} & = & \frac{\hbar}{2m_{E}}e\left(B_{0}\begin{pmatrix}1 & 0\\
+0 & -1\end{pmatrix}+B_{1}\cos\left(\omega t\right)\begin{pmatrix}0 & 1\\
+1 & 0\end{pmatrix}+B_{1}\begin{pmatrix}0 & -i\\
+i & 0\end{pmatrix}\right)\\
+ & = & \frac{\hbar e}{2m_{E}}\begin{pmatrix}B_{0} & B_{1}\left(\cos\left(\omega t\right)-i\sin\left(\omega t\right)\right)\\
+B_{1}\left(\cos\left(\omega t\right)+i\sin\left(\omega t\right)\right) & -B_{0}\end{pmatrix}\\
+ & = & \frac{\hbar e}{2m_{E}}\begin{pmatrix}B_{0} & B_{1}e^{-i\omega t}\\
+B_{1}e^{+i\omega t} & -B_{0}\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\omega_{L}=\frac{e}{2m_{E}}B_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega_{1}=\frac{e}{2m_{E}}B_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+i\hbar\frac{d}{dt}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}=\hbar\begin{pmatrix}\omega_{L} & \omega_{1}e^{-i\omega t}\\
+\omega_{1}e^{+i\omega t} & -\omega_{L}\end{pmatrix}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz 
+\begin_inset Formula $a\left(t\right)=e^{-i\omega_{L}t}\cdot\tilde{a}\left(t\right)$
+\end_inset
+
+, 
+\begin_inset Formula $b\left(t\right)=e^{+i\omega_{L}t}\tilde{b}\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\left(\left(-i\omega_{L}\right)\underbrace{e^{-i\omega_{L}t}\tilde{a}\left(t\right)}_{a\left(t\right)}+e^{-i\omega_{L}t}\dot{\tilde{a}}\left(t\right)\right) & = & \hbar\omega_{L}a\left(t\right)+\hbar\omega_{1}e^{-i\omega t}b\left(t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\dot{\tilde{a}}\left(t\right)e^{-i\omega_{L}t} & = & \hbar\omega_{1}e^{-i\omega t}\tilde{b}\left(t\right)e^{i\omega_{L}t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+i\dot{\tilde{a}}\left(t\right) & = & \omega_{1}e^{i2\left(\omega_{L}-\frac{\omega}{2}\right)t}\tilde{b}\left(t\right)\\
+i\dot{\tilde{b}}\left(t\right) & = & \omega_{1}e^{-i2\left(\omega_{L}-\frac{\omega}{2}\right)t}\tilde{a}\left(t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Omega_{0}=\omega_{L}-\frac{\omega}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+i\dot{\tilde{a}}\left(t\right) & = & \omega_{1}e^{i2\Omega_{0}t}\tilde{b}\left(t\right)\\
+i\dot{\tilde{b}}\left(t\right) & = & \omega_{1}e^{-i2\Omega_{0}t}\tilde{a}\left(t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\tilde{a}\left(t\right) & = & a_{0}e^{i\Omega t}\cdot e^{i\Omega_{0}t}\\
+\tilde{b}\left(t\right) & = & b_{0}e^{i\Omega t}\cdot e^{-i\Omega_{0}t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Einsetzen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+ia_{0}i\left(\Omega+\Omega_{0}\right) & = & \omega_{1}b_{0}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+b_{0}=-a_{0}\frac{\Omega+\Omega_{0}}{\omega_{1}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+ib_{0}i\left(\Omega-\Omega_{0}\right) & = & \omega_{1}a_{0}\\
+a_{0}\frac{\Omega+\Omega_{0}}{\omega_{1}}\left(\Omega-\Omega_{0}\right) & = & \omega_{1}a_{0}\\
+\Omega^{2}-\Omega_{0}^{2} & = & \omega_{1}^{2}\\
+\Rightarrow\hspace{1em}\Omega^{2} & = & \omega_{1}^{2}+\Omega_{0}^{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\Omega=\pm\underbrace{\sqrt{\omega_{1}^{2}+\Omega_{0}^{2}}}_{=:\Omega_{s}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+a\left(t\right) & = & a_{1}e^{-i\omega_{L}t}e^{i\Omega_{S}t}e^{i\Omega_{0}t}+a_{2}e^{-i\omega_{L}t}e^{-i\Omega_{S}t}e^{i\Omega_{0}t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+a\left(t\right) & = & a_{1}e^{-i\frac{\omega}{2}t}e^{i\Omega_{s}t}+a_{2}e^{-i\frac{\omega}{2}t}e^{-\Omega_{s}t}\\
+b\left(t\right) & = & -\frac{\Omega_{0}+\Omega_{s}}{\omega_{1}}e^{+i\frac{\omega}{2}t}e^{i\Omega_{s}t}-\frac{\Omega_{0}-\Omega_{S}}{\omega_{1}}e^{+i\frac{\omega}{2}t}e^{-i\Omega_{s}t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
