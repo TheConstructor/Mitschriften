@@ -23885,7 +23885,7 @@ a_{0}\frac{\Omega+\Omega_{0}}{\omega_{1}}\left(\Omega-\Omega_{0}\right) & = & \o
 
 \begin_layout Standard
 \begin_inset Formula \[
-\Omega=\pm\underbrace{\sqrt{\omega_{1}^{2}+\Omega_{0}^{2}}}_{=:\Omega_{s}}\]
+\Omega=\pm\underbrace{\sqrt{\omega_{1}^{2}+\Omega_{0}^{2}}}_{=:\Omega_{S}}\]
 
 \end_inset
 
@@ -23923,14 +23923,1025 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Formula \begin{eqnarray*}
-a\left(t\right) & = & a_{1}e^{-i\frac{\omega}{2}t}e^{i\Omega_{s}t}+a_{2}e^{-i\frac{\omega}{2}t}e^{-\Omega_{s}t}\\
-b\left(t\right) & = & -\frac{\Omega_{0}+\Omega_{s}}{\omega_{1}}e^{+i\frac{\omega}{2}t}e^{i\Omega_{s}t}-\frac{\Omega_{0}-\Omega_{S}}{\omega_{1}}e^{+i\frac{\omega}{2}t}e^{-i\Omega_{s}t}\end{eqnarray*}
+a\left(t\right) & = & a_{1}e^{-i\frac{\omega}{2}t}e^{i\Omega_{S}t}+a_{2}e^{-i\frac{\omega}{2}t}e^{-\Omega_{S}t}\\
+b\left(t\right) & = & -\frac{\Omega_{0}+\Omega_{S}}{\omega_{1}}a_{1}e^{+i\frac{\omega}{2}t}e^{i\Omega_{S}t}-\frac{\Omega_{0}-\Omega_{S}}{\omega_{1}}a_{2}e^{+i\frac{\omega}{2}t}e^{-i\Omega_{S}t}\end{eqnarray*}
 
 \end_inset
 
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Magnetische Resonanz
+\end_layout
+
+\begin_layout Standard
+(Abb Q63)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{B}_{0} & = & \left(0,0,B_{0}\right)\\
+\vec{B}_{1} & = & \left(B_{1}\cdot\cos\left(\omega t\right),B_{1}\cdot\sin\left(\omega t\right),0\right)\\
+\omega_{L} & = & \frac{2}{2m_{E}}B_{0}\\
+\omega_{1} & = & \frac{e}{2m_{E}}B_{1}\\
+\Omega_{S} & = & \sqrt{\omega_{1}^{2}+\Omega_{0}^{2}}\\
+\Omega_{0} & = & \omega_{L}-\frac{\omega}{2}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+i\hbar\frac{d}{dt}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix} & = & \hat{H}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}=\frac{2e}{2m_{E}}\vec{B}\cdot\hat{\vec{S}}\\
+ & = & \hbar\begin{pmatrix}\omega_{L} & \omega_{1}e^{-\omega t}\\
+\omega_{1}e^{+i\omega t} & \omega_{L}\end{pmatrix}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Liefert
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+a\left(t\right) & = & a_{1}e^{-i\frac{\omega}{2}t}e^{i\Omega_{S}t}+a_{2}e^{-i\frac{\omega}{2}t}e^{-\Omega_{S}t}\\
+b\left(t\right) & = & -\frac{\Omega_{0}+\Omega_{S}}{\omega_{1}}a_{1}e^{+i\frac{\omega}{2}t}e^{i\Omega_{S}t}-\frac{\Omega_{0}-\Omega_{S}}{\omega_{1}}a_{2}e^{+i\frac{\omega}{2}t}e^{-i\Omega_{S}t}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Spezielle Anfangsbedingungen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t=0$
+\end_inset
+
+: 
+\begin_inset Formula $a\left(0\right)=1$
+\end_inset
+
+, 
+\begin_inset Formula $b\left(0\right)=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\left\langle \hat{\vec{S}}\right\rangle $
+\end_inset
+
+ zeigt in 
+\begin_inset Formula $z$
+\end_inset
+
+-Richtung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{1}+a_{2}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\left(\Omega_{S}+\Omega_{0}\right)\cdot a_{1}+\left(\Omega_{0}-\Omega_{S}\right)\cdot a_{2}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+a_{1} & = & \frac{\Omega_{S}-\Omega_{0}}{2\Omega_{S}}\\
+a_{2} & = & \frac{\Omega_{S}+\Omega_{0}}{2\Omega_{S}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+a\left(t\right) & = & e^{-i\frac{\omega}{2}t}\left(\cos\left(\Omega_{s}t\right)-i\frac{\Omega_{0}}{\Omega_{S}}\sin\left(\Omega_{s}t\right)\right)\\
+b\left(t\right) & = & e^{+i\frac{\omega}{2}t}\left(-\frac{\omega_{1}}{\Omega_{S}}i\sin\left(\Omega_{S}t\right)\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Diskussion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \hat{S}_{z}\right\rangle _{t}=\frac{\hbar}{2}\left(\left|a\left(t\right)\right|^{2}-\left|b\left(t\right)\right|^{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t_{0}=0$
+\end_inset
+
+: 
+\begin_inset Formula $a\left(0\right)=1$
+\end_inset
+
+, 
+\begin_inset Formula $\left\langle \hat{S}_{z}\right\rangle =\frac{\hbar}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t_{1}=\frac{\pi}{2}\Omega_{S}$
+\end_inset
+
+: 
+\begin_inset Formula $\left|a\left(t_{1}\right)\right|^{2}=\left|\frac{\Omega_{0}}{\Omega_{S}}\right|^{2},$
+\end_inset
+
+ 
+\begin_inset Formula $\left|b\left(t_{1}\right)\right|^{2}=\left(\frac{\omega_{1}}{\Omega_{S}}\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q64)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\left|b\left(t\right)\right|^{2}=\left(\frac{\omega_{1}}{\Omega_{S}}\right)^{2}\sin^{2}\left(\Omega_{s}t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rabi-Formel
+\end_layout
+
+\begin_layout Paragraph
+Resonanzfall
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Omega_{0}=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\omega=2\omega_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Omega_{S}=\omega_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+a\left(t\right) & = & e^{-i\omega_{L}t}\cos\left(\omega_{1}t\right)\\
+b\left(t\right) & = & -ie^{+i\omega_{L}t}\sin\left(\omega_{1}t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Vollständiges Umklappen des Spins!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle \hat{S}_{z}\right\rangle =\frac{\hbar}{2}\cos\left(2\omega_{1}t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q65)
+\end_layout
+
+\begin_layout Standard
+oft resonell Umschalten durch Pulse möglich
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{x}\right\rangle _{t} & = & \frac{\hbar}{2}\sin\left(2\omega_{L}t\right)\sin\left(2\omega_{1}t\right)\\
+\left\langle \hat{S}_{y}\right\rangle _{t} & = & \frac{\hbar}{2}\cos\left(2\omega_{L}t\right)\sin\left(2\omega_{1}t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Energie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E=\left\langle \hat{H}\right\rangle =\begin{pmatrix}a^{\star}\left(t\right)\\
+b^{\star}\left(t\right)\end{pmatrix}\begin{pmatrix}\hbar\omega_{L} & \hbar\omega_{1}e^{-i\omega t}\\
+\hbar\omega_{1}e^{+i\omega t} & \hbar\omega_{L}\end{pmatrix}\begin{pmatrix}a\left(t\right)\\
+b\left(t\right)\end{pmatrix}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+E\left(t\right)=\hbar\omega_{L}\cos\left(2\omega_{1}t\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Energie wird von externen Magnetfeld bereitgestellt
+\end_layout
+
+\begin_layout Standard
+(Abb Q66)
+\end_layout
+
+\begin_layout Paragraph
+Anwendung
+\end_layout
+
+\begin_layout Standard
+Elektronen wechselwirkt mit Umgebung 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ effektiver Landé-Faktor (chemical shift) 
+\begin_inset Formula $\hat{=}$
+\end_inset
+
+ Fingerabdruck eines Moleküls
+\end_layout
+
+\begin_layout Standard
+Messung der Energieänderung des Magnetfeldes
+\end_layout
+
+\begin_layout Paragraph
+Experiment
+\end_layout
+
+\begin_layout Standard
+(Abb Q67)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\vec{B}_{1} & = & \begin{pmatrix}2B_{1}\cos\left(\omega t\right)\\
+0\\
+0\end{pmatrix}\\
+ & = & \begin{pmatrix}B_{1}\cos\left(\omega t\right)\\
+B_{1}\sin\left(\omega t\right)\\
+0\end{pmatrix}+\begin{pmatrix}B_{1}\cos\left(\omega t\right)\\
+-B_{1}\sin\left(\omega t\right)\\
+0\end{pmatrix}\\
+ & = & \underbrace{\begin{pmatrix}B_{1}\cos\left(\omega t\right)\\
+B_{1}\sin\left(\omega t\right)\\
+0\end{pmatrix}}_{\underset{\text{in Resonanz}}{\omega=2\omega_{L}}}+\underbrace{\begin{pmatrix}B_{1}\cos\left(-\omega t\right)\\
+B_{1}\sin\left(-\omega t\right)\\
+0\end{pmatrix}}_{\underset{\text{trägt praktisch nicht bei}}{\omega=-2\omega_{L}}}\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left\langle \hat{S}_{z}\right\rangle _{t} & = & \frac{\hbar}{2}\left(\cos^{2}\left(\omega t\right)-\sin^{2}\left(\omega t\right)\right)\\
+ & = & \frac{\hbar}{2}\cos\left(2\omega_{1}t\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Mehrteilchensysteme
+\end_layout
+
+\begin_layout Standard
+System mit gleichartigen Teilchen z.B.
+ He-Atom
+\end_layout
+
+\begin_layout Standard
+(Abb Q68)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}=\frac{\hat{p}_{1}^{2}}{2m}+\frac{\hat{p}_{2}^{2}}{2m}+\underbrace{\frac{e^{2}}{4\pi\varepsilon_{0}}\frac{1}{\left|\vec{r}_{1}-\vec{r}_{2}\right|}}_{\text{El-El Wechselwirkung}}\underbrace{-\frac{2e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r_{1}}-\frac{2e^{2}}{4\pi\varepsilon_{0}}\frac{1}{r_{2}}}_{\text{El-Kern-Wechselwirkung}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\left(\vec{r}_{1},\vec{r}_{2}\right)=\hat{H}\left(\vec{r}_{1},\vec{r}_{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gesucht: Lösung der Schrödingergleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\left(\vec{r}_{1},\vec{r}_{2}\right)\chi\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right)=E\chi\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{r}_{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Identische Teilchen
+\end_layout
+
+\begin_layout Standard
+Identische Teilchen stimmen in Masse, Ladung, Spin, ...
+ überein.
+\end_layout
+
+\begin_layout Standard
+Teilchen bei 
+\begin_inset Formula $t=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Abb Q69)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ es ist keine Aussage möglich, ob Teilchen 1 oder 2 gemessen wurde
+\end_layout
+
+\begin_layout Paragraph
+Postulat
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Im Rahmen der Quantenmechanik sind identische Teilchen prinzipiell nicht
+ unterscheidbar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Folgerungen
+\end_layout
+
+\begin_layout Standard
+Permutationsoperator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{P}_{12}f\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right)=f\left(\vec{r}_{2}\vec{s}_{2},\vec{r}_{1}\vec{s}_{1}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+1=\vec{r}_{1}\vec{s}_{1},\,2=\vec{r}_{2}\vec{s}_{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{P}_{12}f\left(1,2\right)=f\left(2,1\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{P}_{12}\hat{H}\left(\vec{r}_{1},\vec{r}_{2}\right)=\hat{P}_{12}\hat{H}\left(1,2\right)=\hat{H}\left(2,1\right)=\hat{H}\left(1,2\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{P}_{12}$
+\end_inset
+
+ und 
+\begin_inset Formula $\hat{H}$
+\end_inset
+
+ vertauschen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ gemeinsame Eigenfunktionen
+\end_layout
+
+\begin_layout Standard
+Daher: betrachte Eigenwerte von 
+\begin_inset Formula $\hat{P}_{12}$
+\end_inset
+
+: 
+\begin_inset Formula $g\left(1,2\right)=g\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\hat{P}_{12}g\left(1,2\right)=\lambda g\left(1,2\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eigenwertgleichung
+\end_layout
+
+\begin_layout Subparagraph
+Dazu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{P}_{12}^{2}g\left(1,2\right) & = & \hat{P}_{12}\hat{P}_{12}g\left(1,2\right)=g\left(1,2\right)\\
+ & \overset{\text{EWG}}{=} & \hat{P}_{12}\left(\lambda g\left(1,2\right)\right)\overset{\text{EWG}}{=}\lambda^{2}g\left(1,2\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\lambda=\pm1\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda=+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{P}_{12}g\left(1,2\right) & = & g\left(1,2\right)\\
+\Rightarrow\hspace{1em}g\left(2,1\right) & = & g\left(1,2\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+symmetrische Wellenfunktion
+\bar default
+ bezüglich Teilchenaustausch
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda=-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{P}_{12}g\left(1,2\right) & = & -g\left(1,2\right)\\
+\Rightarrow\hspace{1em}g\left(2,1\right) & = & -g\left(1,2\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+antisymmetrischer Austausch
+\end_layout
+
+\begin_layout Standard
+Simultaner Austausch von Orts- und Spinkoordinaten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+g\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right)=-g\left(\vec{r}_{2}\vec{s}_{2},\vec{r}_{1}\vec{s}_{1}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Bei 
+\begin_inset Formula $N$
+\end_inset
+
+- Teilchen
+\end_layout
+
+\begin_layout Standard
+Symmetrische Wellenfunktion 
+\begin_inset Quotes gld
+\end_inset
+
+Bosonen
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\chi\left(1,2,\dots j,\dots i,\dots N\right)=\chi\left(1,2,\dots i,\dots j,\dots N\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diese Teilchen haben 
+\bar under
+ganzzahligen
+\bar default
+ Spin (folgt aus relativistischer Quantenmechanik)
+\end_layout
+
+\begin_layout Standard
+Antisymmetrische Wellenfunktion 
+\begin_inset Quotes gld
+\end_inset
+
+Fermionen
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula \[
+\chi\left(1,2,\dots j,\dots i,\dots N\right)=-\chi\left(1,2,\dots i,\dots j,\dots N\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diese Teilchen haben 
+\bar under
+halbzahligen
+\bar default
+ Spin
+\end_layout
+
+\begin_layout Subsection
+Pauli-Prinzip
+\end_layout
+
+\begin_layout Standard
+Betrachte nichtwechselwirkende Fermionen z.B.
+ He-Atom ohne Wechselwirkung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\hat{H}\left(\vec{r}_{1},\vec{r}_{2}\right)=\hat{h}\left(\vec{r}_{1}\right)+\hat{h}\left(\vec{r}_{2}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\hat{H}\chi\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right) & = & E\chi\\
+\chi\left(\vec{r}_{1}\vec{s}_{1},\vec{r}_{2}\vec{s}_{2}\right) & = & \varphi_{n_{1}}\left(\vec{r}_{1}\vec{s}_{1}\right)\varphi_{n_{2}}\left(\vec{r}_{2}\vec{s}_{2}\right)\\
+\hat{h}\left(\vec{r}_{1}\right)\varphi_{n_{1}}\left(\vec{r}_{1},\vec{s}_{1}\right) & = & \tilde{E}_{n_{1}}\varphi_{n_{1}}\left(\vec{r}_{1},\vec{s}_{1}\right)\\
+\hat{h}\left(\vec{r}_{2}\right)\varphi_{n_{2}}\left(\vec{r}_{2},\vec{s}_{2}\right) & = & \tilde{E}_{n_{2}}\varphi_{n_{2}}\left(\vec{r}_{2},\vec{s}_{2}\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Antisymmetrie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\chi\left(1,2\right) & = & \frac{1}{\sqrt{2}}\left(\varphi_{n_{1}}\left(1\right)\varphi_{n_{2}}\left(2\right)-\varphi_{n_{1}}\left(2\right)\varphi_{n_{2}}\left(1\right)\right)\\
+ & = & -\chi\left(2,1\right)\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\chi\left(1,2\right) & = & \frac{1}{\sqrt{2}}\left|\begin{matrix}\varphi_{n_{1}}\left(1\right) & \varphi_{n_{1}}\left(2\right)\\
+\varphi_{n_{2}}\left(1\right) & \varphi_{n_{2}}\left(2\right)\end{matrix}\right|\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Allgemein
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\chi\left(1,2,\dots N\right)=\frac{1}{\sqrt{N!}}\left|\begin{matrix}\varphi_{n_{1}}\left(1\right) & \varphi_{n_{1}}\left(2\right) & \dots & \varphi_{n_{1}}\left(N\right)\\
+\vdots & \vdots & \ddots & \vdots\\
+\varphi_{n_{N}}\left(1\right) & \dots & \dots & \varphi_{n_{N}}\left(N\right)\end{matrix}\right|\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Skater-Determinate
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Da 
+\begin_inset Formula $\text{Det}=0$
+\end_inset
+
+ für zwei gleiche Spalten: Jeder Einteilchenzustand 
+\begin_inset Formula $\varphi_{n_{j}}\left(\vec{r},\vec{s}\right)$
+\end_inset
+
+ kann höchstens einmal in der Wellenfunktion 
+\begin_inset Formula $\chi\left(1,\dots N\right)$
+\end_inset
+
+ auftreten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+Pauli-Prinzip
+\begin_inset Quotes grd
 \end_inset
 
 
